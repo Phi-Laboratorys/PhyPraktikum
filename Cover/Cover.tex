@@ -1,0 +1,117 @@
+\documentclass[12pt, a4paper]{report}
+
+%Package
+\usepackage{geometry} \geometry{top=30mm, bottom=20mm, inner=20mm, outer=20mm}
+\usepackage{graphicx}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage{ifthen}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ngerman}
+\usepackage[scaled]{uarial}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{amsfonts}
+\usepackage{xstring}
+
+%Colors
+\definecolor{Notablue}{HTML}{3498DB}		%Theoretische Physik
+\definecolor{Notared}{HTML}{CF366C}			%Mathematik
+\definecolor{Notagreen}{HTML}{19B092}		%Experimentalphysik
+\definecolor{Notaorange}{HTML}{FA9D00}		%Chemie/Wahlfach nicht physikalisch
+\definecolor{Notagrey}{HTML}{969696}		%Praktikum
+\definecolor{Notalavendel}{HTML}{9DBBD8}	%Wahlfächer physikalisch
+\definecolor{SPKred}{HTML}{E60005}
+
+% Boolean
+\newboolean{twoRows}
+
+%Funktions
+\makeatletter
+   \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+\newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\vhrulefill{\linethickness}\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\vhrulefill{\linethickness}}}}
+
+%Variables
+\def\farbe{Notagreen}
+
+\def\grafik{Grafik/CP1}
+\def\scale{1.5}	
+	
+\def\schriftgrosse{70}
+\def\linethickness{1,5pt}
+
+\def\fach{EPB2}
+\def\name{Manuel Lippert}
+\def\uberschrift{Atome} %Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\bottom{SS2021}
+
+\begin{document}
+\begin{titlepage}
+			
+	\centering
+	{\LARGE \sffamily {\textbf{\bottom}\par}}
+	\vspace{2,5cm}
+    {\fontsize{40}{0}\sffamily\ruleline{\textcolor{\farbe}{\textbf{\fach}}}\par}
+    \vspace{6cm}
+	{\Large\sffamily \ruleline{\name}\par}
+	
+	
+	%Auswahl für Text
+	\ifthenelse{\equal{\uberschrift}{s}} {\def\titel{Skript}}	
+		{\ifthenelse{\equal{\uberschrift}{k}} {\def\titel{Klausur}}
+			{\ifthenelse{\equal{\uberschrift}{u}} {\def\titel{Übung}}
+				{\ifthenelse{\equal{\uberschrift}{e}} {\def\titel{Klausur \\[0,5cm] Ergebnis}}
+					{\def\titel{\uberschrift}}}}}
+	
+	\IfSubStr {\titel} {\\[0,5cm]} {\setboolean{twoRows}{true}} {\setboolean{twoRows}{false}}				
+
+	\ifthenelse{\boolean{twoRows}}
+		{
+			\begin{textblock*}{21cm}(0cm,8cm) % {block width} (coords), centered		
+				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+			\end{textblock*}
+		}
+		{
+			\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
+				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+			\end{textblock*} 
+		}		
+	
+	\ifthenelse{\equal{\farbe}{Notared}}
+		{\def\logo{justLogo/UniBTNotared}}
+		
+	\ifthenelse{\equal{\farbe}{Notagreen}}
+		{\def\logo{justLogo/UniBTNotagreen}}
+		
+	\ifthenelse{\equal{\farbe}{Notablue}}
+		{\def\logo{justLogo/UniBTNotablue}}
+			
+	\ifthenelse{\equal{\farbe}{Notaorange}}
+		{\def\logo{justLogo/UniBTNotaorange}}
+			
+	\ifthenelse{\equal{\farbe}{Notagrey}}
+		{\def\logo{justLogo/UniBTNotagrey}}
+		
+	\ifthenelse{\equal{\farbe}{Notalavendel}}
+		{\def\logo{justLogo/UniBTNotalavendel}}	
+		
+	\ifthenelse{\equal{\farbe}{black}}
+		{\def\logo{justLogo/UniBT}}	
+	
+	\ifthenelse{\equal{\farbe}{SPKred}}
+		{\def\logo{justLogo/Sparkasse}}	
+
+	
+	%Logo
+	\vfill
+	\begin{figure}[h]
+	\begin{center}
+		
+		\includegraphics[width=2cm]{\logo}
+		
+	\end{center}
+	\end{figure}
+	
+\end{titlepage}
+\end{document}
