@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper]{report}
 
-%Package
+% Package
 \usepackage{geometry} \geometry{top=30mm, bottom=20mm, inner=20mm, outer=20mm}
 \usepackage{graphicx}
 \usepackage{anyfontsize}
@@ -13,8 +13,9 @@
 \usepackage[absolute,overlay]{textpos}
 \usepackage{amsfonts}
 \usepackage{xstring}
+\usepackage{tikz}
 
-%Colors
+% Colors
 \definecolor{Notablue}{HTML}{3498DB}		%Theoretische Physik
 \definecolor{Notared}{HTML}{CF366C}			%Mathematik
 \definecolor{Notagreen}{HTML}{19B092}		%Experimentalphysik
@@ -23,28 +24,25 @@
 \definecolor{Notalavendel}{HTML}{9DBBD8}	%Wahlfächer physikalisch
 \definecolor{SPKred}{HTML}{E60005}
 
-% Boolean
+% Boolean by default false
 \newboolean{twoRows}
+\newboolean{symbol}
 
-%Funktions
+% Funktions
 \makeatletter
    \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
 \makeatother
 \newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\vhrulefill{\linethickness}\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\vhrulefill{\linethickness}}}}
 
-%Variables
-\def\farbe{Notagreen}
-
-\def\grafik{Grafik/CP1}
-\def\scale{1.5}	
-	
+% Variables
 \def\schriftgrosse{70}
 \def\linethickness{1,5pt}
 
-\def\fach{EPB2}
+\def\farbe{Notaorange}
+\def\fach{JURPHY}
 \def\name{Manuel Lippert}
-\def\uberschrift{Atome} %Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
-\def\bottom{SS2021}
+\def\uberschrift{e} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\bottom{WS2020}
 
 \begin{document}
 \begin{titlepage}
@@ -57,12 +55,15 @@
 	{\Large\sffamily \ruleline{\name}\par}
 	
 	
-	%Auswahl für Text
+	% Choose Text
 	\ifthenelse{\equal{\uberschrift}{s}} {\def\titel{Skript}}	
 		{\ifthenelse{\equal{\uberschrift}{k}} {\def\titel{Klausur}}
 			{\ifthenelse{\equal{\uberschrift}{u}} {\def\titel{Übung}}
 				{\ifthenelse{\equal{\uberschrift}{e}} {\def\titel{Klausur \\[0,5cm] Ergebnis}}
-					{\def\titel{\uberschrift}}}}}
+					{\def\titel{\uberschrift}}
+				}
+			}
+		}
 	
 	\IfSubStr {\titel} {\\[0,5cm]} {\setboolean{twoRows}{true}} {\setboolean{twoRows}{false}}				
 
@@ -78,40 +79,48 @@
 			\end{textblock*} 
 		}		
 	
-	\ifthenelse{\equal{\farbe}{Notared}}
-		{\def\logo{justLogo/UniBTNotared}}
-		
-	\ifthenelse{\equal{\farbe}{Notagreen}}
-		{\def\logo{justLogo/UniBTNotagreen}}
-		
-	\ifthenelse{\equal{\farbe}{Notablue}}
-		{\def\logo{justLogo/UniBTNotablue}}
-			
-	\ifthenelse{\equal{\farbe}{Notaorange}}
-		{\def\logo{justLogo/UniBTNotaorange}}
-			
-	\ifthenelse{\equal{\farbe}{Notagrey}}
-		{\def\logo{justLogo/UniBTNotagrey}}
-		
-	\ifthenelse{\equal{\farbe}{Notalavendel}}
-		{\def\logo{justLogo/UniBTNotalavendel}}	
-		
-	\ifthenelse{\equal{\farbe}{black}}
-		{\def\logo{justLogo/UniBT}}	
-	
-	\ifthenelse{\equal{\farbe}{SPKred}}
-		{\def\logo{justLogo/Sparkasse}}	
+	% Choose Logo
+	\ifthenelse {\equal{\farbe}{Notared}} {\def\logo{justLogo/UniBTNotared}}
+		{\ifthenelse {\equal{\farbe}{Notagreen}} {\def\logo{justLogo/UniBTNotagreen}}
+			{\ifthenelse {\equal{\farbe}{Notablue}} {\def\logo{justLogo/UniBTNotablue}}
+				{\ifthenelse {\equal{\farbe}{Notaorange}} {\def\logo{justLogo/UniBTNotaorange}}
+					{\ifthenelse {\equal{\farbe}{Notagrey}} {\def\logo{justLogo/UniBTNotagrey}}
+						{\ifthenelse {\equal{\farbe}{Notalavendel}} {\def\logo{justLogo/UniBTNotalavendel}}	
+							{\ifthenelse {\equal{\farbe}{black}} {\def\logo{justLogo/UniBT}}	
+								{\ifthenelse {\equal{\farbe}{SPKred}} {\def\logo{justLogo/Sparkasse}}
+									{\def\logo{noLogo}}
+								}
+							}
+						}
+					}
+				}
+			}
+		}	
 
+	\IfSubStr{\logo}{noLogo}{\setboolean{symbol}{false}}{\setboolean{symbol}{true}}
 	
+
+	% Uni Bild: Maße 15,92 x 15,92 laut Word
+
+	%\vspace{7,5cm}
+	%\begin{tikzpicture}
+ 	%	\draw (0 ,0) -- (0 ,2) -- (1 ,3.25) -- (2 ,2) -- (2 ,0) -- (0 ,2) -- (2 ,2) -- (0 ,0) -- (2 ,0) ;
+	%\end{tikzpicture}
+
+
 	%Logo
 	\vfill
-	\begin{figure}[h]
-	\begin{center}
-		
-		\includegraphics[width=2cm]{\logo}
-		
-	\end{center}
-	\end{figure}
+
+	\ifthenelse{\boolean{symbol}}
+		{
+			\begin{figure}[h]
+			\begin{center}
+				
+				\includegraphics[width=2cm]{\logo}
+				
+			\end{center}
+			\end{figure}
+		}
 	
 \end{titlepage}
 \end{document}
