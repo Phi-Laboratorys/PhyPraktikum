@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  26 FEB 2021 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  13 MAR 2021 12:09
 entering extended mode
 **c:/Users/manue/Documents/GitHub/PhyPraktikum/Cover/Cover.tex
 (c:/Users/manue/Documents/GitHub/PhyPraktikum/Cover/Cover.tex
@@ -387,24 +387,24 @@ LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 66.49979pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 66.49979pt on input line 80.
-<justLogo/UniBTNotaorange.png, id=4, 169.1775pt x 169.1775pt>
-File: justLogo/UniBTNotaorange.png Graphic file (type png)
-<use justLogo/UniBTNotaorange.png>
-Package pdftex.def Info: justLogo/UniBTNotaorange.png  used on input line 124.
-(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
+<justLogo/UniBTNotagreen.png, id=4, 169.1775pt x 168.90375pt>
+File: justLogo/UniBTNotagreen.png Graphic file (type png)
+<use justLogo/UniBTNotagreen.png>
+Package pdftex.def Info: justLogo/UniBTNotagreen.png  used on input line 124.
+(pdftex.def)             Requested size: 56.9055pt x 56.81311pt.
  [1
 
-{C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/manue/Documents/GitHub/PhyPraktikum/Cover/justLogo/UniBTNotaorange.png>] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Cover\Cover.aux) ) 
+{C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/manue/Documents/GitHub/PhyPraktikum/Cover/justLogo/UniBTNotagreen.png>] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Cover\Cover.aux) ) 
 Here is how much of TeX's memory you used:
  13069 strings out of 479799
- 264246 string characters out of 2869722
- 509380 words of memory out of 3000000
+ 264238 string characters out of 2869722
+ 509371 words of memory out of 3000000
  29832 multiletter control sequences out of 15000+200000
  574456 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,6n,96p,438b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Cover\Cover.pdf (1 page, 17047 bytes).
+Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Cover\Cover.pdf (1 page, 16591 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
