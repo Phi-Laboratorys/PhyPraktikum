@@ -1,0 +1,6 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Motivation und Ziel des Versuchs}{3}{}%
+\contentsline {section}{\numberline {1.1}\LaTeX --Distribution und Erstellen des Textes}{3}{}%
+\contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{4}{}%
+\contentsline {section}{\numberline {2.1}Test ob der inport inherhalb klappt}{4}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
