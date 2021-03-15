@@ -1,3 +1,11 @@
+% Charlotte Geiger - Manuel Lippert - Leonard Schatt
+% Physikalisches Praktikum
+
+% 0. Cover
+% Noch abänderbar nur ein Vorschlag
+\newgeometry{top=30mm, bottom=20mm, inner=20mm, outer=20mm}
+\thispagestyle{empty}
+
 % Colors
 \definecolor{Notablue}{HTML}{3498DB}		%Theoretische Physik
 \definecolor{Notared}{HTML}{CF366C}			%Mathematik
@@ -20,11 +28,13 @@
 \def\schriftgrosse{70}
 \def\linethickness{1,5pt}
 
-\def\farbe{Notablue}
-\def\fach{JURPHY}
-\def\name{Manuel}
-\def\uberschrift{e} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
-\def\bottom{WS2020}
+\def\farbe{Notagrey}
+\def\fach{PPBphys1}
+\def\name{Charlotte Geiger - Manuel Lippert - Leonard Schatt}
+\def\uberschrift{Protokoll-Titel} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\bottom{SS2021}
+\def\datum{15. M\"arz 2021}
+\def\betreuer{Wolfgang Sch\"opf}
 
 \begin{titlepage}
 			
@@ -78,14 +88,11 @@
 
 	\IfSubStr{\logo}{noLogo}{\setboolean{symbol}{false}}{\setboolean{symbol}{true}}
 	
-
-	% Uni Bild: Maße 15,92 x 15,92 laut Word
-
-	%\vspace{7,5cm}
-	%\begin{tikzpicture}
- 	%	\draw (0 ,0) -- (0 ,2) -- (1 ,3.25) -- (2 ,2) -- (2 ,0) -- (0 ,2) -- (2 ,2) -- (0 ,0) -- (2 ,0) ;
-	%\end{tikzpicture}
-
+	% Betreuer tec.
+	\vspace{8cm}
+	{\large\sffamily\datum\par}
+	{\large\sffamily\betreuer\par}
+	
 
 	%Logo
 	\vfill
@@ -102,3 +109,5 @@
 		}
 	
 \end{titlepage}
+
+\restoregeometry

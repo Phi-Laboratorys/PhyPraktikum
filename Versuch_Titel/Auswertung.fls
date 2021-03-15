@@ -153,26 +153,6 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\latin1.def
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\latin1.def
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\latin1.def
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\latin1.def
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\utf8.def
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\utf8.def
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\utf8.def
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\utf8.def
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\omsenc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\omsenc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\omsenc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\omsenc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ot1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ot1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ot1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ot1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\t1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\t1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\t1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\t1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1enc.dfu
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1enc.dfu
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
@@ -459,6 +439,40 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-kom
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-koma.sto
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-koma.sto
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-koma.sto
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\anyfontsize\anyfontsize.sty
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\anyfontsize\anyfontsize.sty
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\anyfontsize\anyfontsize.sty
@@ -701,6 +715,40 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
@@ -742,6 +790,26 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -821,18 +889,22 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotablue.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotablue.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotablue.png
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotagrey.png
 OUTPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.pdf
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotablue.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotablue.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotablue.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Bilder\Logo\UniBTNotagrey.png
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
@@ -843,61 +915,246 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tf
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.toc
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.toc
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.toc
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 OUTPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.toc
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss12.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss8.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt12.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt8.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Section input test.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Section input test.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Section input test.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Section input test.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.pdf
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.aux
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1b8a.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1b8a.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1r8a.pfb

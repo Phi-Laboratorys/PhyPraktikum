@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex Auswertung"] 1614364302 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1615724603
+["bibtex Auswertung"] 1615763712 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1615763732
   "./Auswertung.bst" 1614364172 32076 9b60446df79cfbd9d38ab1a22f8363b0 ""
-  "Auswertung.aux" 1614366344 10862 2bdaa2c985f18e3170df58d27c62a2c4 "pdflatex"
+  "Auswertung.aux" 1615763730 10875 419759223087128fa0923584a0622ac4 "pdflatex"
   "Auswertung.bib" 1614364172 6074 06504be994608a19e3a1dd1e27c5bbfc ""
   (generated)
-  "Auswertung.bbl"
   "Auswertung.blg"
-["pdflatex"] 1614366335 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.pdf" "Auswertung" 1615724603
+  "Auswertung.bbl"
+["pdflatex"] 1615763713 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.pdf" "Auswertung" 1615763732
   "Aufbau.tex" 1614364172 7137 485ee66f686e3937f4d6a3940005b399 ""
-  "Auswertung.aux" 1614366344 10862 2bdaa2c985f18e3170df58d27c62a2c4 "pdflatex"
-  "Auswertung.bbl" 1614364303 4162 2f4c7ceb4c17633f2000a3e753540fa9 "bibtex Auswertung"
-  "Auswertung.tex" 1615724602 7629 6898164b6352d02140208c2116c52c5c ""
-  "Auswertung.toc" 1614366344 3327 8e5c9cdaa8c346c3754af0522249cdad "pdflatex"
+  "Auswertung.aux" 1615763730 10875 419759223087128fa0923584a0622ac4 "pdflatex"
+  "Auswertung.bbl" 1615763713 4162 2f4c7ceb4c17633f2000a3e753540fa9 "bibtex Auswertung"
+  "Auswertung.tex" 1615763697 7637 c3b3847a60f57f14c42d129742d4040c ""
+  "Auswertung.toc" 1615763730 3317 18f2436aafb580784d1f3b4af94b8dab "pdflatex"
   "C:/Users/manue/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1606166953 10294361 47b40662b5f0d21a895f10e1a6131bec ""
-  "C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1614363859 81196 81d6cf890b21ddb7f2ecb9b7d2f13868 ""
+  "C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1615753124 81196 81d6cf890b21ddb7f2ecb9b7d2f13868 ""
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1254935040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1254935040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -181,13 +181,13 @@
   "bilder/Fuss_Kernspin.eps" 1614364173 1284392 722a7060ab13d98f2fa424e975279c53 ""
   "bilder/MM_MagnetischesMoment.eps" 1614364173 455566 b92768a2486b52cf944cb3eea3a68102 ""
   "bilder/MM_Permanentmagnet.eps" 1614364173 317978 7f670e0f84d76a005a1a9b8ceeb8b256 ""
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.aux" 1614366344 10862 2bdaa2c985f18e3170df58d27c62a2c4 ""
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.tex" 1615724602 7629 6898164b6352d02140208c2116c52c5c ""
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.aux" 1615763730 10875 419759223087128fa0923584a0622ac4 ""
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.tex" 1615763697 7637 c3b3847a60f57f14c42d129742d4040c ""
   "titel.eps" 1614364172 665647 8e5b408ce1c1b958d2665b238be05d6b ""
   (generated)
   "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.pdf"
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.log"
-  "Auswertung.pdf"
   "Auswertung.toc"
-  "Auswertung.aux"
   "Auswertung.log"
+  "Auswertung.pdf"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Praktikum_Template/Auswertung.log"
+  "Auswertung.aux"

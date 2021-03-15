@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {4.5.2}Trennhilfen}{17}{}%
 \contentsline {subsection}{\numberline {4.5.3}Nicht zu trennende Ausdr\"ucke}{18}{}%
 \contentsline {section}{\numberline {4.6}Eine abschlie\IeC {\ss }ende Warnung}{18}{}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Fazit}{19}{}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{19}{}%
 \contentsline {chapter}{\numberline {A}Herleitung und L\"osung von Gleichung 3}{20}{}%
 \contentsline {section}{\numberline {A.1}Vorbereitung}{20}{}%
 \contentsline {section}{\numberline {A.2}Herleitung}{20}{}%
