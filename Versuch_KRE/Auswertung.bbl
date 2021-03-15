@@ -18,9 +18,9 @@
   Experimentalphysik, Band III Optik\/}, 7.\ Auflage, pp. 418--419. Berlin, New
   York: Walter de Gruyter.
 
-\bibitem[Khazimullin {\em et~al.\/}(2011)Khazimullin, Müller, Messlinger,
-  Rehberg, Schöpf, Krekhov, Pettau, Kreger \& Schmidt]{Khazimullin2011}
-{\sc Khazimullin, M., Müller, T., Messlinger, S., Rehberg, I., Schöpf, W.,
+\bibitem[Khazimullin {\em et~al.\/}(2011)Khazimullin, M\"uller, Messlinger,
+  Rehberg, Sch\"opf, Krekhov, Pettau, Kreger \& Schmidt]{Khazimullin2011}
+{\sc Khazimullin, M., M\"uller, T., Messlinger, S., Rehberg, I., Sch\"opf, W.,
   Krekhov, A., Pettau, R., Kreger, K. \& Schmidt, H.-W.} 2011 Gel formation in
   a mixture of a block copolymer and a nematic liquid crystal. {\em Phys. Rev.
   E\/} {\bf 84}, 021710: 1--11.
@@ -30,8 +30,9 @@
   John Wiley \& Sons.
 
 \bibitem[Kopka(2000)]{Kopka2000}
-{\sc Kopka, H.} 2000 {\em \LaTeX, Band 1 --- Einführung\/}, 3.\ überarbeitete
-  Auflage. München; Boston; San Francisco [u.a.]: Addison-Wesley Verlag.
+{\sc Kopka, H.} 2000 {\em \LaTeX, Band 1 --- Einf\"uhrung\/}, 3.\
+  \"uberarbeitete Auflage. M\"unchen; Boston; San Francisco [u.a.]:
+  Addison-Wesley Verlag.
 
 \bibitem[Kramer(2010)]{Kramer2010}
 {\sc Kramer, C.} 2010 {\em Das magnetische Moment\/}. Bachelorarbeit,
@@ -43,7 +44,7 @@
   Buka \& L.~Kramer), pp. 221--255. New York; Berlin; Heidelberg: Springer.
 
 \bibitem[Lafuente(2005)]{Lafuente2005}
-{\sc Lafuente, {\'O}.} 2005 {\em Thermoreversible {G}ele von isotropen und
+{\sc Lafuente, {\"O}.} 2005 {\em Thermoreversible {G}ele von isotropen und
   anisotropen {F}l{\"u}ssigkeiten mit chiralen {O}rganogelatoren\/}.
   Doktorarbeit, Universit{\"a}t Bayreuth.
 
@@ -68,18 +69,18 @@
 {\sc MiKTeX} 2011 {MiKTeX} {P}roject {P}age. URL \url{http://www.miktex.org/}
   -- Zugriffsdatum: 11.11.2011.
 
-\bibitem[Müller {\em et~al.\/}(2011)Müller, Pöhlmann \&
+\bibitem[M\"uller {\em et~al.\/}(2011)M\"uller, P\"ohlmann \&
   Messlinger]{Mueller2011}
-{\sc Müller, T., Pöhlmann, A. \& Messlinger, S.} 2011 Normalizing radial
+{\sc M\"uller, T., P\"ohlmann, A. \& Messlinger, S.} 2011 Normalizing radial
   distribution functions on truncated regions. Internes Dokument,
-  Experimentalphysik V, Universität Bayreuth.
+  Experimentalphysik V, Universit\"at Bayreuth.
 
 \bibitem[Rehberg(2011)]{Rehberg2011}
-{\sc Rehberg, I.} 2011 Persönliche Mitteilung.
+{\sc Rehberg, I.} 2011 Pers\"onliche Mitteilung.
 
-\bibitem[Schöpf(1988)]{Schoepf1988}
-{\sc Schöpf, W.} 1988 {\em Konvektion in binären Flüssigkeiten und
-  multikritisches Verhalten in der Nähe des Kodimension-2--Punktes\/}.
+\bibitem[Sch\"opf(1988)]{Schoepf1988}
+{\sc Sch\"opf, W.} 1988 {\em Konvektion in bin\"aren Fl\"ussigkeiten und
+  multikritisches Verhalten in der N\"ahe des Kodimension-2--Punktes\/}.
   Diplomarbeit, Universit{\"a}t Bayreuth.
 
 \bibitem[Stieb {\em et~al.\/}(1975)Stieb, Baur \& Meier]{Stieb1975}
