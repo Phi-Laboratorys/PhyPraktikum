@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{6}{}%
 \contentsline {section}{\numberline {2.1}Teilaufgabe X}{6}{}%
 \contentsline {section}{\numberline {2.2}Teilaufgabe 2}{6}{}%
-\contentsline {section}{\numberline {2.3}Teilaufgabe X}{7}{}%
+\contentsline {section}{\numberline {2.3}Teilaufgabe 3}{7}{}%
 \contentsline {section}{\numberline {2.4}Teilaufgabe X}{7}{}%
 \contentsline {section}{\numberline {2.5}Teilaufgabe X}{7}{}%
 \contentsline {section}{\numberline {2.6}Teilaufgabe X}{7}{}%

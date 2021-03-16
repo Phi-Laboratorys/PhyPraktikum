@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  16 MAR 2021 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  16 MAR 2021 20:32
 entering extended mode
 **d:/Git/PhyPraktikum-1/Versuch_SK/Auswertung.tex
 (d:/Git/PhyPraktikum-1/Versuch_SK/Auswertung.tex
@@ -1384,9 +1384,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\03 Protokoll/Protokoll.tex [6
+) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex [6
 
-] [7]
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
+ (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\03 Protokoll/Protokoll.tex [7]
 chapter 3.
 ) (d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Versuchsauswertung.tex [8
 
@@ -1424,17 +1428,17 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 
 ]) [13] (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 25592 strings out of 479334
- 521340 string characters out of 2855184
+ 25640 strings out of 479334
+ 522433 string characters out of 2855184
  949925 words of memory out of 3000000
- 42318 multiletter control sequences out of 15000+200000
- 531786 words of font info for 171 fonts, out of 3000000 for 9000
+ 42354 multiletter control sequences out of 15000+200000
+ 532447 words of font info for 176 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,8n,116p,10665b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.pdf (13 pages, 243043 bytes).
+{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.pdf (13 pages, 244231 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 69138 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 71186 words of extra memory for PDF output out of 74296 (max. 10000000)
 
