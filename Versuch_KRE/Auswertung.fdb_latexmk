@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Auswertung"] 1615842187 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1615842512
+["bibtex Auswertung"] 1615842187 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1615842717
   "Auswertung.aux" 1615842343 4302 1e710ca1cc677e08b9504c05974ac573 "pdflatex"
   "Auswertung.bib" 1615838520 5939 cda1d6393c38559bdaf7a3c8dcc8cf4a ""
   "Auswertung.bst.bst" 0 -1 0 ""
   (generated)
   "Auswertung.blg"
   "Auswertung.bbl"
-["pdflatex"] 1615842339 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf" "Auswertung" 1615842512
+["pdflatex"] 1615842339 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf" "Auswertung" 1615842717
   "00 Cover/Cover.tex" 1615820234 3551 a51c8100653322ac38aa06c1943c2401 ""
-  "01 Einleitung/Einleitung.tex" 1615842511 1118 e70ad771b9b0aabc259e708c9d5cf351 ""
+  "01 Einleitung/Einleitung.tex" 1615842716 1118 e70ad771b9b0aabc259e708c9d5cf351 ""
   "02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" 1615840829 648 ab035a516cad2ca6e57e190e1a60d33b ""
   "02 Fragen zur Vorbereitung/Teilaufgabe_1.tex" 1615840829 162 98ede6d1277e204483b2e0dd05d40aff ""
   "02 Fragen zur Vorbereitung/Teilaufgabe_2.tex" 1615841631 142 7990c320185a1318dd53ebbf32395ef4 ""
@@ -252,9 +252,9 @@
   "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.aux" 1615842343 4302 1e710ca1cc677e08b9504c05974ac573 ""
   "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex" 1615840979 2972 c112b157b192969da3966968715dcfe7 ""
   (generated)
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.log"
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf"
   "Auswertung.pdf"
-  "Auswertung.log"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.log"
   "Auswertung.toc"
+  "Auswertung.log"
   "Auswertung.aux"
