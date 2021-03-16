@@ -1092,6 +1092,7 @@ INPUT d:\Git\PhyPraktikum-1\Versuch_SK\03 Protokoll\Protokoll.tex
 INPUT d:\Git\PhyPraktikum-1\Versuch_SK\03 Protokoll\Protokoll.tex
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT d:\Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung\Versuchsauswertung.tex
 INPUT d:\Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung\Versuchsauswertung.tex
 INPUT d:\Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung\Versuchsauswertung.tex
@@ -1125,9 +1126,9 @@ INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
-INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT d:\Git\PhyPraktikum-1\Versuch_SK\Auswertung.aux
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
@@ -1135,6 +1136,8 @@ INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmc
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
@@ -1145,8 +1148,16 @@ INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1b8a.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1b8a.pfb
 INPUT C:\Users\Studieren\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1r8a.pfb

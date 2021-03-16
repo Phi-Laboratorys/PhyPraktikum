@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  16 MAR 2021 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  16 MAR 2021 20:06
 entering extended mode
 **d:/Git/PhyPraktikum-1/Versuch_SK/Auswertung.tex
 (d:/Git/PhyPraktikum-1/Versuch_SK/Auswertung.tex
@@ -1374,23 +1374,33 @@ chapter 2.
 (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_1.tex
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 6.
-) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_2.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\03 Protokoll/Protokoll.tex [6
+) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
 
-]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\03 Protokoll/Protokoll.tex [6
+
+] [7]
 chapter 3.
-) (d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Versuchsauswertung.tex [7
+) (d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Versuchsauswertung.tex [8
 
 ]
 chapter 4.
-(d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Teilauswertung_X.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\05 Fazit/Fazit.tex [8
+(d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Teilauswertung_X.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\05 Fazit/Fazit.tex [9
 
 ]
 chapter 5.
-) (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Anhang.tex (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Append_A.tex [9
+) (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Anhang.tex (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Append_A.tex [10
 
 ]
 chapter A.
-)) (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.bbl [10
+)) (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.bbl [11
 
 ]
 chapter without number
@@ -1410,21 +1420,21 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 []\T1/lmr/m/sc/10.95 (+20) LaTeX \T1/lmr/m/n/10.95 (+20) 2011 La-tex --- A do-cu-ment pre-pa-ra-ti-on sys-tem. URL $\T1/lmtt/m/n/10.95 http : / / www .
  []
 
-[11
+[12
 
-]) [12] (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.aux) ) 
+]) [13] (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 25584 strings out of 479334
- 521258 string characters out of 2855184
- 949924 words of memory out of 3000000
+ 25592 strings out of 479334
+ 521340 string characters out of 2855184
+ 949925 words of memory out of 3000000
  42318 multiletter control sequences out of 15000+200000
- 531454 words of font info for 167 fonts, out of 3000000 for 9000
+ 531786 words of font info for 171 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,8n,116p,10665b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.pdf (12 pages, 211538 bytes).
+{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.pdf (13 pages, 243043 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  69138 words of extra memory for PDF output out of 74296 (max. 10000000)
 
