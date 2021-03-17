@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  17 MAR 2021 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  17 MAR 2021 16:07
 entering extended mode
 **d:/Git/PhyPraktikum-1/Versuch_SK/Auswertung.tex
 (d:/Git/PhyPraktikum-1/Versuch_SK/Auswertung.tex
@@ -1356,12 +1356,11 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 19.70294pt on input line 75.
 Package tocbasic Info: character protrusion at toc deactivated on input line 75.
-
-No file Auswertung.toc.
+ (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.toc)
 \tf@toc=\write5
 \openout5 = `Auswertung.toc'.
 
-[3
+ [3
 
 ] [4
 
@@ -1375,31 +1374,17 @@ chapter 2.
 (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_1.tex
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 6.
+<Bilder/emspekt.PNG, id=26, 584.1825pt x 297.36093pt>
+File: Bilder/emspekt.PNG Graphic file (type png)
+<use Bilder/emspekt.PNG>
+Package pdftex.def Info: Bilder/emspekt.PNG  used on input line 10.
+(pdftex.def)             Requested size: 341.43306pt x 173.80344pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 16.
+ (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [6
 
-
-LaTeX Warning: File `Emspekt.PNG' not found on input line 10.
-
-
-d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_1.tex:10: Package pdftex.def Error: File `Emspekt.PNG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...  \includegraphics[width=4cm]{Emspekt.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 10.
-(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_2.tex
+ <d:/Git/PhyPraktikum-1/Versuch_SK/Bilder/emspekt.PNG>]) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--15
 
  []
@@ -1409,47 +1394,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[6
+[7]) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex
+<Bilder/SP1.PNG, id=42, 598.48593pt x 261.97874pt>
+File: Bilder/SP1.PNG Graphic file (type png)
+<use Bilder/SP1.PNG>
+Package pdftex.def Info: Bilder/SP1.PNG  used on input line 11.
+(pdftex.def)             Requested size: 284.52756pt x 124.54912pt.
 
-]) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\03 Protokoll/Protokoll.tex [7]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_SK\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\03 Protokoll/Protokoll.tex [8] [9 <d:/Git/PhyPraktikum-1/Versuch_SK/Bilder/SP1.PNG>]
 chapter 3.
-) (d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Versuchsauswertung.tex [8
+) (d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Versuchsauswertung.tex [10
 
 ]
 chapter 4.
-(d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Teilauswertung_X.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\05 Fazit/Fazit.tex [9
+(d:/Git\PhyPraktikum-1\Versuch_SK\04 Versuchsauswertung/Teilauswertung_X.tex)) (d:/Git\PhyPraktikum-1\Versuch_SK\05 Fazit/Fazit.tex [11
 
 ]
 chapter 5.
-) (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Anhang.tex (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Append_A.tex [10
+) (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Anhang.tex (d:/Git\PhyPraktikum-1\Versuch_SK\06 Anhang/Append_A.tex [12
 
 ]
 chapter A.
-))
-No file Auswertung.bbl.
-[11
+)) (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.bbl [13
 
-] (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.aux)
+]
+chapter without number
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 57.
+(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 3482) in paragraph at lines 56--58
+[]\T1/lmr/m/sc/10.95 (+20) LaTeX \T1/lmr/m/n/10.95 (+20) 2011 La-tex --- A do-cu-ment pre-pa-ra-ti-on sys-tem. URL $\T1/lmtt/m/n/10.95 http : / / www .
+ []
 
- ) 
+[14
+
+]) [15] (d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 25529 strings out of 479334
- 520479 string characters out of 2855184
- 948110 words of memory out of 3000000
- 42296 multiletter control sequences out of 15000+200000
- 512936 words of font info for 142 fonts, out of 3000000 for 9000
+ 25665 strings out of 479334
+ 522798 string characters out of 2855184
+ 949927 words of memory out of 3000000
+ 42367 multiletter control sequences out of 15000+200000
+ 532779 words of font info for 180 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,8n,116p,10665b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.pdf (11 pages, 160899 bytes).
+ 111i,9n,116p,10665b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on d:/Git\PhyPraktikum-1\Versuch_SK\Auswertung.pdf (15 pages, 306878 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 60946 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 71196 words of extra memory for PDF output out of 74296 (max. 10000000)
 
