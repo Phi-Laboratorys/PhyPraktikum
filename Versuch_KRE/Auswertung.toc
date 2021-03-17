@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{5}{}%
 \contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{6}{}%
-\contentsline {section}{\numberline {2.1}Feststellung des Trägheitsmoments eines Körpers}{6}{}%
+\contentsline {section}{\numberline {2.1}Trägheitsmoment $I$ eines Körpers}{6}{}%
 \contentsline {section}{\numberline {2.2}Trägheitstensor $\mathbf {J}$}{6}{}%
 \contentsline {section}{\numberline {2.3}Trägheitstensor $\mathbf {J_{Rad}}$ eines nicht ausgewuchten Rades}{6}{}%
 \contentsline {section}{\numberline {2.4}Lage der Achsen bei Nutation eines momentfreien Kreisels}{6}{}%
