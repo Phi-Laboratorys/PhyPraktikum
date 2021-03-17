@@ -921,14 +921,13 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBT.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBT.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBT.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBTNotagrey.png
 OUTPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBT.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBT.png
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBT.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBTNotagrey.png
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Bilder\Logo\UniBTNotagrey.png
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\MiKTeX\pdftex\config\pdftex.map
@@ -936,8 +935,6 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
@@ -945,6 +942,9 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc
@@ -952,8 +952,6 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx10
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx8.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx6.tfm
 OUTPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung\Einleitung.tex

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  16 MAR 2021 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  17 MAR 2021 22:22
 entering extended mode
 **c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
 (c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
@@ -1310,53 +1310,51 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+ua1 on input line 46.
+LaTeX Font Info:    Trying to load font information for T1+ua1 on input line 47.
  (C:\Users\manue\AppData\Local\Programs\MiKTeX\tex/latex/arial\t1ua1.fd
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 46.
+(Font)              scaled to size 16.41594pt on input line 47.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ua1' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 46.
+(Font)              scaled to size 16.41594pt on input line 47.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 37.99988pt on input line 48.
+(Font)              scaled to size 37.99988pt on input line 49.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 37.99988pt on input line 48.
+(Font)              scaled to size 37.99988pt on input line 49.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 50.
+(Font)              scaled to size 13.67995pt on input line 51.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 66.49979pt on input line 75.
+(Font)              scaled to size 66.49979pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 66.49979pt on input line 75.
+(Font)              scaled to size 66.49979pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 99.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 99.
-<Bilder/Logo/UniBT.png, id=4, 465.23813pt x 465.23813pt>
-File: Bilder/Logo/UniBT.png Graphic file (type png)
-<use Bilder/Logo/UniBT.png>
-Package pdftex.def Info: Bilder/Logo/UniBT.png  used on input line 119.
-(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
+(Font)              scaled to size 11.39996pt on input line 98.
+<Bilder/Logo/UniBTNotagrey.png, id=4, 169.1775pt x 168.35625pt>
+File: Bilder/Logo/UniBTNotagrey.png Graphic file (type png)
+<use Bilder/Logo/UniBTNotagrey.png>
+Package pdftex.def Info: Bilder/Logo/UniBTNotagrey.png  used on input line 113.
+(pdftex.def)             Requested size: 56.9055pt x 56.62895pt.
  [1
 
 
 
 
-{C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Bilder/Logo/UniBT.png>]) [2
-
+{C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Bilder/Logo/UniBTNotagrey.png>]
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 119.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 119.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 19.70294pt on input line 119.
+) [2
 
 
 ]
-LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 75.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 75.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 75.
 Package tocbasic Info: character protrusion at toc deactivated on input line 75.
  (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc)
 \tf@toc=\write5
@@ -1364,17 +1362,19 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 75.
 
  [3
 
+
+
 ] [4
 
 
 ] ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung/Einleitung.tex"
 chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--19
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--80
 
  []
 
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" [5
+("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" [5
 
 ]
 chapter 2.
@@ -1428,17 +1428,17 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 
 ]) [12] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 25708 strings out of 479799
- 524017 string characters out of 2869722
- 933405 words of memory out of 3000000
- 41913 multiletter control sequences out of 15000+200000
- 710698 words of font info for 225 fonts, out of 3000000 for 9000
+ 25706 strings out of 479799
+ 524086 string characters out of 2869722
+ 933412 words of memory out of 3000000
+ 41915 multiletter control sequences out of 15000+200000
+ 707213 words of font info for 222 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,8n,111p,10689b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (12 pages, 273850 bytes).
+Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (12 pages, 276238 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 94738 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 92690 words of extra memory for PDF output out of 106986 (max. 10000000)
 

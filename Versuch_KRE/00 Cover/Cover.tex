@@ -28,17 +28,18 @@
 \def\schriftgrosse{70}
 \def\linethickness{1,5pt}
 
-\def\farbe{black}
+\def\farbe{Notagrey}
 \def\fach{PPBphys1}
-\def\name{Gruppe 4}
+\def\name{Charlotte Geiger - Manuel Lippert - Leonard Schatt}
 \def\uberschrift{Protokoll KRE} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
 \def\bottom{SS2021}
-\def\datum{22. M\"arz 2021}
-\def\platz{NWII | RaumNr.}
+\def\datum{22. März 2021}
+\def\platz{NWII | 2.3.02.704}
 \def\betreuer{Michael Beckstein}
-\def\Auswertp{Manuel Lippert}
-\def\Messp{Leonard Schatt}
-\def\Protop{Charlotte Geiger}
+\def\auswertp{Manuel Lippert}
+\def\messp{Leonard Schatt}
+\def\protop{Charlotte Geiger}
+\def\groupnr{4}
 
 \begin{titlepage}
 			
@@ -92,17 +93,10 @@
 
 	\IfSubStr{\logo}{noLogo}{\setboolean{symbol}{false}}{\setboolean{symbol}{true}}
 	
-	% Betreuer tec.
-	\vspace{8cm}
-	\begin{tabular}{l l l l}
-
-		{\large\sffamily\textbf{Versuchstag}} & {\large\sffamily \datum} \hspace{1cm} & {\large\sffamily\textbf{Auswertung}} & {\large\sffamily \Auswertp} \\[0,2cm]
-		{\large\sffamily\textbf{Versuchsplatz}} & {\large\sffamily \platz} & {\large\sffamily\textbf{Messung}} & {\large\sffamily \Messp} \\[0,2cm]
-		{\large\sffamily\textbf{Betreuer}} & {\large\sffamily \betreuer} & {\large\sffamily\textbf{Protokoll}} & {\large\sffamily \Protop} \\[0,2cm]
-		
-	\end{tabular}
+	% Gruppe
+	\vspace{10cm}
+	{\large\sffamily{Gruppe \groupnr}}
 	
-
 	%Logo
 	\vfill
 
@@ -120,3 +114,19 @@
 \end{titlepage}
 
 \restoregeometry
+
+% Information
+\chapter*{Informationen}
+\label{chap:info}
+
+\begin{tabular}{l l}
+
+	{\textbf{Versuchstag}} \hspace{1cm} & \hspace{1cm} {\datum}\\[0,2cm]
+	{\textbf{Versuchsplatz}} \hspace{1cm} & \hspace{1cm} {\platz}\\[0,2cm]
+	{\textbf{Betreuer}} \hspace{1cm} & \hspace{1cm} {\betreuer}\\[1,2cm]
+	{\textbf{Gruppen Nr.}} \hspace{1cm} & \hspace{1cm} {\groupnr}\\[0.2cm]
+	{\textbf{Auswertperson}} \hspace{1cm} & \hspace{1cm} {\auswertp}\\[0.2cm]
+	{\textbf{Messperson}} \hspace{1cm} & \hspace{1cm} {\messp}\\[0.2cm]
+	{\textbf{Protokollperson}} \hspace{1cm} & \hspace{1cm} {\protop}\\[0.2cm]
+
+\end{tabular}
