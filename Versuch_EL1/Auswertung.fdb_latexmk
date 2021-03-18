@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Auswertung"] 1616016744 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616016759
-  "Auswertung.aux" 1616016757 3489 9d781ce02c4bc56ab6f2d774f68c5f0d "pdflatex"
+["bibtex Auswertung"] 1616016744 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616017310
+  "Auswertung.aux" 1616017308 3489 9d781ce02c4bc56ab6f2d774f68c5f0d "pdflatex"
   "Auswertung.bib" 1615838520 5939 cda1d6393c38559bdaf7a3c8dcc8cf4a ""
   "Auswertung.bst.bst" 0 -1 0 ""
   (generated)
   "Auswertung.bbl"
   "Auswertung.blg"
-["pdflatex"] 1616016744 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.pdf" "Auswertung" 1616016759
-  "00 Cover/Cover.tex" 1616016726 4238 593366e87b1c3e3c8d928726ef4752e9 ""
+["pdflatex"] 1616017293 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf" "Auswertung" 1616017310
+  "00 Cover/Cover.tex" 1616017291 4247 758f30a7e1bd680f394eeed12ad3362f ""
   "01 Einleitung/Einleitung.tex" 1615822867 179 f9e1f6db9c109c218f282cea56ca6e10 ""
   "02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" 1615818961 324 faf278d5230196cda24261d8c72ab391 ""
   "02 Fragen zur Vorbereitung/Teilaufgabe_X.tex" 1615840828 126 6db31e6ecff35c58263c78129fe50da1 ""
@@ -17,10 +17,10 @@
   "05 Fazit/Fazit.tex" 1615818961 169 ed89dba68cc3fceba355e76e229dad4e ""
   "06 Anhang/Anhang.tex" 1615761401 151 bce5c90be04ada7b41624e47e03af8cf ""
   "06 Anhang/Append_A.tex" 1615809022 164 5dac7662ac3fa569bb3d3dda15a2299f ""
-  "Auswertung.aux" 1616016757 3489 9d781ce02c4bc56ab6f2d774f68c5f0d "pdflatex"
+  "Auswertung.aux" 1616017308 3489 9d781ce02c4bc56ab6f2d774f68c5f0d "pdflatex"
   "Auswertung.bbl" 1616016744 4213 cc068e99b4e13cd040681b33898fc0ef "bibtex Auswertung"
   "Auswertung.tex" 1616016618 2994 3b2b1c8a8ccec7f387a4dcfcc8331c0e ""
-  "Auswertung.toc" 1616016757 711 93f7b245a3fbc0244508789b16a16939 "pdflatex"
+  "Auswertung.toc" 1616017308 711 93f7b245a3fbc0244508789b16a16939 "pdflatex"
   "Bilder/Logo/UniBTNotagrey.png" 1598081381 8469 b3fa0ecc787a3ef73e7871d776e4a98a ""
   "C:/Users/manue/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1606166953 10294361 47b40662b5f0d21a895f10e1a6131bec ""
   "C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1615902796 81196 81d6cf890b21ddb7f2ecb9b7d2f13868 ""
@@ -231,12 +231,12 @@
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1543858404 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.aux" 1616016757 3489 9d781ce02c4bc56ab6f2d774f68c5f0d ""
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.tex" 1616016618 2994 3b2b1c8a8ccec7f387a4dcfcc8331c0e ""
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.aux" 1616017308 3489 9d781ce02c4bc56ab6f2d774f68c5f0d ""
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex" 1616016618 2994 3b2b1c8a8ccec7f387a4dcfcc8331c0e ""
   (generated)
   "Auswertung.pdf"
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.log"
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.pdf"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf"
   "Auswertung.log"
-  "Auswertung.toc"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.log"
   "Auswertung.aux"
+  "Auswertung.toc"

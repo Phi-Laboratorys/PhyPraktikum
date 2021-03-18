@@ -31,10 +31,15 @@
 \def\farbe{Notagrey}
 \def\fach{PPBphys1}
 \def\name{Charlotte Geiger - Manuel Lippert - Leonard Schatt}
-\def\uberschrift{Protokoll SP} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\uberschrift{Protokoll EL1} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
 \def\bottom{SS2021}
-\def\datum{15. M\"arz 2021}
-\def\betreuer{Wolfgang Sch\"opf}
+\def\datum{26. März 2021}
+\def\platz{NWII | 2.1.01.470}
+\def\betreuer{Michael Buchhorn}
+\def\auswertp{Charlotte Geiger}
+\def\messp{Manuel Lippert}
+\def\protop{Leonard Schatt}
+\def\groupnr{4}
 
 \begin{titlepage}
 			
@@ -88,12 +93,10 @@
 
 	\IfSubStr{\logo}{noLogo}{\setboolean{symbol}{false}}{\setboolean{symbol}{true}}
 	
-	% Betreuer tec.
-	\vspace{8cm}
-	{\large\sffamily Datum: \datum\par}
-	{\large\sffamily Betreuer: \betreuer\par}
+	% Gruppe
+	\vspace{10cm}
+	{\large\sffamily{Gruppe \groupnr}}
 	
-
 	%Logo
 	\vfill
 
@@ -111,3 +114,19 @@
 \end{titlepage}
 
 \restoregeometry
+
+% Information
+\chapter*{Informationen}
+\label{chap:info}
+
+\begin{tabular}{l l}
+
+	{\textbf{Versuchstag}} \hspace{1cm} & \hspace{1cm} {\datum}\\[0,2cm]
+	{\textbf{Versuchsplatz}} \hspace{1cm} & \hspace{1cm} {\platz}\\[0,2cm]
+	{\textbf{Betreuer}} \hspace{1cm} & \hspace{1cm} {\betreuer}\\[1,2cm]
+	{\textbf{Gruppen Nr.}} \hspace{1cm} & \hspace{1cm} {\groupnr}\\[0.2cm]
+	{\textbf{Auswertperson}} \hspace{1cm} & \hspace{1cm} {\auswertp}\\[0.2cm]
+	{\textbf{Messperson}} \hspace{1cm} & \hspace{1cm} {\messp}\\[0.2cm]
+	{\textbf{Protokollperson}} \hspace{1cm} & \hspace{1cm} {\protop}\\[0.2cm]
+
+\end{tabular}

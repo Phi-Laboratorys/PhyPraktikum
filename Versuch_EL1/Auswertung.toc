@@ -1,13 +1,7 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{5}{}%
 \contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{6}{}%
-\contentsline {section}{\numberline {2.1}Trägheitsmoment $I$ eines Körpers}{6}{}%
-\contentsline {section}{\numberline {2.2}Trägheitstensor $\mathbf {J}$}{6}{}%
-\contentsline {section}{\numberline {2.3}Trägheitstensor $\mathbf {J_{Rad}}$ eines nicht ausgewuchten Rades}{6}{}%
-\contentsline {section}{\numberline {2.4}Lage der Achsen bei Nutation eines momentfreien Kreisels}{6}{}%
-\contentsline {section}{\numberline {2.5}Präzessionsfrequenz eines Kreisels}{6}{}%
-\contentsline {section}{\numberline {2.6}Kreiselkompass}{6}{}%
-\contentsline {section}{\numberline {2.7}Senkrechte Ausrichtung eines in der Luft rotierenden Bierfilz}{6}{}%
+\contentsline {section}{\numberline {2.1}Teilaufgabe X}{6}{}%
 \contentsline {chapter}{\numberline {3}Messprotokoll}{7}{}%
 \contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{8}{}%
 \contentsline {section}{\numberline {4.1}Teilauswertung X}{8}{}%

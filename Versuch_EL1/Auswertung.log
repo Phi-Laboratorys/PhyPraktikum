@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  18 MAR 2021 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  17 MAR 2021 22:41
 entering extended mode
-**c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
-(c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
+**c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex
+(c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03> (C:\Users\manue\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
 Document Class: scrreprt 2020/09/21 v3.32 KOMA-Script document class (report)
@@ -1131,7 +1131,7 @@ LaTeX Info: Redefining \bf on input line 59.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66.
  (C:\Users\manue\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux)
+) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\Auswertung.aux)
 \openout1 = `Auswertung.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1277,7 +1277,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00 Cover/Cover.tex"
+ ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\00 Cover/Cover.tex"
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1344,7 +1344,7 @@ Package pdftex.def Info: Bilder/Logo/UniBTNotagrey.png  used on input line 113.
 
 
 
-{C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Bilder/Logo/UniBTNotagrey.png>]
+{C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_EL1/Bilder/Logo/UniBTNotagrey.png>]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 119.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
@@ -1356,7 +1356,7 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 75.
- (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc)
+ (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\Auswertung.toc)
 \tf@toc=\write5
 \openout5 = `Auswertung.toc'.
 
@@ -1367,43 +1367,32 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 75.
 ] [4
 
 
-] ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung/Einleitung.tex"
+] ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\01 Einleitung/Einleitung.tex"
 chapter 1.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 9--80
-
- []
-
-("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" [5
+) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" [5
 
 ]
 chapter 2.
-("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_1.tex"
+("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\02 Fragen zur Vorbereitung/Teilaufgabe_X.tex"
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 6.
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_2.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex")) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll/Protokoll.tex" [6
+)) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\03 Protokoll/Protokoll.tex" [6
 
 ]
 chapter 3.
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung/Versuchsauswertung.tex" [7
+) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\04 Versuchsauswertung/Versuchsauswertung.tex" [7
 
 ]
 chapter 4.
-("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung/Teilauswertung_X.tex")) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit/Fazit.tex" [8
+("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\04 Versuchsauswertung/Teilauswertung_X.tex")) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\05 Fazit/Fazit.tex" [8
 
 ]
 chapter 5.
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang/Anhang.tex" ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang/Append_A.tex" [9
+) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\06 Anhang/Anhang.tex" ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\06 Anhang/Append_A.tex" [9
 
 ]
 chapter A.
-)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.bbl [10
+)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\Auswertung.bbl [10
 
 ]
 chapter without number
@@ -1425,19 +1414,19 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 
 [11
 
-]) [12] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux) ) 
+]) [12] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 25712 strings out of 479799
- 524154 string characters out of 2869722
- 933410 words of memory out of 3000000
- 41915 multiletter control sequences out of 15000+200000
- 707471 words of font info for 225 fonts, out of 3000000 for 9000
+ 25565 strings out of 479799
+ 520800 string characters out of 2869722
+ 933412 words of memory out of 3000000
+ 41849 multiletter control sequences out of 15000+200000
+ 666295 words of font info for 172 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,8n,111p,10689b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (12 pages, 294850 bytes).
+{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_EL1\Auswertung.pdf (12 pages, 235674 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 92690 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 71186 words of extra memory for PDF output out of 74296 (max. 10000000)
 
