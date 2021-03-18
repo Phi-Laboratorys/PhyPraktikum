@@ -6,8 +6,7 @@
 \contentsline {section}{\numberline {2.3}Teilaufgabe 3}{8}{}%
 \contentsline {section}{\numberline {2.4}Teilaufgabe 4}{8}{}%
 \contentsline {section}{\numberline {2.5}Teilaufgabe 5}{9}{}%
-\contentsline {section}{\numberline {2.6}Teilaufgabe X}{9}{}%
-\contentsline {section}{\numberline {2.7}Teilaufgabe X}{9}{}%
+\contentsline {section}{\numberline {2.6}Teilaufgabe 6}{9}{}%
 \contentsline {chapter}{\numberline {3}Messprotokoll}{10}{}%
 \contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{11}{}%
 \contentsline {section}{\numberline {4.1}Teilauswertung X}{11}{}%
