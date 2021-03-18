@@ -3,16 +3,16 @@
 \contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{6}{}%
 \contentsline {section}{\numberline {2.1}Teilaufgabe 1}{6}{}%
 \contentsline {section}{\numberline {2.2}Teilaufgabe 2}{7}{}%
-\contentsline {section}{\numberline {2.3}Teilaufgabe 3}{8}{}%
+\contentsline {section}{\numberline {2.3}Teilaufgabe 3}{7}{}%
 \contentsline {section}{\numberline {2.4}Teilaufgabe 4}{8}{}%
 \contentsline {section}{\numberline {2.5}Teilaufgabe X}{8}{}%
 \contentsline {section}{\numberline {2.6}Teilaufgabe X}{8}{}%
 \contentsline {section}{\numberline {2.7}Teilaufgabe X}{8}{}%
-\contentsline {chapter}{\numberline {3}Messprotokoll}{10}{}%
-\contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{11}{}%
-\contentsline {section}{\numberline {4.1}Teilauswertung X}{11}{}%
-\contentsline {chapter}{\numberline {5}Fazit}{12}{}%
-\contentsline {chapter}{\numberline {A}Append A}{13}{}%
-\contentsline {section}{\numberline {A.1}Teilanhang X}{13}{}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{14}{}%
+\contentsline {chapter}{\numberline {3}Messprotokoll}{9}{}%
+\contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{10}{}%
+\contentsline {section}{\numberline {4.1}Teilauswertung X}{10}{}%
+\contentsline {chapter}{\numberline {5}Fazit}{11}{}%
+\contentsline {chapter}{\numberline {A}Append A}{12}{}%
+\contentsline {section}{\numberline {A.1}Teilanhang X}{12}{}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{13}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
