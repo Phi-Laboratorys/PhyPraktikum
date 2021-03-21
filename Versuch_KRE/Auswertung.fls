@@ -1021,14 +1021,28 @@ INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll\Prot
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll\Protokoll.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
@@ -1054,12 +1068,12 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
@@ -1076,10 +1090,14 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
@@ -1088,6 +1106,8 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.p
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
