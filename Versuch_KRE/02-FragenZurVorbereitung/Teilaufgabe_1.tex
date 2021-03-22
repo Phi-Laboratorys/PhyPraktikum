@@ -3,6 +3,46 @@
 
 % Teilaufgabe 1
 
+\documentclass[paper=a4,bibliography=totoc,BCOR=10mm,twoside,numbers=noenddot,fontsize=11pt]{scrreprt}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+%\usepackage[dvipdfmx]{graphicx}
+\usepackage{nicefrac}
+\usepackage{fancyvrb}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage[format=plain]{caption}
+
+\parindent 0.0cm
+\parskip 0.8ex plus 0.5ex minus 0.5ex
+
+
+\setcounter{bottomnumber}{2}
+\setcounter{topnumber}{2}
+\renewcommand{\bottomfraction}{1.}
+\renewcommand{\topfraction}{1.}
+\renewcommand{\textfraction}{0.}
+
+
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareOldFontCommand{\bf}{\normalfont\scshape}{\textbf}
+
+
+\pagestyle{headings}          
+\graphicspath{{./bilder/}}    
+\VerbatimFootnotes            
+
+\begin{document}
+\nonfrenchspacing      
+
+
 \section{Trägheitsmoment $I$ eines Körpers}
 
 Das Trägheitsmoment $I$ eines Körpers wird im Kontinuum anschaulich durch die Gleichung
@@ -18,3 +58,4 @@ Für einen starren Körper aus $N$ Massepunkten der Masse $m_i$ hat (2.1) die Fo
 \begin{equation}
     I = \sum_{i=1}^{N} m_i r_{i,\perp}^2
 \end{equation}
+\end{document}
