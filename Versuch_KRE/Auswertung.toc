@@ -9,12 +9,12 @@
 \contentsline {section}{\numberline {2.6}Kreiselkompass}{7}{}%
 \contentsline {section}{\numberline {2.7}Senkrechte Ausrichtung eines in der Luft rotierenden Bierfilz}{7}{}%
 \contentsline {chapter}{\numberline {3}Messprotokoll}{8}{}%
-\contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{9}{}%
-\contentsline {section}{\numberline {4.1}Qualitative Beobachtung verschiedener Kreiselbewegungen}{9}{}%
-\contentsline {section}{\numberline {4.2}Nutation}{9}{}%
-\contentsline {section}{\numberline {4.3}Präzession}{9}{}%
-\contentsline {chapter}{\numberline {5}Fazit}{10}{}%
-\contentsline {chapter}{\numberline {A}Append A}{11}{}%
-\contentsline {section}{\numberline {A.1}Teilanhang X}{11}{}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}{}%
+\contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{19}{}%
+\contentsline {section}{\numberline {4.1}Qualitative Beobachtung verschiedener Kreiselbewegungen}{19}{}%
+\contentsline {section}{\numberline {4.2}Nutation}{19}{}%
+\contentsline {section}{\numberline {4.3}Präzession}{19}{}%
+\contentsline {chapter}{\numberline {5}Fazit}{20}{}%
+\contentsline {chapter}{\numberline {A}Append A}{21}{}%
+\contentsline {section}{\numberline {A.1}Teilanhang X}{21}{}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{22}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
