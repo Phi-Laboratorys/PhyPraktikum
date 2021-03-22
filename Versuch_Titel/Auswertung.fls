@@ -902,10 +902,10 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt10.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt8.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt8.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00 Cover\Cover.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00 Cover\Cover.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00 Cover\Cover.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00 Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00-Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00-Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00-Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\00-Cover\Cover.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\arial\t1ua1.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\arial\t1ua1.fd
@@ -951,45 +951,45 @@ INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.toc
 OUTPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.toc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02 Fragen zur Vorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\Teilaufgabe_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\02-FragenZurVorbereitung\Teilaufgabe_X.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03 Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03-Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03-Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03-Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\03-Protokoll\Protokoll.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04 Versuchsauswertung\Teilauswertung_X.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06 Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\04-Versuchsauswertung\Teilauswertung_X.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\06-Anhang\Append_A.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_Titel\Auswertung.bbl

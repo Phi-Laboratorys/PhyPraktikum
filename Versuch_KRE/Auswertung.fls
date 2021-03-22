@@ -902,10 +902,10 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt10.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt8.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt8.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00 Cover\Cover.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00 Cover\Cover.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00 Cover\Cover.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00 Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00-Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00-Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00-Cover\Cover.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00-Cover\Cover.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\arial\t1ua1.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\arial\t1ua1.fd
@@ -954,18 +954,18 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx6.
 OUTPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung\Einleitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Fragen zur Vorbereitung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_1.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_1.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_1.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung\Einleitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\FragenZurVorbereitung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_1.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
@@ -991,70 +991,70 @@ INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_4.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_4.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_4.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_4.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_5.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_5.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_5.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_5.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_6.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_6.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_6.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_6.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_7.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_7.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_7.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung\Teilaufgabe_7.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll\Protokoll.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll\Protokoll.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll\Protokoll.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_4.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_4.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_4.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_4.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_5.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_5.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_5.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_5.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_6.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_6.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_6.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_6.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_7.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_7.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_7.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung\Teilaufgabe_7.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03-Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03-Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03-Protokoll\Protokoll.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03-Protokoll\Protokoll.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Versuchsauswertung.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Versuchsauswertung.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_1.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_1.tex
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\manue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_2.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung\Teilauswertung_3.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit\Fazit.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Anhang.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Append_A.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Append_A.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Append_A.tex
-INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_2.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung\Teilauswertung_3.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05-Fazit\Fazit.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Anhang.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Append_A.tex
+INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang\Append_A.tex
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.bbl
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.bbl
 INPUT c:\Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.bbl

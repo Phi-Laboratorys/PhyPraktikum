@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  21 MAR 2021 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  22 MAR 2021 14:54
 entering extended mode
 **c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
 (c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
@@ -1277,7 +1277,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00 Cover/Cover.tex"
+ (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\00-Cover/Cover.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1367,18 +1367,18 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 75.
 ] [4
 
 
-] ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01 Einleitung/Einleitung.tex"
+] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex
 chapter 1.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 9--80
 
  []
 
-("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Fragen zur Vorbereitung.tex" [5
+(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/FragenZurVorbereitung.tex [5
 
 ]
 chapter 2.
-("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_1.tex"
+(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_1.tex
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1387,23 +1387,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 6.
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_2.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_3.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_4.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_5.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_6.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02 Fragen zur Vorbereitung/Teilaufgabe_7.tex")) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03 Protokoll/Protokoll.tex" [6
+) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_2.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_3.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_4.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_5.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_6.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_7.tex)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03-Protokoll/Protokoll.tex [6
 
 ] [7]
 chapter 3.
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung/Versuchsauswertung.tex" [8
+) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Versuchsauswertung.tex [8
 
 ]
 chapter 4.
-("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung/Teilauswertung_1.tex"
+(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_1.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9.
  (C:\Users\manue\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung/Teilauswertung_2.tex") ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04 Versuchsauswertung/Teilauswertung_3.tex")) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05 Fazit/Fazit.tex" [9
+)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_2.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_3.tex)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05-Fazit/Fazit.tex [9
 
 ]
 chapter 5.
-) ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang/Anhang.tex" ("c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06 Anhang/Append_A.tex" [10
+) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang/Anhang.tex (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang/Append_A.tex [10
 
 ]
 chapter A.
@@ -1432,14 +1432,14 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 ]) [13] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
  25752 strings out of 479799
- 525561 string characters out of 2869722
+ 525471 string characters out of 2869722
  933413 words of memory out of 3000000
  41947 multiletter control sequences out of 15000+200000
  707708 words of font info for 225 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,11n,111p,10689b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (13 pages, 329417 bytes).
+Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (13 pages, 329440 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
