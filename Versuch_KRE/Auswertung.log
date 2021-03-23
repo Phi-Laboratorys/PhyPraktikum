@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  22 MAR 2021 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  23 MAR 2021 10:15
 entering extended mode
 **c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
 (c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex
@@ -1356,11 +1356,12 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 75.
- (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.toc)
+
+No file Auswertung.toc.
 \tf@toc=\write5
 \openout5 = `Auswertung.toc'.
 
- [3
+[3
 
 
 
@@ -1368,244 +1369,226 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 75.
 
 
 ] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex
-chapter 1.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 9--80
 
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:5: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \documentclass
+                  [paper=a4,bibliography=totoc,BCOR=10mm,twoside,numbers=noe...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:6: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage
+               [ngerman]{babel}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:7: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \usepackage
+               [T1]{fontenc}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:8: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage
+               [utf8]{inputenc}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:9: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage
+               {lmodern}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:10: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage
+                {graphicx}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:11: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \usepackage
+                {fancyvrb}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:12: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \usepackage
+                {amsmath,amssymb,amstext}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:13: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \usepackage
+                {url}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:14: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \usepackage
+                {natbib}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:15: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \usepackage
+                {textpos}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:16: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \usepackage
+                {geometry}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:17: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \usepackage
+                {xcolor}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (27.96394pt too wide) in paragraph at lines 5--18
+[]\T1/lmr/m/n/10.95 (-20) [paper=a4,bibliography=totoc,BCOR=10mm,twoside,numbers=noenddot,fontsize=11pt]article
  []
 
-(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/FragenZurVorbereitung.tex [5
 
-]
-chapter 2.
-(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_1.tex
+Overfull \hbox (35.18472pt too wide) in paragraph at lines 5--18
+\T1/lmr/m/n/10.95 (-20) [nger-man]babel [T1]fontenc [utf8]inputenc lm-odern gra-phicx fan-cyvrb ams-math,amssymb,amstext
+ []
+
+
+c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex:20: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 6.
-) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_2.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_3.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_4.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_5.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_6.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_7.tex)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\03-Protokoll/Protokoll.tex [6
+(Font)              scaled to size 13.67995pt on input line 21.
 
-] [7]
-chapter 3.
-<03-Protokoll/Protokoll_KRE.pdf, id=46, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf  used on input line 21.
-(pdftex.def)             Requested size: 597.43054pt x 844.59334pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf  used on input line 21.
-(pdftex.def)             Requested size: 597.43054pt x 844.59334pt.
-<03-Protokoll/Protokoll_KRE.pdf, id=49, page=1, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 1>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page1 used on input line 21.
-(pdftex.def)             Requested size: 597.43054pt x 844.59334pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 1>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page1 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-[8
+Underfull \hbox (badness 10000) in paragraph at lines 24--34
 
-]
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 1>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page1 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 1>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page1 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 1>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page1 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [9 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=58, page=2, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 2>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page2 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 2>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page2 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 2>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page2 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [10 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=76, page=3, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 3>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page3 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 3>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page3 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 3>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page3 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [11 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=81, page=4, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 4>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page4 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 4>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page4 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 4>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page4 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [12 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=87, page=5, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 5>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page5 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 5>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page5 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 5>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page5 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [13 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=93, page=6, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 6>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page6 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 6>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page6 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 6>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page6 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [14 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=114, page=7, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 7>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page7 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 7>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page7 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 7>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page7 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [15 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=119, page=8, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 8>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page8 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 8>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page8 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 8>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page8 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [16 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=149, page=9, 597.432pt x 844.5954pt>
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 9>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page9 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 9>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page9 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
-<use 03-Protokoll/Protokoll_KRE.pdf, page 9>
-Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page9 used on input line 21.
-(pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
- [17 <c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<./bilder//6.3_Screenshots/6.3_Messung1.jpg, id=157, 593.21625pt x 1284.8pt>
-File: ./bilder//6.3_Screenshots/6.3_Messung1.jpg Graphic file (type jpg)
-<use ./bilder//6.3_Screenshots/6.3_Messung1.jpg>
-Package pdftex.def Info: ./bilder//6.3_Screenshots/6.3_Messung1.jpg  used on input line 25.
-(pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
-<./bilder//6.3_Screenshots/6.3_Messung2.jpg, id=158, 593.21625pt x 1284.8pt>
-File: ./bilder//6.3_Screenshots/6.3_Messung2.jpg Graphic file (type jpg)
-<use ./bilder//6.3_Screenshots/6.3_Messung2.jpg>
-Package pdftex.def Info: ./bilder//6.3_Screenshots/6.3_Messung2.jpg  used on input line 25.
-(pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
-<./bilder//6.3_Screenshots/6.3_Messung3.jpg, id=159, 593.21625pt x 1284.8pt>
-File: ./bilder//6.3_Screenshots/6.3_Messung3.jpg Graphic file (type jpg)
-<use ./bilder//6.3_Screenshots/6.3_Messung3.jpg>
-Package pdftex.def Info: ./bilder//6.3_Screenshots/6.3_Messung3.jpg  used on input line 26.
-(pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
-<./bilder//6.3_Screenshots/6.3_Messung4.jpg, id=160, 593.21625pt x 1284.8pt>
-File: ./bilder//6.3_Screenshots/6.3_Messung4.jpg Graphic file (type jpg)
-<use ./bilder//6.3_Screenshots/6.3_Messung4.jpg>
-Package pdftex.def Info: ./bilder//6.3_Screenshots/6.3_Messung4.jpg  used on input line 26.
-(pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
-) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Versuchsauswertung.tex [18 <./bilder//6.3_Screenshots/6.3_Messung1.jpg> <./bilder//6.3_Screenshots/6.3_Messung2.jpg> <./bilder//6.3_Screenshots/6.3_Messung3.jpg> <./bilder//6.3_Screenshots/6.3_Messung4.jpg>]
-chapter 4.
-(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_1.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9.
- (C:\Users\manue\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_2.tex) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_3.tex)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\05-Fazit/Fazit.tex [19
-
-]
-chapter 5.
-) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang/Anhang.tex (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang/Append_A.tex [20
-
-]
-chapter A.
-)) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.bbl [21
-
-]
-chapter without number
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 57.
-(C:\Users\manue\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 3482) in paragraph at lines 56--58
-[]\T1/lmr/m/sc/10.95 (+20) LaTeX \T1/lmr/m/n/10.95 (+20) 2011 La-tex --- A do-cu-ment pre-pa-ra-ti-on sys-tem. URL $\T1/lmtt/m/n/10.95 http : / / www .
  []
 
-[22
+[5] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux)
 
-]) [23] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.aux) ) 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 20 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 25816 strings out of 479799
- 528076 string characters out of 2869722
- 933414 words of memory out of 3000000
- 42003 multiletter control sequences out of 15000+200000
- 707708 words of font info for 225 fonts, out of 3000000 for 9000
+ 25331 strings out of 479799
+ 515245 string characters out of 2869722
+ 927591 words of memory out of 3000000
+ 41719 multiletter control sequences out of 15000+200000
+ 646548 words of font info for 138 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,18n,111p,10689b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (23 pages, 2266215 bytes).
+ 106i,8n,111p,10689b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (5 pages, 110840 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 94818 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 60434 words of extra memory for PDF output out of 61914 (max. 10000000)
 
