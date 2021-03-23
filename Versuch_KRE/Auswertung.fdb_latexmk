@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Auswertung"] 1616491504 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616491519
-  "Auswertung.aux" 1616491518 4599 ea3a42dcd4aaa2e5c763449e5f98114a "pdflatex"
+["bibtex Auswertung"] 1616491821 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616491832
+  "Auswertung.aux" 1616491830 4673 e899b5de8beff60eb000afd304e3516a "pdflatex"
   "Auswertung.bib" 1615838520 5939 cda1d6393c38559bdaf7a3c8dcc8cf4a ""
   "Auswertung.bst.bst" 0 -1 0 ""
   (generated)
   "Auswertung.blg"
   "Auswertung.bbl"
-["pdflatex"] 1616491505 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf" "Auswertung" 1616491519
+["pdflatex"] 1616491821 "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex" "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf" "Auswertung" 1616491832
   "00-Cover/Cover.tex" 1616065887 4250 259bc16765a7f09ad2831fa1ab700aec ""
-  "01-Einleitung/Einleitung.tex" 1616491215 1099 9dfcf28fc96f5f2697a5f23835a575f4 ""
+  "01-Einleitung/Einleitung.tex" 1616491805 1099 32c5b01fa7ee755c8a3d51fa6d330c8f ""
   "02-FragenZurVorbereitung/FragenZurVorbereitung.tex" 1616421284 634 fa55d94568c5493b893f8025104b4e17 ""
   "02-FragenZurVorbereitung/Teilaufgabe_1.tex" 1616491369 1005 eb4f433290105500e461356bbef14d1d ""
   "02-FragenZurVorbereitung/Teilaufgabe_2.tex" 1616181826 676 5bd228c5206e7b979e8a54a65a0940eb ""
@@ -26,10 +26,10 @@
   "05-Fazit/Fazit.tex" 1615818961 169 ed89dba68cc3fceba355e76e229dad4e ""
   "06-Anhang/Anhang.tex" 1616421284 151 59176796a60f174d6e2c01bc11271836 ""
   "06-Anhang/Append_A.tex" 1615809022 164 5dac7662ac3fa569bb3d3dda15a2299f ""
-  "Auswertung.aux" 1616491518 4599 ea3a42dcd4aaa2e5c763449e5f98114a "pdflatex"
-  "Auswertung.bbl" 1616491505 4213 cc068e99b4e13cd040681b33898fc0ef "bibtex Auswertung"
+  "Auswertung.aux" 1616491830 4673 e899b5de8beff60eb000afd304e3516a "pdflatex"
+  "Auswertung.bbl" 1616491821 4213 cc068e99b4e13cd040681b33898fc0ef "bibtex Auswertung"
   "Auswertung.tex" 1616491469 2994 c3f58cf80c737079ab10d8f08190d5ec ""
-  "Auswertung.toc" 1616491518 1453 729dc6ae5e7428445a7ab4f1c88a02af "pdflatex"
+  "Auswertung.toc" 1616491830 1451 14941cd6f4f978cd2305c832381e5bde "pdflatex"
   "Bilder/Logo/UniBTNotagrey.png" 1598081381 8469 b3fa0ecc787a3ef73e7871d776e4a98a ""
   "C:/Users/manue/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1606166953 10294361 47b40662b5f0d21a895f10e1a6131bec ""
   "C:/Users/manue/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1615902796 81196 81d6cf890b21ddb7f2ecb9b7d2f13868 ""
@@ -270,12 +270,12 @@
   "bilder//6.3_Screenshots/6.3_Messung2.jpg" 1616422623 28873 d59b6279e1fb6d531578751ab635f5a6 ""
   "bilder//6.3_Screenshots/6.3_Messung3.jpg" 1616422623 30163 c59aae324504ae0b6d6ba5a674edd731 ""
   "bilder//6.3_Screenshots/6.3_Messung4.jpg" 1616422623 27143 c192959ae049c4c4a1b896b9f55da7ff ""
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.aux" 1616491518 4599 ea3a42dcd4aaa2e5c763449e5f98114a ""
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.aux" 1616491830 4673 e899b5de8beff60eb000afd304e3516a ""
   "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.tex" 1616491469 2994 c3f58cf80c737079ab10d8f08190d5ec ""
   (generated)
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.log"
-  "Auswertung.pdf"
-  "Auswertung.toc"
-  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf"
-  "Auswertung.aux"
   "Auswertung.log"
+  "Auswertung.pdf"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf"
+  "Auswertung.toc"
+  "Auswertung.aux"
+  "c:/Users/manue/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.log"
