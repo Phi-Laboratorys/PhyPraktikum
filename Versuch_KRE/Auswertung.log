@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  23 MAR 2021 10:26
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.23)  23 MAR 2021 10:30
+>>>>>>> 0c4be29447f69e348fe2984a136e9d0fc19038d2
 entering extended mode
 **d:/Git/PhyPraktikum-1/Versuch_KRE/Auswertung.tex
 (d:/Git/PhyPraktikum-1/Versuch_KRE/Auswertung.tex
@@ -1367,17 +1371,32 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 75.
 ] [4
 
 
+<<<<<<< HEAD
 ] (d:/Git\PhyPraktikum-1\Versuch_KRE\01-Einleitung/Einleitung.tex
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 7.
+=======
+] (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\01-Einleitung/Einleitung.tex
+chapter 1.
+>>>>>>> 0c4be29447f69e348fe2984a136e9d0fc19038d2
 )
 Underfull \hbox (badness 10000) in paragraph at lines 10--80
 
  []
 
+<<<<<<< HEAD
 (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/FragenZurVorbereitung.tex [5]
 chapter 1.
 (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_1.tex
+=======
+(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/FragenZurVorbereitung.tex [5
+
+]
+chapter 2.
+(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_1.tex
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 6.
+>>>>>>> 0c4be29447f69e348fe2984a136e9d0fc19038d2
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1390,7 +1409,7 @@ Underfull \vbox (badness 1072) has occurred while \output is active []
  [6
 
 ] [7]
-chapter 2.
+chapter 3.
 <03-Protokoll/Protokoll_KRE.pdf, id=46, 597.432pt x 844.5954pt>
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf>
@@ -1557,17 +1576,28 @@ File: ./bilder//6.3_Screenshots/6.3_Messung4.jpg Graphic file (type jpg)
 <use ./bilder//6.3_Screenshots/6.3_Messung4.jpg>
 Package pdftex.def Info: ./bilder//6.3_Screenshots/6.3_Messung4.jpg  used on input line 26.
 (pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
+<<<<<<< HEAD
 ) (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Versuchsauswertung.tex [18 <./bilder//6.3_Screenshots/6.3_Messung1.jpg> <./bilder//6.3_Screenshots/6.3_Messung2.jpg> <./bilder//6.3_Screenshots/6.3_Messung3.jpg> <./bilder//6.3_Screenshots/6.3_Messung4.jpg>]
 chapter 3.
 (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_1.tex
+=======
+) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Versuchsauswertung.tex [18 <./bilder//6.3_Screenshots/6.3_Messung1.jpg> <./bilder//6.3_Screenshots/6.3_Messung2.jpg> <./bilder//6.3_Screenshots/6.3_Messung3.jpg> <./bilder//6.3_Screenshots/6.3_Messung4.jpg>]
+chapter 4.
+(c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_1.tex
+>>>>>>> 0c4be29447f69e348fe2984a136e9d0fc19038d2
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9.
  (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_2.tex) (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_3.tex)) (d:/Git\PhyPraktikum-1\Versuch_KRE\05-Fazit/Fazit.tex [19
 
 ]
+<<<<<<< HEAD
 chapter 4.
 ) (d:/Git\PhyPraktikum-1\Versuch_KRE\06-Anhang/Anhang.tex (d:/Git\PhyPraktikum-1\Versuch_KRE\06-Anhang/Append_A.tex [20
+=======
+chapter 5.
+) (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang/Anhang.tex (c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\06-Anhang/Append_A.tex [20
+>>>>>>> 0c4be29447f69e348fe2984a136e9d0fc19038d2
 
 ]
 chapter A.
@@ -1601,9 +1631,15 @@ Here is how much of TeX's memory you used:
  42473 multiletter control sequences out of 15000+200000
  576050 words of font info for 223 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  111i,18n,116p,10666b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
 Output written on d:/Git\PhyPraktikum-1\Versuch_KRE\Auswertung.pdf (23 pages, 2266537 bytes).
+=======
+ 106i,18n,111p,10689b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on c:/Users\manue\Documents\GitHub\PhyPraktikum\Versuch_KRE\Auswertung.pdf (23 pages, 2266228 bytes).
+>>>>>>> 0c4be29447f69e348fe2984a136e9d0fc19038d2
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
