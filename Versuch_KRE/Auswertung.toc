@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {0.1}Einleitung}{5}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+=======
+>>>>>>> ca5fc360d8b354b136f86c89e1429b1341e44894
