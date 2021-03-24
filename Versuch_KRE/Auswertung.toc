@@ -13,7 +13,8 @@
 \contentsline {section}{\numberline {4.1}Qualitative Beobachtung verschiedener Kreiselbewegungen}{17}{}%
 \contentsline {section}{\numberline {4.2}Nutation}{17}{}%
 \contentsline {section}{\numberline {4.3}Präzession}{18}{}%
-\contentsline {chapter}{\numberline {5}Fazit}{20}{}%
-\contentsline {chapter}{\numberline {A}Append A}{21}{}%
-\contentsline {section}{\numberline {A.1}Teilanhang X}{21}{}%
+\contentsline {chapter}{\numberline {5}Fazit}{19}{}%
+\contentsline {chapter}{\numberline {A}Append A}{20}{}%
+\contentsline {section}{\numberline {A.1}Teilanhang X}{20}{}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{21}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
