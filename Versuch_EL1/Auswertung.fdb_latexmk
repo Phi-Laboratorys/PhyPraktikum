@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Auswertung"] 1616582352 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616582356
-  "Auswertung.aux" 1616582355 3642 a96a0fe51664aafaba56d9735e1eab5a ""
+["bibtex Auswertung"] 1616582352 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616591390
+  "Auswertung.aux" 1616591389 3642 a96a0fe51664aafaba56d9735e1eab5a ""
   "Auswertung.bib" 1616574488 5740 cda1d6393c38559bdaf7a3c8dcc8cf4a ""
   "Auswertung.bst.bst" 0 -1 0 ""
   (generated)
-  "Auswertung.blg"
   "Auswertung.bbl"
-["pdflatex"] 1616582352 "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex" "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf" "Auswertung" 1616582356
-  "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.aux" 1616582355 3642 a96a0fe51664aafaba56d9735e1eab5a ""
-  "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex" 1616582342 2862 2a0e227a49e2c62b3df73f4b8e6f9a99 ""
+  "Auswertung.blg"
+["pdflatex"] 1616591386 "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex" "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf" "Auswertung" 1616591390
+  "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.aux" 1616591389 3642 a96a0fe51664aafaba56d9735e1eab5a ""
+  "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.tex" 1616591385 2914 b57926e6fcb488b88cd09f7b490ac2e5 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1480098668 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1480098668 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -236,15 +236,15 @@
   "05-Fazit/Fazit.tex" 1616574488 160 ed89dba68cc3fceba355e76e229dad4e ""
   "06-Anhang/Anhang.tex" 1616574488 141 59176796a60f174d6e2c01bc11271836 ""
   "06-Anhang/Append_A.tex" 1616574488 156 5dac7662ac3fa569bb3d3dda15a2299f ""
-  "Auswertung.aux" 1616582355 3642 a96a0fe51664aafaba56d9735e1eab5a ""
+  "Auswertung.aux" 1616591389 3642 a96a0fe51664aafaba56d9735e1eab5a ""
   "Auswertung.bbl" 1616582352 4117 cc068e99b4e13cd040681b33898fc0ef "bibtex Auswertung"
-  "Auswertung.tex" 1616582342 2862 2a0e227a49e2c62b3df73f4b8e6f9a99 ""
-  "Auswertung.toc" 1616582355 1081 fcfa12e3f1dcce069cde9d4bf76efce3 ""
+  "Auswertung.tex" 1616591385 2914 b57926e6fcb488b88cd09f7b490ac2e5 ""
+  "Auswertung.toc" 1616591389 1081 fcfa12e3f1dcce069cde9d4bf76efce3 ""
   "Bilder/Logo/UniBTNotagrey.png" 1616574488 8469 23806260b6e038a6ef3e91735994ec16 ""
   (generated)
-  "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf"
-  "Auswertung.pdf"
   "Auswertung.log"
   "Auswertung.toc"
+  "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf"
+  "Auswertung.pdf"
   "/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.log"
   "Auswertung.aux"

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.3.19)  24 MAR 2021 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.3.19)  24 MAR 2021 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -39,124 +38,6 @@ Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
 \ta@vblk=\skip44
 \ta@temp=\skip45
 \footheight=\skip46
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.16)  24 MAR 2021 11:40
-entering extended mode
-**d:/Git/PhyPraktikum-1/Versuch_KRE/Auswertung.tex
-(d:/Git/PhyPraktikum-1/Versuch_KRE/Auswertung.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
-Document Class: scrreprt 2020/09/21 v3.32 KOMA-Script document class (report)
-(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
-Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
-
-LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
-
-
-LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
-
-
-LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
-
-
-LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
-
-
-LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
-
-
-LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
-(LaTeX3)     93.
-
-
-LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
-(LaTeX3)     173.
-
-
-LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
-
-
-LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
-(LaTeX3)     191.
-
-
-LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
-
-
-LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
-
-
-LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
-
-
-LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
-
-
-LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
-
-
-LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
-
-
-LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
-
-
-LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
-(LaTeX3)     line 234.
-
-
-LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
-(LaTeX3)     line 242.
-
-
-LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
-(LaTeX3)     line 247.
-
-
-LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
-(LaTeX3)     line 261.
-
-
-LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
-(LaTeX3)     274.
-
-
-LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
-
-
-LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
-(LaTeX3)     line 298.
-
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
-))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
-Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip47
-\scr@dte@tocline@numbox=\box47
-)
-Package tocbasic Info: babel extension for `toc' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 137.
-Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input line 2434.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.clo
-File: scrsize11pt.clo 2020/09/21 v3.32 KOMA-Script font size class option (11pt)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
-Package: typearea 2020/09/21 v3.32 KOMA-Script package (type area)
-\ta@bcor=\skip48
-\ta@div=\count179
-\ta@hblk=\skip49
-\ta@vblk=\skip50
-\ta@temp=\skip51
-\footheight=\skip52
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 28.45274pt
@@ -175,7 +56,6 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1706.
 )
-<<<<<<< HEAD
 \c@part=\count81
 \c@chapter=\count82
 \c@section=\count83
@@ -240,156 +120,6 @@ Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
-=======
-\c@part=\count180
-\c@chapter=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\scr@dte@chapter@maxnumwidth=\skip53
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 5627.
-\scr@dte@section@maxnumwidth=\skip54
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 5638.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 5638.
-\scr@dte@part@maxnumwidth=\skip55
-Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 5647.
-\scr@dte@subsection@maxnumwidth=\skip56
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 5657.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 5657.
-\scr@dte@subsubsection@maxnumwidth=\skip57
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 5667.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 5667.
-\scr@dte@paragraph@maxnumwidth=\skip58
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 5678.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 5678.
-\scr@dte@subparagraph@maxnumwidth=\skip59
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 5688.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 5688.
-\abovecaptionskip=\skip60
-\belowcaptionskip=\skip61
-\c@pti@nb@sid@b@x=\box48
-Package tocbasic Info: babel extension for `lof' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6925.
-\scr@dte@figure@maxnumwidth=\skip62
-\c@figure=\count187
-Package tocbasic Info: babel extension for `lot' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6942.
-\scr@dte@table@maxnumwidth=\skip63
-\c@table=\count188
-Class scrreprt Info: Redefining `\numberline' on input line 7111.
-\bibindent=\dimen138
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/01/26 3.53 The Babel package
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/01/26 3.53 Babel common definitions
-\babel@savecnt=\count189
-\U@D=\dimen139
-\l@babelnohyphens=\language79
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-)
-\bbl@dirlevel=\count190
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
-Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
-Package babel Info: Making " an active character on input line 122.
-))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\utf8.def
-File: utf8.def 2019/11/14 v1.2k UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.dfu
-File: omsenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.dfu
-File: ot1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
-)
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.dfu
-File: t1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -626,20 +356,12 @@ File: t1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+1E20 (decimal 7712)
    defining Unicode char U+1E21 (decimal 7713)
 )
-<<<<<<< HEAD
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
-=======
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.dfu
-File: ts1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
@@ -700,11 +422,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+FEFF (decimal 65279)
-<<<<<<< HEAD
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
-=======
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -738,7 +456,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-<<<<<<< HEAD
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
@@ -827,101 +544,11 @@ LaTeX Info: Redefining \] on input line 2818.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-=======
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
-Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip64
-\L@UnitsRaiseTextstyle=\skip65
-\L@UnitsRaiseScriptstyle=\skip66
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
-Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count191
-\FV@InFile=\read3
-\FV@TabBox=\box49
-\c@FancyVerbLine=\count192
-\FV@StepNumber=\count193
-\FV@OutFile=\write3
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
-\@mathmargin=\skip67
-
-For additional information on amsmath, use the `?' option.
-(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen142
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count194
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count195
-\leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count197
-\DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count199
-\c@MaxMatrixCols=\count266
-\dotsspace@=\muskip16
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
-\tag@help=\toks19
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
-\andhelp@=\toks20
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
-\@envbody=\toks21
-\multlinegap=\skip68
-\multlinetaggap=\skip69
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-<<<<<<< HEAD
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018/03/05 L3 programming layer (loader) 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
@@ -1114,53 +741,6 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_unit_prefix_base_int=\count276
 \l__siunitx_unit_prefix_gram_int=\count277
 \l__siunitx_number_product_int=\count278
-=======
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
-\l__pdf_internal_box=\box52
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2020-10-27 L3 Experimental document command parser
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex))
-Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
-Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen151
-\ar@mcellbox=\box53
-\extrarowheight=\dimen152
-\NC@list=\toks23
-\extratabsurround=\skip70
-\backup@length=\skip71
-\ar@cellbox=\box54
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
-)
-\l__siunitx_tmp_box=\box55
-\l__siunitx_tmp_dim=\dimen153
-\l__siunitx_tmp_int=\count273
-\l__siunitx_number_mantissa_length_int=\count274
-\l__siunitx_number_uncert_length_int=\count275
-\l__siunitx_round_int=\count276
-\l__siunitx_process_decimal_int=\count277
-\l__siunitx_process_uncertainty_int=\count278
-\l__siunitx_process_fixed_int=\count279
-\l__siunitx_process_integer_min_int=\count280
-\l__siunitx_process_precision_int=\count281
-\l__siunitx_group_min_int=\count282
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
-\l__siunitx_angle_marker_dim=\dimen154
-\l__siunitx_angle_unit_dim=\dimen155
-\l__siunitx_unit_int=\count283
-\l__siunitx_unit_denominator_int=\count284
-\l__siunitx_unit_numerator_int=\count285
-\l__siunitx_unit_prefix_int=\count286
-\l__siunitx_unit_prefix_base_int=\count287
-\l__siunitx_unit_prefix_gram_int=\count288
-\l__siunitx_number_product_int=\count289
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 \c__siunitx_one_fill_skip=\skip72
 \l__siunitx_table_unit_align_skip=\skip73
 \l__siunitx_table_exponent_dim=\dimen151
@@ -1178,7 +758,6 @@ Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_result_box=\box54
 \l__siunitx_table_number_align_skip=\skip74
 \l__siunitx_table_text_align_skip=\skip75
-<<<<<<< HEAD
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1301,19 +880,10 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
-=======
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
-Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-<<<<<<< HEAD
 \c@NAT@ctr=\count279
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
@@ -2332,69 +1902,6 @@ Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-\c@NAT@ctr=\count290
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
-Package: microtype 2021/02/25 v2.8b Micro-typographical refinements (RS)
-\MT@toks=\toks24
-\MT@count=\count291
-LaTeX Info: Redefining \textls on input line 788.
-\MT@outer@kern=\dimen165
-LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
-\MT@listname@count=\count292
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
-File: microtype-pdftex.def 2021/02/25 v2.8b Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip78
-)
-Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen166
-\captionmargin@=\dimen167
-\captionwidth=\dimen168
-\caption@tempdima=\dimen169
-\caption@indent=\dimen170
-\caption@parindent=\dimen171
-\caption@hangindent=\dimen172
-Package caption Info: KOMA-Script document class detected.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.sto
-File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
-))
-\c@caption@flags=\count293
-\c@continuedfloat=\count294
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
-Package: physics 
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\Gm@cnth=\count295
-\Gm@cntv=\count296
-\c@Gm@tempcnt=\count297
-\Gm@bindingoffset=\dimen173
-\Gm@wd@mp=\dimen174
-\Gm@odd@mp=\dimen175
-\Gm@even@mp=\dimen176
-\Gm@layoutwidth=\dimen177
-\Gm@layoutheight=\dimen178
-\Gm@layouthoffset=\dimen179
-\Gm@layoutvoffset=\dimen180
-\Gm@dimlist=\toks25
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/anyfontsize\anyfontsize.sty
-Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -2407,7 +1914,6 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-<<<<<<< HEAD
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2016/06/07 v1.8
 
@@ -2421,10 +1927,6 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 \TPVertModule=\dimen177
 \TP@margin=\dimen178
 \TP@absmargin=\dimen179
-=======
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/textpos\textpos.sty
-Package: textpos 2020/09/26 v1.10
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 
 Grid set 16 x 16 = 37.34424pt x 52.81543pt
 \TPboxrulesize=\dimen180
@@ -2433,7 +1935,6 @@ Grid set 16 x 16 = 37.34424pt x 52.81543pt
 \TP@tbargs=\toks25
 \TP@prevdepth=\dimen183
 TextBlockOrigin set to 0pt x 0pt
-<<<<<<< HEAD
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
 \integerpart=\count286
@@ -2618,204 +2119,10 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count308
 \calc@Adimen=\dimen286
 \calc@Bdimen=\dimen287
-=======
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count298
-\decimalpart=\count299
-)
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen188
-\pgfutil@tempdimb=\dimen189
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box64
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
-))
-Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks30
-))
-\pgf@x=\dimen190
-\pgf@y=\dimen191
-\pgf@xa=\dimen192
-\pgf@ya=\dimen193
-\pgf@xb=\dimen194
-\pgf@yb=\dimen195
-\pgf@xc=\dimen196
-\pgf@yc=\dimen197
-\pgf@xd=\dimen198
-\pgf@yd=\dimen199
-\w@pgf@writea=\write4
-\r@pgf@reada=\read4
-\c@pgf@counta=\count300
-\c@pgf@countb=\count301
-\c@pgf@countc=\count302
-\c@pgf@countd=\count303
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count304
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
-)
-Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count305
-\pgfsyssoftpath@bigbuffer@items=\count306
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen256
-\pgfmath@count=\count307
-\pgfmath@box=\box65
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count308
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen257
-\pgf@picmaxx=\dimen258
-\pgf@picminy=\dimen259
-\pgf@picmaxy=\dimen260
-\pgf@pathminx=\dimen261
-\pgf@pathmaxx=\dimen262
-\pgf@pathminy=\dimen263
-\pgf@pathmaxy=\dimen264
-\pgf@xx=\dimen265
-\pgf@xy=\dimen266
-\pgf@yx=\dimen267
-\pgf@yy=\dimen268
-\pgf@zx=\dimen269
-\pgf@zy=\dimen270
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen271
-\pgf@path@lasty=\dimen272
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen273
-\pgf@shorten@start@additional=\dimen274
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count309
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen275
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen276
-\pgf@pt@y=\dimen277
-\pgf@pt@temp=\dimen278
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen279
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen280
-\pgf@sys@shading@range@num=\count310
-\pgf@shadingcount=\count311
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box69
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box70
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen281
-\pgf@nodesepend=\dimen282
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen283
-\pgffor@skip=\dimen284
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
-)) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count312
-\pgfplotmarksize=\dimen285
-)
-\tikz@lastx=\dimen286
-\tikz@lasty=\dimen287
-\tikz@lastxsaved=\dimen288
-\tikz@lastysaved=\dimen289
-\tikz@lastmovetox=\dimen290
-\tikz@lastmovetoy=\dimen291
-\tikzleveldistance=\dimen292
-\tikzsiblingdistance=\dimen293
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count313
-\tikznumberofchildren=\count314
-\tikznumberofcurrentchild=\count315
-\tikz@fig@count=\count316
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count317
-\pgfmatrixcurrentcolumn=\count318
-\pgf@matrix@numberofcolumns=\count319
-)
-\tikz@expandcount=\count320
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count321
-\calc@Bcount=\count322
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 \calc@Askip=\skip79
 \calc@Bskip=\skip80
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-<<<<<<< HEAD
 \calc@Ccount=\count309
 \calc@Cskip=\skip81
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -2843,19 +2150,19 @@ LaTeX Info: Redefining \bf on input line 58.
  (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.aux)
 \openout1 = `Auswertung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -2980,75 +2287,11 @@ File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+266A (decimal 9834)
    defining Unicode char U+FEFF (decimal 65279)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
-=======
-\calc@Ccount=\count323
-\calc@Cskip=\skip81
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen296
-\ESO@tempdimb=\dimen297
-)
-\AM@pagewidth=\dimen298
-\AM@pageheight=\dimen299
-\AM@fboxrule=\dimen300
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
-)
-\pdfpages@includegraphics@status=\count324
-\AM@pagebox=\box75
-\AM@global@opts=\toks39
-\AM@pagecnt=\count325
-\AM@toc@title=\toks40
-\c@AM@survey=\count326
-\AM@templatesizebox=\box76
-)
-LaTeX Info: Redefining \sc on input line 58.
-LaTeX Info: Redefining \bf on input line 59.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (d:/Git\PhyPraktikum-1\Versuch_KRE\Auswertung.aux)
-\openout1 = `Auswertung.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
-\scratchdimen=\dimen301
-\scratchbox=\box77
-\nofMPsegments=\count328
-\nofMParguments=\count329
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count330
-\MPscratchDim=\dimen302
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
-\everyMPtoPDFconversion=\toks42
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 65.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -3058,11 +2301,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-<<<<<<< HEAD
  (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-=======
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -3102,7 +2341,6 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<<<<<<< HEAD
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box71
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -3112,103 +2350,56 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
-=======
-(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 65.
+(Font)              <10.95> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 65.
+(Font)              <8> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-<<<<<<< HEAD
-(Font)              <6> on input line 65.
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+(Font)              <6> on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmss.fd
-=======
-(Font)              <6> on input line 66.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
-=======
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 66.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<<<<<<< HEAD
  (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/00-Cover/Cover.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3244,40 +2435,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 47.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
-=======
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 75.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<<<<<<< HEAD
 <Bilder/Logo/UniBTNotagrey.png, id=4, 169.1775pt x 168.35625pt>
 File: Bilder/Logo/UniBTNotagrey.png Graphic file (type png)
 <use Bilder/Logo/UniBTNotagrey.png>
 Package pdftex.def Info: Bilder/Logo/UniBTNotagrey.png  used on input line 103.
 (pdftex.def)             Requested size: 56.9055pt x 56.62895pt.
-=======
-Package tocbasic Info: character protrusion at toc deactivated on input line 75.
- (d:/Git\PhyPraktikum-1\Versuch_KRE\Auswertung.toc)
-\tf@toc=\write5
-\openout5 = `Auswertung.toc'.
-
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
  [1
 
 
 
 
-<<<<<<< HEAD
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Bilder/Logo/UniBTNotagrey.png>]) [2
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 74.
+Package tocbasic Info: character protrusion at toc deactivated on input line 77.
  (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.toc)
 \tf@toc=\write6
 \openout6 = `Auswertung.toc'.
@@ -3290,42 +2468,24 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 74.
 
 
 ] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/01-Einleitung/Einleitung.tex
-=======
-{C:/Users/Studieren/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
-
-
-] (d:/Git\PhyPraktikum-1\Versuch_KRE\01-Einleitung/Einleitung.tex
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 chapter 1.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 10--79
+Underfull \hbox (badness 10000) in paragraph at lines 10--82
 
  []
 
-<<<<<<< HEAD
 (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/FragenZurVorbereitung.tex [5
 
 ]
 chapter 2.
 (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_1.tex
-=======
-(d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/FragenZurVorbereitung.tex [3
-
-]
-chapter 2.
-(d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_1.tex
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 6.
-<<<<<<< HEAD
 ) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_2.tex) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_3.tex) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_4.tex) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_5.tex) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_6.tex) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/02-FragenZurVorbereitung/Teilaufgabe_7.tex)) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll.tex [6
-=======
-) (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_2.tex) (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_3.tex) (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_4.tex) (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_5.tex) (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_6.tex) (d:/Git\PhyPraktikum-1\Versuch_KRE\02-FragenZurVorbereitung/Teilaufgabe_7.tex)) (d:/Git\PhyPraktikum-1\Versuch_KRE\03-Protokoll/Protokoll.tex [4
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 
 ] [7]
 chapter 3.
@@ -3362,13 +2522,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 1>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [9 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=59, page=2, 597.432pt x 844.5954pt>
-=======
- [7 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=47, page=2, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 2>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page2 used on input line 21.
@@ -3381,13 +2536,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 2>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page2 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [10 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=77, page=3, 597.432pt x 844.5954pt>
-=======
- [8 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=65, page=3, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 3>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page3 used on input line 21.
@@ -3400,13 +2550,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 3>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page3 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [11 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=82, page=4, 597.432pt x 844.5954pt>
-=======
- [9 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=70, page=4, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 4>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page4 used on input line 21.
@@ -3419,13 +2564,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 4>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page4 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [12 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=88, page=5, 597.432pt x 844.5954pt>
-=======
- [10 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=76, page=5, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 5>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page5 used on input line 21.
@@ -3438,13 +2578,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 5>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page5 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [13 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=94, page=6, 597.432pt x 844.5954pt>
-=======
- [11 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=81, page=6, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 6>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page6 used on input line 21.
@@ -3457,13 +2592,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 6>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page6 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [14 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=115, page=7, 597.432pt x 844.5954pt>
-=======
- [12 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=102, page=7, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 7>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page7 used on input line 21.
@@ -3476,13 +2606,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 7>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page7 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [15 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=120, page=8, 597.432pt x 844.5954pt>
-=======
- [13 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=108, page=8, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 8>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page8 used on input line 21.
@@ -3495,13 +2620,8 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 8>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page8 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [16 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <03-Protokoll/Protokoll_KRE.pdf, id=150, page=9, 597.432pt x 844.5954pt>
-=======
- [14 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<03-Protokoll/Protokoll_KRE.pdf, id=138, page=9, 597.432pt x 844.5954pt>
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 9>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page9 used on input line 21.
@@ -3514,19 +2634,11 @@ File: 03-Protokoll/Protokoll_KRE.pdf Graphic file (type pdf)
 <use 03-Protokoll/Protokoll_KRE.pdf, page 9>
 Package pdftex.def Info: 03-Protokoll/Protokoll_KRE.pdf , page9 used on input line 21.
 (pdftex.def)             Requested size: 388.3262pt x 548.98051pt.
-<<<<<<< HEAD
  [17 </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
 <./bilder/6_3_Screenshots/6_3_Messung1.jpg, id=158, 593.21625pt x 1284.8pt>
 File: ./bilder/6_3_Screenshots/6_3_Messung1.jpg Graphic file (type jpg)
 <use ./bilder/6_3_Screenshots/6_3_Messung1.jpg>
 Package pdftex.def Info: ./bilder/6_3_Screenshots/6_3_Messung1.jpg  used on input line 25.
-=======
- [15 <d:/Git/PhyPraktikum-1/Versuch_KRE/03-Protokoll/Protokoll_KRE.pdf>]
-<./bilder//6_3_Screenshots/6_3_Messung1.jpg, id=146, 593.21625pt x 1284.8pt>
-File: ./bilder//6_3_Screenshots/6_3_Messung1.jpg Graphic file (type jpg)
-<use ./bilder//6_3_Screenshots/6_3_Messung1.jpg>
-Package pdftex.def Info: ./bilder//6_3_Screenshots/6_3_Messung1.jpg  used on input line 25.
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 (pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
 <./bilder/6_3_Screenshots/6_3_Messung2.jpg, id=159, 593.21625pt x 1284.8pt>
 File: ./bilder/6_3_Screenshots/6_3_Messung2.jpg Graphic file (type jpg)
@@ -3543,7 +2655,6 @@ File: ./bilder/6_3_Screenshots/6_3_Messung4.jpg Graphic file (type jpg)
 <use ./bilder/6_3_Screenshots/6_3_Messung4.jpg>
 Package pdftex.def Info: ./bilder/6_3_Screenshots/6_3_Messung4.jpg  used on input line 26.
 (pdftex.def)             Requested size: 124.57909pt x 269.81596pt.
-<<<<<<< HEAD
 ) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/04-Versuchsauswertung/Versuchsauswertung.tex [18 <./bilder/6_3_Screenshots/6_3_Messung1.jpg> <./bilder/6_3_Screenshots/6_3_Messung2.jpg> <./bilder/6_3_Screenshots/6_3_Messung3.jpg> <./bilder/6_3_Screenshots/6_3_Messung4.jpg>]
 chapter 4.
 (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/04-Versuchsauswertung/Teilauswertung_1.tex
@@ -3554,22 +2665,12 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
 ) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/04-Versuchsauswertung/Teilauswertung_2.tex
-=======
-) (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Versuchsauswertung.tex [16 <./bilder//6_3_Screenshots/6_3_Messung1.jpg> <./bilder//6_3_Screenshots/6_3_Messung2.jpg> <./bilder//6_3_Screenshots/6_3_Messung3.jpg> <./bilder//6_3_Screenshots/6_3_Messung4.jpg>]
-chapter 4.
-(d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_1.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9.
- (C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_2.tex
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
 [19
 
-<<<<<<< HEAD
 ]) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/04-Versuchsauswertung/Teilauswertung_3.tex)) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/05-Fazit/Fazit.tex [20]
 chapter 5.
 ) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/06-Anhang/Anhang.tex (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/06-Anhang/Append_A.tex [21
@@ -3577,28 +2678,14 @@ chapter 5.
 ]
 chapter A.
 )) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.bbl [22
-=======
-]) (d:/Git\PhyPraktikum-1\Versuch_KRE\04-Versuchsauswertung/Teilauswertung_3.tex)) (d:/Git\PhyPraktikum-1\Versuch_KRE\05-Fazit/Fazit.tex [18]
-chapter 5.
-) (d:/Git\PhyPraktikum-1\Versuch_KRE\06-Anhang/Anhang.tex (d:/Git\PhyPraktikum-1\Versuch_KRE\06-Anhang/Append_A.tex [19
-
-]
-chapter A.
-)) (d:/Git\PhyPraktikum-1\Versuch_KRE\Auswertung.bbl [20
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 
 ]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 57.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
-=======
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 57.
-(C:\Users\Studieren\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -3612,31 +2699,17 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 
 [23
 
-<<<<<<< HEAD
 ]) [24] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 32231 strings out of 492649
- 646689 string characters out of 6129622
- 794016 words of memory out of 5000000
- 35414 multiletter control sequences out of 15000+600000
- 662903 words of font info for 152 fonts, out of 8000000 for 9000
+ 32235 strings out of 492649
+ 646718 string characters out of 6129622
+ 795036 words of memory out of 5000000
+ 35416 multiletter control sequences out of 15000+600000
+ 662986 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,19n,66p,10432b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf (24 pages, 2283165 bytes).
-=======
-]) [22] (d:/Git\PhyPraktikum-1\Versuch_KRE\Auswertung.aux) ) 
-Here is how much of TeX's memory you used:
- 25691 strings out of 479334
- 525419 string characters out of 2855184
- 951849 words of memory out of 3000000
- 42405 multiletter control sequences out of 15000+200000
- 505530 words of font info for 183 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 111i,18n,116p,10666b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Studieren/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on d:/Git\PhyPraktikum-1\Versuch_KRE\Auswertung.pdf (22 pages, 2279737 bytes).
->>>>>>> 3247e6984b961283ca4df604f75fffae051f4418
+Output written on /Users/admin/Documents/GitHub/PhyPraktikum/Versuch_KRE/Auswertung.pdf (24 pages, 2285752 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  130 compressed objects within 2 object streams
