@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Auswertung"] 1616590755 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616590765
-  "Auswertung.aux" 1616590764 4937 0fa9e0a4ca6d80483c5244c15e56e443 "pdflatex"
+["bibtex Auswertung"] 1616592953 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616592962
+  "Auswertung.aux" 1616592961 4937 0fa9e0a4ca6d80483c5244c15e56e443 "pdflatex"
   "Auswertung.bib" 1616054596 5939 cda1d6393c38559bdaf7a3c8dcc8cf4a ""
   "Auswertung.bst.bst" 0 -1 0 ""
   (generated)
-  "Auswertung.bbl"
   "Auswertung.blg"
-["pdflatex"] 1616590756 "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf" "Auswertung" 1616590765
+  "Auswertung.bbl"
+["pdflatex"] 1616592953 "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf" "Auswertung" 1616592962
   "00-Cover/Cover.tex" 1616583422 3901 b0d60218ad9aeac7c8cc01102eafad42 ""
   "01-Einleitung/Einleitung.tex" 1616490210 1534 2382b558bb803b4c243d1e93ec655910 ""
   "02-FragenZurVorbereitung/FragenZurVorbereitung.tex" 1616490210 582 7cc98aa102eb81f1293ad848231b544c ""
@@ -22,10 +22,10 @@
   "05-Fazit/Fazit.tex" 1616490210 169 ed89dba68cc3fceba355e76e229dad4e ""
   "06-Anhang/Anhang.tex" 1616490210 151 59176796a60f174d6e2c01bc11271836 ""
   "06-Anhang/Append_A.tex" 1616490210 164 5dac7662ac3fa569bb3d3dda15a2299f ""
-  "Auswertung.aux" 1616590764 4937 0fa9e0a4ca6d80483c5244c15e56e443 "pdflatex"
-  "Auswertung.bbl" 1616590755 4213 cc068e99b4e13cd040681b33898fc0ef "bibtex Auswertung"
-  "Auswertung.tex" 1616583422 2961 2a0e227a49e2c62b3df73f4b8e6f9a99 ""
-  "Auswertung.toc" 1616590764 1026 c15918ee6799ae77452b4d6e883cb060 "pdflatex"
+  "Auswertung.aux" 1616592961 4937 0fa9e0a4ca6d80483c5244c15e56e443 "pdflatex"
+  "Auswertung.bbl" 1616592953 4213 cc068e99b4e13cd040681b33898fc0ef "bibtex Auswertung"
+  "Auswertung.tex" 1616592942 3016 b57926e6fcb488b88cd09f7b490ac2e5 ""
+  "Auswertung.toc" 1616592961 1026 c15918ee6799ae77452b4d6e883cb060 "pdflatex"
   "Bilder/Emspekt.PNG" 1615981448 25249 abcec71398632201d31577615374c68d ""
   "Bilder/FzV/frage6_1.jpg" 1616323956 35843 708c5db199002dad50cdd08a67ed0f5f ""
   "Bilder/FzV/frage6_2.jpg" 1616322753 37546 c801c2b14594e6180ba80e9e9512b1e4 ""
@@ -256,12 +256,12 @@
   "C:/Users/Studieren/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Studieren/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/Studieren/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1543858404 123 a302f2c651a95033260db60e51527ae8 ""
-  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.aux" 1616590764 4937 0fa9e0a4ca6d80483c5244c15e56e443 ""
-  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" 1616583422 2961 2a0e227a49e2c62b3df73f4b8e6f9a99 ""
+  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.aux" 1616592961 4937 0fa9e0a4ca6d80483c5244c15e56e443 ""
+  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" 1616592942 3016 b57926e6fcb488b88cd09f7b490ac2e5 ""
   (generated)
-  "Auswertung.pdf"
-  "Auswertung.aux"
-  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf"
-  "Auswertung.log"
   "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.log"
+  "Auswertung.log"
+  "Auswertung.pdf"
   "Auswertung.toc"
+  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf"
+  "Auswertung.aux"
