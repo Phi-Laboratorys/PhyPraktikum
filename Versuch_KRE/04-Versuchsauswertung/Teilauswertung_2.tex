@@ -15,19 +15,19 @@ Um diese Nutation des Kreisels zu untersuchen, bestimmt man die Nutationsfrequen
 Um die Frequenz in die Winkelgeschwindigkeit umzurechnen, muss man die Frequenz mit $2\pi$ multiplizieren $(w = f\cdot2\pi)$.\\
 Der Fehler des Stroboskoplichts ist der Ablesefehler $s_a = 0,05 1/s$. 
 Auch bei der Zeitmessung muss der Fehler mitbetrachtet werden, dieser beläuft sich auf $s_a = 0,5s$.  \\
-\begin{equation}
-\omega_3 = f_3\cdot2\pi  \tab s_{\omega_3}=2\pi\cdot{s_{f_3}}\\
-\omega_n = \frac{2\pi}{T_n}\\
-\frac{\omega_n}{\omega_3} = \frac{1}{T_nf_3} 
-\tab s_{\frac{\omega_n}{\omega_3}} = \sqrt{{(\frac{s_{T_n}}{T_n^2f_3})}^2+{(\frac{s_{f_3}}{T_nf_3^2})}^2} 
-\end{equation}\\
+\begin{align}
+    \omega_3 = f_3\cdot2\pi \tab s_{\omega_3}=2\pi\cdot{s_{f_3}}\\
+    %\omega_n = \frac{2\pi}{T_n}\\
+    %\frac{\omega_n}{\omega_3} = \frac{1}{T_nf_3} 
+    %\tab s_{\frac{\omega_n}{\omega_3}} = \sqrt{{(\frac{s_{T_n}}{T_n^2f_3})}^2+{(\frac{s_{f_3}}{T_nf_3^2})}^2} 
+\end{align}\\
 Um das Verh\"altnis von $w_3$ im Bezug zu $\frac{w_n}{w_3}$ tabellarisch aufzutragen, muss man auf das Vorzeichen achten. Aus den Eulerschen Gleichungen f\"r den momentfreien, symmetrischen Kreisel wurde folgendes im Skript hergelitten:
 \begin{equation}
-\frac{\omega_n}{\omega_3} = \frac{J_3 - J_1}{J_1} = konstant
+    \frac{\omega_n}{\omega_3} = \frac{J_3 - J_1}{J_1} = konstant
 \end{equation}\\
 Da wir aber nur noch einen symmetrischen Kreisel mit $J_1 = J_2$ und $J_3<J_1$ betrachten, ist das konstante Verh\"altnis  negativ. Nun wird die Konstante durch den Mittelwert der berechneten Verh\"altnisse berechnet.
 \begin{equation}
-\overline{\Bigl(\frac{\omega_n}{\omega_3}\Bigr)} = \sum\nolimits_{n=1}^{12}\Bigl(\frac{\omega_n}{\omega_3}\cdot{\frac{1}{12}}\Bigr) \tab n: Anzahl der Werte\\
-s_{\overline{\Bigl(\frac{\omega_n}{\omega_3}\Bigr)}} = \sqrt{\sum\nolimits_{n=1}^{12}{\Bigl(\frac{\omega_n}{\omega_3}\cdot{\frac{1}{12}\Bigr)}^2}}
+    %\overline{\Bigl(\frac{\omega_n}{\omega_3}\Bigr)} = \sum\nolimits_{n=1}^{12}\Bigl(\frac{\omega_n}{\omega_3}\cdot{\frac{1}{12}}\Bigr) \tab n: Anzahl der Werte\\
+    %s_{\overline{\Bigl(\frac{\omega_n}{\omega_3}\Bigr)}} = \sqrt{\sum\nolimits_{n=1}^{12}{\Bigl(\frac{\omega_n}{\omega_3}\cdot{\frac{1}{12}\Bigr)}^2}}
 \end{equation}
 Der hier berechnete Mittelwert ist das arithmetische Mittel beider Messreihen. Diese werden nun in das Diagramm eingef\"ugt und gegen die Drehfrequenz $\omega_3$ aufgetragen. 
