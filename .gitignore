@@ -1,4 +1,3 @@
-*.txt
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
@@ -12,7 +11,8 @@
 *.fot
 *.cb
 *.cb2
-.*.lb
+*.lb
+*.pdf
 
 ## Intermediate documents:
 *.dvi
