@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.3.19)  24 MAR 2021 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.3.19)  24 MAR 2021 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2145,24 +2145,24 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count310
 \AM@templatesizebox=\box69
 )
-LaTeX Info: Redefining \sc on input line 58.
-LaTeX Info: Redefining \bf on input line 59.
+LaTeX Info: Redefining \sc on input line 57.
+LaTeX Info: Redefining \bf on input line 58.
  (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.aux)
 \openout1 = `Auswertung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -2291,7 +2291,7 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 66.
+LaTeX Info: Redefining \microtypecontext on input line 65.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2350,41 +2350,41 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 66.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 66.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 66.
+(Font)              <10.95> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 66.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 66.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+(Font)              <6> on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2392,7 +2392,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2400,7 +2400,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 75.
+ (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/00-Cover/Cover.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 483.69693pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78317pt, 56.9055pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=483.69693pt
+* \textheight=702.78317pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-24.31174pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=85.35828pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 47.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2408,65 +2441,78 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 75.
- (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.toc)
-\tf@toc=\write6
-\openout6 = `Auswertung.toc'.
-
+<Bilder/Logo/UniBTNotagrey.png, id=4, 169.1775pt x 168.35625pt>
+File: Bilder/Logo/UniBTNotagrey.png Graphic file (type png)
+<use Bilder/Logo/UniBTNotagrey.png>
+Package pdftex.def Info: Bilder/Logo/UniBTNotagrey.png  used on input line 104.
+(pdftex.def)             Requested size: 56.9055pt x 56.62895pt.
  [1
 
 
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Bilder/Logo/UniBTNotagrey.png>]) [2
+
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 74.
+ (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.toc)
+\tf@toc=\write6
+\openout6 = `Auswertung.toc'.
+
+ [3
+
+
+
+] [4
 
 
 ] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/01-Einleitung/Einleitung.tex
 chapter 1.
-) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/02-FragenZurVorbereitung/FragenZurVorbereitung.tex [3
+) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/02-FragenZurVorbereitung/FragenZurVorbereitung.tex [5
 
 ]
 chapter 2.
-(/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/02-FragenZurVorbereitung/Teilaufgabe_X.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
 
-Overfull \hbox (49.68109pt too wide) in paragraph at lines 28--51
+Overfull \hbox (49.68109pt too wide) in paragraph at lines 21--44
 \T1/lmr/m/n/10.95 (-20) Im fol-gen-den wer-den die Ei-gen-schaf-ten ei-nes bi-po-la-ren PNP-Transistors auf-ge-lis-tet/zusammengefasst: 
  []
 
-[4
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-[5])
-Underfull \vbox (badness 3354) has occurred while \output is active []
+[7])
+Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [6] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/03-Protokoll/Protokoll.tex [7]
+ [8] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/03-Protokoll/Protokoll.tex [9]
 chapter 3.
-) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/04-Versuchsauswertung/Versuchsauswertung.tex [8
+) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/04-Versuchsauswertung/Versuchsauswertung.tex [10
 
 ]
 chapter 4.
-(/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/04-Versuchsauswertung/Teilauswertung_X.tex)) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/05-Fazit/Fazit.tex [9
+(/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/04-Versuchsauswertung/Teilauswertung_X.tex)) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/05-Fazit/Fazit.tex [11
 
 ]
 chapter 5.
-) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/06-Anhang/Anhang.tex (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/06-Anhang/Append_A.tex [10
+) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/06-Anhang/Anhang.tex (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/06-Anhang/Append_A.tex [12
 
 ]
 chapter A.
-)) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.bbl [11
+)) (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.bbl [13
 
 ]
 chapter without number
@@ -2486,22 +2532,22 @@ Underfull \hbox (badness 3482) in paragraph at lines 56--58
 []\T1/lmr/m/sc/10.95 (+20) LaTeX \T1/lmr/m/n/10.95 (+20) 2011 La-tex --- A do-cu-ment pre-pa-ra-ti-on sys-tem. URL $\T1/lmtt/m/n/10.95 http : / / www .
  []
 
-[12
+[14
 
-]) [13] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.aux) ) 
+]) [15] (/Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.aux) ) 
 Here is how much of TeX's memory you used:
- 31991 strings out of 492649
- 639614 string characters out of 6129622
- 794016 words of memory out of 5000000
- 35228 multiletter control sequences out of 15000+600000
- 590059 words of font info for 117 fonts, out of 8000000 for 9000
+ 32068 strings out of 492649
+ 640712 string characters out of 6129622
+ 794025 words of memory out of 5000000
+ 35288 multiletter control sequences out of 15000+600000
+ 624637 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,8n,66p,10432b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf (13 pages, 226124 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on /Users/admin/Documents/GitHub/PhyPraktikum/Versuch_EL1/Auswertung.pdf (15 pages, 275752 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21005 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 30226 words of extra memory for PDF output out of 35830 (max. 10000000)
 

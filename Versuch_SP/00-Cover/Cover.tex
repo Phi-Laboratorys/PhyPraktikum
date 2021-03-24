@@ -62,20 +62,10 @@
 			}
 		}
 	
-	\IfSubStr {\titel} {\\[0,5cm]} {\setboolean{twoRows}{true}} {\setboolean{twoRows}{false}}				
+	\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
+		{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+	\end{textblock*}
 
-	\ifthenelse{\boolean{twoRows}}
-		{
-			\begin{textblock*}{21cm}(0cm,8cm) % {block width} (coords), centered		
-				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
-			\end{textblock*}
-		}
-		{
-			\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
-				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
-			\end{textblock*} 
-		}		
-	
 	% Choose Logo
 	\ifthenelse {\equal{\farbe}{Notared}} {\def\logo{Bilder/Logo/UniBTNotared}}
 		{\ifthenelse {\equal{\farbe}{Notagreen}} {\def\logo{Bilder/Logo/UniBTNotagreen}}
