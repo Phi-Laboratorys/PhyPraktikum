@@ -1,12 +1,17 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Einleitung}{5}{}%
-\contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{6}{}%
-\contentsline {section}{\numberline {2.1}Teilaufgabe X}{6}{}%
-\contentsline {chapter}{\numberline {3}Messprotokoll}{7}{}%
-\contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{8}{}%
-\contentsline {section}{\numberline {4.1}Teilauswertung X}{8}{}%
-\contentsline {chapter}{\numberline {5}Fazit}{9}{}%
-\contentsline {chapter}{\numberline {A}Append A}{10}{}%
-\contentsline {section}{\numberline {A.1}Teilanhang X}{10}{}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{11}{}%
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\contentsline {chapter}{\numberline {1}Einleitung}{3}
+\contentsline {chapter}{\numberline {2}Fragen zur Vorbereitung}{4}
+\contentsline {section}{\numberline {2.1}Teilaufgabe X}{4}
+\contentsline {section}{\numberline {2.2}Beschriftung Oszilloskop und Kabelimpedanz}{4}
+\contentsline {section}{\numberline {2.3}Transistor - Funktionsweise und Aufbau}{4}
+\contentsline {section}{\numberline {2.4}Ein- und Ausgangskennlinien}{5}
+\contentsline {section}{\numberline {2.5}Emitter-, Basis- und Kollektorschaltung}{6}
+\contentsline {section}{\numberline {2.6}Abb. El1.2b}{7}
+\contentsline {section}{\numberline {2.7}Allgemeines}{7}
+\contentsline {chapter}{\numberline {3}Messprotokoll}{8}
+\contentsline {chapter}{\numberline {4}Auswertung und Diskussion}{9}
+\contentsline {section}{\numberline {4.1}Teilauswertung X}{9}
+\contentsline {chapter}{\numberline {5}Fazit}{10}
+\contentsline {chapter}{\numberline {A}Append A}{11}
+\contentsline {section}{\numberline {A.1}Teilanhang X}{11}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}
