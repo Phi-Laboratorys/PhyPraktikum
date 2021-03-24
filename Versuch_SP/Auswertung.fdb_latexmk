@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Auswertung"] 1616421547 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616490263
+["bibtex Auswertung"] 1616421547 "Auswertung.aux" "Auswertung.bbl" "Auswertung" 1616577043
   "Auswertung.aux" 1616490219 4937 cf3a5ab1a7d8a7c6e3237f4f8857543f "pdflatex"
   "Auswertung.bib" 1616054596 5939 cda1d6393c38559bdaf7a3c8dcc8cf4a ""
   "Auswertung.bst.bst" 0 -1 0 ""
   (generated)
-  "Auswertung.blg"
   "Auswertung.bbl"
-["pdflatex"] 1616490211 "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf" "Auswertung" 1616490263
+  "Auswertung.blg"
+["pdflatex"] 1616490211 "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf" "Auswertung" 1616577043
   "00-Cover/Cover.tex" 1616490210 4240 02d4d0b6c0a7b45a9d3e440f4736fa1a ""
   "01-Einleitung/Einleitung.tex" 1616490210 1534 2382b558bb803b4c243d1e93ec655910 ""
   "02-FragenZurVorbereitung/FragenZurVorbereitung.tex" 1616490210 582 7cc98aa102eb81f1293ad848231b544c ""
@@ -263,9 +263,9 @@
   "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.aux" 1616490219 4937 cf3a5ab1a7d8a7c6e3237f4f8857543f ""
   "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.tex" 1616490210 2990 0c7add9700658e08cea6739b097799fc ""
   (generated)
-  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.log"
+  "Auswertung.pdf"
+  "Auswertung.log"
   "Auswertung.aux"
   "Auswertung.toc"
-  "Auswertung.log"
-  "Auswertung.pdf"
   "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.pdf"
+  "d:/Git/PhyPraktikum-1/Versuch_SP/Auswertung.log"
