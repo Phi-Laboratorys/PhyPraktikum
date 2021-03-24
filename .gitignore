@@ -1,4 +1,3 @@
-
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -13,6 +12,7 @@
 *.cb2
 *.lb
 *.pdf
+.DS_Store
 
 ## Intermediate documents:
 *.dvi
