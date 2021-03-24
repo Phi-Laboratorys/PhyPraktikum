@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.3.19)  24 MAR 2021 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2021.3.19)  24 MAR 2021 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2521,7 +2521,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  64i,8n,66p,10434b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /Users/admin/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.pdf (12 pages, 254716 bytes).
+Output written on /Users/admin/Documents/GitHub/PhyPraktikum/Versuch_Titel/Auswertung.pdf (12 pages, 254730 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
