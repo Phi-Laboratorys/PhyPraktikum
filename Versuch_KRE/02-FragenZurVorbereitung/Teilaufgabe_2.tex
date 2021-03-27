@@ -3,7 +3,8 @@
 
 % Teilaufgabe 2
 
-\section{Trägheitstensor $\mathbf{J}$}
+\section{Trägheitstensor $\underline{J}$}
+\label{sec: Traegheitstensor}
 
 Der Drehimpuls eines Körpers der Masse m ausgehen vom Ursprung des Koordinatensystems mit Ortsvektor $\mathbf{r}$ und Geschwindigkeitvektor
 $\mathbf{v}$ ist angegeben durch die Gleichung
@@ -13,5 +14,30 @@ $\mathbf{v}$ ist angegeben durch die Gleichung
 Weiterhin gilt bei Rotation eines starren Körpers in einen beliebigen Koordinatensystems ein Zusammenhang zwischen Drehimpuls $\mathbf{L}$
 und Winkelgeschwindigkeit $\mathbf{w}$ der Form
 \begin{equation}
-    \mathbf{L}=\underline{J}\mathbf{w}
+    \mathbf{L}=\underline{J}\vect{\omega}
 \end{equation}
+Betrachtet man nun einen starren Körper aus N Massepunkten der Masse $m_i$ aus der Sicht des Schwerpunkts S (Ursprung des Koordinatensystems) 
+und interpretiert die Geschwindigkeit $\mathbf{v}$ als Kreuzprodukt des Ortsvektor $\mathbf{r}$ und der Winkelgeschwindigkeitsvektor $\vect{\omega}$ 
+wird Gleichung (2.3) zu
+\begin{gather}
+    \vect{L}=\sum_{i=1}^{N} m_i\vect{r_i}\times(\vect{\omega}\times\vect{r_i})
+\end{gather}
+Auflösen der beiden Kreuzprodukte mit Hilfe des Graußmann-Identität und Einsetzen der Vektoren $\vect{\omega}=(\omega_x,\omega_y, \omega_z)$
+und $\vect{r_i}=(x_i, y_i, z_i)$ 
+\begin{gather}
+    \begin{aligned}
+    \vect{L}&=\sum_{i=1}^{N} m_i (\vect{r_i}^2\vect{\omega}-(\vect{r_i\omega})\vect{r_i})\\
+            &=\sum_{i=1}^{N} m_i\left[(x_i^2+y_i^2+z_i^2)
+              \left(\begin{array}{c} \omega_x \\ \omega_y \\ \omega_z \end{array}\right)
+              - (x_i\omega_x+y_i\omega_y+z_i\omega_z)
+              \left(\begin{array}{c} x_i \\ y_1 \\ z_i \end{array}\right)\right]\\
+            &=\sum_{i=1}^{N} m_i
+              \left(\begin{array}{ccc} y_i^2+z_i^2 & -x_iy_i & -x_iz_i \\ -y_ix_i & x_i^2+z_i^2 & -y_iz_i \\ -z_ix_i & -z_iy_i & x_1^2+y_i^2 \end{array}\right) 
+              \left(\begin{array}{c} \omega_x \\ \omega_y \\ \omega_z \end{array}\right) \\
+            &=\underline{J}\vect{\omega}
+    \end{aligned} \\
+    \Rightarrow \underline{J} = \sum_{i=1}^{N} m_i
+                                \left(\begin{array}{ccc} y_i^2+z_i^2 & -x_iy_i & -x_iz_i \\ -y_ix_i & x_i^2+z_i^2 & -y_iz_i \\ -z_ix_i & -z_iy_i & x_1^2+y_i^2 \end{array}\right)
+\end{gather}
+
+Die Diagonalelemente von $J$ sind dabei die Trägheitsmomente des Körpers bei Drehungen um die Hauptachsen (siehe Kapitel \ref{sec: Traegheitsmoment}).
