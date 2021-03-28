@@ -5,16 +5,24 @@
 
 \chapter{Fragen zur Vorbereitung}
 \label{chap:fvz}
-
+%TODO #6 @ManeLippert
 \section{Eingangs- und Ausgangsimpedanz}
-Die Definition einer EIngangsimpedanz ist der Widerstand am Eingang eines Gerätes. Niedrige 
-Ausgangsimpedanzen ermöglichen lange Kabelwege ohne Klangbeeinträchtigung\\
+Die Definition einer EIngangsimpedanz ist der Widerstand am Eingang eines Gerätes. Niedrige Ausgangsimpedanzen ermöglichen lange Kabelwege ohne Beeinträchtigung\\
+Bei Frage 1 wird nach der Eingangs- und Ausgangsipedanz des komplexen Spannungsteiler in folgender Abb. gefragt. \\
+Zuerst wird der komplexe Widerstand von der Eingangsimpedanz berechnet. So gilt nach den Kirkoff'schen Regeln des Widerstandsnetzes:
+\begin{equation}
+    \frac{1}{R}=\frac{1}{\frac{1}{R_i}+\frac{1}{R_c+{\frac{1}{R_v}+\frac{1}{R_p}}}}
+\end{equation}
+Da der Innenwiderstand der Eingangs-Spannungsquelle vernachl\"assigt werden kann, nimmt man an, dass $R_i$ gegen unendlich geht.\\
+%könntet ihr hier bitte die Aufzeichnungen Nr.1 einfügen/reintexen 
+Diese L\"osungsformel beschreibt die Reihendarstellung von Kondensator und Widerstand. \\
+
+Nun wird die der komplexe Widerstand der Ausgangsimpedanz betrachtet. Man geht analog zu oben vor, jedoch beginnt man bei der Betrachtung der Widerstandsreihenfolge auf der rechten Seite des Schaltbildes. 
 
 \section{Beschriftung Oszilloskop und Kabelimpedanz}
 Kabelimpedanz (auch Leistungswellenwiderstand) ist einer von vielen Parametern bzw.
 Kenngrößen von längshomogenen Leitungen und steht synonym zum komplexen Widerstand.
 Der Strom, der n\"otig ist, um das Ende des Kabels bzw. Leitung auf der Spannung U zu halten h\"angt linear von U ab und gleicht daher echten Widerstand. Das ist also auch die charakteristische Impedanz einer Leitung, wenn man von eimen "50-$\Omega$-Kabel" spricht.\\
-
 Wenn am Eingang eines Oszilloskops "1 M$\Omega$, 20pF" vermerkt ist, bedeutet dies die Eingangsimpedanz. Die Eingangsimpedanz eines Oszilloskops sagt aus, wie gro\ss{} der komplexe Widerstand des Kanaleingangs ist, wird in Ohm und Fahrrad getrennt angegeben und erfolgt meist als Aufdruck neben der Kanaleingangsbuchse am Oszilloskop. \"Ubliche Werte f\"ur die Impedanz sind 1M$\Omega$ und 10 bis 25pF f\'ur die Parallelkapazit\'at. Die Angabe liegt also in der Norm von Oszillatoren. 
 
 \section{Transistor - Funktionsweise und Aufbau}
@@ -80,11 +88,14 @@ und das Ausgangssignal am Kollektor abgegriffen. Der Verstärkungsfaktor und der
 Ausgangswiderstand sind in dieser Schaltung hoch. Die Emitterschaltung besteht vor allem aus dem Kollektorwiderstand $R_C$, einem Transistor, der Eingangssignalquelle $U_e$ mit dem Basis-Vorwiderstand $R_V$ oder einem Spannungsteiler $(R_1 und R_2)$ unf der Betriebsspannung $U_B$. Ausgangspunkt f\"ur die Ausgangsspannung $U_a$ ist der Kollektoranschluss des Transistors. Gemeinsame Bezugspunkt von Eingangs- und Ausgangsspannung ist der Emitteranschluss. Daher auch der Name der Emitterschaltung. 
 \item Basisschaltung\\
 Durch $U_1<<U_2$ und $I_1>=I_2$ folgt eine schwache Stromverstärkung, aber eine hohe
-Spannungsverstärkung
+Spannungsverstärkung. Bei der Basisschaltung ist die Besonderheit, dass der Basisanschluss des Transistors durch einen Kondensator wechselstromm\"a\ss{}ig an Masse liegt. Die Stromverst\"arkung einer Basisschaltung ist immer kleiner als 1. Sie erreicht diesen Wert genau dann, wenn der Arbeitswiderstand gro\ss{} gegen den Lastwiderstand ist.  
+Die Anwendungsbereiche dieser Schaltung ist vorzugsweise bei Hochfrequenz-Verst\"arkern. Die kapazitative Belastung einer hochfrequenten Signalquelle ist sehr gering, wodurch der Verst\"arker eine gro\ss{}e Bandbreite besitzt. 
 \item Kollektorschaltung\\
+Diese Schaltung entspricht dem Schaltaufbau einer Emitterschaltung nur ohne Kollektorwiderstand. 
 $I_1<<I_2$ und $U_1>=U_2$ Daraus folgt dass der Eingangswiderstand hoch ist und der
 Ausgangswiderstand niedrig. Damit folgt eine hohe Stromverstärkung und eine niedrige
 Spannungsverstärkung.
+Dieses Schaltbild eignet sich hervorragend als Impedanzwandler bzw. Spannungsverst\"arker, wegen der hohen Eingangs- und niedrigen Ausgangsimpedanzen der Schaltung. 
 \end{enumerate}
 \section{Abb. El1.2b}
 
@@ -98,3 +109,9 @@ Es gibt zwei Verschiedene Arten von Transistoren. Zum einen den Feldeffekttransi
 Die Bezeichnung wird abgeleitet von transfer resistor, da bei Widerstandsänderung in Schicht A
 einer Halbleiterschicht auch der Widerstand in einer Schicht B beeinflusst wird.
 Bipolare Transistoren bestehen heutzutage üblicherweise aus Silizium. Der Grund weshalb heutzutage mehrSilizium-Transistoren als Germanium-Transistoren verwendet werden, ist zum Einen  die Beschaffenheit der Materialien. So Bricht Germanium bei einer Temperatur von 82 Grad und ist daher nicht sehr Hitzebest\"andig und Oxide vom Silizium sch\"utzen und isolieren das Bauteil. Zus\"atzlich ist Silizium als Elementarhalbleiter deutlich einfacher zu gewinnen und zu handhaben. 
+
+
+\section{Zitate}
+\begin{enumerate} 
+\item h
+\end{enumerate}

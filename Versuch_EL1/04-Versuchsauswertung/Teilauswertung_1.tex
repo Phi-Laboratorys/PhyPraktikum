@@ -1,0 +1,31 @@
+% Charlotte Geiger - Manuel Lippert - Leonard Schatt
+% Physikalisches Praktikum
+
+% Teilauswertung 1
+
+\section{Eingangskennlinie des Transistors}
+Bei der Auswertung der Eingangskennlinie des Transistors interessiert uns der Graph $I_B(U_{BE})$, welcher die Eingangskennlinie beschreiben soll. Bei der Messaufgabe 1 haben wir die Kennlinie folgender Schaltung gemessen:\\
+%bitte Bild 1 einf\"ugen
+Zu messen sind hierbei $I_B$ und $U_{BE}$ mit je einem DMM im Bereich $I_B=0,01...4mA$.
+F\"ur die Berechnungen sind zuerst die Fehler wichtig. Die Ablesefehler sind jeweils 0,5 Digits. Somit folgt die Rechnung:\\
+\begin{equation}
+s_{I_B}=\sqrt{s_r^2+0,005^2}
+\end{equation}
+Somit ergeben sich folgende Tabellen und Graphen:\\\\
+
+%bitte geplotteten Graphen und Tabelle (Aufgabe 6.1 Messwerte mit Fehlern) einf\"ugen
+
+Da die Funktion nach ihrer Schleusenspannung einen extremen Anstieg aufweist, sieht man sehr gut, dass folgende analytische Funktion die Form der gemessenen Graphen gut beschreibt: 
+\begin{equation}
+exp[\alpha(x-\beta)^2]-1
+\end{equation}\\
+Nun berechnen und bestimmen wir den Verlauf der differenziellen Eingangswiderst\"ande $r_{BE}$
+Der Differentielle Widerstand beschreibt ein Maß f\"ur die Strom\"anderung, wenn Spannung am Bauteil geringf\"ugig ge\"andert wird. Dieser kann durch die Ableitung der Kennlinie berechnet werden, oder man kann diesen funktionellen Zusammenhang auch aus den Differenzen benachbarter Messwertpaare $U_i, I_i$ und $U_{i+1},  I_{i+1}$ beschreiben, wobei $I=I_B$ und $U=U_{BE}$ gesetzt wird. 
+\begin{align}
+r=\frac{dU}{dI}\tab \Leftrightarrow \tab r=\frac{U_{i+1}-U_i}{I_{i+1}-I_i}
+\end{align}
+
+%bitte Tabelle (Aufgabe 6.1 Differentielle Widerstände)  mit Fehlern berechnen und Plot r_BE(I_B) einf\"ugen
+
+Die Erwartung hierbei ist, je gr\"o\ss{}er der Strom ist, desto geringer der Widerstand, da der Coulomb-Wall f\"ur kleinere Str\"ome nicht gut genug abgebaut wird und daher die Diffusion der Ladungstr\"ager nicht \"uberbr\"uckt werden und somit der Stromfluss nicht so gut ist.
+%TODO #9 @ManeLippert 
