@@ -50,8 +50,3 @@ ax.set_ylabel(r'$\omega_N$')
 ax.legend()
 plt.show()
 '''
-plt.hist(df['wN'])
-#plt.title(r'$\omega_*$-Histogramm')
-plt.ylabel('Anzahl Messwerte')
-plt.xlabel(r'$\omega_N$')
-plt.show()
