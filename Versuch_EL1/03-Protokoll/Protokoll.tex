@@ -10,16 +10,18 @@
 \label{chap:protokoll}
 
 Das Messprotokoll wurde am Versuchstag handschriftlich erstellt und hier als
-PDF-Datei eingefügt. Dabei wurden Durchführung und Aufbau schon vorher in dieses
-Dokument beschrieben, je nachdem.
+PDF-Datei eingefügt. Dabei wird die Dimensionierung (Datenblatt \footnote{\url{https://docs-emea.rs-online.com/webdocs/0109/0900766b80109ff9.pdf}}) und die gemessenen Widerstände nach dem eigentlichen Messprotokoll eingefügt.\\\\
+\textbf{Zusatz:}\\
+Da die Bilder der Steckbretter und des Oszilloskops im Protokoll schlecht zu erkennen sind, werden noch zusätzlich die Bilder und angefertigt Schaltpläne der Steckbretter noch angefügt.
 
 % Einbindung des Protokolls als pdf (mit Seitenzahl etc.)
 % Erste Seite mit Überschrift
-%\includepdf[pages = 1, landscape = false, nup = 1x1, scale = \skalierung , pagecommand={\thispagestyle{empty}\chapter{Protokoll}}]
+%\includepdf[pages = 1, landscape = false, nup = 1x1, scale = \skalierung , ]
 %            {03 Protokoll/Protokoll.pdf}
 % Restliche Seiten richtig skaliert
 \includepdf[pages = -, landscape = false, nup = 1x1, scale = \skalierung , pagecommand={}]
-            {03-Protokoll/Protokoll_EL1.pdf}
-
-%TODO #7 @ManeLippert 
-%TODO #10 @ManeLippert
+{03-Protokoll/Protokoll_EL1.pdf}
+\includepdf[pages = -, landscape = false, nup = 1x1, scale = 0.75 , pagecommand={\section*{Dimensionierung}}]           {03-Protokoll/Dimensionierung.pdf}
+\includepdf[pages = 1-2, landscape = false, nup = 1x1, scale = 0.75 , pagecommand={\section*{Zusatz}}]           {03-Protokoll/Bilder_EL1.pdf}
+\includepdf[pages = -, landscape = false, nup = 1x1, scale = 0.75 , pagecommand={}]
+{03-Protokoll/Steckbretter.pdf}
