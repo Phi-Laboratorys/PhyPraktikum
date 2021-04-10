@@ -4,28 +4,129 @@
 % Teilauswertung 1
 
 \section{Eingangskennlinie des Transistors}
-Bei der Auswertung der Eingangskennlinie des Transistors interessiert uns der Graph $I_B(U_{BE})$, welcher die Eingangskennlinie beschreiben soll. Bei der Messaufgabe 1 haben wir die Kennlinie folgender Schaltung gemessen:\\
-%bitte Bild 1 einf\"ugen
-Zu messen sind hierbei $I_B$ und $U_{BE}$ mit je einem DMM im Bereich $I_B=0,01...4mA$.
-F\"ur die Berechnungen sind zuerst die Fehler wichtig. Die Ablesefehler sind jeweils 0,5 Digits. Somit folgt die Rechnung:\\
+Bei der Auswertung der Eingangskennlinie des Transistors interessiert uns der Graph $I_B(U_{BE})$, welcher die Eingangskennlinie beschreiben soll. Bei der Messaufgabe 1 haben wir die Kennlinie folgender Schaltung gemessen:
+\begin{center}
+    \includegraphics[scale=0.5]{6_1-Schaltung.PNG}
+    \captionof{figure}{Beschreibung}
+\end{center}
+Zu messen sind hierbei $I_B$ und $U_{BE}$ mit je einem DMM im Bereich $I_B=0,01...4mA$. Für die Berechnungen sind zuerst die Fehler wichtig. Die Ablesefehler sind jeweils 0,5 Digits. Somit folgt die Rechnung:
 \begin{equation}
-s_{I_B}=\sqrt{s_r^2+0,005^2}
+    s_{I_B}=\sqrt{s_r^2+0,005^2}
 \end{equation}
-Somit ergeben sich folgende Tabellen und Graphen:\\\\
-
-%bitte geplotteten Graphen und Tabelle (Aufgabe 6.1 Messwerte mit Fehlern) einf\"ugen
-
+\newpage
+Somit ergeben sich folgende Tabellen und Graphen:
+\begin{center}
+    \captionof{table}{Messreihe mit Fehler}
+    \begin{tabular}{gcccc}
+        \rowcolor[rgb]{ .741,  .843,  .933}{} &     $I_B~/~\text{mA}$ &   $s_{I_B}~/~\text{mA}$ &     $U_{BE}~/~\text{V}$ &   $s_{U_{BE}}~/~\text{V}$ \\
+        1  &  0.01 &     0.03 &  0.559 &     0.007 \\
+        2  &  0.02 &     0.03 &  0.578 &     0.008 \\
+        3  &  0.03 &     0.03 &  0.587 &     0.008 \\
+        4  &  0.04 &     0.03 &  0.593 &     0.008 \\
+        5  &  0.05 &     0.03 &  0.600 &     0.008 \\
+        6  &  0.08 &     0.03 &  0.614 &     0.008 \\
+        7  &  0.10 &     0.03 &  0.620 &     0.008 \\
+        8  &  0.15 &     0.03 &  0.635 &     0.008 \\
+        9  &  0.20 &     0.03 &  0.644 &     0.008 \\
+        10 &  0.25 &     0.03 &  0.651 &     0.008 \\
+        11 &  0.30 &     0.03 &  0.657 &     0.008 \\
+        12 &  0.35 &     0.03 &  0.663 &     0.008 \\
+        13 &  0.40 &     0.04 &  0.667 &     0.008 \\
+        14 &  0.45 &     0.04 &  0.671 &     0.008 \\
+        15 &  0.50 &     0.04 &  0.675 &     0.008 \\
+        16 &  0.55 &     0.04 &  0.678 &     0.008 \\
+        17 &  0.60 &     0.04 &  0.682 &     0.008 \\
+        18 &  0.65 &     0.04 &  0.684 &     0.008 \\
+        19 &  0.70 &     0.04 &  0.687 &     0.008 \\
+        20 &  0.75 &     0.04 &  0.690 &     0.008 \\
+        21 &  0.80 &     0.04 &  0.692 &     0.008 \\
+        22 &  0.85 &     0.04 &  0.694 &     0.008 \\
+        23 &  0.90 &     0.04 &  0.696 &     0.008 \\
+        24 &  0.95 &     0.04 &  0.698 &     0.008 \\
+        25 &  1.00 &     0.04 &  0.700 &     0.008 \\
+        26 &  1.10 &     0.04 &  0.703 &     0.008 \\
+        27 &  1.20 &     0.04 &  0.706 &     0.008 \\
+        28 &  1.30 &     0.05 &  0.709 &     0.008 \\
+        29 &  1.40 &     0.05 &  0.711 &     0.008 \\
+        30 &  1.50 &     0.05 &  0.714 &     0.008 \\
+        31 &  1.60 &     0.05 &  0.716 &     0.008 \\
+        32 &  1.70 &     0.05 &  0.718 &     0.008 \\
+        33 &  1.80 &     0.05 &  0.720 &     0.008 \\
+        34 &  1.90 &     0.05 &  0.722 &     0.008 \\
+        35 &  2.00 &     0.05 &  0.724 &     0.008 \\
+        36 &  2.50 &     0.06 &  0.732 &     0.008 \\
+        37 &  3.00 &     0.07 &  0.738 &     0.009 \\
+        38 &  3.50 &     0.07 &  0.744 &     0.009 \\
+        39 &  4.00 &     0.08 &  0.749 &     0.009 \\
+    \end{tabular}
+\end{center}
+\begin{center}
+    \captionof{figure}{$I_B-U_{BE}$ Diagramm - Eingangskennlinie Transistor}
+    \includegraphics[scale=0.6]{6_1-Kennlinie.png}
+\end{center}
 Da die Funktion nach ihrer Schleusenspannung einen extremen Anstieg aufweist, sieht man sehr gut, dass folgende analytische Funktion die Form der gemessenen Graphen gut beschreibt: 
 \begin{equation}
-exp[\alpha(x-\beta)^2]-1
-\end{equation}\\
+    exp[\alpha(x-\beta)^2]-1
+\end{equation}
 Nun berechnen und bestimmen wir den Verlauf der differenziellen Eingangswiderst\"ande $r_{BE}$
-Der Differentielle Widerstand beschreibt ein Maß f\"ur die Strom\"anderung, wenn Spannung am Bauteil geringf\"ugig ge\"andert wird. Dieser kann durch die Ableitung der Kennlinie berechnet werden, oder man kann diesen funktionellen Zusammenhang auch aus den Differenzen benachbarter Messwertpaare $U_i, I_i$ und $U_{i+1},  I_{i+1}$ beschreiben, wobei $I=I_B$ und $U=U_{BE}$ gesetzt wird. 
+Der Differentielle Widerstand beschreibt ein Maß für die Stromänderung, wenn Spannung am Bauteil geringfügig geändert wird. Dieser kann durch die Ableitung der Kennlinie berechnet werden, oder man kann diesen funktionellen Zusammenhang auch aus den Differenzen benachbarter Messwertpaare $U_{BE}^i, I_B^i$ und $U_{BE}^{i+1},  I_B^{i+1}$ beschreiben.
 \begin{align}
-r=\frac{dU}{dI}\tab \Leftrightarrow \tab r=\frac{U_{i+1}-U_i}{I_{i+1}-I_i}
+    r_{BE}=\frac{dU_{BE}}{dI_B}\approx\frac{\Delta U_{BE}}{\Delta I_B}=\frac{U_{BE}^{i+1}-U_{BE}^i}{I_B^{i+1}-I_B^i}
 \end{align}
-
+Der Fehler wird mit dem Fehlerfortpflanzungsgesetz ermittelt und ist gegeben als
+\begin{gather}
+    s_{r_{BE}}=\sqrt{\left(\frac{1}{\Delta I_B}s_{\Delta U_{BE}}\right)^2+\left(\frac{\Delta U_{BE}}{\Delta I_B^2}s_{\Delta I_B}\right)^2}\\[0.3cm]
+    \text{mit}\tab s_{\Delta I_B}=\sqrt{s_{I^{i+1}_B}^2+s_{I^{i}_B}^2}\tab s_{\Delta U_{BE}}=\sqrt{s_{U^{i+1}_{BE}}^2+s_{U^{i}_{BE}}^2}
+\end{gather}
+Die Erwartung hierbei ist, je größer der Strom ist, desto geringer der Widerstand, da der Coulomb-Wall für kleinere Ströme nicht gut genug abgebaut wird und daher die Diffusion der Ladungsträger nicht überbrückt werden und somit der Stromfluss nicht so gut ist.
+\newpage
+\begin{center}
+    \captionof{figure}{$I_B-r_{BE}$ Diagramm - Differentielle Widerstand}
+    \includegraphics[scale=0.6]{6_1-Diff_Widerstand.png}
+\end{center}
+\newpage
+\begin{center}
+    \captionof{table}{Differentielle Widerstand}
+    \begin{tabular}{gcccc|ccc}
+        \rowcolor[rgb]{ .741,  .843,  .933}{}  &  $\Delta I_{B}~/~\text{mA}$ &   $s_{\Delta I_{B}}~/~\text{mA}$ & $\Delta U_{BE}~/~\text{V}$ &   $s_{\Delta U_{BE}}~/~\text{V}$ &     $r_{BE}~/~\text{k} \Omega$ &   $s_{r_{BE}}~/~\text{k} \Omega$ & $I_B~/~\text{mA}$ \\     
+        1  &     0.01 &     0.042426 &     0.019 &      0.010630 &  1.900000 &  8.130806 &  0.01 \\
+        2  &     0.01 &     0.042426 &     0.009 &      0.011314 &  0.900000 &  3.982462 &  0.02 \\
+        3  &     0.01 &     0.042426 &     0.006 &      0.011314 &  0.600000 &  2.785678 &  0.03 \\
+        4  &     0.01 &     0.042426 &     0.007 &      0.011314 &  0.700000 &  3.178050 &  0.04 \\
+        5  &     0.03 &     0.042426 &     0.014 &      0.011314 &  0.466667 &  0.760117 &  0.05 \\
+        6  &     0.02 &     0.042426 &     0.006 &      0.011314 &  0.300000 &  0.851469 &  0.08 \\
+        7  &     0.05 &     0.042426 &     0.015 &      0.011314 &  0.300000 &  0.340588 &  0.10 \\
+        8  &     0.05 &     0.042426 &     0.009 &      0.011314 &  0.180000 &  0.272998 &  0.15 \\
+        9  &     0.05 &     0.042426 &     0.007 &      0.011314 &  0.140000 &  0.255562 &  0.20 \\
+        10 &     0.05 &     0.042426 &     0.006 &      0.011314 &  0.120000 &  0.248129 &  0.25 \\
+        11 &     0.05 &     0.042426 &     0.006 &      0.011314 &  0.120000 &  0.248129 &  0.30 \\
+        12 &     0.05 &     0.050000 &     0.004 &      0.011314 &  0.080000 &  0.240000 &  0.35 \\
+        13 &     0.05 &     0.056569 &     0.004 &      0.011314 &  0.080000 &  0.243705 &  0.40 \\
+        14 &     0.05 &     0.056569 &     0.004 &      0.011314 &  0.080000 &  0.243705 &  0.45 \\
+        15 &     0.05 &     0.056569 &     0.003 &      0.011314 &  0.060000 &  0.236237 &  0.50 \\
+        16 &     0.05 &     0.056569 &     0.004 &      0.011314 &  0.080000 &  0.243705 &  0.55 \\
+        17 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.60 \\
+        18 &     0.05 &     0.056569 &     0.003 &      0.011314 &  0.060000 &  0.236237 &  0.65 \\
+        19 &     0.05 &     0.056569 &     0.003 &      0.011314 &  0.060000 &  0.236237 &  0.70 \\
+        20 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.75 \\
+        21 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.80 \\
+        22 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.85 \\
+        23 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.90 \\
+        24 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.95 \\
+        25 &     0.10 &     0.056569 &     0.003 &      0.011314 &  0.030000 &  0.114403 &  1.00 \\
+        26 &     0.10 &     0.056569 &     0.003 &      0.011314 &  0.030000 &  0.114403 &  1.10 \\
+        27 &     0.10 &     0.064031 &     0.003 &      0.011314 &  0.030000 &  0.114756 &  1.20 \\
+        28 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.30 \\
+        29 &     0.10 &     0.070711 &     0.003 &      0.011314 &  0.030000 &  0.115109 &  1.40 \\
+        30 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.50 \\
+        31 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.60 \\
+        32 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.70 \\
+        33 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.80 \\
+        34 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.90 \\
+        35 &     0.50 &     0.078102 &     0.008 &      0.011314 &  0.016000 &  0.022765 &  2.00 \\
+        36 &     0.50 &     0.092195 &     0.006 &      0.012042 &  0.012000 &  0.024185 &  2.50 \\
+        37 &     0.50 &     0.098995 &     0.006 &      0.012728 &  0.012000 &  0.025566 &  3.00 \\
+        38 &     0.50 &     0.106301 &     0.005 &      0.012728 &  0.010000 &  0.025544 &  3.50 \\
+    \end{tabular}
+\end{center}
 %bitte Tabelle (Aufgabe 6.1 Differentielle Widerstände)  mit Fehlern berechnen und Plot r_BE(I_B) einf\"ugen
-
-Die Erwartung hierbei ist, je gr\"o\ss{}er der Strom ist, desto geringer der Widerstand, da der Coulomb-Wall f\"ur kleinere Str\"ome nicht gut genug abgebaut wird und daher die Diffusion der Ladungstr\"ager nicht \"uberbr\"uckt werden und somit der Stromfluss nicht so gut ist.
-%TODO #9 @ManeLippert 
