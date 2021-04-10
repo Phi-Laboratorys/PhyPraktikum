@@ -1,0 +1,31 @@
+\subsection{Eingangswiderstand der Emitterschaltung} \label{Eingspa}
+
+Der Eingangswiderstand und sein Fehler lassen sich analog zu den Fragen zur Vorbereitung wieder berechnen durch:
+\begin{equation*}
+    r_e = [R_{1}^{-1}+R_{2}^{-1}+\frac{1}{r_{BE}+\beta R_E}]^{-1}
+\end{equation*}
+\begin{equation*}
+    s_{r_e} = | r_e |^2 \sqrt{(\frac{s_{R_1}}{R_1^2})^2+(\frac{s_{R_2}}{R_2^2})^2+(\frac{s_{r_{BE}}}{(r_{BE}+\beta R_E)^2} )^2} 
+\end{equation*}
+Der letzte Term in der Fehlerrechnung geht jedoch für $R_E$ gegen unendlich gegen Null.
+Das ergibt wie in Kapitel %@ManeLippert TODO 
+berechnet:
+
+\begin{equation*}
+    \textcolor{red}{r_e \approx	 (16.5 \pm 0.2)k\Omega}
+\end{equation*}
+Die Messung wird ähnlich wie in der vorherigen Aufgebe gemacht. Diesmal wird der Widerstand jedoch davor in Reihe geschaltet. Der Fehler wir wieder durch unseren geschätzten 
+Ablesefehler dominiert. Dieser liegt hier bei circa 20\%. Die anderen Fehler sind im Vergleich dazu vernachlässigbar.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c||c}
+        $r_{e_{gemessen}}$ in k$\Omega$ & $s_{r_{e_{gemessen}}}$ in k$\Omega$ & Ergebnis\\
+        \hline
+        20 & 4 & \textcolor{red}{(20$\pm $ 4)k$\Omega$}
+    \end{tabular}
+    \caption{Gemessener Eingangswiederstand}
+\end{table}
+
+Der gemessene und der theoretische Wert passen gut zusammen. Es fällt auf, dass der gemessene Wert deutlich 
+über dem errechneten liegt. Dies ist jedoch dadurch zu erklären, dass der Fehler der Messung sehr groß ist. 
+Der errechnete Wert liegt im Messfehler.

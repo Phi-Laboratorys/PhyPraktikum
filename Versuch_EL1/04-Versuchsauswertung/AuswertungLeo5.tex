@@ -1,0 +1,19 @@
+\subsection{Ausgangswiderstand der Emitterschaltung}
+
+Um den Ausgangswiderstand $r_a$ zu ermitteln schließen wir die Widerstandsdekade als Verbraucher an. Da wir $u_a$ kennen (Fall $R_V = \infty$ ) können wir 
+$r_a$ auf sehr leicht Art und Weise berechnen. Da wir aus dem Ohm’schen Gesetz wissen, dass bei $R_V = r_a$ die halbe Ausgangsspannung über die Widerstandsdekade 
+abfällt folgt, müssen wir nur die Widerstandsdekade so einstellen, dass $u_{R_V} = \frac{u_a}{2}$. Der Fehler setzt sich dabei aus dem Fehler von $R_C$ und dem Fehler der Widerstandsdekade
+und dem Ablesefehler zusammen. Der Ablesefehler dominiert hier alle anderen, da es sehr schwer abzulesen war, wann die Spannung genau gleichgroß war. Wir schätzen ihn auf circa 10\%. 
+\begin{table}[h!]
+    \centering
+    \begin{tabular}[h]{c|c||c}
+        $r_{a_{gemessen}}$ in $\Omega $ & $s_{r_{a{gemessen}}}$ in $\Omega $ & $r_{a_{gemessen}}$ in k$\Omega$\\
+       \hline
+      
+        2500 & 252.3 & \textcolor{red}{2.5$\pm $ 0.3}\\
+    \end{tabular}
+    \caption{Ausgangswiderstand der Emitterschaltung}
+\end{table}
+Der gemessene Wert liegt deutlich unter dem errechneten Wert. Dies liegt aber vermutlich 
+nur an dem großen Fehler, welcher durch das ungenaue Ablesen entsteht. Der errechnete Wert 
+liegt noch in dem Fehlerintervall des gemessenen Wertes.
