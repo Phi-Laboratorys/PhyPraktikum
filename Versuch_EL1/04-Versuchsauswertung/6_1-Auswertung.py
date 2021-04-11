@@ -43,11 +43,13 @@ i = 1
 rBE, s_rBE = [], []
 di, s_di = [], []
 du, s_du = [], []
+mean_i = []
 
 while i < len(x):
     rBE.append((y[i+1]-y[i])/(x[i+1]-x[i]))
     di.append(x[i+1]-x[i])
     du.append(y[i+1]-y[i])
+    mean_i.append((x[i+1]+x[i])/2)
     s_di.append(np.sqrt(x_err[i+1]**2+x_err[i]**2))
     s_du.append(np.sqrt(y_err[i+1]**2+y_err[i]**2))
     i += 1   
@@ -59,13 +61,18 @@ df2['s_(d_(U_BE))'] = s_du
 df2['r_BE'] = rBE
 df2['s_(r_BE)'] = np.sqrt((df2['s_(d_(U_BE))']/df2['d_(I_B)'])**2 + 
                           ((df2['d_(U_BE)']/df2['d_(I_B)'])*(df2['s_(d_(I_B))']/df2['d_(I_B)']))**2)
+df2['m_(I_B)'] = mean_i
 
 df2.index = np.arange(1, len(df2)+1)
 df1 = df1.drop([39]) 
 df2['I_B'] = df1['I_B']
+df2 = df2.round({'s_(d_(I_B))':2, 's_(d_(U_BE))':3, 'r_BE':3, 's_(r_BE)':2})
+print(df2)
 
+'''
 # Plot Data2
-x, x_err = df1['I_B'], df1['s_(I_B)']
+# x, x_err = df1['I_B'], df1['s_(I_B)']
+x, x_err = df2['m_(I_B)'], df2['s_(d_(I_B))']
 y, y_err = df2['r_BE'], df2['s_(r_BE)']
 
 # Excluding oversized Data
@@ -89,5 +96,7 @@ ax.plot(x_line, y_line, color='r',
 #ax.set_title(r'$$-$\omega_*$-Diagramm')
 ax.set_xlabel(r'$I_B$ in mA')
 ax.set_ylabel(r'$r_{BE}$ in k$\Omega$')
+ax.set_ylim(-0.2,2)
 ax.legend()
 plt.show()
+'''

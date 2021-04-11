@@ -9,7 +9,7 @@ Bei der Auswertung der Eingangskennlinie des Transistors interessiert uns der Gr
     \includegraphics[scale=0.5]{6_1-Schaltung.PNG}
     \captionof{figure}{Beschreibung}
 \end{center}
-Zu messen sind hierbei $I_B$ und $U_{BE}$ mit je einem DMM im Bereich $I_B=0,01...4mA$. Für die Berechnungen sind zuerst die Fehler wichtig. Die Ablesefehler sind jeweils 0,5 Digits. Somit folgt die Rechnung:
+Zu messen sind hierbei $I_B$ und $U_{BE}$ mit je einem DMM im Bereich $I_B=0,01 bis 4 \text{mA}$. Für die Berechnungen sind zuerst die Fehler wichtig. Die Ablesefehler sind jeweils 0,5 Digits. Somit folgt die Rechnung:
 \begin{equation}
     s_{I_B}=\sqrt{s_r^2+0,005^2}
 \end{equation}
@@ -18,7 +18,7 @@ Somit ergeben sich folgende Tabellen und Graphen:
 \begin{center}
     \captionof{table}{Messreihe mit Fehler}
     \begin{tabular}{gcccc}
-        \rowcolor[rgb]{ .741,  .843,  .933}{} &     $I_B~/~\text{mA}$ &   $s_{I_B}~/~\text{mA}$ &     $U_{BE}~/~\text{V}$ &   $s_{U_{BE}}~/~\text{V}$ \\
+        \rowcolor[rgb]{ .741,  .843,  .933}{} &     $I_B/\text{mA}$ &   $s_{I_B}/\text{mA}$ &     $U_{BE}/\text{V}$ &   $s_{U_{BE}}/\text{V}$ \\
         1  &  0.01 &     0.03 &  0.559 &     0.007 \\
         2  &  0.02 &     0.03 &  0.578 &     0.008 \\
         3  &  0.03 &     0.03 &  0.587 &     0.008 \\
@@ -78,55 +78,56 @@ Der Fehler wird mit dem Fehlerfortpflanzungsgesetz ermittelt und ist gegeben als
     s_{r_{BE}}=\sqrt{\left(\frac{1}{\Delta I_B}s_{\Delta U_{BE}}\right)^2+\left(\frac{\Delta U_{BE}}{\Delta I_B^2}s_{\Delta I_B}\right)^2}\\[0.3cm]
     \text{mit}\tab s_{\Delta I_B}=\sqrt{s_{I^{i+1}_B}^2+s_{I^{i}_B}^2}\tab s_{\Delta U_{BE}}=\sqrt{s_{U^{i+1}_{BE}}^2+s_{U^{i}_{BE}}^2}
 \end{gather}
-Die Erwartung hierbei ist, je größer der Strom ist, desto geringer der Widerstand, da der Coulomb-Wall für kleinere Ströme nicht gut genug abgebaut wird und daher die Diffusion der Ladungsträger nicht überbrückt werden und somit der Stromfluss nicht so gut ist.
+Die Erwartung hierbei ist, je größer der Strom ist, desto geringer der Widerstand, da der Coulomb-Wall für kleinere Ströme nicht gut genug abgebaut wird und daher die Diffusion der Ladungsträger nicht überbrückt werden und somit der Stromfluss nicht so gut ist. \\
+\\ Bei der Berechnung ist auffällig, dass der Fehler $s_{r_{BR}}$ sehr groß ist für niedrige Basisstromänderungen $\Delta I_B$ und kontinuierlich abnimmt, wenn sie $\Delta I_B$ zunimmt. Das ist offensichtlich da $\Delta I_B$ in 4. Potenz im Fehler $s_{r_{BR}}$ eingeht. Zur Übersicht wurden darauf verzichtet die ersten vier berechneten werte von $s_{r_{BR}}$ in den Plot einzufügen. Weiterhin wird $r_{BE}$ gegen $I_B$ aufgetragen, da aber $r_{BE}$ durch die Berechnung nur 38 Werte besitzt, muss $I_B$ mit 39 Messwerte ein Datenpunkt entfernt werden. Durch die Konstruktion der Werte für $r_{BE}$ wird hier die $I^i_B$ Stützstellen verwendet. 
+\newpage
+\begin{center}
+    \captionof{table}{Differentielle Widerstand}
+    \begin{tabular}{gcccc|ccc}
+        \rowcolor[rgb]{ .741,  .843,  .933}{}  &  $\Delta I_{B}/\text{mA}$ &   $s_{\Delta I_{B}}/\text{mA}$ & $\Delta U_{BE}/\text{V}$ &   $s_{\Delta U_{BE}}/\text{V}$ &     $r_{BE}/\text{k} \Omega$ &   $s_{r_{BE}}/\text{k} \Omega$ & $I_B/\text{mA}$ \\     
+        1  &     0.01 &         0.04 &     0.019 &         0.011 &  1.900 &      8.13 &  0.01 \\      
+        2  &     0.01 &         0.04 &     0.009 &         0.011 &  0.900 &      3.98 &  0.02 \\      
+        3  &     0.01 &         0.04 &     0.006 &         0.011 &  0.600 &      2.79 &  0.03 \\      
+        4  &     0.01 &         0.04 &     0.007 &         0.011 &  0.700 &      3.18 &  0.04 \\      
+        5  &     0.03 &         0.04 &     0.014 &         0.011 &  0.467 &      0.76 &  0.05 \\      
+        6  &     0.02 &         0.04 &     0.006 &         0.011 &  0.300 &      0.85 &  0.08 \\      
+        7  &     0.05 &         0.04 &     0.015 &         0.011 &  0.300 &      0.34 &  0.10 \\      
+        8  &     0.05 &         0.04 &     0.009 &         0.011 &  0.180 &      0.27 &  0.15 \\      
+        9  &     0.05 &         0.04 &     0.007 &         0.011 &  0.140 &      0.26 &  0.20 \\      
+        10 &     0.05 &         0.04 &     0.006 &         0.011 &  0.120 &      0.25 &  0.25 \\      
+        11 &     0.05 &         0.04 &     0.006 &         0.011 &  0.120 &      0.25 &  0.30 \\      
+        12 &     0.05 &         0.05 &     0.004 &         0.011 &  0.080 &      0.24 &  0.35 \\      
+        13 &     0.05 &         0.06 &     0.004 &         0.011 &  0.080 &      0.24 &  0.40 \\      
+        14 &     0.05 &         0.06 &     0.004 &         0.011 &  0.080 &      0.24 &  0.45 \\      
+        15 &     0.05 &         0.06 &     0.003 &         0.011 &  0.060 &      0.24 &  0.50 \\      
+        16 &     0.05 &         0.06 &     0.004 &         0.011 &  0.080 &      0.24 &  0.55 \\      
+        17 &     0.05 &         0.06 &     0.002 &         0.011 &  0.040 &      0.23 &  0.60 \\      
+        18 &     0.05 &         0.06 &     0.003 &         0.011 &  0.060 &      0.24 &  0.65 \\      
+        19 &     0.05 &         0.06 &     0.003 &         0.011 &  0.060 &      0.24 &  0.70 \\      
+        20 &     0.05 &         0.06 &     0.002 &         0.011 &  0.040 &      0.23 &  0.75 \\      
+        21 &     0.05 &         0.06 &     0.002 &         0.011 &  0.040 &      0.23 &  0.80 \\      
+        22 &     0.05 &         0.06 &     0.002 &         0.011 &  0.040 &      0.23 &  0.85 \\      
+        23 &     0.05 &         0.06 &     0.002 &         0.011 &  0.040 &      0.23 &  0.90 \\      
+        24 &     0.05 &         0.06 &     0.002 &         0.011 &  0.040 &      0.23 &  0.95 \\      
+        25 &     0.10 &         0.06 &     0.003 &         0.011 &  0.030 &      0.11 &  1.00 \\      
+        26 &     0.10 &         0.06 &     0.003 &         0.011 &  0.030 &      0.11 &  1.10 \\      
+        27 &     0.10 &         0.06 &     0.003 &         0.011 &  0.030 &      0.11 &  1.20 \\      
+        28 &     0.10 &         0.07 &     0.002 &         0.011 &  0.020 &      0.11 &  1.30 \\      
+        29 &     0.10 &         0.07 &     0.003 &         0.011 &  0.030 &      0.12 &  1.40 \\      
+        30 &     0.10 &         0.07 &     0.002 &         0.011 &  0.020 &      0.11 &  1.50 \\      
+        31 &     0.10 &         0.07 &     0.002 &         0.011 &  0.020 &      0.11 &  1.60 \\      
+        32 &     0.10 &         0.07 &     0.002 &         0.011 &  0.020 &      0.11 &  1.70 \\      
+        33 &     0.10 &         0.07 &     0.002 &         0.011 &  0.020 &      0.11 &  1.80 \\      
+        34 &     0.10 &         0.07 &     0.002 &         0.011 &  0.020 &      0.11 &  1.90 \\      
+        35 &     0.50 &         0.08 &     0.008 &         0.011 &  0.016 &      0.02 &  2.00 \\      
+        36 &     0.50 &         0.09 &     0.006 &         0.012 &  0.012 &      0.02 &  2.50 \\      
+        37 &     0.50 &         0.10 &     0.006 &         0.013 &  0.012 &      0.03 &  3.00 \\      
+        38 &     0.50 &         0.11 &     0.005 &         0.013 &  0.010 &      0.03 &  3.50 \\
+    \end{tabular}
+\end{center}
 \newpage
 \begin{center}
     \captionof{figure}{$I_B-r_{BE}$ Diagramm - Differentielle Widerstand}
     \includegraphics[scale=0.6]{6_1-Diff_Widerstand.png}
 \end{center}
 \newpage
-\begin{center}
-    \captionof{table}{Differentielle Widerstand}
-    \begin{tabular}{gcccc|ccc}
-        \rowcolor[rgb]{ .741,  .843,  .933}{}  &  $\Delta I_{B}~/~\text{mA}$ &   $s_{\Delta I_{B}}~/~\text{mA}$ & $\Delta U_{BE}~/~\text{V}$ &   $s_{\Delta U_{BE}}~/~\text{V}$ &     $r_{BE}~/~\text{k} \Omega$ &   $s_{r_{BE}}~/~\text{k} \Omega$ & $I_B~/~\text{mA}$ \\     
-        1  &     0.01 &     0.042426 &     0.019 &      0.010630 &  1.900000 &  8.130806 &  0.01 \\
-        2  &     0.01 &     0.042426 &     0.009 &      0.011314 &  0.900000 &  3.982462 &  0.02 \\
-        3  &     0.01 &     0.042426 &     0.006 &      0.011314 &  0.600000 &  2.785678 &  0.03 \\
-        4  &     0.01 &     0.042426 &     0.007 &      0.011314 &  0.700000 &  3.178050 &  0.04 \\
-        5  &     0.03 &     0.042426 &     0.014 &      0.011314 &  0.466667 &  0.760117 &  0.05 \\
-        6  &     0.02 &     0.042426 &     0.006 &      0.011314 &  0.300000 &  0.851469 &  0.08 \\
-        7  &     0.05 &     0.042426 &     0.015 &      0.011314 &  0.300000 &  0.340588 &  0.10 \\
-        8  &     0.05 &     0.042426 &     0.009 &      0.011314 &  0.180000 &  0.272998 &  0.15 \\
-        9  &     0.05 &     0.042426 &     0.007 &      0.011314 &  0.140000 &  0.255562 &  0.20 \\
-        10 &     0.05 &     0.042426 &     0.006 &      0.011314 &  0.120000 &  0.248129 &  0.25 \\
-        11 &     0.05 &     0.042426 &     0.006 &      0.011314 &  0.120000 &  0.248129 &  0.30 \\
-        12 &     0.05 &     0.050000 &     0.004 &      0.011314 &  0.080000 &  0.240000 &  0.35 \\
-        13 &     0.05 &     0.056569 &     0.004 &      0.011314 &  0.080000 &  0.243705 &  0.40 \\
-        14 &     0.05 &     0.056569 &     0.004 &      0.011314 &  0.080000 &  0.243705 &  0.45 \\
-        15 &     0.05 &     0.056569 &     0.003 &      0.011314 &  0.060000 &  0.236237 &  0.50 \\
-        16 &     0.05 &     0.056569 &     0.004 &      0.011314 &  0.080000 &  0.243705 &  0.55 \\
-        17 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.60 \\
-        18 &     0.05 &     0.056569 &     0.003 &      0.011314 &  0.060000 &  0.236237 &  0.65 \\
-        19 &     0.05 &     0.056569 &     0.003 &      0.011314 &  0.060000 &  0.236237 &  0.70 \\
-        20 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.75 \\
-        21 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.80 \\
-        22 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.85 \\
-        23 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.90 \\
-        24 &     0.05 &     0.056569 &     0.002 &      0.011314 &  0.040000 &  0.230755 &  0.95 \\
-        25 &     0.10 &     0.056569 &     0.003 &      0.011314 &  0.030000 &  0.114403 &  1.00 \\
-        26 &     0.10 &     0.056569 &     0.003 &      0.011314 &  0.030000 &  0.114403 &  1.10 \\
-        27 &     0.10 &     0.064031 &     0.003 &      0.011314 &  0.030000 &  0.114756 &  1.20 \\
-        28 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.30 \\
-        29 &     0.10 &     0.070711 &     0.003 &      0.011314 &  0.030000 &  0.115109 &  1.40 \\
-        30 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.50 \\
-        31 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.60 \\
-        32 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.70 \\
-        33 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.80 \\
-        34 &     0.10 &     0.070711 &     0.002 &      0.011314 &  0.020000 &  0.114018 &  1.90 \\
-        35 &     0.50 &     0.078102 &     0.008 &      0.011314 &  0.016000 &  0.022765 &  2.00 \\
-        36 &     0.50 &     0.092195 &     0.006 &      0.012042 &  0.012000 &  0.024185 &  2.50 \\
-        37 &     0.50 &     0.098995 &     0.006 &      0.012728 &  0.012000 &  0.025566 &  3.00 \\
-        38 &     0.50 &     0.106301 &     0.005 &      0.012728 &  0.010000 &  0.025544 &  3.50 \\
-    \end{tabular}
-\end{center}
-%bitte Tabelle (Aufgabe 6.1 Differentielle Widerstände)  mit Fehlern berechnen und Plot r_BE(I_B) einf\"ugen
