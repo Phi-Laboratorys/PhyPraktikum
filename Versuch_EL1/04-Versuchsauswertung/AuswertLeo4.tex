@@ -5,7 +5,7 @@ die Aufgabe vermutlich anders gemeint war. Scheinbar sollte man einen größeren
 abgelehnt wurden, werten wir die vorhandenen Daten bestmöglich aus.\\
 Uns ist jedoch bewusst, dass diese Auswertung höchstenfalls ein unvollständiges Bild geben kann. Die Fehler $s_{u_a}$
 nehmen wir wie im Protokoll vermerkt 3\% des gemessen Wertes für das Oszilloskop an und der Ablesefehler beträgt 0.1 Unterteilungen. Für $s_{u_e}$ nehmen wir den Fehler des Frequenzgenerator an.
-\newpage
+
 
 
 \begin{table}[h]
@@ -31,3 +31,17 @@ nehmen wir wie im Protokoll vermerkt 3\% des gemessen Wertes für das Oszillosko
        %Nicht in der Literatur  & 8730 & asdf \\
     \end{tabular}
 \end{table}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \linewidth]{Bilder/6_4Wechselstromverstärkung1.png}
+    \caption{Lineare Regression durch alle Datenpunkte}
+\end{figure}
+Wenn man durch alle Datenpunkte eine lineare Regression bildet, erkennt man, dass dies keine gute Theorie zu dem Messwerten ist.
+Auffällig ist jedoch, dass die Datenpunkt bei $u_e$ größer 10mV einen sehr schönen lineraren Zusammenhang haben. 
+Es wäre unserer Meinung nach möglich, dass zumindest für niedrige Werte von $u_e$ ein linearer Zusammenhang besteht. 
+Das Abweichen der Messpunkte unter 10 mV könnte an bisher nicht betrachteten Fehlerursachen liegen, welche nur bei niedrigen Eingangsapnnungnen auftreten.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \linewidth]{Bilder/6_4Wechselstromverstärkung2.png}
+    \caption{Lineare Regression durch Datenpunkte im Bereich 10mV bis 20mV}
+\end{figure}
