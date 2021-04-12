@@ -21,12 +21,12 @@ Wobei die Datenpunkte für $P_{\text{v,max}}$-Kurve so berechnet wurden, dass f�
         $I_C/\text{mA}$  & 167 & 150 & 136 & 125 & 115 & 107 & 100 & 94 & 88 & 83 & 79 & 75 \\
     \end{tabular}
 \end{center}
-Hierbei kann man gut erkennen, ....\\
-Zudem sollen wir den differentiellen Transistor-Ausgangswiderstand berechnet werden.
+Bei Interpretation der Graphik im Ausschnitt des Oszilloskops fallen verschiedene Punkte auf. Das zentralste Augenmerk der Grafik ist die \"ahnliche x-Koordinate des "Knicks", die bei allen ungef\"ahr bei 3,5 Volt liegt. Zus\"atzlich bemerkt man, dass alle Kennlinien ab da recht linear sind, jedoch bei steigendem Basisstrom mit gr\"o\ss{}erer Steigung.
+Zudem sollen wir den differentiellen Transistor-Ausgangswiderstand mit zunehmendem Basisstrom betrachtet werden.
 \begin{equation}
 r_{CE}=\frac{\partial{U_{CE}}}{\partial{I_C}}\Bigg|_{I_B=const}
 \end{equation}
-berechnen. \\
+Bei Betrachtung der Werte wird auff\"allig, dass bei konstantem $I_C$ und bei steigendem $I_B$ der Wert von $r_{CE}$ f\"allt. Daher wird deutlich, dass die Beziehung $r_{CE}\sim \frac{1}{I_B}$ gilt.\\\\
 Zuletzt sollen wir noch die DC-Verst\"arkung $B=\frac{I_C}{I_B}$ berechnen. Dafür lesen wir $I_C$ für eine feste Spannung $U_{CE}=0.6~\text{V}$ aus den Bilder des Oszilloskops. Dabei wird $U_{CE}$ so gewählt, dass $I_C$ im linearen Bereich der Ausgangskennlinie beim Arbeitspunkt abgelesen wird. Weiterhin nehmen wir einen großzügigen Fehler für $I_C$ von $s_{I_C}=2.5~\text{mA}$ an, also ein halbes Kästchen auf dem Oszilloskop.  Daraus folgt:
 \begin{align}
     s_B=\frac{s_{I_C}}{I_B}
@@ -50,4 +50,4 @@ Der Fehler des Basisstroms $s_{I_B}$ wird vernachlässigt, da dieser klein gegen
     \captionof{figure}{$I_B-B$ Diagramm}
     \includegraphics[scale=0.6]{6_2-Verstaerkung.png}
 \end{center}
-Aus dieser Abbildung erkennt man einen leicht...Das kann man dadurch erkl\"aren, dass...\\
+Aus dieser Abbildung kann man einen Graph erahnen, der zuerst ansteigt, jedoch dann immer schw\"acher abf\"allt. Dieses Ph\"anomen best\"atigt die Theorie, dass wie auch beim Ausgangswiderstand auch die Verst\"arkung mit zunehmendem Basisstrom abf\"allt. \\

@@ -1,10 +1,19 @@
 % Charlotte Geiger - Manuel Lippert - Leonard Schatt
 % Physikalisches Praktikum
 
-% Teilauswertung X
-
+% Teilauswertung 3
+\newpage
 \section{Emitterschaltung: Arbeitspunktstabilisierung und Signalverstärkung}
-
+\subsection{Wechselspannungsverstärkung}
+\begin{center}
+    \includegraphics[scale=0.2]{6_3-Emmitterschaltung.jpg}
+\end{center}
+Betrachtet man die verwendete Schaltung des Versuchs lässt sich folgender Zusammenhang herleiten:
+\begin{gather}
+    u_e = i_B(R_*+r_{BE})\xrightarrow{R_*\rightarrow~0} i_B r_{BE} \tab R_*=\frac{1}{\frac{1}{R_E}+\frac{1}{R_E' +\frac{1}{i\omega C_e}}} \xrightarrow{R_E,R_E'~\rightarrow~0} 0\\
+    u_a = -i_CR_C\tab\text{(Gleichstromanteil = 0)}\\
+    \Rightarrow v=\frac{u_a}{u_e}\xrightarrow{R_E,R_E'~\rightarrow~0}-\frac{i_C R_C}{i_B r_{BE}}=-\beta\frac{R_C}{r_{BE}}
+\end{gather}
 
 \input{04-Versuchsauswertung/AuswertLeo4.tex}
 \input{04-Versuchsauswertung/AuswertungLeo5.tex}

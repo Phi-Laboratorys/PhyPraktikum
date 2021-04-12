@@ -87,8 +87,7 @@ und den Arbeits-bzw. Laststromkreis.
 \end{enumerate}
 \section{Ein- und Ausgangskennlinien}
 Der Zusammenhang zwischen relevanten Werten des Transistors wird in Kennlinienfeldern dargestellt. 
-Kennlinienfelder sind Diagramme, in denen der Kollektorstrom als Funktion der Kollektorspannung aufgetragen wird. Da der Zusammenhang abhängig ist von der Basis-Stromstärke
-gibt es mehrere Kennlinien in dem Kennlinienfeld. Bei bipolaren Transistoren, die als Schalter oder Verstärker genutzt werden, reichen 4 Kennlinienfelder aus, der Zusammenhang aller relevanter Werte wird in einem Vierquadrantenkennlinienfeld dargestellt. \\
+Kennlinienfelder sind Diagramme, in denen der Kollektorstrom als Funktion der Kollektorspannung aufgetragen wird, da der Zusammenhang abhängig von der Basis-Stromstärke ist, gibt es mehrere Kennlinien in dem Kennlinienfeld. Bei bipolaren Transistoren, die als Schalter oder Verst\"arker genutzt werden, reichen 4 Kennlinienfelder aus, der Zusammenhang aller relevanter Werte wird dann in einem sogenannten Vierquadrantenkennlinienfeld dargestellt. \\
 \begin{enumerate} 
 \item Eingangskennlinien(-feld)\\
 Als Eingangskennlinie wird die Funktion $I_B(U_{BE})$ benannt und ist von der Temperatur abhängig. Je höher die Temperatur, desto  größer die Eigenleitfähigkeit des Halbleiterkristalls. Dann leitet die Basis-Emitterstrecke schon bei kleineren Steuerspannungen und bewirkt einen höheren Basisstrom. \\
@@ -123,18 +122,42 @@ Ausgangswiderstand niedrig. Damit folgt eine hohe Stromverstärkung und eine nie
 Spannungsverstärkung.
 Dieses Schaltbild eignet sich hervorragend als Impedanzwandler bzw. Spannungsverstärker, wegen der hohen Eingangs- und niedrigen Ausgangsimpedanzen der Schaltung. 
 \end{enumerate}
-\section{Abb. El1.2b}
+\section{Emitterschaltung}
 \begin{center}
     \includegraphics[scale=0.5]{Emmitterschaltung.PNG}
     \captionof{figure}{Emitterschaltung mit Stromgegenpolung}
 \end{center}
+Es soll die Gleichung (6) aus dem Skript hergelitten werden.
+\begin{align}
+    v=\frac{u_a}{u_e}= -\frac{R_C}{(\frac{r_{BE}}{ \beta }+R_E)} \approx -\frac{R_C}{R_E}
+\end{align}
+Wobei $v=\frac{u_a}{u_e}$ der Spannungsverst\"arker ist.\\
+Bereits bekannt ist 
+$u_a= -i_CR_C$ und $u_e=i_Br_{BE}$. Mit Einf\"ugen des Widerstandes $R_E$ wird $u_e$ zu $u_e=i_Br_{BE}+i_ER_E$
+Somit ergibt sich folgendes:
+\begin{align}
+    v=\frac{-i_CR_C}{i_Br_{BE}+i_CR_E}
+\end{align}
+Mit dem Umstellen der differentiellen Stromverst\"arkung  $\beta = \frac{i_C}{i_B}$ bekommt man den Ausdruck:
+\begin{align}
+    v=-\frac{i_CR_C}{i_Cr_{BE}+i_ER_E}
+\end{align}
+Mit dem Zusammenhang $i_C\sim i_E$ und nach k\"urzen von $i_C$ bekommt man die Gleichung (6):
+\begin{align}
+    v=-\frac{R_C}{\frac{r_{BE}}{\beta}+R_E}
+\end{align}
+Mit der Annahme, dass $R_E$ deutlich gr\"o\ss{}er als $r_{BE}$ ist, erkennt man, dass
+\begin{align}
+    v=\frac{u_a}{u_e} \approx -\frac{R_C}{R_E} \tab \Rightarrow \tab r_e=r_{BE}= \beta R_E~\text{und}~r_a\approx R_C
+\end{align}
+
 \section{Allgemeines}
 Die Erfindung des Transistors revolutionierte die Menschheit so wie kaum eine andere
 Erfindung.
 Erfunden wurde der Transistor von Julius Edgar Lilienfeld 1925, der in seiner Arbeit ein
 elektronisches Bauelement beschreibt, das Elektronenröhreneigenschaften aufweist.
 Es gibt zwei Verschiedene Arten von Transistoren. Zum einen den Feldeffekttransistor (FET)
-(unipolare Transistoren) oder einen Bipolartransistor (BJT)
-Die Bezeichnung wird abgeleitet von transfer resistor, da bei Widerstandsänderung in Schicht A
+(unipolare Transistoren) oder den Bipolartransistor (BJT)
+Die Bezeichnung Transistor wird abgeleitet von transfer resistor, da bei Widerstandsänderung in Schicht A
 einer Halbleiterschicht auch der Widerstand in einer Schicht B beeinflusst wird.
-Bipolare Transistoren bestehen heutzutage üblicherweise aus Silizium. Der Grund weshalb heutzutage mehrSilizium-Transistoren als Germanium-Transistoren verwendet werden, ist zum Einen  die Beschaffenheit der Materialien. So Bricht Germanium bei einer Temperatur von 82 Grad und ist daher nicht sehr Hitzebeständig und Oxide vom Silizium schützen und isolieren das Bauteil. Zusätzlich ist Silizium als Elementarhalbleiter deutlich einfacher zu gewinnen und zu handhaben.
+Bipolare Transistoren bestehen heutzutage üblicherweise aus Silizium. Der Grund weshalb heutzutage mehr Silizium-Transistoren als Germanium-Transistoren verwendet werden, ist zum Einen die unterschiedliche Beschaffenheit der Materialien. So bricht Germanium bei einer Temperatur von 82 Grad und ist daher nicht sehr Hitzebest\"andig und bei Silizium ist dies nicht der Fall und zus\"atzlich sch\"utzen Oxide das Silizium und isolieren das Bauteil. Auch ist Silizium als Elementarhalbleiter deutlich einfacher zu gewinnen und zu handhaben. 
