@@ -14,6 +14,8 @@ spl = make_interp_spline(df['w3 [1/s]'], df['wn/w3'], k=3)  # type: BSpline
 y_smooth = spl(x_new)
 plt.plot(x_new, y_smooth)
 '''
+#print(df.describe())
+
 df['u_f3'] = u_f3 = 0.25
 df['u_tn'] = 0.01/np.sqrt(2)
 df['Tn'] = df['tn']/10
@@ -23,6 +25,8 @@ df['u_w3'] = 2*np.pi*u_f3
 df['wn'] = 2*np.pi/df['Tn']
 df['wN'] = -1/(df['Tn']*df['f3'])
 df['u_wN'] = np.sqrt((u_Tn/((df['Tn']**2)*df['f3']))**2+(u_f3/((df['f3']**2)*df['Tn']))**2)
+
+print(df)
 
 df = df.round({'u_tn':3, 'Tn':3, 'u_Tn':3, 'w3':2, 'u_w3':2,
        'wn':2, 'wN':4, 'u_wN':4})
@@ -35,7 +39,7 @@ x_lin = np.linspace(x.min(), x.max(), 300)
 y_mean = np.repeat(y.mean(),300)   
 y_mean_err = y_err.mean()
 
-print(y.mean(),y_err.mean())
+#print(y.mean(),y_err.mean())
 '''
 fig = plt.figure(figsize=(15,10))
 ax = fig.add_subplot(111)
@@ -45,7 +49,7 @@ ax.plot(x_lin,y_mean-y_mean_err,linestyle='--',color='r')
 ax.fill_between(x_lin,y_mean+y_mean_err,y_mean-y_mean_err,color='r',alpha=0.1)
 ax.errorbar(x, y, yerr=y_err, fmt='o' ,marker='o', capsize=5,label='Messreihe')
 #ax.set_title(r'$\omega_3$-$\omega_*$-Diagramm')
-ax.set_xlabel(r'$\omega_3$ $[\frac{1}{s}]$')
+ax.set_xlabel(r'$\omega_3$ in $\frac{1}{s}$')
 ax.set_ylabel(r'$\omega_N$')
 ax.legend()
 plt.show()

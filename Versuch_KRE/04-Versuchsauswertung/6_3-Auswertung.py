@@ -21,7 +21,7 @@ y = df['f3_start']
 plt.plot(x, y, 'o')
 
 # Fit
-model = np.polyfit(x,y,1)
+model = np.polyfit(x,y,4)
 predict = np.poly1d(model)
 x_lin = np.linspace(x.min(),x.max(),300)
 y_lin = predict(x_lin)
@@ -84,7 +84,7 @@ for i in df['u_w*']:
     s += i**2
     k += 1   
 y_mean_err = s/k
-
+'''
 fig = plt.figure(figsize=(15,10))
 ax = fig.add_subplot(111)
 ax.errorbar(x1,y1,yerr=y1_err,fmt='o',capsize=5,label='Messreihe 1')
@@ -96,15 +96,15 @@ ax.plot(x_lin,y_mean+y_mean_err,linestyle='--',color='r')
 ax.plot(x_lin,y_mean-y_mean_err,linestyle='--',color='r')
 ax.fill_between(x_lin,y_mean+y_mean_err,y_mean-y_mean_err,color='r',alpha=0.1)
 #ax.set_title(r'$\omega_3$-$\omega_*$-Diagramm')
-ax.set_xlabel(r'$\omega_3$ $[\frac{1}{s}]$')
-ax.set_ylabel(r'$\omega_*$ $[\frac{1}{s^2}]$')
+ax.set_xlabel(r'$\omega_3$ in $\frac{1}{s}$')
+ax.set_ylabel(r'$\omega_*$ in $\frac{1}{s^2}$')
 ax.legend()
 plt.show()
-
 '''
+print(df)
+
 plt.hist(df['w*'])
 #plt.title(r'$\omega_*$-Histogramm')
 plt.ylabel('Anzahl Messwerte')
-plt.xlabel(r'$\omega_*$ $[\frac{1}{s^2}]$')
+plt.xlabel(r'$\omega_*$ in $\frac{1}{s^2}$')
 plt.show()
-'''
