@@ -12,6 +12,7 @@
 % Packages
 \documentclass[paper=a4,bibliography=totoc,BCOR=10mm,twoside,numbers=noenddot,fontsize=11pt]{scrreprt}
 \usepackage[ngerman]{babel}
+\usepackage[babel,german=quotes]{csquotes} %For Quotes
 \usepackage[T1]{fontenc}
 \usepackage[latin1, utf8]{inputenc}
 \usepackage{lmodern}
@@ -66,6 +67,9 @@
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
 \newcolumntype{g}{>{\columncolor[rgb]{ .741,  .843,  .933}}l}
+
+\catcode`_=\active
+\newcommand_[1]{\ensuremath{\sb{\mathrm{#1}}}}
 
 \begin{document}
 
