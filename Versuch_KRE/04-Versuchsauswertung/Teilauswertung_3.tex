@@ -6,7 +6,7 @@
 \section{Präzession}
 
 Bei der Untersuchung der Präzession ist es wichtig zu erwähnen, dass bei der Versuchsdurchführung nur Frequenzintervalle gemessen werden konnten, heißt Anfangsfrequenz $f_{3_{start}}$ und Endfrequenz $f_{3_{end}}$ der dritten Hauptachse. Dabei werden die Messwerte Nr.6 aus der Messreihe 2 und Nr.8 aus Messreihe 3 nicht verwendet, da diese unvollständig und ungenau gemessen wurden. \\
-Um die durchschnittliche Frequenz in einem Intervall $i$ und damit die Winkelgeschwindigkeit $\omega_3^i$ in diesem Intervall zu ermittel, wird das arithmetische Mittel gebildet. Dies kann damit begründet werden, dass man bei der Auftragung Anfangsfrequenz $f_{3_{start}}$ gegen die verstrichene Zeit $t$ einen klaren linearen Zusammenhang erkennen kann (siehe Abb). Hier ist noch anzumerken, dass in den Daten der Anfangsfrequenz $f_{3_{start}}$ die Endfrequenz $f_{3_{end}}$ als darauffolgenden Datenpunkt enthalten ist und die Daten der verstrichene Zeit $t$ einfach die Summe der Rotationsdauern $T^i$ bis zum jeweiligen Messwert im Intervall $i$ ist.
+Um die durchschnittliche Frequenz in einem Intervall $i$ und damit die Winkelgeschwindigkeit $\omega_3^i$ in diesem Intervall zu ermitteln, wird das arithmetische Mittel gebildet. Dies kann damit begründet werden, dass man bei der Auftragung Anfangsfrequenz $f_{3_{start}}$ gegen die verstrichene Zeit $t$ einen klaren linearen Zusammenhang erkennen kann (siehe Abb). Hier ist noch anzumerken, dass in den Daten der Anfangsfrequenz $f_{3_{start}}$ die Endfrequenz $f_{3_{end}}$ als darauffolgenden Datenpunkt enthalten ist und die Daten der verstrichene Zeit $t$ einfach die Summe der Rotationsdauern $T^i$ bis zum jeweiligen Messwert im Intervall $i$ ist.
 \begin{figure}[ht]
     \centering
     \caption{$f_3$-$t$ Diagramm}
@@ -20,7 +20,7 @@ Der Fehler des Stroboskop wird abgeschätzt mit $u_{f_3} = 0.25$ Hz. Zwar liegt 
 \begin{align}
     u_{\omega_3^i}=\sqrt{2}\pi u_{f_3}~.
 \end{align}
-Weierhin ist die Präzessionswinkelgeschwindigkeit $\omega_p^i$ mit dem Fehler $u_{\omega_p^i}$ für die jeweiligen Intervalle $i$ gegeben durch 
+Weiterhin ist die Präzessionswinkelgeschwindigkeit $\omega_p^i$ mit dem Fehler $u_{\omega_p^i}$ für die jeweiligen Intervalle $i$ gegeben durch 
 \begin{gather}
     \omega_p^i=\frac{2\pi}{T^i}~,\tab u_{\omega_p^i}=\frac{2\pi}{(T^i)^2}u_T~,
 \end{gather}
@@ -65,7 +65,7 @@ wobei der Fehler der Zeitmessung wie in Kapitel 4.2 erläutert mit $u_T=0.20~s\t
         7 &   50.71 &  1.11 &  0.24 &  0.00178 &  11.99 &  0.28 \\
     \end{tabular}
 \end{center}
-Bei der Messreihe 4 kann man deutlich erkennen, dass das Produkt $\omega_*$ weit von dem Wert der anderen Messreihen abweicht. Es wird vermutet, dass hier ein systematischer Fehler vorliegt, was man auch schön an dem linken Histogramm in Abb. 4.6 erkennen kann. Das rechte Histogramm sind dabei nur die Messreihen 1-3 enthalten, was noch stärker verdeutlicht, dass hier ein systematischer Fehlr vorliegen muss. Aufgrund dessen wird die Messreihe 4 aus der weiteren Auswertung ausgeschlossen wird. 
+Bei der Messreihe 4 kann man deutlich erkennen, dass das Produkt $\omega_*$ weit von dem Wert der anderen Messreihen abweicht. Es wird vermutet, dass hier ein systematischer Fehler vorliegt, was man auch schön an dem linken Histogramm in Abb. 4.6 erkennen kann. Das rechte Histogramm sind dabei nur die Messreihen 1-3 enthalten, was noch stärker verdeutlicht, dass hier ein systematischer Fehler vorliegen muss. Aufgrund dessen wird die Messreihe 4 aus der weiteren Auswertung ausgeschlossen wird. 
 \begin{center}
     \captionof{table}{Messreihe 4}
     \begin{tabular}{gccccccccccc}
@@ -91,13 +91,13 @@ Somit folgt das Ergebnis:
 \begin{align*}
     \Rightarrow\boxed{\overline{w_*}=(12.11 \pm 0.05)~\frac{1}{\text{s}^2}}
 \end{align*}
-In Abb 4.5 lässt sich auch die Schwankung der Messwerte der einzelen Messreihen gut erkennen. Dabei ist anzumerken, dass für ähnliche Werte von $w_3$ der Unterschied von $\omega_*$ zwischen den Messreihen stark schwankt, aber im Rahmen der Messgenauigkeit bleibt.\\ \\
+In Abb 4.5 lässt sich auch die Schwankung der Messwerte der einzelnen Messreihen gut erkennen. Dabei ist anzumerken, dass für ähnliche Werte von $w_3$ der Unterschied von $\omega_*$ zwischen den Messreihen stark schwankt, aber im Rahmen der Messgenauigkeit bleibt.\\ \\
 Um das Trägheitsmoment $J_3$ zu berechnen, wird Gleichung (2.13) aus Kapitel 2.5 umgeformt
 \begin{align}
     \omega_p = \frac{mgl}{J_3\omega_3}~\Leftrightarrow~\omega_p\omega_3 = \omega_* = \frac{mgl}{J_3}~\Leftrightarrow~J_3 = \frac{mgl}{\omega_*}~.
 \end{align}
 Da die Massestückchen beide um einiges weniger wiegen als die gesamte Kugel mit Stab wird von einer neuen Berechnung des Schwerpunkts abgesehen. Dafür wird aber aufgrund der ähnlichen Masse der einzelnen Massestückchen Schwerpunkt in der Mitte der Massenstückchen angenommen. Die Erdbeschleunigung wird als fehlerfrei mit $g=9.81~\frac{\text{m}}{\text{s}^2}$ angenommen. \\
-Der Fehler der Masse $m$ wird mit dem Ablesefehler $u_a=0.5~\text{g}$, welcher zugeleich auch als Restfehler $u_r$ angenommen wird, angeben als
+Der Fehler der Masse $m$ wird mit dem Ablesefehler $u_a=0.5~\text{g}$, welcher zugleich auch als Restfehler $u_r$ angenommen wird, angeben als
 \begin{align}
     u_m=\sqrt{u_a^2+u_r^2}=\sqrt{2}u_a=0.70710678~\text{g}
 \end{align}
