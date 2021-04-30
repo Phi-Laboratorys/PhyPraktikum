@@ -9,6 +9,12 @@
 % Text
 
 % Input der Teilaufgaben je nach Produktion der Nebendateien ohne Ordner
+\input{2_1-Teilaufgabe_X.tex}
+
+<<<<<<< TO DO'S:
+- Fazit
+- FzV3: Skizzen für $n_2<n_1$ und für $n_1<n_2$
+- FzV6: Polardiagramme aus unterer Quelle einfügen
 
 %1
 \section{Allgemeines}
@@ -44,6 +50,7 @@ Die Intensität wird im Versuch durch eine Photodiode gemessen.
 I=c\epsilon_0 E^2
 \end{equation}
 Mit dem elektrischen Feld E, beschrieben durch eine zeitlich periodische Funktion mit der Amplitude: $E=\sqrt{E_{\parallel}^2 +E^2_{\perp}}$, der Intensität $I=\frac{\epsilon_0\epsilon_mc_0}{2n_m}E^2$ und Medium m.
+Gemessen wird das zeitliche Mittel der Intensität I
 %Demtroder S. 188, 7.6
 
 
@@ -65,20 +72,38 @@ E_{r,\parallel}+\frac{n_2}{n_1}E_{t,\parallel}=E_{e,\parallel}\\
 E_{r,\perp}+\frac{n_2}{n_1}E_{t,\perp}=E_{e,\perp}\\
 \end{align*}
 Der Faktor $\frac{n_2}{n_1}$ wird durch den Medienwechsel notwendig. Zu erkennen ist nun, dass der reflektierte Anteil steigt, je größer der Unterschied zwischen den Brechindices ist. \\
-Bei mitbetrachten des Winkels, muss man den Faktor $\frac{n_2}{n_1}$  um den Faktor $\frac{cos\psi}{cos\varphi}$ erweitern. 
+Bei mit betrachten des Winkels, muss man den Faktor $\frac{n_2}{n_1}$  um den Faktor $\frac{cos\psi}{cos\varphi}$ erweitern. 
 Beide Richtungen der Polarisation verhalten sich gleich, wodurch man feststellt, dass sich durch senkrechten Durchgang keine Polarisationsgradänderung ergibt bzw. diese nicht möglich ist. Dadurch folgt: $P=const$
 
-\subsection*{$\varphi+psi=\frac{\pi}{2}$}
-Nun gilt mit den trigonometrischen Umformungen $sin(\psi)=cos(\varphi)$ und analog $sin(\varphi)=cos(\psi)$:
+\subsection*{Brewster Gesetz und Brewsterflächen}
+Das Brewster Gesetz lässt sich aus der Abstrahlcharakteristik der atomaren Dipole und dem snelliusschen Brechungsgesetz herleiten. Für die Herleitung wird meist angenommen, dass der  Strahl von dem Medium Luft mit Brechindex $n_1=1$ auf ein Medium aus einem anderer Material mit Brechindex $n_2$ fällt.\\
+Die Definition des Brewster-Winkels lautet wie in Frage zur Vorbereitung 1 schon beschrieben folgendermaßen:
+\begin{equation}
+Theta_1=\Theta_b\Theta_2=90^o-\Theta_B
+\end{equation}
+Das Reflexionsgesetz besagt, dass Einfallswinkel $|Theta_1$ gleich Reflexionswinkel $\Theta_a$ sein muss. 
+Eingesetzt in die das snelliussche Brechungsgesetz: 
+\begin{equation}
+n_1sin(\Theta_1)=n_2sin(\Theta_2)
+\end{equation}
+folgt nach umstellen das Brewstersche Gesetz:
+\begin{equation}
+n_1sin(\Theta_B)=n_2sin(90^o-\Theta_B)=n_2cos(\Theta_B) \tab \rightarrow \tab n_1=arctan(\frac{n_2}{n_1})
+\end{equation}
+
+\subsection*{$\varphi+\psi=\frac{\pi}{2}$}
+Nun betrachten wir den Sonderfall des Brewsterwinkel. Damit gilt mit den trigonometrischen Umformungen $sin(\psi)=cos(\varphi)$ und analog $sin(\varphi)=cos(\psi)$:
 \begin{align*}
 \frac{E_{r,\parallel}}{E_{e,\parallel}}=\frac{n_2cos(\varphi)-n_1sin(\varphi)}{n_2cos(\varphi)+n_1sin(\varphi)}= \frac{n_2cos(\varphi)-n_2cos(\varphi)}{2n_2cos(\varphi)}=0\\
 \frac{E_{r,\perp}}{E_{e,\perp}}=\frac{n_1cos(\varphi)-n_2sin(\varphi)}{n_2cos(\varphi)+n_1sin(\varphi)}=\frac{n_1-\frac{n_2^2}{n_1}}{n_1+\frac{n_2^2}{n_1}}=\frac{n_1^2-n_2^2}{n_1^2+n_2^2}\\
 \frac{E_{t,\parallel}}{E_{e,\parallel}}=\frac{2n_1cos(\varphi)}{2n_2cos(\varphi)}=\frac{n_1}{n_2}\\
 \frac{E_{t,\perp}}{E_{e,\perp}}=\frac{2n_1cos(\varphi)}{n_2sin(\varphi)+n_1cos(\varphi)}=\frac{2n^2_1}{n_2^2+n_1^2}
 \end{align*}
-Man sieht aus den Ergebnissen, dass der parallele Anteil komplett transmittiert und überhaupt gar nicht reflektiert wird. Daher ist der reflektierte Strahl komplett polarisiert. Somit gilt: $P_r=1$
+Man sieht aus den Ergebnissen, dass der parallele Anteil komplett transmittiert und überhaupt gar nicht reflektiert wird. Daher ist der reflektierte Strahl komplett polarisiert. Somit gilt: $P_r=1$. Das ist auch die Besonderheit bei Brewsterwinkeln, dass der reflektierte Lichtstrahl senkrecht zur Einfallsebene polarisiert ist. \\
+Dieses Phänomen wird viel in der Physik genutzt. Beispielsweise im Laser findet es Anwendung. Das sogenannte Brewster-Fenster funktioniert durch parallel zur Einfallslinie polarisierten Lichtfall, der durch eine im Brewsterwinkel zum Licht stehende Glasplatte bzw. einen Lichtkristall, fällt. Somit wird der Polarisationsgrad gesteigert, ohne die Intensität zu schwächen.  
 
-
+%https://www.geothermie.de/bibliothek/lexikon-der-geothermie/b/brewsterwinkel-brewstergesetz.html
+%http://www.techniklexikon.net/d/brewster-fenster/brewster-fenster.htm
 
 
 %4
@@ -164,7 +189,7 @@ Durch geometrische Überlegungen werden folgende Zusammenhänge deutlich:
 Der Phasenversatz ist also eine Funktion von $1-cos(\Theta)$.
 Man erkennt, dass man durch diese theoretische Vorüberlegung keinen Unterschied zwischen Vorwärts und Rückwärts-Streurichtung ausmachen kann. \\
 Bei den bisherigen Überlegungen haben wir den Abstand d als konstant angenommen. Dies gilt jedoch nur in der Theorie, da sich Teilchen in der Theorie durch thermische Bewegungen bzw. Schwingungen immer bewegen und sich so der Abstand dauerhaft verändert. Dies ist einer der Gründe, weshalb die Miestrahlung vor allem nach vorne streut. 
-Für die "wirkliche" Beschreibung der starken Vorwärtsstreuung der Miestrahlung und anderer Effekte bei Streuung an Partikeln nutzt man die relativ komplizierte Lorenz-Mie-Theorie. Diese Theorie ist eine mathematisch genaue Beschreibung verschiedenster Streuphänomene von elektromagnetischer Wellen an Teilchen und die genaue Lösung der Maxwell-Gleichungen für die Streuung einer ebenen elektromagnetischen Welle an einem beliebig großen Teilchen. Es werden dadurch Lösungen gefunden, die verschiedene Geometrien und Formen haben (ähnlich zu den Legendre - Polynomen der Quantenmechanik). FDiese Formen zeigen, dass die Vorwärtsstreuung meist größer ist, als die Rückwärtsstrahlung.
+Für die "wirkliche" Beschreibung der starken Vorwärtsstreuung der Miestrahlung und anderer Effekte bei Streuung an Partikeln nutzt man die relativ komplizierte Lorenz-Mie-Theorie. Diese Theorie ist eine mathematisch genaue Beschreibung verschiedenster Streuphänomene von elektromagnetischer Wellen an Teilchen und die genaue Lösung der Maxwell-Gleichungen für die Streuung einer ebenen elektromagnetischen Welle an einem beliebig großen Teilchen. Jedoch wird für die Streuung an kleinen Teilchen $\lambda\gg D$ meist die unkompliziertere Berechnung der Rayleigh Streuung genutzt, obwohl auch die Mie-Theorie dies abdeckt. Es werden durch die Mie-Theorie Lösungen gefunden, die verschiedene Geometrien und Formen haben (ähnlich zu den Legendre - Polynomen der Quantenmechanik). Diese Formen zeigen, dass die Vorwärtsstreuung meist größer ist, als die Rückwärtsstreuung.
 
 %https://physik.cosmos-indirekt.de/Physik-Schule/Mie-Streuung
 %Demtröder, Auflage 7, Kapitel 10.9.3, S.322
@@ -217,3 +242,6 @@ Für die "wirkliche" Beschreibung der starken Vorwärtsstreuung der Miestrahlung
 
 
 
+=======
+% etc.
+>>>>>>> parent of 3dbd259 (POL FzV und EInleitung)
