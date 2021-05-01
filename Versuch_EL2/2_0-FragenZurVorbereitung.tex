@@ -186,7 +186,7 @@ Mit erneuter doppellogarithmischen Auftragung ergibt sich dann Abbildung 2.6 .
 An Abbildung 2.6 kann man schon erkennen, dass sie in Prinzip eine spiegelverkehrte Abbildung 2.4 ist. Damit muss aber auch $f_{d,gr}=2\pi\omega_{d,gr}$ kleiner gewählt werden für einen idealen Betrieb des OPV im linearen Bereich.
 \newpage
 \section*{Bandpass 1.Ordnung}
-Diesen Schritt wiederholt man nun nochmal mit, aber nun wird noch zum Widerstand $R_2$ der Kondensator $C_2$ parallel geschaltet, was einer Kombinationsschaltung aus Integration und Differenzierschaltung darstellt. Damit folgt:
+Diesen Schritt wiederholt man nun nochmal mit, aber nun wird noch zum Widerstand $R_2$ der Kondensator $C_2$ parallel geschaltet, was einer Kombinationsschaltung aus Integration und Differenzierschaltung darstellt. Damit folgt: %http://techniker.pi-pro.de/fs/nae/pdf/filter.pdf
 \begin{gather}
     \begin{aligned}
         v_{d,i}(\omega) &= \abs{-\frac{Z_{Aus}}{Z_{Ein}}} = \abs{-\frac{\frac{1}{\frac{1}{R_2}+ i\omega C_2}}{R_1 + \frac{1}{i\omega C_1}}} = \abs{\frac{R_2}{R_1}~\frac{1}{1+i\omega R_2C_2}~\frac{i\omega R_1 C_1}{1+i\omega R_1C_1}}\\
@@ -201,4 +201,4 @@ Mit $R_1 = 2~\Omega, R_2 = \frac{1}{2}~\Omega, C_1 = 2~\text{F}$ und $C_2 = \fra
     \includegraphics[scale = 0.55]{bandfilter.png}
     \captionof{figure}{Frequenzabhängigkeit von $v$ zu $\omega$}
 \end{center}
-Die Bandpass wirkt als Differenzierer für $\omega \ll \omega_{d,gr}$ und bei $\omega \gg \omega_{i,gr}$ als Integrierer. Bei geeigneter Wahl von $R_1, R_2, C_1$ und $C_2$ kann der Bandbereich ($\omega \in [\omega_{d,gr},\omega_{i,gr}])$ geschmälert oder verbreitet werden. 
+Die Bandpass wirkt als Differenzierer für $\omega \ll \omega_{d,gr}$ und bei $\omega \gg \omega_{i,gr}$ als Integrierer. Bei geeigneter Wahl von $R_1, R_2, C_1$ und $C_2$ kann der Bandbereich ($\omega \in [\omega_{d,gr},\omega_{i,gr}])$ geschmälert oder verbreitet werden. %HBS

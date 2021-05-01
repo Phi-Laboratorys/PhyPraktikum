@@ -17,9 +17,9 @@ x_igrv = np.repeat(1, anzahl)
 y_igrv = np.linspace(1/10, 1/np.sqrt(2), anzahl)
 
 #plt.plot(x, y0)
-'''
-plt.plot(x_igrh, y_igrh, color='r', label=r'$\omega_\mathregular{i,gr}$')
-plt.plot(x_igrv, y_igrv, color='r')
+
+plt.plot(x_igrh, y_igrh, color='r', linestyle='--', label=r'$\omega_\mathregular{i,gr}$')
+plt.plot(x_igrv, y_igrv, color='r', linestyle='--')
 plt.plot(x, yi1, Label=r'$\tilde{v}_\mathregular{i,1}$')
 plt.plot(x, yi2, Label=r'$\tilde{v}_\mathregular{i,2}$')
 plt.xscale('log')
@@ -28,7 +28,7 @@ plt.yscale('log')
 plt.ylabel(r'$\tilde{v}$')
 plt.legend()
 plt.show()
-'''
+
 '''DIFFERENZIERSCHALTUNG'''
 
 yd1 = x
@@ -40,9 +40,9 @@ x_dgrv = np.repeat(1, anzahl)
 y_dgrv = np.linspace(1/10, 1/np.sqrt(2), anzahl)
 
 #plt.plot(x, y0)
-'''
-plt.plot(x_dgrh, y_dgrh, color='r', label=r'$\omega_\mathregular{d,gr}$')
-plt.plot(x_dgrv, y_dgrv, color='r')
+
+plt.plot(x_dgrh, y_dgrh, color='r', linestyle='--', label=r'$\omega_\mathregular{d,gr}$')
+plt.plot(x_dgrv, y_dgrv, color='r', linestyle='--')
 plt.plot(x, yd1, Label=r'$\tilde{v}_\mathregular{d,1}$')
 plt.plot(x, yd2, Label=r'$\tilde{v}_\mathregular{d,2}$')
 plt.xscale('log')
@@ -51,7 +51,7 @@ plt.yscale('log')
 plt.ylabel(r'$\tilde{v}$')
 plt.legend()
 plt.show()
-'''
+
 '''KOMBINATIONSSCHALTUNG'''
 p = 2
 R1, R2 = p, 1/p
