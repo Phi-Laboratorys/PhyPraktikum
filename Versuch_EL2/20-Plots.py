@@ -53,7 +53,7 @@ plt.legend()
 plt.show()
 
 '''KOMBINATIONSSCHALTUNG'''
-p = 2
+p = 1000
 R1, R2 = p, 1/p
 C1, C2 = p, 1/p
 wi, wd, w0 = 1/(R2*C2), 1/(R1*C1), 1
@@ -69,9 +69,9 @@ w_0, y_w0 = np.sqrt(w_i*w_d), np.linspace(1/10, yw0, anzahl)
 #plt.plot(x, yd1, Label=r'$\tilde{v}_\mathregular{d,1}$', color='grey')
 #plt.plot(x, yd2, Label=r'$\tilde{v}_\mathregular{d,2}$', color='grey')
 plt.plot(x,yk)
-plt.plot(w_d,y_wd, linestyle='--', label= r'$\omega_\mathregular{d,gr}$')
-plt.plot(w_i,y_wi, linestyle='--', label= r'$\omega_\mathregular{i,gr}$')
-plt.plot(w_0,y_w0, linestyle='--', label= r'$\omega_{0}$')
+#plt.plot(w_d,y_wd, linestyle='--', label= r'$\omega_\mathregular{d,gr}$')
+#plt.plot(w_i,y_wi, linestyle='--', label= r'$\omega_\mathregular{i,gr}$')
+#plt.plot(w_0,y_w0, linestyle='--', label= r'$\omega_{0}$')
 plt.xscale('log')
 plt.xlabel(r'$\omega$ in $\frac{1}{\mathregular{s}}$')
 plt.yscale('log')
