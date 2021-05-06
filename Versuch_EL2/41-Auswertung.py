@@ -21,7 +21,7 @@ plt.xscale('log')
 plt.yscale('log')
 plt.show()
 
-data2 = 'Versuch_EL2/41_Data-4,7MOhm.csv'
+data2 = 'Versuch_EL2/41-Data-4,7MOhm.csv'
 df2 = pd.read_csv(data2)
 
 # Aufräumen der Tabelle
