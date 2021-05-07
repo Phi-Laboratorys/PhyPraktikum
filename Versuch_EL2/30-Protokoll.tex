@@ -13,7 +13,7 @@ Das Messprotokoll wurde am Versuchstag handschriftlich erstellt und hier als
 PDF-Datei eingefügt. 
 
 \section*{Zusatz}
-Zusätzlich fügen wir die Bilder und die verwendeten Schaltungen des Versuchs nch dem Protokoll an zur besseren Übersicht.
+Im Protokoll selbst ist uns dabei ein Fehler unterlaufen, wodurch die Bilder selbst nicht richtig zugeordnet werden können, dafür fügen wir die Bilder mit der korrekten Zuordnung am Ende des Protokolls an. Weiterhin werden die verwendeten Schaltungen des Versuchs am Ende angefügt zur besseren Übersicht.
 
 % Einbindung des Protokolls als pdf (mit Seitenzahl etc.)
 % Erste Seite mit Überschrift
@@ -21,8 +21,24 @@ Zusätzlich fügen wir die Bilder und die verwendeten Schaltungen des Versuchs n
 %            {03-Protokoll/Protokoll.pdf}
 % Restliche Seiten richtig skaliert
 \includepdf[pages = -, landscape = false, nup = 1x1, scale = \skalierung , pagecommand={}]{30-ProtokollEL2.pdf}
+\section*{Zusatz}
 
-%\section*{Steckbretter}
-\includepdf[pages = 1, landscape = false, nup = 1x1, scale = \skalierung , pagecommand={}]{30-SteckbretterEL2.pdf}
+\section*{Umkehrintegrator}
+\begin{center}
+    \captionof*{figure}{10 Hz}
+    \includegraphics[width = 6.5cm]{42-10Hz.jpg}
+    \captionof*{figure}{100 Hz}
+    \includegraphics[width = 6.5cm]{42-100Hz.jpg}
+    \captionof*{figure}{1000 Hz}
+    \includegraphics[width = 6.5cm]{42-1000Hz.jpg}
+\end{center}
 
-%TODO #13 @ManeLippert
+\section*{Umkehrdifferenzierer}
+\begin{center}
+    \captionof*{figure}{Überschrift}
+    \includegraphics[width = 8cm]{43-diffSchwingung.jpg}
+    \captionof*{figure}{Überschrift}
+    \includegraphics[width = 8cm]{43-diffStabil.jpg}
+\end{center}
+
+\includepdf[pages = 1, landscape = false, nup = 1x1, scale = \skalierung , pagecommand={\section*{Steckbretter}}]{30-SteckbretterEL2.pdf}
