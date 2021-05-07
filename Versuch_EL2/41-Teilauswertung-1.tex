@@ -1,6 +1,28 @@
 % Charlotte Geiger - Manuel Lippert - Leonard Schatt
 % Physikalisches Praktikum
 
-% Teilauswertung X
+% Teilauswertung 1
 
-\section{Teilauswertung X}
+\section{Umkehrverstärker}
+Bei dieser Teilausgabe des Versuchs haben wir mit folgender Schaltung gemessen:
+%Zeichnung Abb El2.4a einfügen
+%\includegraphics{"/Users/admin/Documents/Dateien Charlotte/Praktikumsauswertung"}
+Dabei haben wir $R_1=10k\Omega$ und $R_{2_1}=1M\Omega$ bzw. $R_{2_2}=4,7M\Omega$ verwendet. Nun sollten wir sowohl den Frequenzgang der Verstärkung $\upsilon$ von 10Hz ab messen, als auch die Flankenabfallszeit $\tau$ bei der Übertragung einer Rechteckspannung.\\
+Zuerst berechnen wir die Verstärkung $\upsilon$ und den Eingangswiderstand $R_e$. Dabei bezeichnet $\upsilon_{t1}$ die theoretische Berechnung der Verstärkung bei Nutzung des Widerstandes $R_2=1M\Omega$, und $\upsilon_{t2}$ die theoretische Berechnung der Verstärkung mit dem Widerstand $R_2=4,7M\Omega$.//
+\begin{equation}
+\upsilon=\frac{U_a}{U_e}=-\frac{R_2}{R_1} \tab \Rightarrow \tab \upsilon_{t1}= -100, \tab \upsilon_{t2}=-470
+\end{equation}
+Der Eingangswiderstand ergibt sich folgendermaßen: $R_e=\frac{U_e}{I_1}=R_1=10k\Omega$\\
+Nun folgt die Fehlerberechnung mit dem Fehlerfortpflanzungsgesetz:
+\begin{equation}
+u_{\upsilon}=\sqrt{\bigl(-\frac{1}{R_1}\cdot u_{R_2}\bigr)^2 + \sqrt{\bigl(\frac{R_2}{R_1^2}\cdot u_{R_1}\bigr)^2}}\\
+u_{R_e}=u_{R_1}
+\end{equation}
+
+Den Fehler für die Widerstände nehmen wir als kleiner 3 Prozent an. Daraus ergeben sich folgende Werte:
+$R_e=R_1=(10\pm 0,3)k\Omega$\\
+$R_{2_1}=(1\pm 0,03)M\Omega$\\
+$R_{2_1}=(4,71\pm 0,14)M\Omega$\\
+$\upsilon_{t1}=(-100\pm$\\
+$\upsilon_{t2}=(-470\pm$\\
+\\

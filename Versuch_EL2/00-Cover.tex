@@ -31,9 +31,9 @@
 \def\farbe{Notagrey}
 \def\fach{PPBphys1}
 \def\name{Charlotte Geiger - Manuel Lippert - Leonard Schatt}
-\def\uberschrift{Protokoll EL2} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\uberschrift{Operations-\\[0,5cm] verstärker} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
 \def\bottom{SS2021}
-\def\datum{19.05.2021}
+\def\datum{05.05.2021}
 \def\platz{NWII | 2.1.01.470}
 \def\betreuer{Christoph Schnupfhagn}
 \def\auswertp{Manuel Lippert}
@@ -61,10 +61,20 @@
 			}
 		}
 	
-	\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
-		{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
-	\end{textblock*}
-	
+	\IfSubStr {\titel} {\\[0,5cm]} {\setboolean{twoRows}{true}} {\setboolean{twoRows}{false}}				
+
+	\ifthenelse{\boolean{twoRows}}
+		{
+			\begin{textblock*}{21cm}(0cm,8cm) % {block width} (coords), centered		
+				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+			\end{textblock*}
+		}
+		{
+			\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
+				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+			\end{textblock*} 
+		}		
+		
 	% Choose Logo
 	\ifthenelse {\equal{\farbe}{Notared}} {\def\logo{Bilder/Logo/UniBTNotared}}
 		{\ifthenelse {\equal{\farbe}{Notagreen}} {\def\logo{Bilder/Logo/UniBTNotagreen}}

@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data1 = 'Versuch_EL2/41-Data-1MOhm.csv'
+data1 = 'Versuch_EL2/41-Data-1000kOhm.csv'
 df1 = pd.read_csv(data1)
 
 # Aufräumen der Tabelle
@@ -21,7 +21,7 @@ plt.xscale('log')
 plt.yscale('log')
 plt.show()
 
-data2 = 'Versuch_EL2/41-Data-4,7MOhm.csv'
+data2 = 'Versuch_EL2/41-Data-4700kOhm.csv'
 df2 = pd.read_csv(data2)
 
 # Aufräumen der Tabelle
