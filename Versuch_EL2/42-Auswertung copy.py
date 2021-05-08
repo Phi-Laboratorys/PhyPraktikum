@@ -18,6 +18,7 @@ print(df)
 
 x = df['f/kHz']
 y = df['v']
+fehler0 = df['v']*np.sqrt(2)*0.03
 
 data = 'Versuch_EL2/42-Data.csv'
 df = pd.read_csv(data)
@@ -35,10 +36,13 @@ print(df)
 
 x1 = df['f/Hz']
 y1 = df['v']
+fehler1 = df['v']*np.sqrt(2)*0.03
+
 
 plt.xlim(3,100000)
 plt.scatter(x*1000,y, label = 'Umkehrdifferenzierer')
 plt.scatter(x1,y1, label = 'Umkehrintegrator')
+plt.errorbar(x*1000, y, yerr =fehler0*1000, fmt='None', color = 'b')
 plt.xscale('log')
 plt.yscale('log')
 
