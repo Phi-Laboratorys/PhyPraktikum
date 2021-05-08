@@ -8,7 +8,7 @@ df = pd.read_csv(data)
 # Aufräumen der Tabelle
 df = df.sort_values(by='f/kHz', ascending=True)
 df.index = np.arange(1, len(df)+1)
-df = df.drop(index=[1]) # Messwert 1 zu klein (Grund Ablesen schwierig)
+ # Messwert 1 zu klein (Grund Ablesen schwierig)
 
 df['U_e/V'] = 2.8
 df['U_a/V'] = df['U_a/Div']*df['U_a(ein)/(V/Div)']
@@ -40,8 +40,8 @@ fehler1 = df['v']*np.sqrt(2)*0.03
 
 
 plt.xlim(3,100000)
-plt.scatter(x*1000,y, label = 'Umkehrdifferenzierer')
-plt.scatter(x1,y1, label = 'Umkehrintegrator')
+#plt.scatter(x*1000,y,marker ='x', label = 'Umkehrdifferenzierer')
+#plt.scatter(x1,y1, label = 'Umkehrintegrator')
 plt.errorbar(x*1000, y, yerr =fehler0*1000, fmt='None', color = 'b')
 plt.xscale('log')
 plt.yscale('log')
