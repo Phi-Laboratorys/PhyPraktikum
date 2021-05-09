@@ -89,6 +89,7 @@ Mit Gleichung (2.7) und (2.8) folgt:
 Die Gleichung (2.10) ist eine Differentialgleichung 1. Ordnung mit allgemeiner Lösung:
 \begin{gather}
     \Rightarrow \boxed{U_a(t) = -\frac{1}{R_1 C_2} \int_0^t U_e(\tau)\text{d}\tau + U_0}
+    \label{eq:integrierer}
 \end{gather}
 Dabei ist $U_0$ festgelegt durch die Aufladung des Kondensators und somit gilt $U_0 = U_{C_2}$, wobei fortan zum vereinfachen der Rechnung $U_0=0~\text{V}$ angenommen wird.\\
 \begin{gather}
@@ -124,6 +125,7 @@ Bei der Grenzfrequenz $f_{gr}$ soll die Verstärkung $v$ ungefähr $70\%~\approx
 \begin{gather}
     v_{i,2}(\omega_{i,gr}) = \frac{1}{\sqrt{2}} v(0) = \frac{1}{\sqrt{2}} \frac{R_2}{R_1} \overset{!}{=} \frac{R_2}{R_1} \frac{1}{\sqrt{1+(\omega_{i,gr} R_2 C_2)^2}}\\
     \Leftrightarrow \boxed{w_{i,gr} = \frac{1}{R_2 C_2}}
+    \label{eq:wi2}
 \end{gather}
 Um die Ausdrücke für die Verstärkung zu vereinfachen wenden wir folgende Formeln an:
 \begin{gather}
@@ -187,6 +189,10 @@ Mit erneuter doppellogarithmischen Auftragung ergibt sich dann Abbildung 2.6 .
 An Abbildung 2.6 kann man schon erkennen, dass sie in Prinzip eine spiegelverkehrte Abbildung 2.4 ist. Damit muss aber auch $f_{d,gr}=2\pi\omega_{d,gr}$ kleiner gewählt werden für einen idealen Betrieb des OPV im linearen Bereich.
 \newpage
 \section*{Bandpass 1.Ordnung}
+\begin{center}
+    \includegraphics[scale = 0.6]{diffOPV_verbessert.PNG}
+    \captionof{figure}{Bandpass 1. Ordnung} 
+\end{center}
 Diesen Schritt wiederholt man nun nochmal mit, aber nun wird noch zum Widerstand $R_2$ der Kondensator $C_2$ parallel geschaltet, was einer Kombinationsschaltung aus Integration und Differenzierschaltung darstellt. Damit folgt: %http://techniker.pi-pro.de/fs/nae/pdf/filter.pdf
 \begin{gather}
     \begin{aligned}
@@ -197,7 +203,7 @@ Diesen Schritt wiederholt man nun nochmal mit, aber nun wird noch zum Widerstand
     \end{aligned}\\[0.5cm]
     \Rightarrow \boxed{v_{d,i}=\frac{1}{\sqrt{\left(\frac{R_1}{R_2}+\frac{C_2}{C_1}\right)^2+\left(\omega R_1C_2 - \frac{1}{\omega R_2C_1}\right)^2}}}~\text{mit}~\boxed{\omega_0 = \sqrt{\omega_{i,gr}\cdot \omega_{d,gr}}}
 \end{gather}
-Mit $R_1 = 2~\Omega, R_2 = \frac{1}{2}~\Omega, C_1 = 2~\text{F}$ und $C_2 = \frac{1}{2}~\text{F}$ erhält man dann Abbildung 2.7 .
+Mit $R_1 = 2~\Omega, R_2 = \frac{1}{2}~\Omega, C_1 = 2~\text{F}$ und $C_2 = \frac{1}{2}~\text{F}$ erhält man dann Abbildung 2.8 .
 \begin{center}
     \includegraphics[scale = 0.65]{bandfilter.png}
     \captionof{figure}{Frequenzabhängigkeit von $v$ zu $\omega$}
