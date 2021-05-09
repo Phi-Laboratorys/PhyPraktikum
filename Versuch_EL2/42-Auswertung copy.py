@@ -40,9 +40,9 @@ fehler1 = df['v']*np.sqrt(2)*0.03
 
 
 plt.xlim(3,100000)
-#plt.scatter(x*1000,y,marker ='x', label = 'Umkehrdifferenzierer')
-#plt.scatter(x1,y1, label = 'Umkehrintegrator')
-plt.errorbar(x*1000, y, yerr =fehler0*1000, fmt='None', color = 'b')
+plt.scatter(x*1000,y,marker ='x', label = 'Umkehrdifferenzierer')
+plt.scatter(x1,y1, marker = 'x', label = 'Umkehrintegrator')
+plt.errorbar(x1, y1, yerr =fehler1, fmt='None', color = 'b')
 plt.xscale('log')
 plt.yscale('log')
 
