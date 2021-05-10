@@ -21,28 +21,30 @@ Bei einem realen und idealen Operationsverstärker (OPV) sind folgende Größen 
     \captionof{figure}{Gegenkopplung eines invertierenden Verstärkers}
 \end{center}
 Durch die Gegenkopplung wird unabhängig von Signal- und Ausgangsspannungen immer genau auf dem Potential des nichtinvertierenden Eingangs gehalte, wodurch Ein- und Ausgang voneinander getrennt sind und der Verstärker nicht übersteuern kann. Dabei beeinflusst die Gegenkopplung die Frequenz so, dass die Bandbreite ansteigt, aber die Verstärkung gleichzeitig abnimmt.\\
-Das \textbf{Verstärkung–Bandbreite–Produkt} bleibt dabei näherungsweise konstant $v\cdot B = v \cdot f_{gr} = \text{constant}$. Der konstante Bereich wird dabei durch die Grenzfrequenz $f_{gr}$ begrenzt, wobei bei einer Verstärkung $v=0$ die sogenannte \textbf{Transitfrequenz} $f_T$ liegt. %EKS Kapitel 31
+Das \textbf{Verstärkung–Bandbreite–Produkt} bleibt dabei näherungsweise konstant $v\cdot B = v \cdot f_{gr} = \text{constant}$. Der konstante Bereich wird dabei durch die Grenzfrequenz $f_{gr}$ begrenzt, wobei bei einer Verstärkung $v=0$ die sogenannte \textbf{Transitfrequenz} $f_T$ liegt. \footnote[1]{Eichler, Kronfeldt, Sahm - Das neue Physikalische Praktikum, Kapitel 31}
 \newpage
 
 % 2
 \section{Begriffsklärung}
 \label{sec:begriffe}
 \begin{itemize}
-    \item \textbf{Eingangs-Offsetstrom} (Input Offset Current):\\ Eingangsstromdifferenz bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt. %HBG
-    \item \textbf{Eingangs-Offsetspannung} (Input Offset Voltage):\\ Eingangsspannung bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt. %HBG
-    \item \textbf{Gleichtakt-Eingangswiderstand}:\\ Diese beiden Widerstände liegen zwischen dem jeweiligen Eingang und Masseund liegen somit parallel zu den Eingängen und werden durch die Gegenkopplung nicht beeinflusst. Am nichtinvertierenden Eingang bewirkt der Gleichtakt-Eingangswiderstand eine Abschwächung und am invertierenden Eingang eine Steigerung der Verstärkung (Bei realen OPV Abweichungen vernachlässigbar für $<10$ M$\Omega$). %Wikipedia
-    \item \textbf{Differenz-Eingangswiderstand}:\\ Dieser Widerstand liegt zwischen nichtinvertierendem und invertierendem Eingang und wirkt durch die Gegenkopplung dynamisch stark erhöhend. Dabei wird die Spannung zwischen den beiden Eingängen nahe 0 V gehalten (Dynamische Werte in Bereich $<10$ G$\Omega$ aufwärts). %Wikipedia
+    \item \textbf{Eingangs-Offsetstrom} (Input Offset Current):\\ Eingangsstromdifferenz bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt. \footnotemark[2]
+    \item \textbf{Eingangs-Offsetspannung} (Input Offset Voltage):\\ Eingangsspannung bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt. \footnotemark[2]
+    \item \textbf{Gleichtakt-Eingangswiderstand}:\\ Diese beiden Widerstände liegen zwischen dem jeweiligen Eingang und Masseund liegen somit parallel zu den Eingängen und werden durch die Gegenkopplung nicht beeinflusst. Am nichtinvertierenden Eingang bewirkt der Gleichtakt-Eingangswiderstand eine Abschwächung und am invertierenden Eingang eine Steigerung der Verstärkung (Bei realen OPV Abweichungen vernachlässigbar für $<10$ M$\Omega$). \footnotemark[3]
+    \item \textbf{Differenz-Eingangswiderstand}:\\ Dieser Widerstand liegt zwischen nichtinvertierendem und invertierendem Eingang und wirkt durch die Gegenkopplung dynamisch stark erhöhend. Dabei wird die Spannung zwischen den beiden Eingängen nahe 0 V gehalten (Dynamische Werte in Bereich $<10$ G$\Omega$ aufwärts). \footnotemark[3]
     \item \textbf{Gleichtakt-Eingangsbereich} (Input Common Mode Range):\\ Eingangsspannungsbereich bzgl. der Betriebsspannung, bei dem der OPV linear arbeitet. Wird der Bereich verlassen bricht die Verstärkung drastisch ein und kann Schäden am Bauteil verursachen. 
-    \item \textbf{Differenz-Eingangsbereich}:\\ Zulässige Eingangsspannungsdifferenzen, bei dem der OPV normal arbeitet.
-    \item \textbf{Slewrate}:\\ Bauartbedingte schnellste Änderung der Ausgangsspannung. Der Wert liegt beim kompensierten OPV fest und kann beim unkompensierten durch externe Beschaltung reduziert werden. %HBS
-    \item \textbf{Impedanzwandlung}:\\ Die Verschaltung, bei der der invertierte Eingang mit dem Ausgang kurzgeschlossen/rückgekoppelt ist, um eine gleichphasige Spannung ($U_e=U_a$) und eine Verstärkung $v=1$ zu realisieren. Es gelten Bedingung für $R_e, R_a$ wie in Kapitel 2.1. Damit wird das Signal von einer hochohmigen zu einer niederohmigen Last gewandelt. 
+    \item \textbf{Differenz-Eingangsbereich}:\\ Zulässige Eingangsspannungsdifferenzen, bei dem der OPV normal arbeitet. \footnotemark[2]
+    \item \textbf{Slewrate}:\\ Bauartbedingte schnellste Änderung der Ausgangsspannung. Der Wert liegt beim kompensierten OPV fest und kann beim unkompensierten durch externe Beschaltung reduziert werden. \footnotemark[2]
+    \item \textbf{Impedanzwandlung}:\\ Die Verschaltung, bei der der invertierte Eingang mit dem Ausgang kurzgeschlossen/rückgekoppelt ist, um eine gleichphasige Spannung ($U_e=U_a$) und eine Verstärkung $v=1$ zu realisieren. Es gelten Bedingung für $R_e, R_a$ wie in Kapitel 2.1. Damit wird das Signal von einer hochohmigen zu einer niederohmigen Last gewandelt. \footnotemark[2]
 \end{itemize}
+\footnotetext[2]{Hering, Bressler, Gutekunst - Elektronik für Ingenieure und Naturwissenschaftler, Kapitel 8.2 - 8.4}
+\footnotetext[3]{Wikipedia- Operationsverstärker}
 
 % 3
 \section{Nichtinvertierender Verstärker}
 \label{sec:noninvertedOPV}
 \begin{center}
-    \includegraphics[scale = 0.4]{noninvertedOPV.PNG} %Pfeile
+    \includegraphics[scale = 0.4]{noninvertedOPV.PNG} 
     \captionof{figure}{Nichtinvertierender Verstärker}
 \end{center}
 Aus den Annahmen aus dem Skript (EL2 - 2) folgt:
@@ -66,7 +68,7 @@ Womit sich die Verstärkung angeben lässt wie folgt:
 \section{Integrationsschaltung}
 \label{sec:intschaltung}
 \begin{center}
-    \includegraphics[scale = 0.4]{intOPV.PNG} %Pfeile
+    \includegraphics[scale = 0.4]{intOPV.PNG}
     \captionof{figure}{Integrationsschaltung}
 \end{center}
 Mit den selben Annahmen aus Kapitel 2.3 folgt:
@@ -89,6 +91,7 @@ Mit Gleichung (2.7) und (2.8) folgt:
 Die Gleichung (2.10) ist eine Differentialgleichung 1. Ordnung mit allgemeiner Lösung:
 \begin{gather}
     \Rightarrow \boxed{U_a(t) = -\frac{1}{R_1 C_2} \int_0^t U_e(\tau)\text{d}\tau + U_0}
+    \label{eq:integrierer}
 \end{gather}
 Dabei ist $U_0$ festgelegt durch die Aufladung des Kondensators und somit gilt $U_0 = U_{C_2}$, wobei fortan zum vereinfachen der Rechnung $U_0=0~\text{V}$ angenommen wird.\\
 \begin{gather}
@@ -120,10 +123,11 @@ Bei Gleichung (2.17) handelt es sich um eine Inhomogene lineare Differentialglei
     \end{aligned}\\[0.5cm]
     \Rightarrow \boxed{v_{i,2}(\omega)=\frac{R_2}{R_1} \frac{1}{\sqrt{1+(\omega R_2 C_2)^2}}}
 \end{gather}
-Bei der Grenzfrequenz $f_{gr}$ soll die Verstärkung $v$ ungefähr $70\%~\approx\frac{1}{\sqrt{2}}$ der Leerlaufverstärkung $v(0)$ betragen, wobei diese gemessen wird wenn der OPV nicht beschalten ist. Damit ist $v(0)$ in (EL2 - 3) durch Gleichung (3) gegeben und es folgt: %EKS Kapitel 31 S.264
+Bei der Grenzfrequenz $f_{gr}$ soll die Verstärkung $v$ ungefähr $70\%~\approx\frac{1}{\sqrt{2}}$ \footnote[1]{Eichler, Kronfeldt, Sahm - Das neue Physikalische Praktikum, Kapitel 31} der Leerlaufverstärkung $v(0)$ betragen, wobei diese gemessen wird wenn der OPV nicht beschalten ist. Damit ist $v(0)$ in (EL2 - 3) durch Gleichung (3) gegeben und es folgt: %EKS Kapitel 31 S.264
 \begin{gather}
     v_{i,2}(\omega_{i,gr}) = \frac{1}{\sqrt{2}} v(0) = \frac{1}{\sqrt{2}} \frac{R_2}{R_1} \overset{!}{=} \frac{R_2}{R_1} \frac{1}{\sqrt{1+(\omega_{i,gr} R_2 C_2)^2}}\\
     \Leftrightarrow \boxed{w_{i,gr} = \frac{1}{R_2 C_2}}
+    \label{eq:wi2}
 \end{gather}
 Um die Ausdrücke für die Verstärkung zu vereinfachen wenden wir folgende Formeln an:
 \begin{gather}
@@ -144,6 +148,7 @@ Aus der Abbildung 2.4 folgt, dass die Frequenz für die Eingangsspannung deutlic
 \label{sec:diffschaltung}
 \begin{center}
     \includegraphics[scale = 0.4]{diffOPV.PNG}
+    \label{Differenzierschaltung}
     \captionof{figure}{Differenzierschaltung}
 \end{center}
 Nochmaliges Anwenden der Annahmen aus Kapitel 2.3 folgt:
@@ -170,7 +175,7 @@ Nun wird der Widerstand $R_1$ in Reihe zum Kondensator $C_1$ geschaltet. Betrach
     v_2(\omega) = \abs{-\frac{Z_{Aus}}{Z_{Ein}}} = \abs{-\frac{R_2}{R_1 + \frac{1}{i\omega C_1}}} = \abs{-\frac{R_2}{R_1} \frac{i\omega R_1C_1}{1+i\omega R_1C_1}} = \frac{R_2}{R_1} \frac{\omega R_1C_1}{\sqrt{1 + (\omega R_1C_1)^2}}\\[0.5cm]
     \Rightarrow \boxed{v_{d,2}(\omega)=\frac{R_2}{R_1} \frac{\omega R_1C_1}{\sqrt{1 + (\omega R_1C_1)^2}}}
 \end{gather}
-Damit folgt mit dem selben Ansatz wie bei Kapitel 2.4 mit dem unterschied, dass nun statt $v(0)$ nun $v(\Omega\rightarrow \infty)$ betrachtet wird, aber die Gleichung (3) aus (EL2-3) und die Bedingung von für $f_{gr}$ weiterhin gilt:
+Damit folgt mit dem selben Ansatz wie bei Kapitel 2.4 mit dem unterschied, dass nun statt $v(0)$ nun $v(\omega\rightarrow \infty)$ betrachtet wird, aber die Gleichung (3) aus (EL2-3) und die Bedingung von für $f_{gr}$ weiterhin gilt:
 \begin{gather}
     \boxed{\omega_{d,gr}=\frac{1}{R_1 C_1}}
 \end{gather}
@@ -186,6 +191,10 @@ Mit erneuter doppellogarithmischen Auftragung ergibt sich dann Abbildung 2.6 .
 An Abbildung 2.6 kann man schon erkennen, dass sie in Prinzip eine spiegelverkehrte Abbildung 2.4 ist. Damit muss aber auch $f_{d,gr}=2\pi\omega_{d,gr}$ kleiner gewählt werden für einen idealen Betrieb des OPV im linearen Bereich.
 \newpage
 \section*{Bandpass 1.Ordnung}
+\begin{center}
+    \includegraphics[scale = 0.6]{diffOPV_verbessert.PNG}
+    \captionof{figure}{Bandpass 1. Ordnung} 
+\end{center}
 Diesen Schritt wiederholt man nun nochmal mit, aber nun wird noch zum Widerstand $R_2$ der Kondensator $C_2$ parallel geschaltet, was einer Kombinationsschaltung aus Integration und Differenzierschaltung darstellt. Damit folgt: %http://techniker.pi-pro.de/fs/nae/pdf/filter.pdf
 \begin{gather}
     \begin{aligned}
@@ -194,11 +203,12 @@ Diesen Schritt wiederholt man nun nochmal mit, aber nun wird noch zum Widerstand
         &=\abs{\frac{R_2}{R_1}\frac{1}{1 + \frac{R_2C_2}{R_1C_1} + i\omega R_2C_2 + \frac{1}{i\omega R_1C_1}}}\\
         &=\abs{\frac{1}{\frac{R_1}{R_2}+\frac{C_2}{C_1}+i(\omega R_1C_2 - \frac{1}{\omega R_2C_1})}}
     \end{aligned}\\[0.5cm]
-    \Rightarrow \boxed{v_{d,i}=\frac{1}{\sqrt{\left(\frac{R_1}{R_2}+\frac{C_2}{C_1}\right)^2+\left(\omega R_1C_2 - \frac{1}{\omega R_2C_1}\right)^2}}}~\text{mit}~\boxed{\omega_0 = \sqrt{\omega_{i,gr}\cdot \omega_{d,gr}}}
+    \Rightarrow \boxed{v_{d,i}=\frac{1}{\sqrt{\left(\frac{R_1}{R_2}+\frac{C_2}{C_1}\right)^2+\left(\omega R_1C_2 - \frac{1}{\omega R_2C_1}\right)^2}}}~\text{mit}~\boxed{\omega_0 = \sqrt{\omega_{i,gr}\cdot \omega_{d,gr}}}~\text{\footnotemark[4]}
 \end{gather}
-Mit $R_1 = 2~\Omega, R_2 = \frac{1}{2}~\Omega, C_1 = 2~\text{F}$ und $C_2 = \frac{1}{2}~\text{F}$ erhält man dann Abbildung 2.7 .
+\footnotetext[4]{\url{http://techniker.pi-pro.de/fs/nae/pdf/filter.pdf}}
+Mit $R_1 = 2~\Omega, R_2 = \frac{1}{2}~\Omega, C_1 = 2~\text{F}$ und $C_2 = \frac{1}{2}~\text{F}$ erhält man dann Abbildung 2.8 .
 \begin{center}
-    \includegraphics[scale = 0.7]{bandfilter.png}
+    \includegraphics[scale = 0.65]{bandfilter.png}
     \captionof{figure}{Frequenzabhängigkeit von $v$ zu $\omega$}
 \end{center}
 Die Bandpass wirkt als Differenzierer für $\omega \ll \omega_{d,gr}$ und bei $\omega \gg \omega_{i,gr}$ als Integrierer. Bei geeigneter Wahl von $R_1, R_2, C_1$ und $C_2$ kann der Bandbereich ($\omega \in [\omega_{d,gr},\omega_{i,gr}])$ geschmälert oder verbreitet werden. %HBS
