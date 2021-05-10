@@ -26,7 +26,7 @@ $R_{2_1}=(1\pm 0,03)M\Omega$\\
 $R_{2_1}=(4,71\pm 0,14)M\Omega$\\
 $\upsilon_{t1}=-(100\pm4)$\\
 $\upsilon_{t2}=-(470\pm20)$\\
-Bei der Berechnung von den Fehlern $s_{U_a}$ und $s_{U_e}$ nehmen wir den Ablesefehler $u_a$= 0,1 und Restfehler $u_r$ = 3 Prozent des Oszilloskops. Somit folgt:
+Bei der Berechnung von den Fehlern $s_{U_a}$ und $s_{U_e}$ nehmen wir den Ablesefehler $u_a$= 0,1 und Restfehler $u_r$ = 3 Prozent des Oszilloskops an. Somit folgt:
 \begin{equation}
 s_{U_a}=\sqrt{u_a^2+u_r^2}=\sqrt{(0,03 \cdot U_a)^2+(U_a\cdot 0,1)^2} \\
 \end{equation}
@@ -40,12 +40,16 @@ Mit den gemessenen Werten und berechneten Fehlern ergeben sich folgende Tabellen
 %Tabelle R_2=1MOhm und Tabelle R_2=4,7MOhm
 
 Beim Versuch, die gemessene Verstärkung $\upsilon$ mit den theoretisch berechneten Werten der Verstärkung  $\upsilon_{t1}$ bzw $\upsilon_{t2}$ fällt auf, dass die theoretischen Werte nicht von der Frequenz abhängen. Beim Vergleich der Werte wird deutlich, dass die theoretisch berechnete Verstärkung die Verstärkung sehr kleiner Frequenzen beschreibt. Daher nehmen wir die gemessene Verstärkung von kleinen Frequenzen als Vergleich. 
-$\upsilon_1(f=10Hz)=(98\pm 14,5)$\\
-$\upsilon_2(f=10Hz)=(460\pm 48,5)$
-Beim Vergleich erkennt man, dass die Beträge der Werte sich in den Fehlerbereichen überschneiden und daher im Rahmen der Messgenauigkeit übereinstimmen. Jedoch fällt auf, dass die theoretischen Werte negativ sind, die gemessenen jedoch positiv sind. Der Grund dafür ist die Phasenverschiebung von Eingangs und Ausgangssignal? \\
-%Begründung weshalb man diese Werte nehmen kann
+\begin{equation}
+\upsilon_1(f=10Hz)=(98\pm 14,5)\\
+\upsilon_2(f=10Hz)=(460\pm 48,5)
+\end{equation}
 
-Nun werden wir das Verstärkung-Bandbreite-Produkt $B\cdot \upsilon$ bestimmen. Dieses VBP ist ein Kennwert von Operationsverstärkern und daher wichtig, es genau zu bestimmen.  Um das Produkt zu bestimmen, tragen wir den Frequenzgang doppellogarithmisch in ein Diagramm ein. Wie in den Fragen zur Vorbereitung schon beschrieben bleibt das Verstärkung–Bandbreite–Produkt i näherungsweise konstant $v\cdot B = v \cdot f_{gr} = \text{constant}$. Der konstante Bereich wird dabei durch die Grenzfrequenz $f_{gr}$ begrenzt, wobei bei einer Verstärkung $v=0$ die sogenannte Transitfrequenz $f_T$ liegt. Daher betrachten wir nur den linearen Teil der Kurve. Durch diesen Bereich legen wir zwei Geraden mit maximaler und minimaler Steigung, wodurch wir den Frequenzbereich für die Verstärkung $\upsilon=1$ bekommen. 
+Beim Vergleich erkennt man, dass die Beträge der Werte sich in den Fehlerbereichen überschneiden und daher im Rahmen der Messgenauigkeit übereinstimmen. Jedoch fällt auch auf, dass die theoretischen Werte negativ , die gemessenen jedoch positiv sind. Der Grund dafür ist die Phasenverschiebung von Eingangs und Ausgangssignal. \\
+
+
+Nun werden wir das Verstärkung-Bandbreite-Produkt $B\cdot \upsilon$ bestimmen. \\
+Dieses VBP ist ein Kennwert von Operationsverstärkern.  Um das Produkt zu bestimmen, tragen wir den Frequenzgang doppellogarithmisch in ein Diagramm ein. Wie in den Fragen zur Vorbereitung schon beschrieben bleibt das Verstärkung–Bandbreite–Produkt  näherungsweise konstant $v\cdot B = v \cdot f_{gr} = \text{constant}$. Der konstante Bereich wird dabei durch die Grenzfrequenz $f_{gr}$ begrenzt, wobei bei einer Verstärkung $v=0$ die sogenannte Transitfrequenz $f_T$ liegt. Daher betrachten wir nur den linearen Teil der Kurve. 
 %Graphen einfügen
 Der lineare Bereich liegt in dem Bereich\\
 Für $R_2=1$ M $\Omega$\\
@@ -53,8 +57,9 @@ Für $R_2=4,7$ M $\Omega$ \\
 
 
 Nun soll noch die Beziehung von der Bandbreite B und der Flankenabfallszeit betrachtet werden.\\
-Wir haben folgende Werte gemessen:
-Die Flankenabfallszeit beschreibt die Zeit, nach dem die verstärkte Spannung von 10V auf $\frac{1}{e} \cdot 10V \approx 3,7V$ fällt. Dabei entspricht bei $R_2=1$ M $\Omega$ : $\Delta t =4,8div \cdot 0,1\frac{\mu s}{div}=4,8\cdot10^{-6}s$\\
+Wir haben folgende Werte gemessen:\\
+Die Flankenabfallszeit beschreibt die Zeit, nach dem die verstärkte Spannung von 10V auf $\frac{1}{e} \cdot 10V \approx 3,7V$ fällt. \\
+Dabei entspricht bei $R_2=1$ M $\Omega$ : $\Delta t =4,8div \cdot 0,1\frac{\mu s}{div}=4,8\cdot10^{-6}s$\\
 Bei $R_2=4,7$ M $\Omega$ : $\Delta t =4,0div \cdot 0,2\frac{\mu s}{div}=0,8\cdot10^{-6}s$ 
 
 
