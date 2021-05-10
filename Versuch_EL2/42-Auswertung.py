@@ -1,4 +1,3 @@
-from matplotlib import markers
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -49,7 +48,7 @@ y, y_err = df['v'], df['s_v']
 
 plt.errorbar(x, y, yerr=y_err, fmt='.', capsize=5, label = 'Messreihe')
 plt.plot(x_T, y_T, label='Theorie')
-plt.plot(x_fgr, x_c, linestyle = '--', label = r'$f_{i,2}$', color ='r')
+plt.plot(x_fgr, x_c, linestyle = '--', label = r'$f_{i,gr}$', color ='r')
 plt.plot(y_c, y_fgr, linestyle = '--', color = 'r')
 plt.xlabel(r'$f$ in Hz')
 plt.xscale('log')

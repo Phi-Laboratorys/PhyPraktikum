@@ -30,13 +30,13 @@ Betrachtet man nun die Gleichung \ref{eq:wi2} ergibt sich für diese Schaltung m
 \begin{gather*}
     R_1 = (10.0 \pm 0.3)~\text{k}\Omega,~R_2 = (1.00 \pm 0.03)~\text{M}\Omega~\text{und}~C_2 = (10.0 \pm 0.3)~\text{nF},
 \end{gather*}
-wobei dabei der Fehler der Widerstände mit $3\%$ des Messwerts abgeschätzt und der Kondensator einen vom Hersteller angegebenen Fehler von $2.5\%$ des angegeben Wertes hat, für die Grenzfrequenz $f_{i,2}$ mit dem Fehler $s_{f_{i,2}}$ (ermittelt durch das Fehlerfortpflanzungsgesetz):
+wobei dabei der Fehler der Widerstände mit $3\%$ des Messwerts abgeschätzt und der Kondensator einen vom Hersteller angegebenen Fehler von $2.5\%$ des angegeben Wertes hat, für die Grenzfrequenz $f_{i,gr}$ mit dem Fehler $s_{f_{i,gr}}$ (ermittelt durch das Fehlerfortpflanzungsgesetz):
 \begin{gather}
-    f_{i,2} = \frac{1}{2\pi R_2 C_2} = 15.91549~\text{Hz}\\[0.5cm]
-    s_{f_{i,2}} = \frac{1}{2\pi}\sqrt{\left(\frac{s_{R_2}}{R_2^2 C_2}\right)^2 + \left(\frac{s_{C_2}}{R_2 C_2^2}\right)^2} = 0.67523~\text{Hz}\\[0.5cm]
-    \Rightarrow \boxed{f_{i,2} = (15.9 \pm 0.7)~\text{Hz}}
+    f_{i,gr} = \frac{1}{2\pi R_2 C_2} = 15.91549~\text{Hz}\\[0.5cm]
+    s_{f_{i,gr}} = \frac{1}{2\pi}\sqrt{\left(\frac{s_{R_2}}{R_2^2 C_2}\right)^2 + \left(\frac{s_{C_2}}{R_2 C_2^2}\right)^2} = 0.67523~\text{Hz}\\[0.5cm]
+    \Rightarrow \boxed{f_{i,gr} = (15.9 \pm 0.7)~\text{Hz}}
 \end{gather}
-Dieses Ergebnis deckt sich mit der Messung, da bei einer Frequenz von $100~\text{Hz}$ erkennt man in Abbildung \ref{abb:int} schon die Dreiecksspannung, währendessen bei einer Frequenz von $10~\text{Hz}$ das Signal der Ausgangsspannung $U_a$ die Ladekurve des Kondensators zeigt. Dies hat den Grund, dass der OPV ungefähr ab der Grenzfrequenz $f_{i,2}$ linear arbeitet und korrekt integriert. Weiterhin lässt sich durch Erhöhung der Frequenz der Spannungsquelle durch die Einstellungen am Oszilloskop (siehe S.22) gut erkennen, dass die Verstärkung frequenzabhängig ist.\\
+Dieses Ergebnis deckt sich mit der Messung, da bei einer Frequenz von $100~\text{Hz}$ erkennt man in Abbildung \ref{abb:int} schon die Dreiecksspannung, währendessen bei einer Frequenz von $10~\text{Hz}$ das Signal der Ausgangsspannung $U_a$ die Ladekurve des Kondensators zeigt. Dies hat den Grund, dass der OPV ungefähr ab der Grenzfrequenz $f_{i,gr}$ linear arbeitet und korrekt integriert. Weiterhin lässt sich durch Erhöhung der Frequenz der Spannungsquelle durch die Einstellungen am Oszilloskop (siehe S.22) gut erkennen, dass die Verstärkung frequenzabhängig ist.\\
  \\
 Für den theoretischen Verlauf der Verstärkung $v_{i,2}$ betrachten wir Gleichung (2.20) mit $\omega = 2\pi f$.
 %, woraus für dessen Fehler mit dem Fortpflanzungsgesetz folgt:
@@ -56,7 +56,7 @@ Mit einsetzen der Messwerte folgt dann folgende Tabelle \ref{tab:int}, wobei der
 \newpage
 \begin{center}
     \captionof{table}{Messreihe Umkehrintegrator}
-    \begin{tabular}{l c c c c c | c c}
+    \begin{tabular}{l | c c c c c | c c}
         {} &   $f$/Hz &  $U_a$/V &  $s_{U_a}$/V &  $U_e$/V &  $s_{U_e}$/V 
         &      $v$ &   $s_v$ \\
         \hline
@@ -87,7 +87,7 @@ Mit einsetzen der Messwerte folgt dann folgende Tabelle \ref{tab:int}, wobei der
     \end{tabular}
     \label{tab:int}
 \end{center}
-Trägt man die Verstärkung $v$ doppellogarithmisch gegen die Frequenz $f$ auf erhält man Abbildung \ref{abb:intMess}. Dabei ist deutlich zu erkennen, dass die Messung in Rahmen der Messgenauigkeit gut getroffen wurde. Auch ist die Grenzfrequenz $f_{i,2}$ durch die Messung nochmal bestätigt und es lässt sich gut der lineare Bereich des OPVs erkennen, indem dieser korrekt integriert.
+Trägt man die Verstärkung $v$ doppellogarithmisch gegen die Frequenz $f$ auf erhält man Abbildung \ref{abb:intMess}, wobei der theoretische Verlauf von $v$ gegeben ist durch die Gleichung (2.20). Dabei ist deutlich zu erkennen, dass die Messung in Rahmen der Messgenauigkeit gut getroffen wurde. Auch ist die Grenzfrequenz $f_{i,gr}$ durch die Messung nochmal bestätigt und es lässt sich gut der lineare Bereich des OPVs erkennen, indem dieser korrekt integriert.
 \newpage
 \begin{center}
     \captionof{figure}{Frequenzgang des Umkehrintegrator}
