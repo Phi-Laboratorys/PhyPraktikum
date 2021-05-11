@@ -6,7 +6,7 @@
 \section{Umkehrverstärker}
 
 
-\subsection*{Verstärker $v$ und Eingangswiderstand $R_e$}
+\subsection*{Verstärkung und Eingangswiderstand}
 In dieser Teilaufgabe der Auswertung wird $R_1=10~\text{k}\Omega$ und $R_{2,1}=1~\text{M}\Omega$ bzw. $R_{2,2}=4.7~\text{M}\Omega$ verwendet. Nun sollten wir sowohl den Frequenzgang der Verstärkung $v$ von 10Hz ab messen, als auch die Flankenabfallszeit $\tau$ bei der Übertragung einer Rechteckspannung.\\
 Zuerst berechnen wir die Verstärkung $v$ und den Eingangswiderstand $R_e$. \\
 Dabei bezeichnet $v_{t1}$ die theoretische Berechnung der Verstärkung bei Nutzung des Widerstandes $R_{2,1}=1~\text{M}\Omega$, und $v_{t2}$ die theoretische Berechnung der Verstärkung mit dem Widerstand $R_{2,1}=4.7~\text{M}\Omega$. Der Eingangswiderstand ergibt sich folgendermaßen: \\
@@ -119,16 +119,18 @@ Doppellogarithmische Auftragung ergibt dann folgende Abbildung \ref{abb:invert}.
 \begin{gather}
     v = a \frac{1}{\sqrt{1+\left(\frac{f}{b}\right)^2}}
 \end{gather}
-verwendet wurde. Die Verwendung dieser Formel entstand aus der Überlegung, dass der Verlauf der Messpunkte der Verstärkung $v$ der Kurve von der Verstärkung des Integrators $v_{i,2}$ ähnelt. Interessant wird es beim Auswerten der Parameter $a,~b$ aus der Berechnung folgt nämlich:
+verwendet wurde. Die Verwendung dieser Formel entstand aus der Überlegung, dass der Verlauf der Messpunkte der Verstärkung $v$ der Kurve von der Verstärkung des Integrators $v_{i,2}$ ähnelt. Anzumerken ist, dass die gefitteten Kurven der beiden Widerstände beide in den selben linearen Bereich übergehen, was auch der Theorie entspricht, da dort des Verstärkung-Bandbreiten-Produkt konstant ist und dies eine Kenngröße des Operationsverstärkers ist. Interessant wird es beim Auswerten der Parameter $a,~b$. Aus der Berechnung folgt nämlich:
 \begin{gather}
     R_{2,1}: a = 98.98181807063608 \tab b = 32877.91584299329 \\
     R_{2,2}: a = 469.4477468969374 \tab b = 6954.533596674419
 \end{gather}
-Wenn man die Parameter genauer betrachtet wird auffällig, dass $a=\frac{R_{2,i}}{R_1}$ ist und $b$ durch Eintragen der Werte in Abbildung \ref{abb:invert} die Grenzfrequenz $f_{gr,i}$ der jeweiligen schaltung ist. Womit man folgern könnte:
+Wenn man die Parameter genauer betrachtet wird auffällig, dass $a=\frac{R_{2,i}}{R_1}$ ist und $b$ durch Eintragen der Werte in Abbildung \ref{abb:invert} die Grenzfrequenz $f_{gr,i}$ der jeweiligen Schaltung in Hz ist. Womit man folgern könnte:
 \begin{gather}
     v_i = \frac{R_{2,i}}{R_1} \frac{1}{\sqrt{1+\left(\frac{f}{f_{gr,i}}\right)^2}}
 \end{gather}
-Den Wert für das Verstärkung–Bandbreite–Produkt ermitteln wir rechnerisch. Wie vorhin angesprochen bleibt das Verstärkung–Bandbreite–Produkt näherungsweise konstant. Daher betrachten wir nur den linearen Teil der Kurve ($f\in[1\cdot10^5~\text{Hz},3\cdot10^6~\text{Hz}]$). Dafür multiplizieren wir die jeweiligen Messwerte mit der Verstärkung und bilden daraus den Mittelwert, wodurch wir das Verstärkung-Bandbreite-Produkt $B\cdot v$ bekommen. Mit dem Fehlerfortpflanzungsgesetz folgt dann für den Fehler, wobei der Fehler der Frequenz $f$ angegeben ist durch den Ablesefehler $s_a=0.01~\text{Hz}$ und den Restfehler $s_r=0.04\%\cdot\text{Messwert}+0.01~\text{Hz}$:
+Die Ergebnisse von b für $R_{2,1}$ würde sich auch mit unserer Messung decken. Dort haben wir für die Grenzfrequenz $f_{gr,1}\approx33.3~\text{kHz}$ gemessen. Für $f_{gr,2}$ haben wir den Wert von $14.38~\text{kHz}$, was nach dem Fit einen falschen Messwert darstellt. Diese Vermutungen werden im dritten Teil dieses Kapitels mittels der Flankenabfallzeit validiert.\\
+\newline
+Den Wert für das Verstärkung–Bandbreite–Produkt ermitteln wir rechnerisch. Wie vorhin angesprochen bleibt das Verstärkung–Bandbreite–Produkt näherungsweise konstant. Daher betrachten wir nur den linearen Teil der Kurve ($f\in[100~\text{kHz},3000~\text{kHz}]$). Dafür multiplizieren wir die jeweiligen Messwerte mit der Verstärkung und bilden daraus den Mittelwert, wodurch wir das Verstärkung-Bandbreite-Produkt $B\cdot v$ bekommen. Mit dem Fehlerfortpflanzungsgesetz folgt dann für den Fehler, wobei der Fehler der Frequenz $f$ angegeben ist durch den Ablesefehler $s_a=0.01~\text{Hz}$ und den Restfehler $s_r=0.04\%\cdot\text{Messwert}+0.01~\text{Hz}$:
 \begin{gather}
     v_{B,i} = \frac{1}{N}\sum_{n=1}^N B_i^n\cdot v_i^n=\frac{1}{N}\sum_{n=1}^N f_i^n\cdot v_i^n~(N\text{: Anzahl der Messwerte})\\
     s_{f_i^n} = \sqrt{s_a^2+(s_{r,i}^n)^2}\\
@@ -179,7 +181,6 @@ Daraus folgen dann Tabelle \ref{tab:vB1} und Tabelle \ref{tab:vB2}:
     \Rightarrow\boxed{v_{B,1} = (2332 \pm 205)~\text{kHz}\tab v_{B,2} = (4169 \pm 1680)~\text{kHz}}
 \end{gather}
 Vergleicht man dieses Ergebnis mit dem angegebenen Werten aus dem Datenblatt \footnote{\url{https://pdf1.alldatasheetde.com/datasheet-pdf/view/242229/STMICROELECTRONICS/TL071.html}} sind die beiden Ergebnisse im Rahmen der Messgenauigkeit akzeptabel. Erwähnt werden muss aber, dass beide Ergebnisse laut Theorie identisch sein müssen, weshalb unsere Erwartungen nicht erfüllt wurden. Grund hierfür könnte bei der Messreihe von $R_{2,1}$ der Knick weg vom linearen Bereich des Curve-Fits in Abbildung \ref{abb:invert} sein, was auf einen Messfehler deuten könnte. 
-\newpage 
 \begin{center}
     \captionof{figure}{Frequenzgang für Umkehrverstärker für unterschiedliche Widerstände}
     \includegraphics[scale = 0.75]{GegenkopplungMess.PNG}
@@ -195,41 +196,43 @@ Die theoretisch erwartete Bandbreite liegt in dem Bereich, in dem die Verstärku
 \end{gather}
 Nun soll auch die Beziehung zwischen der Flankenabfallszeit und der Bandbreite B betrachtet werden. Dafür nehmen wir das oben berechnete Verstärkung–Bandbreite–Produkt und setzen dies mit der Transitfrequenz gleich, da die folgende Relation gilt:
 \begin{equation}
-    f_g=\frac{f_T}{v_{theo}}
+    f_{gr}=\frac{f_T}{v_{theo}}
 \end{equation}
 Dadurch bekommen wir folgende Werte für die zwei Widerstände, wobei wir die Transitfrequenz aus einem Datenblatt entnommen haben:
 \begin{gather}
-    R_{2,1}: f_{g1}=\frac{f_T}{v_{t1}}=\frac{4}{100}=0,04\cdot 10^6=40000~\text{Hz}\\
-    R_{2,2}: f_{g2}=\frac{f_T}{v_{t2}}=\frac{4}{470}=0,0085\cdot 10^6=8500~\text{Hz}
+    R_{2,1}: f_{gr,1}=\frac{f_T}{v_{t1}}=\frac{4}{100}=0,04\cdot 10^6=40000~\text{Hz}\\
+    R_{2,2}: f_{gr,2}=\frac{f_T}{v_{t2}}=\frac{4}{470}=0,0085\cdot 10^6=8500~\text{Hz}
 \end{gather}
 Da wir den Fehler für die Transitfrequenz aus dem Datenblatt\footnotemark[1] wegen fehlender Angaben weglassen, berechnet sich der Fehler folgendermaßen:
 \begin{gather}
-    u_{f_{g1}}=\sqrt{(\frac{f_T \cdot u_{v_{t1}}}{v_{t1}^2})^2}=0,0016\cdot 10^6=1600~\text{Hz}\\
-    u_{f_{g2}}=\sqrt{(\frac{f_T \cdot u_{v_{t2}}}{v_{t2}^2})^2}=0,00036\cdot 10^6=360~~\text{Hz}\\
+    u_{f_{gr,1}}=\sqrt{(\frac{f_T \cdot u_{v_{t1}}}{v_{t1}^2})^2}=0,0016\cdot 10^6=1600~\text{Hz}\\
+    u_{f_{gr,2}}=\sqrt{(\frac{f_T \cdot u_{v_{t2}}}{v_{t2}^2})^2}=0,00036\cdot 10^6=360~~\text{Hz}\\
     \Rightarrow \boxed{f_{g1}=(40\pm2)~\text{kHz} \tab f_{g2}=(8.5\pm0.4)~\text{kHz}}
 \end{gather}
 Zusätzlich können wir die Grenzfrequenz auch durch folgende Relation berechnen: Wir nehmen an, dass die Beziehung zwischen B und $\tau$ indirekt proportional ist. Dadurch können wir mit folgender Beziehung nach $f_g$ auflösen:
 \begin{equation}
-    B=2\pi\cdot f_g \Rightarrow \frac{1}{\tau}=B=2\pi\cdot f_g \Leftrightarrow  f_g=\frac{1}{2\pi \tau}
+    B=2\pi\cdot f_{gr} \Rightarrow \frac{1}{\tau}=B=2\pi\cdot f_{gr} \Leftrightarrow  f_{gr}=\frac{1}{2\pi \tau}
 \end{equation}
 Dies werden wir nun durch unsere und gemessenen Werte versuchen zu bestätigen und vergleichen dann die verschiedenen Werte für die Grenzfrequenz. \\
 Die gemessenen Flankenabfallszeiten haben folgende Werte:
 \begin{gather}
     R_{2,1}:\tau_1=\Delta t =4.8~\text{Div} \cdot 0.1~\frac{\mu\text{s}}{div}=4.8\cdot10^{-6}s=4.8~\mu\text{s}\\
     R_{2,2}:\tau_2=\Delta t =4.0~\text{Div} \cdot 0.2~\frac{\mu\text{s}}{\text{Div}}=0-8\cdot10^{-6}s= 0.8~\mu\text{s}\\
-    \Rightarrow R_{2,1}: f_{g1}=\frac{1}{2\pi \tau_1}= \frac{1}{2\pi \cdot 4.8\cdot 10^{-6}~\text{s}}=33.157~\text{kHz}
+    \Rightarrow R_{2,1}: f_{gr,1}=\frac{1}{2\pi \tau_1}= \frac{1}{2\pi \cdot 4.8\cdot 10^{-6}~\text{s}}=33.157~\text{kHz}
 \end{gather}
-Im Vergleich mit mehreren Gruppen fällt auf, dass wir uns bei $\tau$ von $R_2=4.7$ M$\Omega$ verschrieben haben. Die Skalierung lag wahrscheinlich bei 5 $\frac{\mu\text{s}}{\text{Div}}$. Daher rechne ich nun mit diesem Wert weiter. 
+Im Vergleich mit mehreren Gruppen fällt auf, dass wir uns bei $\tau$ von $R_{2,2}=4.7$ M$\Omega$ verschrieben haben. Die Skalierung lag wahrscheinlich bei 5 $\frac{\mu\text{s}}{\text{Div}}$. Daher rechne ich nun mit diesem Wert weiter. 
 \begin{gather}
-    R_{2,2}: f_{g2}=\frac{1}{2\pi \tau_2}= \frac{1}{2\pi \cdot 0.8 \cdot 10^{-6}}=7957.747~\text{Hz}\\
+    R_{2,2}: f_{gr,2}=\frac{1}{2\pi \tau_2}= \frac{1}{2\pi \cdot 0.8 \cdot 10^{-6}}=7957.747~\text{Hz}\\
     u_{\tau_1}=\sqrt{0.5^2+(4.8\cdot0.03)^2}\cdot10^{-6}=\cdot10^{-6}=0.52\cdot10^{-6}\\
     u_{\tau_2}=\sqrt{0.1^2+(20\cdot0.03)^2}\cdot10^{-6}=0.608\cdot10^{-6}\\
-    u_{f_{g1}}=\sqrt{(\frac{u_{\tau_1}}{\tau^2 \cdot 2\pi})^2}= 3592.04\\
-    u_{f_{g2}}=\sqrt{(\frac{u_{\tau_2}}{\tau^2 \cdot 2\pi})^2}= 241.9\\
+    u_{f_{gr,1}}=\sqrt{(\frac{u_{\tau_1}}{\tau^2 \cdot 2\pi})^2}= 3592.04\\
+    u_{f_{gr,2}}=\sqrt{(\frac{u_{\tau_2}}{\tau^2 \cdot 2\pi})^2}= 241.9\\
     \Rightarrow\boxed{
-    f_{g1}=(33\pm4)~\text{kHz} \tab f_{g2}=(8.0\pm0.2)~\text{kHz}
+    f_{gr,1}=(33\pm4)~\text{kHz} \tab f_{gr,2}=(8.0\pm0.2)~\text{kHz}
     }
 \end{gather}
-Beim Vergleichen der auf zwei Arten berechneten Grenzfrequenzen $f_g$ bemerkt man, dass sie deutlich in der gleichen Größenordnung sind und vor allem die Werte für den Widerstand $R_2=4.7 $ M$\Omega$ sich in ihren Fehlern deutlich überschneiden. Auch bei dem anderen Widerstand merkt man, dass sich die Werte stark annähern, sich aber nicht in den Fehlern überschneiden. Dafür könnten mehrere Gründe die Ursache sein. Zum Einen könnten es Messunsicherheiten, zu lange Kabel oder ähnliche Schalttechnische Fehler sein. Dies würde jedoch auch einen Fehler bei dem anderen Widerstand hervorrufen, was es jedoch wie gerade beschrieben nicht macht. Ein anderer Grund könnten fehlerhafte Mitschriften der Protokollperson sein. Da dies auch bei dem anderen Widerstand vorgekommen ist, ist dies auch hier nicht ausgeschlossen. Jedoch ist die Abweichung sehr gering, weshalb man es auch der generellen Ableseungenauigkeit zu schieben könnte. \\
-Im Allgemeinen erkennt man jedoch, dass beide Rechenmethoden zu einem sehr ähnlichen Ergebnis führen, wodurch unsere theoretische Vermutung der Indirekten Proportionalität von B zu $\tau$ bestätigt wurde. 
+Beim Vergleichen der auf zwei Arten berechneten Grenzfrequenzen $f_{gr}$ bemerkt man, dass sie deutlich in der gleichen Größenordnung sind und vor allem die Werte für den Widerstand $R_{2,2}=4.7 $ M$\Omega$ sich in ihren Fehlern deutlich überschneiden. Auch bei dem anderen Widerstand merkt man, dass sich die Werte stark annähern, sich aber nicht in den Fehlern überschneiden. Dafür könnten mehrere Gründe die Ursache sein. Zum Einen könnten es Messunsicherheiten, zu lange Kabel oder ähnliche Schalttechnische Fehler sein. Dies würde jedoch auch einen Fehler bei dem anderen Widerstand hervorrufen, was es jedoch wie gerade beschrieben nicht macht. Ein anderer Grund könnten fehlerhafte Mitschriften der Protokollperson sein. Da dies auch bei dem anderen Widerstand vorgekommen ist, ist dies auch hier nicht ausgeschlossen. Jedoch ist die Abweichung sehr gering, weshalb man es auch der generellen Ableseungenauigkeit zu schieben könnte. \\
+Im Allgemeinen erkennt man jedoch, dass beide Rechenmethoden zu einem sehr ähnlichen Ergebnis führen, wodurch unsere theoretische Vermutung der Indirekten Proportionalität von B zu $\tau$ bestätigt wurde.\\
+\newline
+Abschließend ist noch anzumerken, dass die Werte für $b$ unseres Fits aus dem zweiten Teil dieses Kapitels tatsächlich den jeweiligen Grenzfrequenzen $f_{gr,i}$ entsprechen kann, da diese in der korrekten Größenordnung wie oben berechnet vorhanden sind.
 \newpage
