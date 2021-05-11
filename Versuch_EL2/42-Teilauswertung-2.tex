@@ -6,6 +6,9 @@
 \def\weite{4cm}
 
 \section{Umkehrintegrator}
+
+
+\subsection*{Diskussion der Beobachtungen am Oszilloskop}
 \begin{center}
     \includegraphics[scale = 0.4]{intOPV_verbessert.PNG}
     \captionof{figure}{Modifizierte Version eines Umkehrintegrators}
@@ -36,24 +39,18 @@ wobei dabei der Fehler der Widerstände mit $3\%$ des Messwerts abgeschätzt und
     s_{f_{i,gr}} = \frac{1}{2\pi}\sqrt{\left(\frac{s_{R_2}}{R_2^2 C_2}\right)^2 + \left(\frac{s_{C_2}}{R_2 C_2^2}\right)^2} = 0.67523~\text{Hz}\\[0.5cm]
     \Rightarrow \boxed{f_{i,gr} = (15.9 \pm 0.7)~\text{Hz}}
 \end{gather}
-Dieses Ergebnis deckt sich mit der Messung, da bei einer Frequenz von $100~\text{Hz}$ erkennt man in Abbildung \ref{abb:int} schon die Dreiecksspannung, währendessen bei einer Frequenz von $10~\text{Hz}$ das Signal der Ausgangsspannung $U_a$ die Ladekurve des Kondensators zeigt. Dies hat den Grund, dass der OPV ungefähr ab der Grenzfrequenz $f_{i,gr}$ linear arbeitet und korrekt integriert. Weiterhin lässt sich durch Erhöhung der Frequenz der Spannungsquelle durch die Einstellungen am Oszilloskop (siehe S.22) gut erkennen, dass die Verstärkung frequenzabhängig ist.\\
- \\
+Dieses Ergebnis deckt sich mit der Messung, da bei einer Frequenz von $100~\text{Hz}$ erkennt man in Abbildung \ref{abb:int} schon die Dreiecksspannung, währendessen bei einer Frequenz von $10~\text{Hz}$ das Signal der Ausgangsspannung $U_a$ die Ladekurve des Kondensators zeigt. Dies hat den Grund, dass der OPV ungefähr ab der Grenzfrequenz $f_{i,gr}$ linear arbeitet und korrekt integriert. Weiterhin lässt sich durch Erhöhung der Frequenz der Spannungsquelle durch die Einstellungen am Oszilloskop (siehe S.22) gut erkennen, dass die Verstärkung frequenzabhängig ist.
+\newpage
+
+
+\subsection*{Frequenzgang}
 Für den theoretischen Verlauf der Verstärkung $v_{i,2}$ betrachten wir Gleichung (2.20) mit $\omega = 2\pi f$.
 %, woraus für dessen Fehler mit dem Fortpflanzungsgesetz folgt:
 %\begin{gather}
 %    s_{v_{i,2}} = v_{i,2} \sqrt{\left(\frac{s_{R_2}}{R_2(1+(\omega R_2C_2)^2)}\right)^2+\left(\frac{s_{R_1}}{R_1}\right)^2+\left(\frac{\omega^2 R_2^2 C_2 s_{C_2}}{1+(\omega R_2 C_2)^2}\right)^2}
 %\end{gather}
-Für den Fehler des Oszilloskop wird ein Ablesefehler $s_a = 0.1~\text{Div}$ und ein Restfehler $s_r = 0.03\cdot\text{Messwert in Div}$ verwendet, woraus mit der Einstellung des Oszilloskops folgt:
-\begin{gather}
-    U = \text{Messwert}\cdot\text{Einstellung} = [\text{Div}]\cdot[\text{V/Div}]\\
-    s_U = [\text{V/Div}]\sqrt{(0.03\cdot [\text{Div}])^2 + (0.1~[\text{Div}])^2} 
-\end{gather}
-Daraus folgt auch der Fehler für die Verstärkung $v$ mit dem Fehlerfortpflanzungsgesetz wie folgt:
-\begin{gather}
-    v = \frac{U_a}{U_a} \Rightarrow s_v = \sqrt{\left(\frac{s_{U_a}}{U_e}\right)^2 + \left(\frac{U_a s_{U_e}}{(U_e)^2}\right)^2}
-\end{gather}
+Die Fehlerrechnung für die Messwerte des Oszilloskop wird analog zu Kapitel 4.1 durchgeführt.  
 Mit einsetzen der Messwerte folgt dann folgende Tabelle \ref{tab:int}, wobei der Messwert 1 ausgesondert wird, da dieser nicht korrekt ablesbar war und ab Messwert 19 ein Ablesefehler $s_a = 0.5~\text{Div}$ verwendet wird, da diese Werte bei der Messung sehr schwer abzulesen waren.
-\newpage
 \begin{center}
     \captionof{table}{Messreihe Umkehrintegrator}
     \begin{tabular}{l | c c c c c | c c}

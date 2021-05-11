@@ -21,24 +21,22 @@ Bei einem realen und idealen Operationsverstärker (OPV) sind folgende Größen 
     \captionof{figure}{Gegenkopplung eines invertierenden Verstärkers}
 \end{center}
 Durch die Gegenkopplung wird unabhängig von Signal- und Ausgangsspannungen immer genau auf dem Potential des nichtinvertierenden Eingangs gehalte, wodurch Ein- und Ausgang voneinander getrennt sind und der Verstärker nicht übersteuern kann. Dabei beeinflusst die Gegenkopplung die Frequenz so, dass die Bandbreite ansteigt, aber die Verstärkung gleichzeitig abnimmt.\\
-Das \textbf{Verstärkung–Bandbreite–Produkt} bleibt dabei näherungsweise konstant $v\cdot B = v \cdot f_{gr} = \text{constant}$. Der konstante Bereich wird dabei durch die Grenzfrequenz $f_{gr}$ begrenzt, wobei bei einer Verstärkung $v=0$ die sogenannte \textbf{Transitfrequenz} $f_T$ liegt. \footnote[1]{Eichler, Kronfeldt, Sahm - Das neue Physikalische Praktikum, Kapitel 31}
+Das \textbf{Verstärkung–Bandbreite–Produkt} bleibt dabei näherungsweise konstant \newline$v\cdot B = v \cdot f_{gr} = \text{constant}$. Der konstante Bereich wird dabei durch die Grenzfrequenz $f_{gr}$ begrenzt, wobei bei einer Verstärkung $v=0$ die sogenannte \textbf{Transitfrequenz} $f_T$ liegt. \footnote[1]{Eichler, Kronfeldt, Sahm - Das neue Physikalische Praktikum, Kapitel 31}
 \newpage
 
 % 2
 \section{Begriffsklärung}
 \label{sec:begriffe}
 \begin{itemize}
-    \item \textbf{Eingangs-Offsetstrom} (Input Offset Current):\\ Eingangsstromdifferenz bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt. \footnotemark[2]
-    \item \textbf{Eingangs-Offsetspannung} (Input Offset Voltage):\\ Eingangsspannung bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt. \footnotemark[2]
-    \item \textbf{Gleichtakt-Eingangswiderstand}:\\ Diese beiden Widerstände liegen zwischen dem jeweiligen Eingang und Masseund liegen somit parallel zu den Eingängen und werden durch die Gegenkopplung nicht beeinflusst. Am nichtinvertierenden Eingang bewirkt der Gleichtakt-Eingangswiderstand eine Abschwächung und am invertierenden Eingang eine Steigerung der Verstärkung (Bei realen OPV Abweichungen vernachlässigbar für $<10$ M$\Omega$). \footnotemark[3]
-    \item \textbf{Differenz-Eingangswiderstand}:\\ Dieser Widerstand liegt zwischen nichtinvertierendem und invertierendem Eingang und wirkt durch die Gegenkopplung dynamisch stark erhöhend. Dabei wird die Spannung zwischen den beiden Eingängen nahe 0 V gehalten (Dynamische Werte in Bereich $<10$ G$\Omega$ aufwärts). \footnotemark[3]
-    \item \textbf{Gleichtakt-Eingangsbereich} (Input Common Mode Range):\\ Eingangsspannungsbereich bzgl. der Betriebsspannung, bei dem der OPV linear arbeitet. Wird der Bereich verlassen bricht die Verstärkung drastisch ein und kann Schäden am Bauteil verursachen. 
-    \item \textbf{Differenz-Eingangsbereich}:\\ Zulässige Eingangsspannungsdifferenzen, bei dem der OPV normal arbeitet. \footnotemark[2]
-    \item \textbf{Slewrate}:\\ Bauartbedingte schnellste Änderung der Ausgangsspannung. Der Wert liegt beim kompensierten OPV fest und kann beim unkompensierten durch externe Beschaltung reduziert werden. \footnotemark[2]
-    \item \textbf{Impedanzwandlung}:\\ Die Verschaltung, bei der der invertierte Eingang mit dem Ausgang kurzgeschlossen/rückgekoppelt ist, um eine gleichphasige Spannung ($U_e=U_a$) und eine Verstärkung $v=1$ zu realisieren. Es gelten Bedingung für $R_e, R_a$ wie in Kapitel 2.1. Damit wird das Signal von einer hochohmigen zu einer niederohmigen Last gewandelt. \footnotemark[2]
+    \item \textbf{Eingangs-Offsetstrom} (Input Offset Current):\\ Eingangsstromdifferenz bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt.\footnote[2]{Hering, Bressler, Gutekunst - Elektronik für Ingenieure und Naturwissenschaftler, Kapitel 8.2 - 8.4}
+    \item \textbf{Eingangs-Offsetspannung} (Input Offset Voltage):\\ Eingangsspannung bei der die Ausgangsspannung des Operationsverstärkers 0 V beträgt.\footnotemark[2]
+    \item \textbf{Gleichtakt-Eingangswiderstand}:\\ Diese beiden Widerstände liegen zwischen dem jeweiligen Eingang und Masseund liegen somit parallel zu den Eingängen und werden durch die Gegenkopplung nicht beeinflusst. Am nichtinvertierenden Eingang bewirkt der Gleichtakt-Eingangswiderstand eine Abschwächung und am invertierenden Eingang eine Steigerung der Verstärkung (Bei realen OPV Abweichungen vernachlässigbar für $<10$ M$\Omega$).\footnote[3]{\url{https://de.wikipedia.org/wiki/Operationsverst%C3%A4rker}}
+    \item \textbf{Differenz-Eingangswiderstand}:\\ Dieser Widerstand liegt zwischen nichtinvertierendem und invertierendem Eingang und wirkt durch die Gegenkopplung dynamisch stark erhöhend. Dabei wird die Spannung zwischen den beiden Eingängen nahe 0 V gehalten (Dynamische Werte in Bereich $<10$ G$\Omega$ aufwärts).\footnotemark[3]
+    \item \textbf{Gleichtakt-Eingangsbereich} (Input Common Mode Range):\\ Eingangsspannungsbereich bzgl. der Betriebsspannung, bei dem der OPV linear arbeitet. Wird der Bereich verlassen bricht die Verstärkung drastisch ein und kann Schäden am Bauteil verursachen.\footnotemark[2]
+    \item \textbf{Differenz-Eingangsbereich}:\\ Zulässige Eingangsspannungsdifferenzen, bei dem der OPV normal arbeitet.\footnotemark[2]
+    \item \textbf{Slewrate}:\\ Bauartbedingte schnellste Änderung der Ausgangsspannung. Der Wert liegt beim kompensierten OPV fest und kann beim unkompensierten durch externe Beschaltung reduziert werden.\footnotemark[2]
+    \item \textbf{Impedanzwandlung}:\\ Die Verschaltung, bei der der invertierte Eingang mit dem Ausgang kurzgeschlossen/rückgekoppelt ist, um eine gleichphasige Spannung ($U_e=U_a$) und eine Verstärkung $v=1$ zu realisieren. Es gelten Bedingung für $R_e, R_a$ wie in Kapitel 2.1. Damit wird das Signal von einer hochohmigen zu einer niederohmigen Last gewandelt.\footnotemark[2]
 \end{itemize}
-\footnotetext[2]{Hering, Bressler, Gutekunst - Elektronik für Ingenieure und Naturwissenschaftler, Kapitel 8.2 - 8.4}
-\footnotetext[3]{Wikipedia- Operationsverstärker}
 
 % 3
 \section{Nichtinvertierender Verstärker}

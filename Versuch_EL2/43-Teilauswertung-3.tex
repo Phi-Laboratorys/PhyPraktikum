@@ -4,6 +4,8 @@
 % Teilauswertung X
 
 \section{Umkehrdifferenzierer}
+
+
 \subsection*{Vergleich der optimierten mit der nicht optimierten Schaltung} Im folgenden wird diskutiert, inwiefern sich die Ausgangsspannung des Umkehrdifferenzierers ändert, wenn man die Grundschaltung aus Abbildung \ref{Differenzierschaltung} verwendet oder wenn man Schaltung  verwendet.
 \begin{center}
     \includegraphics[width = 8cm]{diffOPV_verbessert.PNG}
@@ -12,23 +14,23 @@
 \end{center} 
 Wenn man das \enquote{differenzierte} Bild der einfachen Schaltung \ref{Differenzierschaltung} betrachtet fällt einem sehr schnell auf, dass man einen Einschwingprozess wie in Grafik \ref{Einschwingprozess} beobachten kann. Dieser kommt daher, das die Schaltung nicht alles differenziert\footnotemark in dem Moment, in dem sich die Steigung sprunghaft ändert. Der Grund dafür ist, dass kein Wiederstand dem Kondensator $C_1$ vorgeschaltet ist. Bei hoher Frequenz ist der Widerstand des Kondensators sehr gering. Da der Innenwiderstand der Stromquelle nicht Null ist, fallen auch Teile der Spannung dort ab. \footnotetext{\url{https://projektteam4.cotto.de/index_htm_files/Beschreibung%20Operationsverstarker.pdf}}\\
 Ein Teil des Signales wird undifferenziert durchgelassen. Dabei scheint dieser Prozess nicht bei allen Frequenzen im gleichen Maß abzulaufen. Man sieht, dass Eingangssignal von dem Funktionsgenerator erzeugt wird, eine komposition aus vielen Sinusspannungen zu sein scheint. Genauerer Informationen sollte man erhalten, wenn man das Ausgangssignal fouriertransformiert. Außerdem fällt auf, dass das Rauschen bei der Grundschaltung deutlich stärker ist, als bei der optimierten Schaltung.\\
-\begin{figure}[h]
-    \centering
-    \includegraphics[width = 9cm]{Bilder/43-diffSchwingung.jpg}
-    \caption{$U_a$ eines \textbf{einfachen} Umkehrdifferenzierers beim Anlegen einer Dreiecksspannung mit der Frequenz $f$ = 1kHz}
+\begin{center}
+    \includegraphics[width = 7cm]{Bilder/43-diffSchwingung.jpg}
+    \captionof{figure}{$U_a$ eines \textbf{einfachen} Umkehrdifferenzierers beim Anlegen einer Dreiecksspannung mit der Frequenz $f$ = 1kHz}
     \label{Einschwingprozess}
-\end{figure}
+\end{center}
 Betrachten wir nun, dass die Ausgangssignal der modifizierten Schaltung aus Abbildung \ref{modifiziertumkehrdiff}. Dabei würden wir erwarten, dass das Rauschen stark vermindert wird, weil der Kondensator $C_2$ wie ein Teifpassfilter einfluss nimmt. Damit filtert er auch das Einschwingen sehr gut weg. Es bleibt der Gleichstromanteil in der Spannung.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width = 9cm]{Bilder/43-diffStabil.jpg}
-    \caption{$U_a$ eines \textbf{verbesserten} Umkehrdifferenzierers beim Anlegen einer Dreiecksspannung mit der Frequenz $f$ = 1kHz}
+\begin{center}
+    \includegraphics[width = 7cm]{Bilder/43-diffStabil.jpg}
+    \captionof{figure}{$U_a$ eines \textbf{verbesserten} Umkehrdifferenzierers beim Anlegen einer Dreiecksspannung mit der Frequenz $f$ = 1kHz}
     \label{Einschwingprozess}
-\end{figure}
+\end{center}
 Das Differenzieren ist nicht perfekt, wegen der endlichen Flankenabfallzeit. Diese ist auf das Auf- und Entladen des Kondensators.
 \newpage
-\section*{Zusammenhang zwischen dem Frequenzgang des Umkehrintegrators und dem des Umkehrdifferenzierers}
-Im folgenden wird wieder die Verstärkung $v$ doppellogarithmisch aufgetragen, wobei die Fehlerrechnung diesselbe ist wie in Kapitel 4.2. Daraus ergibt sich die Tabelle \ref{tab:bandpass} und Abbildung \ref{abb:bandpass}:
+
+
+\subsection*{Zusammenhang zwischen dem Frequenzgang des Umkehrintegrators und dem des Umkehrdifferenzierers}
+Im folgenden wird wieder die Verstärkung $v$ doppellogarithmisch aufgetragen, wobei die Fehlerrechnung diesselbe ist wie in Kapitel 4.1. Daraus ergibt sich die Tabelle \ref{tab:bandpass} und Abbildung \ref{abb:bandpass}:
 \begin{center}
     \captionof{table}{Messreihe Bandpass}
     \begin{tabular}{l | c c c c c | c c}
@@ -82,18 +84,18 @@ Bevor wir den Frequenzwert $f$ jedoch betrachten, beschäftigen wir uns kurz mit
 \end{gather}
 Aus diesen Formeln mit den Bauteilen aus \textbf{Kapitel 4.2} ergibt sich für unseren Aufbau hier:
 \begin{center}
-    \fbox{ $f_{i,T} = (1,59 \pm 0,07)~\mathrm{kHz}$}
+    \fbox{ $f_{i,T} = (1.59 \pm 0.07)~\mathrm{kHz}$}
 \end{center}
 Dieser Wert passt perfekt zu unserer Abbildung \ref{abb:bandpass}.
 Nun berechnen wir wie oben den selben Wert mit der Formel für den unmodifizierten Differenzierer aus den Fragen zur Vorbereitung.
 \begin{gather}
     v_{d,2} = \frac{R_2}{R_1} \frac{\omega R_1C_1}{\sqrt{1 + (\omega R_1C_1)^2}} \overset{f \approx 1 \text{kHz}}{\approx} \frac{R_2}{R_1} \omega R_1C_1  \overset{!}{=} 1\\
     \Rightarrow f_{d,T} = \frac{1}{2 \pi R_2 C_1}\\
-    s_{f_{T}^{Differenzierer}} = \sqrt{(\frac{s_{R_2}}{2 \pi R_{2}^2 C_1})^2+ (\frac{s_{C_1}}{2 \pi R_{2} C_{1}^2})^2}
+    s_{f_{d,T}} = \sqrt{(\frac{s_{R_2}}{2 \pi R_{2}^2 C_1})^2+ (\frac{s_{C_1}}{2 \pi R_{2} C_{1}^2})^2}
 \end{gather}
 Setzen wir nun die von uns verbauten Teil ein, so folgt:
 \begin{center}
-    \fbox{ $f_{d,T} = (1,59 \pm 0,07)~\mathrm{kHz} = f_{i,T} = f_T$}
+    \fbox{ $f_{d,T} = (1.59 \pm 0.07)~\mathrm{kHz} = f_{i,T} = f_T$}
 \end{center}
 An den Formeln sieht man sehr schön, dass sich der Schnittpunkt abhängig von der verbauten 
 Bauteilen ändert.\\

@@ -1,1 +1,0 @@
-clear allclose alldata = csvread('41-Data-1000kOhm-Excelsheet.csv');f=data(2:end,1);v=data(2:end,8);figure('Position', [100, 100, 1200, 800],'DefaultAxesFontSize', 18)plot1 = plot(v,f)err = data[2:end,8];errorbar(v,f,err,'horizontal')
