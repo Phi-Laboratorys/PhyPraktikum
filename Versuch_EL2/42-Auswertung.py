@@ -32,7 +32,7 @@ df['s_v'] = np.sqrt((df['s_{U_a}/V']/df['U_e/V'])**2 + ((df['s_{U_e}/V']*df['U_a
 df = df.drop(columns = ['s_a/Div', 'U_e/Div', 'U_e(ein)/(V/Div)', 'U_a(ein)/(V/Div)', 'U_a/Div'])
 df = df.round({'U_e/V':3, 's_{U_e}/V':3, 'U_a/V':3, 's_{U_a}/V':3, 'v':2, 's_v':2})
 
-#print(df.to_latex())
+print(df.to_latex())
 
 #Theorie
 anzahl = 10000
@@ -55,4 +55,4 @@ plt.xscale('log')
 plt.ylabel(r'$v$')
 plt.yscale('log')
 plt.legend()
-plt.show()
+#plt.show()
