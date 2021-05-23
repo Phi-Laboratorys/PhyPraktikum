@@ -1,0 +1,1 @@
+clear allclose alldata = csvread('POL_2_RelativeStreuung.csv')data = data(2:end,:) % 
