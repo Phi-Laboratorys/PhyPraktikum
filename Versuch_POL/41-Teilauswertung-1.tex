@@ -29,7 +29,7 @@ Nach der Theorie, die wir auch schon in den Fragen zur Vorbereitung beschrieben 
 \theta = 54^\circ
 \end{equation}
 \begin{equation}
-\boxed{U_{p}=(34\pm17)10^{-1} mV}
+\boxed{U_{\parallel}=(34\pm17)10^{-1} mV}
 \end{equation}
 erreicht. Wir haben zwar nicht genau die Spannung Null erreicht, aber mit dem Fehler des Winkels und der Spannung, sowie die Schwankung der Spannung fällt dieser Wert deutlich noch in die Messungenauigkeit und liegt in der Fehlertoleranz. \\
 Daher folgt:\\
@@ -40,7 +40,7 @@ Daher folgt:\\
 s_{n_2}=s_{\theta_B}=0,017455
 \end{equation}
 \begin{equation}
-\boxed{n_2=(137\pm2)10^{-3}}
+\boxed{n_2=(137\pm2)10^{-2}}
 \end{equation}
 Im Vergleich zu handelsüblichem Glas wie zum Beispiel Kalk-Natron-Silikatglas ca. 1,5, für Borosilikatglas ca. 1,47 und für Aluminosilikatglas ca. 1,5 sieht man, das unserer berechnete Wert in der Fehlertoleranz von dem Brechindex von Glas liegt. Diese Messmethode ist daher ausreichend genau für eine Brechindexbestimmung. \\
 \footnote{\url{https://www.baunetzwissen.de/glossar/b/brechungsindex-51605}}
@@ -67,7 +67,7 @@ Somit bekommen wir die Werte in der folgenden Tabelle:
 \begin{center}
     \captionof{table}{Messreihe für parallele Polarisation}
     \begin{tabular}{l | c c c c}
-        {} & $\varphi/\circ$ & $U_{p,theo}/~\text{mV}$ & $U_{p}/~\text{mV}$ & $s_{U_{p}}/~\text{mV}$\\
+        {} & $\varphi/\circ$ & $\frac{E_r}{E_e}_{\parallel,theo}$ & $\frac{E_r}{E_e}_{\parallel,mess}$ & $s_{\frac{E_r}{E_e}_{\parallel,mess}}$\\
         \hline
         1  & 15 & 0.1502 & 0.1906 & 0.0511 \\
         2  & 20 & 0.1435 & 0.0228 & 0.0322 \\
@@ -91,7 +91,7 @@ Somit bekommen wir die Werte in der folgenden Tabelle:
     \end{tabular}
     \captionof{table}{Messreihe für senkrechte Polarisation}
     \begin{tabular}{l | c c c c}
-        {} & $\varphi/\circ$ & $U_{s,theo}/~\text{mV}$ & $U_{s}/~\text{mV}$ & $s_{U_{s}}/~\text{mV}$\\
+        {} & $\varphi/\circ$ & $\frac{E_r}{E_e}_{\perp,theo}$ & $\frac{E_r}{E_e}_{\perp,mess}$ & $s_{\frac{E_r}{E_e}_{\perp,mess}}$\\
         \hline
         1  & 15 & 0.16 & 0.22 & 0.05 \\
         2  & 20 & 0.17 & 0.23 & 0.06 \\
@@ -110,7 +110,8 @@ Somit bekommen wir die Werte in der folgenden Tabelle:
         15 & 85 & 0.83 & 0.87 & 0.51 \\
     \end{tabular}
     \includegraphics[scale=0.5]{IntPlot.pdf}
-    \captionof{figure}{Test} %TODO
+    \captionsetup{justification=centering,margin=2cm}
+    \captionof{figure}{Amplituden-Verhältnis des Laserstrahls bei senkrechter und paralleler Polarisation}
 \end{center}
 Man erkennt in der Graphik, dass unserer Kurvenverlauf dem theoretischen Verlauf sehr ähnelt, jedoch erkennt man auch vor allem bei der Roten Linie, daher bei der senkrechten Polarisation einen deutlichen Abstand zur theoretischen Linie. Da dieser Abstand durchgehend nahezukonstant bleibt, vermuten wir einen von systematischen Fehler dahinter.  Die Gründe für die Abweichungen sind vor allem die Lichtverschmutzung in dem Raum, denn trotz guter Abschirmung des Experimentaufbaus war es unmöglich ihn komplett abzuschirmen. Ausschlaggebend dafür ist das beispielsweise das Aufblicken der Messperson um die Werte zu erfragen und dem damit verbundenen Lichtstrahl der Stirnlampe. Zusätzlich ging die Tür zu dem Raum des Öfteren auf, wodurch zusätzliches Licht in den Raum drang.  Auch sind die Messungenauigkeiten des Messapparat relativ hoch, was sich durch das Fehlerfortpflanzungsgesetz durch alle Werte zieht. 
 Es gibt bei unseren Messungen zwei Werte, die deutlich aus der Statistik herausfallen. Zum Einen ist das der Wert der parallelen Polarisation bei $20 \circ$, der wahrscheinlich durch ein verrutschtes Komma zustande gekommen ist. Zusätzlich erkennt man einen falsch liegenden Wert bei $80\circ$ bei der senkrechten Polarisation. Dieser Wert ist unmöglich, da sich das Verhältnis von $E_r$ zu $E_e$ über eins befindet, wodurch man raus schließt, dass die Reflektierte Intensität größer sein müsste als die einfallende Intensität, was physikalisch nicht möglich ist. Der falsche Wert dieses Messwertes ist wohl auch auf eine Misskommunikation zwischen Messperson und Protokollperson zurückzuführen.
