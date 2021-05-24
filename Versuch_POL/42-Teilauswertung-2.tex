@@ -49,9 +49,9 @@ Brechnet wurden die relative Streuung der Proben $\Delta S$ bezüglich der Leerp
 %   \bottomrule
 %   \end{tabular}
     
-\textcolor{red}{Alle Werte der relativen Streuung und ihrer  Fehler werden in mV angegeben.}   
+\textcolor{red}{Alle Werte in Tabelle \ref{Streuparameter} der relativen Streuung und ihrer  Fehler werden in mV angegeben.}   
     
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \captionsetup{justification=centering,margin=2cm}
     \begin{tabular}{lrrrrrrrrr}
@@ -85,11 +85,18 @@ Brechnet wurden die relative Streuung der Proben $\Delta S$ bezüglich der Leerp
     25 &       150 &         80.43 &            2.83 &         24.50 &            2.83 &        121.50 &            5.39 &        134.82 &            5.39 \\
         \bottomrule
     \end{tabular}
-    \caption{Intensität der relativen Streuung von Probe 1 und 2 bei Einstrahlung von parallel bzw. senkrecht polarisiertem Licht}
-\end{table}
-\newpage
 
-%TODO@Charlie318 #15 Grafik für diese Tabelle
+    \caption{Intensität der relativen Streuung von Probe 1 und 2 bei Einstrahlung von parallel bzw. senkrecht polarisiertem Licht}
+    \label{Streuparameter}
+\end{table}
+
+\begin{figure}[ht]
+    \captionsetup{justification=centering,margin=2cm}
+    \centering
+    \includegraphics[width = \linewidth]{Bilder/RelativeStreuung.jpg}
+    \caption{Relative Streuung von Probe 1 und Probe 2 bei sekrechter und paralleler Polarisation}
+\end{figure}
+
 
 \subsection*{Polarisationsgrad}
 
@@ -103,7 +110,58 @@ Im Gegensatz dazu verhält sich Rayleighstreuung folgendermaßen:
     P_{Rayleigh} = \frac{\sin[2](\phi)}{1+ \cos[2](\phi)}.
 \end{equation*}
 
-Erstmal fällt auf, dass bei Probe 2 die Messung sehr dubios scheint. Die ungefähre Form der Kurve 
+\begin{center}
+    \begin{table}
+    \captionsetup{justification=centering,margin=2cm}
+    \centering
+    \begin{tabular}{lrrrrr}
+        \toprule
+        {} &  Nr. &  $P_1$ &   $s_{P_1}$ & $P_2$& $s_{P_2}$ \\
+        \midrule
+        0  &   1 &  0.22 &  0.01 &  0.63 &  0.01 \\
+        1  &   2 &  0.27 &  0.01 &  0.65 &  0.01 \\
+        2  &   3 &  0.32 &  0.01 &  0.65 &  0.01 \\
+        3  &   4 &  0.40 &  0.01 &  0.69 &  0.01 \\
+        4  &   5 &  0.46 &  0.01 &  0.71 &  0.01 \\
+        5  &   6 &  0.54 &  0.01 &  0.77 &  0.01 \\
+        6  &   7 &  0.63 &  0.01 &  0.82 &  0.01 \\
+        7  &   8 &  0.72 &  0.01 &  0.89 &  0.01 \\
+        8  &   9 &  0.76 &  0.01 &  0.92 &  0.01 \\
+        9  &  10 &  0.83 &  0.01 &  0.95 &  0.01 \\
+        10 &  11 &  0.89 &  0.01 &  0.97 &  0.01 \\
+        11 &  12 &  0.93 &  0.01 &  0.98 &  0.01 \\
+        12 &  13 &  0.95 &  0.01 &  0.99 &  0.01 \\
+        13 &  14 &  0.95 &  0.01 &  0.99 &  0.01 \\
+        14 &  15 &  0.93 &  0.01 &  0.98 &  0.01 \\
+        15 &  16 &  0.90 &  0.01 &  0.96 &  0.01 \\
+        16 &  17 &  0.83 &  0.01 &  0.92 &  0.01 \\
+        17 &  18 &  0.77 &  0.01 &  0.87 &  0.01 \\
+        18 &  19 &  0.71 &  0.01 &  0.87 &  0.01 \\
+        19 &  20 &  0.63 &  0.01 &  0.83 &  0.01 \\
+        20 &  21 &  0.54 &  0.02 &  0.80 &  0.01 \\
+        21 &  22 &  0.46 &  0.02 &  0.74 &  0.01 \\
+        22 &  23 &  0.37 &  0.02 &  0.68 &  0.02 \\
+        23 &  24 &  0.33 &  0.03 &  0.81 &  0.04 \\
+        24 &  25 &  0.20 &  0.03 &  0.69 &  0.03 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Polarisationsgrad von Probe 1 und Probe 2 mit Fehler} 
+    \label{PolarisationsgradTabelle}  
+    \end{table}     
+\end{center}
+
+\begin{figure}[h]
+    \captionsetup{justification=centering,margin=2cm}
+    \centering
+    \includegraphics[width = \linewidth]{Bilder/Polarisattionsgrad.jpg}
+    \caption{Polarisationsgrad der Probe 1 und Probe 2 aufgetragen mit der theoretischen Rayleighstreuung}
+    \label{PolarisationsgradBild}
+\end{figure}
+
+
+
+
+Erstmal fällt in Grafik \ref{PolarisationsgradBild} auf, dass bei Probe 2 die Messung sehr dubios scheint. Die ungefähre Form der Kurve 
 stimmt zwar, jedoch beginnen die Werte erst bei circa 0,6. Das bei der Messung irgend ein Fehler vorliegt, ist uns auch wärend das Versuches schon aufgefallen. Das 
 riesige "schwanken" in der Messung, was alles überlagerte, hat leider ein korrekte Messen erschwert.\\
 In der Grafik sieht man sehr schön, dass das Maximum bei beiden Kurven relativ genau bei 90$^{\circ}$ liegt. Die Kurven für beide Proben, vorallem vom Probe 1 
