@@ -1,0 +1,106 @@
+% Charlotte Geiger - Manuel Lippert - Leonard Schatt
+% Physikalisches Praktikum
+
+% Teilauswertung 3
+\newpage
+\section{Emitterschaltung: Arbeitspunktstabilisierung und Signalverstärkung}
+\subsection{Wechselspannungsverstärkung}
+\begin{center}
+    \includegraphics[scale=0.15]{6_3-Emmitterschaltung.jpg}
+\end{center}
+Betrachtet man die verwendete Schaltung des Versuchs lässt sich folgender Zusammenhang herleiten:
+\begin{gather}
+    u_e = i_B(R_*+r_{BE})\xrightarrow{R_*\rightarrow~0} i_B r_{BE} \tab R_*=\frac{1}{\frac{1}{R_E}+\frac{1}{R_E' +\frac{1}{i\omega C_e}}} \xrightarrow{R_E,R_E'~\rightarrow~0} 0\\
+    u_a = -i_CR_C\tab\text{(Gleichstromanteil = 0)}\\
+    \Rightarrow v_3 =\frac{u_a}{u_e}\xrightarrow{R_E,R_E'~\rightarrow~0}-\frac{i_C R_C}{i_B r_{BE}}=-\beta\frac{R_C}{r_{BE}} \tab\text{Gleichung (3)}
+\end{gather}
+Der Fehler von $v_3$ und folgende Fehler werden mit dem Fehlerfortpflanzungsgesetz ermittelt, wobei der Fehler $s_{R_C}= 28.92~\Omega$ für $R_C=2692~\Omega$ (mit DMM: $0.01 + 2~\text{Digit}$) und $s_{r_{BE}}=0.5~\text{k}\Omega$ für $r_{BE}=4~\text{k}\Omega$. Dabei wurde der Fehler $s_{r_{BE}}$ mit Hilfe anderer Datenblätter abgeschätzt. $\beta = 250$ (Aus Datenblatt) wird als fehlerfrei angenommen.
+\begin{gather}
+    s_{v_3} = \beta\sqrt{\left(\frac{s_{R_C}}{r_{BE}}\right)^2+\left(\frac{R_C}{r_{BE}^2}s_{r_{BE}}\right)^2}
+    %s_{v_3} = \beta\frac{s_{R_C}}{r_{BE}}\\
+\end{gather}
+\begin{gather*}
+    \textcolor{red}{\Rightarrow v_3 = -168.25 \pm 21.1}
+\end{gather*}
+Die Gleichung (6) aus dem Skript wurde schon in 2.6 hergeleitet und wird hier schon vorrausgesetzt, wobei $R_E=557~\Omega$ mit dem Fehler $s_{R_E}=7.57~\Omega$ gilt.
+\begin{gather}
+    v_6 =-\frac{R_C}{\frac{r_{BE}}{\beta}+R_E} \\
+    s_{v_6} = \sqrt{\left(\frac{s_{R_C}}{\frac{r_{BE}}{\beta}+R_E}\right)^2+ \left(\frac{R_C}{(\frac{r_{BE}}{\beta}+R_E)^2}s_{R_E}\right)^2 + \left(\frac{R_C}{\beta(\frac{r_{BE}}{\beta}+R_E)^2}s_{r_{BE}}\right)^2}
+\end{gather}
+\begin{gather*}
+    \textcolor{red}{\Rightarrow v_6 = -4.70 \pm 0.08}
+\end{gather*}
+Der Ein- und Ausgangswiderstand lässt sich analog wie in der Dimensionierung berechnet mit $R_1=119.5~\text{k}\Omega$ mit $s_{R_1}=1.4~\text{k}\Omega$ und $R_2=21.86~\text{k}\Omega$ mit $s_{R_2}=0.24~\text{k}\Omega$:
+\begin{gather}
+    r_e = \frac{1}{\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{r_{BE}}} \\
+    s_{r_e} = r_e^2\sqrt{\left(\frac{s_{R_1}}{R_1^2}\right)^2 + \left(\frac{s_{R_2}}{R_2^2}\right)^2 + \left(\frac{s_{r_{BE}}}{r_{BE}^2}\right)^2}\\
+    r_a = R_C \\
+    s_{r_a} = s_{R_C}
+\end{gather}
+\begin{gather*}
+    \textcolor{red}{\Rightarrow r_e = (3.29 \pm 0.34)~\text{k}\Omega}\\
+    \textcolor{red}{\Rightarrow r_a = (2.70 \pm 0.03)~\text{k}\Omega}
+\end{gather*}
+Bei der Betrachtung des Temperaturdrifts für $\Delta T = 10~\text{K}$ folgt aus dem Zusammenhang:
+\begin{gather}
+    \frac{U_0-U_C}{R_C}=I_C\approx I_E=\frac{U_e-U_{BE}}{R_E}\\
+    \Rightarrow U_C \approx \frac{R_C}{R_E} U_{BE} +(\frac{U_0}{R_C}-\frac{U_e}{R_E})\\
+    \xrightarrow{\frac{\partial}{\partial T}}\frac{\partial U_C}{\partial T}=\frac{R_C}{R_E}\frac{\partial U_{BE}}{\partial T}
+\end{gather}
+Aus dem Skript wird Gleichung (5) entnommen. Dabei gilt $\frac{\partial U_{BE}}{\partial T}=-2~\frac{\text{mV}}{\text{K}}$ bei konstanten Basisstrom $I_B$.
+\begin{align}
+    \Rightarrow \Delta U_C = \frac{R_C}{R_E} (-2~\frac{\text{mV}}{\text{K}}) \Delta T 
+\end{align}
+\begin{align*}
+    \textcolor{red}{\Rightarrow \Delta U_C = 96.7~\text{mV}}
+\end{align*}
+
+\subsection{Messgrößen am Arbeitspunkt}
+Der Fehler für jede gemessene Spannung am Arbeitspunkt werden mit dem Fehler des DMM $s_{\text{DMM}} = 0.08*U + 1~\text{Digit}$ abgeschätzt. Daraus folgen folgende Werte
+\begin{center}
+    \captionof{table}{Messung am Arbeitspunkt}
+    \begin{tabular}{cc|cc|cc}
+        $U_C/\text{V}$ & $s_{U_C}/\text{V}$ & $U_B/\text{V}$ & $s_{U_B}/\text{V}$ & $U_E/\text{V}$ & $s_{U_E}/\text{V}$ \\
+        \hline
+        6.400 & 0.513 & 1.798 & 0.145 & 1.159 & 0.094 \\ 
+    \end{tabular}
+\end{center}
+Mit diesen Werten können wir nun $U_{CE}~U_{BE}~I_C~I_E$ mit den Fehlern (berechnet mit Fehlerfortpflanzungsgesetz):
+\begin{gather}
+    U_{CE} = U_C - U_E \tab s_{U_{CE}} = \sqrt{s_{U_C}^2+s_{U_E}^2}\\
+    U_{BE} = U_B - U_E \tab s_{U_{BE}} = \sqrt{s_{U_B}^2+s_{U_E}^2}\\
+    I_C = \frac{U_C}{R_C} \tab s_{I_C} = \sqrt{\left(\frac{1}{R_C}s_{U_C}\right)^2+\left(\frac{U_C}{R_C^2}s_{R_C}\right)^2}\\
+    I_E = \frac{U_E}{R_E} \tab s_{I_E} = \sqrt{\left(\frac{1}{R_E}s_{U_E}\right)^2+\left(\frac{U_E}{R_E^2}s_{R_E}\right)^2}
+\end{gather}
+\begin{center}
+    %\captionof{table}{Ergebnis}
+    {\color{red}\begin{tabular}{cc|cc|cc|cc}
+        $U_{CE}/\text{V}$ & $s_{U_{CE}}/\text{V}$ & $U_{BE}/\text{V}$ & $s_{U_{CE}}/\text{V}$ & $I_C/\text{mA}$ & $s_{I_C}/\text{mA}$ & $I_E/\text{mA}$ & $s_{I_E}/\text{mA}$ \\
+        \hline
+        5.241 & 0.522 & 0.639 & 0.173 & 2.377 & 0.192 & 2.081 & 0.171 \\ 
+    \end{tabular}}
+\end{center}
+Die berechneten Werten entsprechen den Erwartungen. Am besten kann man dies erkennen an $U_{BE}$ mit dem Wert von $639$ mV, welche davor in der Dimensionierung aus dem Datenblatt mit $650$ mV vorrausgesetzt wurde. Dies ist nicht ganz überraschend, da schon bei der Messung am Versuchstag die Werte aus der Dimensionierung erzielt wurden.
+
+\subsection{Übersteuerung}
+Zuerst muss erwähnt werden, dass am Versuchstag vergessen wurde zu dokumentieren in welcher Einstellung das Oszilloskops eingestellt war, weswegen keine genaue Angaben gegen werden können. Im Folgenden wird in nur in Div anstelle von V gesprochen (für V mit entsprechenden Wert multiplizieren).\\ \\
+Für die maximale Kollektorspannung $U_C^{\text{max}}$ sperrt der Transistor, wodurch kein Stromfluss mehr möglich ist. Daraus folgt \textcolor{red}{$U_C^{\text{max}} = U_0 = 12~\text{V}$} \\
+Bie minimaler C-Spannung lässt der Transistor den maximalen Stromfluss zu. Betrachten wir die Abbildung 4.3 in Kapitel 4.2 so erkennt man, dass bei $U_{CE}\approx 0.7~\text{V}$ der Anstieg des Stromfluss $I_C$ sein Maximum erreicht hat und damit der Strom ungefähr sein MAximalwert erreicht. Woraus folgt, dass sich die restliche Spannung auf den Spannungsteiler verteilt.
+\begin{gather}
+    \frac{U_0-U_{CE}}{U_C^\text{min}} = \frac{R_E+R_C}{R_E}~\Leftrightarrow~U_C^\text{min}= \frac{R_E}{R_E+R_C}(U_0-U_{CE})\\
+    s_{U_C^\text{min}} = \frac{U_C^\text{min}}{R_E+R_C}\sqrt{(s_{R_C})^2+\left(\frac{R_C}{R_E}s_{R_E}\right)^2}
+\end{gather}
+\begin{align*}
+    \textcolor{red}{\Rightarrow U_C^\text{min}=(1.94 \pm 0.03)~\text{V}}
+\end{align*}
+Bei Betrachtung der Bilder des Oszilloskops wird deutlich, dass die maximale Peak-Peak-Amplitude $U_{pp}^\text{max}$ bei einem ausgebildeten Plateu erreicht ist. Dabei lesen wir $U_{pp}^\text{max}$ von der Nullline des Oszilloskops bis zum Plateu ab.
+\begin{gather*}
+    U_p^\text{max}=2.3 \pm 0.25~\text{Div} \tab U_p^\text{min}=0.0\pm0.25~\text{Div}\\
+    U_{pp}^\text{max} = U_p^\text{max}-U_p^\text{min} \tab s_{U_{pp}^\text{max}}=\sqrt{2}*0.25\\
+    \textcolor{red}{\Rightarrow U_{pp}^\text{max}=(2.3 \pm 0.4)~\text{Div}}
+\end{gather*}
+Anhand der Bilder lässt sich auch erkennen, dass keine symmetrische Übersteuerung bei der positven oder negativen Halbwelle stattfindet, wobei es deutlch ersichtlich ist, dass die positive Halbwelle eine größer Amplitude und ein breiters Plateu besitzt. Bei einer leichten Erhöhung der Eingangsamplitude erkennt man außerdem, dass sich das Plateu zuerst bei der negativen Halbwelle entsteht. Bei kontinuierlicher Erhöhung übersteuert der Versträker und es bildet sich darauf das Plateu in der positiven Halbwelle.
+\input{04-Versuchsauswertung/AuswertLeo4.tex}
+\input{04-Versuchsauswertung/AuswertungLeo5.tex}
+\input{04-Versuchsauswertung/AuswertungLeo6.tex}
+\input{04-Versuchsauswertung/AuswertungLeo7.tex}
