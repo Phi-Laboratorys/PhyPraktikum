@@ -2,17 +2,17 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = ['Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_0,1mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_0,2mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_0,4mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_0,6mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_0,8mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_1,0mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_1,2mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_1,4mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_1,6mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_1,8mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_4-Data/gruene_Hg-Linie_A4_2,0mm.txt']
+data = ['04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-0,1mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-0,2mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-0,4mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-0,6mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-0,8mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-1,0mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-1,2mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-1,4mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-1,6mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-1,8mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-4-Data/grueneHg-LinieA4-2,0mm.txt']
 
 
 df1 = pd.read_csv(data[0],sep='\t',encoding= 'Windows 1252', skiprows=(0,1), decimal=',')

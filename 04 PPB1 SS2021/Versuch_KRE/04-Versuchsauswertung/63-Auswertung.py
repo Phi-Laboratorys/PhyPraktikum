@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = 'Versuch_KRE/04-Versuchsauswertung/6_3-Praezession.csv'
+data = 'Versuch_KRE/04-Versuchsauswertung/63-Praezession.csv'
 df = pd.read_csv(data)
 df.index = np.arange(1, len(df)+1)
 

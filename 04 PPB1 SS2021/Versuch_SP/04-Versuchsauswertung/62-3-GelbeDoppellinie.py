@@ -1,14 +1,14 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data = ['Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,3mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,4mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,5mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,52mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,54mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,55mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_0,9mm.txt',
-        'Versuch_SP/04-Versuchsauswertung/6_2_3-Data/gelbe_Doppellinie_1mm.txt']
+data = ['04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,3mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,4mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,5mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,52mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,54mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,55mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_0,9mm.txt',
+        '04 PPB1 SS2021/Versuch_SP/04-Versuchsauswertung/62-3-Data/gelbe_Doppellinie_1mm.txt']
 
 #        '/Versuch_SP/04-Versuchsauswertung/6_2_3-Data/1,6mm.txt',
 #       '/Versuch_SP/04-Versuchsauswertung/6_2_3-Data/1,8mm.txt',

@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import make_interp_spline, BSpline
 
-df = pd.read_csv('Versuch_KRE/04-Versuchsauswertung/6_2-Nutation.csv')
+df = pd.read_csv('Versuch_KRE/04-Versuchsauswertung/62-Nutation.csv')
 
 # Interpolation Just for Fun
 '''
