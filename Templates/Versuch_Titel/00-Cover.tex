@@ -28,18 +28,21 @@
 \def\schriftgrosse{70}
 \def\linethickness{1,5pt}
 
-\def\farbe{Notagrey}
-\def\fach{PPBphys1}
+\def\farbe{black}
+\def\fach{PPBphys2}
 \def\name{Manuel Lippert - Paul Schwanitz}
-\def\uberschrift{Protokoll Titel} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
-\def\bottom{SS2021}
+\def\uberschrift{} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\bottom{WS2021/22}
 \def\datum{Datum}
 \def\platz{NWII | RaumNr.}
 \def\betreuer{Betreuer}
+
 \def\teilnehmer{Manuel Lippert, Paul Schwanitz}
-%\def\auswertp{Manuel Lippert}
-%\def\messp{Leonard Schatt}
-%\def\protop{Charlotte Geiger}
+
+%\def\auswertp{}
+%\def\messp{}
+%\def\protop{}
+
 \def\groupnr{11}
 
 \begin{titlepage}
@@ -47,7 +50,7 @@
 	\centering
 	{\LARGE \sffamily {\textbf{\bottom}\par}}
 	\vspace{2,5cm}
-    {\fontsize{40}{0}\sffamily\ruleline{\textcolor{\farbe}{\textbf{\fach}}}\par}
+    {\fontsize{30}{0}\sffamily\ruleline{\textcolor{\farbe}{\textbf{\fach}}}\par}
     \vspace{6cm}
 	{\Large\sffamily \ruleline{\name}\par}
 	
@@ -62,9 +65,19 @@
 			}
 		}
 	
-	\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
-		{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
-	\end{textblock*}
+	\IfSubStr {\titel} {\\[0,5cm]} {\setboolean{twoRows}{true}} {\setboolean{twoRows}{false}}
+	
+	\ifthenelse{\boolean{twoRows}}
+		{
+			\begin{textblock*}{21cm}(0cm,8cm) % {block width} (coords), centered		
+				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+			\end{textblock*}
+		}
+		{
+			\begin{textblock*}{21cm}(0cm,9cm) % {block width} (coords), centered		
+				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
+			\end{textblock*} 
+		}
 	
 	% Choose Logo
 	\ifthenelse {\equal{\farbe}{Notared}} {\def\logo{Bilder/Logo/UniBTNotared}}
