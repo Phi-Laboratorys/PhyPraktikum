@@ -8,9 +8,28 @@
 
 \subsection{Dynamische Systeme}
 \label{sub:dynamSys}
+Ein \textit{dynamisches System} ist mathematisches Modell eines zeitabhängigen Prozesses, dessen Verlauf nur vom Anfangszustand, aber nicht vom Anfangszeitpunkt, abhängt.\footnote{\url{https://de.wikipedia.org/wiki/Dynamisches_System}} Die Formulierung dieses Sachverhaltes geschieht anhand von Differentialgleichungen mit dem Vektor $\vect{x}(t)=(x_1(t)$,...$x_n(t))\in{U}\subseteq\mathbb{R}^n$
+\begin{gather}
+    \dot{\vect{x}}(t)=\vect{F}(\vect{x}(t)),
+    \label{eq:dynamDGL}
+\end{gather}
+bzw. mit einem Satz von zeitdiskreten Differentialgleichungen
+\begin{gather}
+    \vect{x}(t+1)=\vect{f}(\vect{x}(t)),
+    \label{eq:dynamDis}
+\end{gather}
+dabei beschreibt $\vect{x}(t)$ den \textit{Zustand} des Systems zum Zeitpunkt $t\in{I}\subseteq\mathbb{R}$. Hierzu ist zu erwähnen, dass alle folgendenen Eigenschaften von (\ref{eq:dynamDGL}) für (\ref{eq:dynamDis}) gleichermaßen gilt und ab hier nur noch auf (\ref{eq:dynamDGL}) eingegangen. Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(t)$ angegeben ist. Aus diesem Zustand lassen sich alle vorangegangen und folgenden Zustände des Systems bestimmen.\\
+Bei der Angabe einer speziellen Lösung für (\ref{eq:dynamDGL}) wird ein Anfangszustand $\vect{x_0}\in{U}$ zu einem Zeitpunkt $t$ eindeutig einem Zustand $\vect{x}(\vect{x_0},t)$ zugeordnet.
 
 \subsection{Begriffe des Phasenraums}
 \label{sub:phasenraum}
+\begin{itemize}
+    \item[\textbf{1.}]\textbf{Phasenfluss}\\
+    Der \textit{Phasenfluss} ist die Abbildung $\vect{f}^t\equiv\vect{x}(\vect{x},t)$, die \textbf{jedem} Anfangszustand $\vect{x_0}$ einen neuen Zustand zur Zeit $t$ zuordnet. 
+    \item[\textbf{2.}]\textbf{Phasenraum}
+    \item[\textbf{3.}]\textbf{Trajektorie}
+    \item[\textbf{4.}]\textbf{Attraktor}
+\end{itemize}
 
 \subsection{Deterministisches Chaos}
 \label{sub:determChaos}
