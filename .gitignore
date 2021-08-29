@@ -1,5 +1,7 @@
 # VS-Code Files
 *.json
+# vs-code Folder
+.vscode
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
