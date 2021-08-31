@@ -8,27 +8,43 @@
 
 \subsection{Dynamische Systeme}
 \label{sub:dynamSys}
-Ein \textit{dynamisches System} ist mathematisches Modell eines zeitabhängigen Prozesses, dessen Verlauf nur vom Anfangszustand, aber nicht vom Anfangszeitpunkt, abhängt.\footnote{\url{https://de.wikipedia.org/wiki/Dynamisches_System}} Die Formulierung dieses Sachverhaltes geschieht anhand von Differentialgleichungen mit dem Vektor $\vect{x}(t)=(x_1(t)$,...$x_n(t))\in{U}\subseteq\mathbb{R}^n$
+Ein \textit{\textbf{dynamisches System}} ist mathematisches Modell eines zeitabhängigen Prozesses, dessen Verlauf nur vom Anfangszustand abhängt.\footnote{\url{https://de.wikipedia.org/wiki/Dynamisches_System}}\\
+Die Formulierung dieses Sachverhaltes in der Physik geschieht anhand von Differentialgleichungen mit dem Vektor $\vect{x}(t)=(x_1(t)$,...$x_n(t))\in\mathbb{R}^n$
 \begin{gather}
     \dot{\vect{x}}(t)=\vect{F}(\vect{x}(t)),
     \label{eq:dynamDGL}
 \end{gather}
-bzw. mit einem Satz von zeitdiskreten Differentialgleichungen
-\begin{gather}
-    \vect{x}(t+1)=\vect{f}(\vect{x}(t)),
-    \label{eq:dynamDis}
-\end{gather}
-dabei beschreibt $\vect{x}(t)$ den \textit{Zustand} des Systems zum Zeitpunkt $t\in{I}\subseteq\mathbb{R}$. Hierzu ist zu erwähnen, dass alle folgendenen Eigenschaften von (\ref{eq:dynamDGL}) für (\ref{eq:dynamDis}) gleichermaßen gilt und ab hier nur noch auf (\ref{eq:dynamDGL}) eingegangen. Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(t)$ angegeben ist. Aus diesem Zustand lassen sich alle vorangegangen und folgenden Zustände des Systems bestimmen.\\
-Bei der Angabe einer speziellen Lösung für (\ref{eq:dynamDGL}) wird ein Anfangszustand $\vect{x_0}\in{U}$ zu einem Zeitpunkt $t$ eindeutig einem Zustand $\vect{x}(\vect{x_0},t)$ zugeordnet.
+dabei beschreibt $\vect{x}(t)$ den \textit{\textbf{Zustand}} des Systems zum Zeitpunkt $t\in\mathbb{R}$.\\
+%Hierzu ist zu erwähnen, dass alle folgendenen Eigenschaften von (\ref{eq:dynamDGL}) für (\ref{eq:dynamDis}) gleichermaßen gilt und ab hier nur noch auf (\ref{eq:dynamDGL}) eingegangen.\\
+Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(t)$ angegeben ist. Aus diesem Zustand lassen sich alle vorangegangen und folgenden Zustände des Systems bestimmen.
+%Bei der Angabe einer speziellen Lösung für (\ref{eq:dynamDGL}) wird ein Anfangszustand $\vect{x_0}\in{U}$ zu einem Zeitpunkt $t$ eindeutig einem Zustand $\vect{x}(\vect{x_0},t)$ zugeordnet.
+%bzw. mit einem Satz von zeitdiskreten Differentialgleichungen
+%\begin{gather}
+%    \vect{x}(t+1)=\vect{f}(\vect{x}(t)),
+%    \label{eq:dynamDis}
+%\end{gather}
 
 \subsection{Begriffe des Phasenraums}
 \label{sub:phasenraum}
 \begin{itemize}
     \item[\textbf{1.}]\textbf{Phasenfluss}\\
-    Der \textit{Phasenfluss} ist die Abbildung $\vect{f}^t\equiv\vect{x}(\vect{x},t)$, die \textbf{jedem} Anfangszustand $\vect{x_0}$ einen neuen Zustand zur Zeit $t$ zuordnet. 
-    \item[\textbf{2.}]\textbf{Phasenraum}
-    \item[\textbf{3.}]\textbf{Trajektorie}
-    \item[\textbf{4.}]\textbf{Attraktor}
+    In der Mathematik wird ein dynamisches System durch den \textit{\textbf{Fluss}} bzw. \textit{\textbf{Phasenfluss}}  beschrieben. Unter dem \textit{Fluss} versteht man die Abbildung $\phi:\mathbb{R}^n\times\mathbb{R}\rightarrow\mathbb{R}^n$, welche die \textit{\textbf{Flussaxiome}} erfüllt:
+    \begin{gather}
+        \begin{aligned}
+            (1)~&\phi(\vect{x},0)=\vect{x}\\
+            (2)~&\phi(\phi(\vect{x},t),s)=\phi(\vect{x},t+s).
+            \label{eq:flussaxiome}
+        \end{aligned}
+    \end{gather}
+    Dieser ordnet \textbf{jedem} Anfangszustand einen neuen Zustand zur Zeit $t$ zu. Im Allgemeinen ist es nicht möglich den \textit{Fluss} $\phi$ explizit zu berechnen, dennoch sind gewisse Aussagen über das System möglich.
+    \item[\textbf{2.}]\textbf{Trajektorie}\\
+    Der \textit{Fluss} $\phi$ kann mit dem \textit{Zustand} $\vect{x}(t)$ in Verbindung gebracht werden mit der Beziehung: $\vect{x}(t)=\phi_{\vect{x}_0}(t)=\phi(\vect{x}_0,t)$ mit dem Anfangszustand $\vect{x}_0$, wobei nach  (\ref{eq:flussaxiome}) $\vect{x}(0)=\phi_{\vect{x}_0}(0)=\phi(\vect{x}_0,0)=\vect{x}_0$ gilt.\\
+    Hierbei beschreibt $\phi_{\vect{x}_0}(t)$ oder $\vect{x}(t)$ die \textit{Lösungskurve}, welche auch \textit{Bahnkurve}, \textit{Orbit}, \textit{Phasenbahn} oder \textit{\textbf{Trajektorie}} genannt wird und eine spezielle Lösung von (\ref{eq:dynamDGL}) darstellt, welche wiederum die Bewegung des Punktes $\vect{x}$ unter Wirkung des Flusses $\phi$ beschreibt.
+    \item[\textbf{3.}]\textbf{Phasenraum}\\
+    Der \textit{\textbf{Phasenraum}} beschreibt eine Menge aller Zustände eines dynamischen Systems. Dieser wird von Zustand $\vect{x}(t)$ auf der \enquote{x-Achse} und dessen Ableitung $\dot{\vect{x}}(t)$ auf der \enquote{y-Achse} aufgespannt, was eine Parameterdarstellung einer Differentialgleichung über die Zeit $t$ darstellt.\\
+    In diesem \textit{Phasenraum} lässt sich dann ein Vektor $(\vect{x},\dot{\vect{x}})$ definieren, welcher auf die \textit{\textbf{Phasenraumtajektorie}} zeigt. Die \textit{Phasenraumtrajektorie} stellt den Bewegungsvorgang des Systems dar.
+    \item[\textbf{4.}]\textbf{Attraktor}\\
+     
 \end{itemize}
 % TODO: #18 FzV 2.1.2 @ManeLippert
 
