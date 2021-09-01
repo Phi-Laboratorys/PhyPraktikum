@@ -1,4 +1,6 @@
 # Source: http://jupiter-online.net/roessler-attraktor-zeichnen-mit-matplotlib/
+# Source: http://jupiter-online.net/lorenz-attraktor-zeichnen-mit-matplotlib/
+
 # Module importieren
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,79 +8,81 @@ from matplotlib import rc
 from mpl_toolkits.mplot3d import Axes3D
 
 '''Roessler Attraktor'''
-# Funktion zur Berechnung des Rössler Attraktors
-def roessler(x, y, z, a=0.2, b=0.2, c=5.7):
+def roessler(x, y, z, a, b, c):
     dx = -(y + z)
     dy = x + a * y
     dz = b + z * (x - c)
     return dx, dy, dz
 
+'''Lorentz Attraktor'''
+def lorentz(x, y, z, a, b, c):
+    dx = a * (y - x)
+    dy = b * x - y - x * z
+    dz = x * y - c * z
+    return dx, dy, dz
+
+def test(x ,y , z ,a ,b ,c):
+    dx = a*(y-x)+y*z
+    dy = b*x - y -x*z
+    dz = x*y-c*z
+    return dx, dy, dz
+
 # Schrittweite und Anzahl der Schritte definieren
 dt = 0.01
-numSteps = 20000
+numSteps_r = 30000
+numSteps_l = 5000
  
 # Arrays für x, y und z Werte initialisieren
-X = np.zeros(numSteps + 1)
-Y = np.zeros(numSteps + 1)
-Z = np.zeros(numSteps + 1)
+x_r = np.zeros(numSteps_r + 1)
+y_r = np.zeros(numSteps_r + 1)
+z_r = np.zeros(numSteps_r + 1)
+
+x_l = np.zeros(numSteps_l + 1)
+y_l = np.zeros(numSteps_l + 1)
+z_l = np.zeros(numSteps_l + 1)
  
 # Starwerte festlegen
-X[0], Y[0], Z[0] = (0, 0, 0)
+x_r[0], y_r[0], z_r[0] = (0, 0, 0)
+a_r, b_r, c_r = (0.2, 0.2, 5.7)
+
+x_l[0], y_l[0], z_l[0] = (1.0, 1.0, 1.0)
+a_l, b_l, c_l = (10, 28, 8/3)
 
 # x, y und z Positionen Schrittweise berechnen
-for i in range(numSteps):
-    dx, dy, dz = roessler(X[i], Y[i], Z[i])
-    X[i + 1] = X[i] + (dx * dt)
-    Y[i + 1] = Y[i] + (dy * dt)
-    Z[i + 1] = Z[i] + (dz * dt)
+for i in range(numSteps_r):
+    dx_r, dy_r, dz_r = roessler(x_r[i], y_r[i], z_r[i], a_r, b_r, c_r)
+    x_r[i + 1] = x_r[i] + (dx_r * dt)
+    y_r[i + 1] = y_r[i] + (dy_r * dt)
+    z_r[i + 1] = z_r[i] + (dz_r * dt)
+
+for i in range(numSteps_l):   
+    dx_l, dy_l, dz_l = lorentz(x_l[i], y_l[i], z_l[i], a_l, b_l, c_l)
+    x_l[i + 1] = x_l[i] + (dx_l * dt)
+    y_l[i + 1] = y_l[i] + (dy_l * dt)
+    z_l[i + 1] = z_l[i] + (dz_l * dt)
     
-# Figur erzeugen und 3D Projektion aktivieren
 rc('text', usetex=True)
 rc('font', family='serif')
 
 fig = plt.figure()
-#fig.suptitle("Seltsame Attraktoren")
-ax1 = fig.add_subplot(1, 2, 1, projection='3d')
+
+ax_r = fig.add_subplot(1, 2, 1, projection='3d')
+ax_l = fig.add_subplot(1, 2, 2, projection='3d')
        
-# Diagram beschriften
-ax1.plot(X, Y, Z, lw=0.5)
-ax1.set_xlabel("X Achse")
-ax1.set_ylabel("Y Achse")
-ax1.set_zlabel("Z Achse")
-ax1.set_title("Rössler Attraktor")
+ax_r.plot(x_r, y_r, z_r, lw=0.5, color='black')
+ax_r.set_xlabel("x")
+ax_r.set_ylabel("y")
+ax_r.set_zlabel("z")
+ax_r.axis('off')
+ax_r.set_title("Rössler Attraktor")
 
-'''Lorentz Attraktor'''
-# Source: http://jupiter-online.net/lorenz-attraktor-zeichnen-mit-matplotlib/
-# Schrittweite und Anzahl der Schritte definieren
-step = 0.01
-numSteps = 10000
- 
-# Konstanten für Berechnung der Ableitungen definieren
-a, b, c = 10, 28, 8/3
- 
-# Arrays für x, y und z Werte initialisieren
-x = np.zeros(numSteps+1)
-y = np.zeros(numSteps+1)
-z = np.zeros(numSteps+1)
- 
-# Starwerte festlegen
-x[0], y[0], z[0] = 1.0, 1.0, 1.0
-
-# x, y und z Positionen berechnen
-for i in range(numSteps):
-    x[i+1] = x[i] + (step * (a * (y[i] - x[i])))
-    y[i+1] = y[i] + (step * (b * x[i] - y[i] - x[i] * z[i]))
-    z[i+1] = z[i] + (step * (x[i]*y[i] - c*z[i]))
- 
-# 3D Projektion aktivieren
-ax2 = fig.add_subplot(1, 2, 2, projection='3d')
-
-# Diagramm beschriften
-ax2.plot(x, y, z, lw=1.0)
-ax2.set_xlabel("X Achse")
-ax2.set_ylabel("Y Achse")
-ax2.set_zlabel("Z Achse")
-ax2.set_title("Lorenz Attraktor")
+ax_l.plot(x_l, y_l, z_l, lw=1.0, color='black')
+ax_l.set_xlabel("x")
+ax_l.set_ylabel("y")
+ax_l.set_zlabel("z")
+ax_l.axis('off')
+ax_l.set_title("Lorenz Attraktor")
  
 # Bild anzeigen
+plt.subplots_adjust(wspace=0.1)
 plt.show()

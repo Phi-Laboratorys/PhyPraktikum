@@ -9,7 +9,7 @@
 \subsection{Dynamische Systeme}
 \label{sub:dynamSys}
 Ein \textit{\textbf{dynamisches System}} ist ein mathematisches Modell eines zeitabhängigen Prozesses, dessen Verlauf nur vom Anfangszustand abhängt. \citep{WikiDynSys}\\
-Die Formulierung dieses Sachverhaltes in der Physik geschieht anhand von Differentialgleichungen mit dem Vektor $\vect{x}(t)=(x_1(t)$,...$x_n(t))\in\mathbb{R}^n$
+Die Formulierung dieses Sachverhaltes in der Physik geschieht anhand von Differentialgleichungen mit dem Vektor $\vect{x}(t)=(x_1(t)$,..., $x_n(t))\in\mathbb{R}^n$
 \begin{gather}
     \dot{\vect{x}}(t)=\vect{F}(\vect{x}(t)),
     \label{eq:dynamDGL}
@@ -35,7 +35,7 @@ Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(
     Durch die Abhängigkeit der \textit{Trajektorien} vom Anfangszustand $\vect{x}_0$ kann gefolgert werden, dass sich \textit{Trajektorien} mit unterschiedlichen Anfangszuständen $\vect{x}_0$ nicht schneiden können. Es können aber unterschiedliche Anfangszustände $\vect{x}_0$ auf derselben \textit{Trajektorie} befinden und sich nur um eine Zeittranslation unterscheiden. \citep{Mat1}\\
 
     \item[\textbf{3.}]\textbf{Phasenraum}\\
-    Der \textit{\textbf{Phasenraum}} oder \textit{\textbf{Zustandsraum}} beschreibt eine Menge aller Zustände oder eine Darstellung aller Trajektorien eines dynamischen Systems und bietet einen Überblick über das Verhalten der gesamten Differentialgleichung ohne diese explizit für $\vect{x}(t)$ lösen zu müssen. Der \textit{Phasenraum} ist hierbei eine Parameterdarstellung von der Differentialgleichung mit dem Zustand $\vect{x}(t)$ und dessen Ableitung $\dot{\vect{x}}(t)$ mit der Zeit $t$ als Parameter.\\ %!!! Quelle
+    Der \textit{\textbf{Phasenraum}} oder \textit{\textbf{Zustandsraum}} beschreibt eine Menge aller Zustände oder eine Darstellung aller Trajektorien eines dynamischen Systems und bietet einen Überblick über das Verhalten der gesamten Differentialgleichung ohne diese explizit lösen zu müssen.\\ %!!! Quelle
     %Der \textit{Phasenraum} wird vom Zustand $\vect{x}(t)$ und dessen Ableitung $\dot{\vect{x}}(t)$ aufgespannt bzw. ist eine $(\vect{x}(t),\dot{\vect{x}}(t))$-Ebene, was eine Parameterdarstellung der Differentialgleichung über die Zeit $t$ darstellt.
     %In diesem \textit{Phasenraum} lässt sich dann ein Vektor $(\vect{x},\dot{\vect{x}})$ definieren, welcher auf die \textit{Trajektorien}, die sich mit dem Anfangszustand $\vect{x}_0$ änderen, zeigt. Die Ableitung dieses Vektors $\frac{\text{d}}{\text{d}t}(\vect{x},\dot{\vect{x}})=(\dot{\vect{x}},\ddot{\vect{x}})$ erzeugt ein \textit{Vektorfeld} bzw. ein \textit{Richtungsfeld} der Differentialgleichung, dessen Vektoren tangential auf den \textit{Trajektorien} steht.
 
@@ -63,8 +63,9 @@ Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(
         \end{tabular}
         \captionof{figure}{Fixpunkt, Grenzzyklus, Tours- bzw. Ringattraktor}
         \includegraphics[width=14cm]{SeltsameAttraktoren.png}
-        \captionof{figure}{Seltsame Attraktoren}
+        \captionof{figure}{Seltsame Attraktoren: Rössler- und Lorentzattraktor}
     \end{center}
+    % !!! Quelle \citep{Lueck}
 \end{itemize}
 
 \subsection{Deterministisches Chaos}
@@ -77,4 +78,15 @@ Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(
 
 \subsection{Darstellungsweisen eines chaotischen Attraktor}
 \label{sub:darstellungAttraktor}
-% TODO: #20 FzV 2.1.5 @ManeLippert
+\begin{itemize}
+    \item[\textbf{1.}]{\textbf{Phasenraumdarstellung}}\\
+    Die \textit{\textbf{Phasenraumdarstellung}} wie in \ref{sec:allgemeines} erwähnt, gibt einen Überblick über den Verlauf der Bewegung des dynamischen Systems. Dabei trägt man je an eine Raumachse eine Phasenraumvariabel auf (z.B. $x, \dot{x}$), wobei der Phasenraum dabei $n$-Dimensionen haben kann und nicht alle Phasenraumvariablen bekannt sein müssen, da ein Attraktor im Phasenraum rekonstruiert werden kann. Dazu werden die Messwerte einer Phasenraumvariablen bei einer festen Zeitspanne $\tau$, also $\varphi(t), \varphi(t+\tau)$,..., $\varphi(t+(n-1)\tau)$, als neu Koordinaten $x_i$ (z.B. $x_1=\varphi(t) und x-2=\varphi(t+\tau))$ eines neuen Koordinatensystems. Bei richtiger Wahl von $\tau$ und $n$ lässt sich der tatsächliche Attraktor rekonstruieren. \citep{Lueck}
+    \item[\textbf{2.}]{\textbf{Poincar\'e-Abbildung}}\\
+    Die \textit{\textbf{Poincar\'e-Abbildung}} ist eine Projektion des \textit{\textbf{Poincar\'e-Schnitts}} an einer Ebene. Diese Abbildung ist immer die Dimension $n-1$ und ist somit eine Dimension niedriger als der Phasenraum mit der Dimension $n$ und es gehen keinen Informationen bzgl. dem Langzeitverhalten des Systems verloren. Aufgrund dieser Tatsache lässt sich die \textit{Poincar\'e-Abbildung} zur Analyse von höherdimensionalen Phasenräumen verwenden. Der \textit{Poincar\'e-Schnitt} ist dabei eine Menge aller Durchstoßpunkte der Trajektorien im Phasenraum auf einer Hyperfläche. Hierbei müssen die Trajektorien die Hyperfläche \textit{transversal} (senkrecht) und in einer vorgegebenen Richtung schneiden. Praktisch werden meistens die Lage von Extremwerten einer Messgröße als Bedingung für die Schnittebene (Hyperfläche) und trägt diese gegen die anderen Phasenraumvariablen zu diesem Zeitpunkt gegeneinander auf oder man wählt eine Ebene, die den Attraktor geeignet schneidet. \citep{Lueck}
+    \item[\textbf{3.}]{\textbf{Wiederkehr-Abbildung}}\\
+    Bei der \textit{\textbf{Wiederkehr-Abbildung}} wird eine diskrete Abbildung aktueller Messwerte über die vorangegangenen Messwerte augetragen. Diese Abbildung ähnelt dann einen \textit{Poincar\'e-Schnitt}, weswegen man bei einem kontinuierlichen System (\ref{eq:dynamDGL}) dessen \textit{Poincar\'e-Abbildung} für dieses Verfahren verwendet. \citep{Lueck}
+    \item[\textbf{4.}]{\textbf{Bifurkationsdiagramm}}\\
+    Bei einem \textit{\textbf{Bifurkationsdiagramm}} betrachtet man die Projektion der \textit{Poincar\'e-Abbildung} auf \textbf{eine} Achse unter Veränderung eines Kontrollparameters (z.B. der Zeit $t$), wobei man die durch die Projektion gewonnenen Werte gegen den jeweiligen Parameterwert aufträgt. \citep{Lueck}
+    \item[\textbf{5.}]{\textbf{Phasendiagramm}}\\
+    Wenn bei dem \textit{Bifurkationsdiagramm} mehrere unterschiedliche voneinander unabhängige Parameter existieren, verwendet man das \textit{\textbf{Phasendiagramm}}. Dazu trägt man die als Koordinaatenachsen die jeweiligen Parameter, die das Systemverhalten beeinflussen, gegeneinander auf und erhält Landkarte des globalen Systemverhaltens in Abhängigkeit der gewählten Parameter. \citep{Lueck}    
+\end{itemize}
