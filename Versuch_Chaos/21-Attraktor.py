@@ -2,6 +2,7 @@
 # Module importieren
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import rc
 from mpl_toolkits.mplot3d import Axes3D
 
 '''Roessler Attraktor'''
@@ -32,10 +33,13 @@ for i in range(numSteps):
     Z[i + 1] = Z[i] + (dz * dt)
     
 # Figur erzeugen und 3D Projektion aktivieren
+rc('text', usetex=True)
+rc('font', family='serif')
+
 fig = plt.figure()
-fig.suptitle("Seltsame Attraktoren")
+#fig.suptitle("Seltsame Attraktoren")
 ax1 = fig.add_subplot(1, 2, 1, projection='3d')
- 
+       
 # Diagram beschriften
 ax1.plot(X, Y, Z, lw=0.5)
 ax1.set_xlabel("X Achse")
@@ -68,7 +72,7 @@ for i in range(numSteps):
  
 # 3D Projektion aktivieren
 ax2 = fig.add_subplot(1, 2, 2, projection='3d')
- 
+
 # Diagramm beschriften
 ax2.plot(x, y, z, lw=1.0)
 ax2.set_xlabel("X Achse")
