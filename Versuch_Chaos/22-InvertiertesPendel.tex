@@ -19,13 +19,13 @@ Die Bewegungsgleichung lässt sich über die wirkenden Drehmomente der Bauteile 
         \text{Pendel}~+~\text{Dämpfung}~+~\text{Blattfeder}~-~\text{Spiralfedern}~-~\text{Gewicht} = 0
 \end{gather*}
 \begin{gather}
-    \Rightarrow [M(L(\theta))^2\ddot{\theta}]+[2c\dot{\theta}]+[k\theta]-[hk_s(x_h+\hat{x}\cos(\omega_at))]-[MgL(\theta)\sin(\theta)]=0
+    \Rightarrow [M(L(\theta))^2\ddot{\theta}]+[2\delta\dot{\theta}]+[k\theta]-[hk_s(x_h+\hat{x}\cos(\omega t))]-[MgL(\theta)\sin(\theta)]=0
 \end{gather}
-Dabei bezeichnet $c$ die Dämpfungskonstante und $g$ die Erdbeschleunigung.\\
+Dabei bezeichnet $\delta$ die Dämpfungskonstante und $g$ die Erdbeschleunigung.\\
 Im Folgenden wird die Pendellänge $L$ als konstant angenommen, obwohl dieser nicht konstant ist und von der Art der verwendeten Masse $M$ abhängt. Weiterhin wird die Auslenkung $x_h$ als vernachlässigbar klein angesehen und der Angriffswinkel der Spiralfedern wird als $\frac{\pi}{2}$ genähert, was bei genügend kleiner Höhe $h$ gegeben ist.
 Daraus folgt die genäherte Form der Bewegungsgleichung:
 \begin{gather}
-    ML^2\ddot{\theta}+2c\dot{\theta}+k\theta-MgL(\theta)\sin(\theta)=hk_s\hat{x}\cos(\omega_at)=T_0\cos(\omega_at)
+    ML^2\ddot{\theta}+2\delta\dot{\theta}+k\theta-MgL(\theta)\sin(\theta)=hk_s\hat{x}\cos(\omega t)=T_0\cos(\omega t)
 \end{gather}
 Wobei $T_0$ als die Amplitude des periodisch angreifenden Drehmoments interpretiert werden muss. Hierbei ist noch zu erwähnen, dass durch die Näherungen die Lösung dieser Differentialgleichung nicht der tatsächlichen Trajektorien des Systems entsprechen, da diese stark von der Anfangsbedingung abhängen, dennoch ist eine globale Aussage über das Verhalten mit der genähreten Differentialgleichung möglich. \citep{Lueck}
 
@@ -35,11 +35,42 @@ Wobei $T_0$ als die Amplitude des periodisch angreifenden Drehmoments interpreti
 
 \subsection{Schwingungsdauer in Abhängigkeit der Masse}
 \label{sub:schwingungsdauer}
-Bei einem nichtlinearen Pendel hängt, im Gegensatz zu einem linearen Schwingungsvorgang, die Eigenfrequenz $\omega_r$ von der Schwingungsamplitude $b$ ab $\Rightarrow \omega_r(b)$. Unverändert bleibt dennoch die Schwingungsamplitude $b(\omega_a)$ gegenüber der Resonanzkurve eines linearen Oszillators bei unterschiedlichen Anregungsfrequenzen $\omega_a$. \citep{Lueck}
+Bei einem nichtlinearen Pendel hängt, im Gegensatz zu einem linearen Schwingungsvorgang, die Resonanzfrequenz $\omega_r$ von der Schwingungsamplitude $b$ ab $\Rightarrow \omega_r(b)$. Unverändert bleibt dennoch die Schwingungsamplitude $b(\omega)$ gegenüber der Resonanzkurve eines linearen Oszillators bei unterschiedlichen Anregungsfrequenzen $\omega$. \citep{Lueck}
 \begin{itemize}
     \item[1.] $M<M_k$ (Schwache Nichtlinearität)\\
-    Pendel ist nach (\ref{sub:symbrechung}) monostabil.
-    \item[2.] $M>M_k$
+    Pendel ist nach (\ref{sub:symbrechung}) monostabil. Der Vorgang lässt sich näherungsweise mit der Bewegungsgleichung eines Duffing-Oszillator nähern, wobei die Abhängigkeit der Resonanzfrequenz $\omega_r$ von der Amplitude $b$ berücksichtigt bleibt. Die Bewegungsgleichung lautet in diesem Fall:
+    \begin{gather}
+        \ddot{\theta} + 2\delta\dot{\theta} + \omega_0^2\theta + \gamma\theta^3 = f_a\cos(\omega t)
+    \end{gather}
+    Dabei bezeichnet $\gamma$ den Faktor der Nichtlinearität, $\omega_0$ die Resonanzfrequenz des Systems ohne Nichtlinearität ($\gamma=0$), $f_a$ die Anregungsamplitude mit Anregungsfrequenz $\omega$ und $\delta$ die Dämpfung.\\
+    Durch Betrachtung des Verlaufs der Resonanzkurve in der Nähe von $\omega_0 \rightarrow$ erhält man eine Gleichung dritter Ordnung für das Quadrat der Schwingungsamplitude $b$, welche je nach Werten von $f_a, \gamma, \omega_0~\text{und}~\delta$ eine reelle oder zwei konjugierte komplexe Lösungen,
+    \begin{gather}
+        \left[\left((\omega^2-\omega_0^2) - \frac{3}{4}\gamma b^2\right)^2+(2\delta\omega)^2\right]b^2=f_a^2. %Angepasst an die Form in Wikipedia https://en.wikipedia.org/w/index.php?title=Duffing_equation&oldid=1031816809
+        \label{eq:resonanzkurve}
+    \end{gather}
+    Dabei ist es einfacher die Gleichung nach $\omega$ aufzulösen, wobei zur Vereinfachung $\omega_0=1$ angenommen wird. Damit wird (\ref{eq:resonanzkurve}) zu:
+    \begin{gather}
+        \left[\left((\omega^2-1) - \frac{3}{4}\gamma b^2\right)^2+(2\delta\omega)^2\right]b^2=f_a^2
+    \end{gather}
+    Mit der Lösung für $\omega$:
+    \begin{gather}
+        \omega^2_{1,2} = 1 - 2\delta^2 + \frac{3}{4}\gamma b^2 \pm \sqrt{\frac{f_a^2}{b^2}+ 4\delta^2\left[\delta^2 - \left(1 + \frac{3}{4}\gamma b^2\right)\right]}
+    \end{gather}
+    Bei hinreichender kleinen Dämpfung $\delta$ gibt es zwei verschiedene eingeschwungene Zustände, da Lösung instabil wird (siehe Abb; \ref{image:resonanzkurve}c)).
+    \begin{center}
+        \includegraphics[scale=0.3]{Resonanzkurve.png}
+        \captionof{figure}{Resonanzkurven für eines Duffing-Oszillator}
+        \label{image:resonanzkurve}
+        \captionof*{figure}{a) linearer ($\gamma=0$) b) nichtlinear c) Hysterese}
+    \end{center}
+    % https://www.ila.uni-stuttgart.de/nlvib/downloads/HB_NLvib_presentation.pdf, https://www.hindawi.com/journals/mpe/2011/248328/
+    Die Schwingungsdauer $T$ hängt hierbei logarithmisch von der Amplitude $b$ mit dem Zusammenhang:
+    \begin{gather}
+        T = T_0 + T_1\log(b)
+    \end{gather}
+    Dies geht aus experimentellen Daten von \citep{Lueck} hervor, wobei $T_0$ und $T_1$ Näherungsparameter sind. \citep{Lueck}
+    \item[2.] $M>M_k$ (Starke Nichtlinearität)\\
+    Das Pendel ist in diesem Fall nach (\ref{sub:symbrechung}) bistabil und besitzt zwei stabile Ruhelagen. Durch die Verringerung von großen Antriebsfrequenzen $\omega$ entstehen nach Ende des Einschwingverhaltens nacheinander subharmonische Schwingungen mit einer Periodenverdopplungskaskade ($T_n=2^nT=2^n\frac{2\pi}{\omega}$), obwohl sich das Pendel unterhalb einer kritischen Frequenz $\omega_k$ chaotisch verhält. Dieses Verhalten wird auch Bifurkationsszenario genannt. \citep{Lueck}
 \end{itemize}
 
 \subsection{Differenzier-Schaltung}
