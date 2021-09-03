@@ -19,19 +19,19 @@ Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(
 
 \begin{itemize}
     \item[\textbf{1.}]\textbf{Phasenfluss}\\
-    In der Mathematik wird ein dynamisches System durch den \textit{\textbf{Fluss}} bzw. \textit{\textbf{Phasenfluss}}  beschrieben. Unter dem \textit{Fluss} versteht man die Abbildung $\phi:\mathbb{R}^n\times\mathbb{R}\rightarrow\mathbb{R}^n$, welche die \textit{\textbf{Flussaxiome}} erfüllt \citep{Mat1}:
+    In der Mathematik wird ein dynamisches System durch den \textit{\textbf{Fluss}} bzw. \textit{\textbf{Phasenfluss}}  beschrieben. Unter dem \textit{Fluss} versteht man die Abbildung $\vect{\vect{\phi}}:\mathbb{R}^n\times\mathbb{R}\rightarrow\mathbb{R}^n$, welche die \textit{\textbf{Flussaxiome}} erfüllt \citep{Mat1}:
     \begin{gather}
         \begin{aligned}
-            (1)~&\phi(\vect{x}_0,0)=\vect{x}_0\\
-            (2)~&\phi(\phi(\vect{x}_0,t),s)=\phi(\vect{x}_0,t+s).
+            (1)~&\vect{\vect{\phi}}(\vect{x}_0,0)=\vect{x}_0\\
+            (2)~&\vect{\vect{\phi}}(\vect{\phi}(\vect{x}_0,t),s)=\vect{\phi}(\vect{x}_0,t+s).
             \label{eq:flussaxiome}
         \end{aligned}
     \end{gather}
-    Der \textit{Fluss} $\phi$ ordnet \textbf{jedem} Anfangszustand $\vect{x}_0$ einen neuen Zustand zum Zeitpunkt $t$ zu. \citep{Lueck}\\
+    Der \textit{Fluss} $\vect{\phi}$ ordnet \textbf{jedem} Anfangszustand $\vect{x}_0$ einen neuen Zustand zum Zeitpunkt $t$ zu. \citep{Lueck}\\
 
     \item[\textbf{2.}]\textbf{Trajektorie}\\
-    Der \textit{Fluss} $\phi$ kann mit dem \textit{Zustand} $\vect{x}(t)$ in Verbindung gebracht werden mit der Beziehung: $\vect{x}(t)=\phi_{\vect{x}_0}(t)=\phi(\vect{x}_0,t)$ mit festem $\vect{x}$, wobei nach  (\ref{eq:flussaxiome}) $\vect{x}(0)=\phi_{\vect{x}_0}(0)=\phi(\vect{x}_0,0)=\vect{x}_0$ gilt.\\
-    Hierbei beschreibt $\phi_{\vect{x}_0}(t)$ die \textit{Lösungskurve}, welche auch \textit{Bahnkurve}, \textit{Orbit}, \textit{Phasenbahn} oder \textit{\textbf{Trajektorie}} des Flusses $\phi$ genannt wird und eine spezielle Lösung von (\ref{eq:dynamDGL}) darstellt, welche wiederum die Bewegung des Punktes $\vect{x}$ unter Wirkung des Flusses $\phi$ mit dem Anfangszustand $\vect{x}_0$ beschreibt. \citep{Lueck}\\
+    Der \textit{Fluss} $\vect{\phi}$ kann mit dem \textit{Zustand} $\vect{x}(t)$ in Verbindung gebracht werden mit der Beziehung: $\vect{x}(t)=\vect{\phi}_{\vect{x}_0}(t)=\vect{\phi}(\vect{x}_0,t)$ mit festem $\vect{x}_0$, wobei nach  (\ref{eq:flussaxiome}) $\vect{x}(0)=\vect{\phi}_{\vect{x}_0}(0)=\vect{\phi}(\vect{x}_0,0)=\vect{x}_0$ gilt.\\
+    Hierbei beschreibt $\vect{\phi}_{\vect{x}_0}(t)$ die \textit{Lösungskurve}, welche auch \textit{Bahnkurve}, \textit{Orbit}, \textit{Phasenbahn} oder \textit{\textbf{Trajektorie}} des Flusses $\vect{\phi}$ genannt wird und eine spezielle Lösung von (\ref{eq:dynamDGL}) darstellt, welche wiederum die Bewegung des Punktes $\vect{x}$ unter Wirkung des Flusses $\vect{\phi}$ mit dem Anfangszustand $\vect{x}_0$ beschreibt. \citep{Lueck}\\
     Durch die Abhängigkeit der \textit{Trajektorien} vom Anfangszustand $\vect{x}_0$ kann gefolgert werden, dass sich \textit{Trajektorien} mit unterschiedlichen Anfangszuständen $\vect{x}_0$ nicht schneiden können. Es können aber unterschiedliche Anfangszustände $\vect{x}_0$ auf derselben \textit{Trajektorie} befinden und sich nur um eine Zeittranslation unterscheiden. \citep{Mat1}\\
 
     \item[\textbf{3.}]\textbf{Phasenraum}\\
@@ -40,7 +40,7 @@ Das dynamische System ist vollständig determiniert, wenn ein Zustand $\vect{x}(
     %In diesem \textit{Phasenraum} lässt sich dann ein Vektor $(\vect{x},\dot{\vect{x}})$ definieren, welcher auf die \textit{Trajektorien}, die sich mit dem Anfangszustand $\vect{x}_0$ änderen, zeigt. Die Ableitung dieses Vektors $\frac{\text{d}}{\text{d}t}(\vect{x},\dot{\vect{x}})=(\dot{\vect{x}},\ddot{\vect{x}})$ erzeugt ein \textit{Vektorfeld} bzw. ein \textit{Richtungsfeld} der Differentialgleichung, dessen Vektoren tangential auf den \textit{Trajektorien} steht.
 
     \item[\textbf{4.}]\textbf{Attraktor}\\
-    In (\ref{eq:dynamDGL}) wird ein Vektorfeld $\vect{F}$ im Phasenraum definiert, welches als Geschwindigkeitfeld des Phasenflusses $\phi$ angesehen werden kann.\\ Durch Betrachtung der Divergenz des Vektorfelds $\nabla\vect{F}$ kann eine Aussage getroffen werden über die Rate mit dem sich ein Volumenelement $V$ unter der Wirkung des Flusses verändert. Zwei Fälle sind hier besonders hervorzuheben:
+    In (\ref{eq:dynamDGL}) wird ein Vektorfeld $\vect{F}$ im Phasenraum definiert, welches als Geschwindigkeitfeld des Phasenflusses $\vect{\phi}$ angesehen werden kann.\\ Durch Betrachtung der Divergenz des Vektorfelds $\nabla\vect{F}$ kann eine Aussage getroffen werden über die Rate mit dem sich ein Volumenelement $V$ unter der Wirkung des Flusses verändert. Zwei Fälle sind hier besonders hervorzuheben:
     \begin{gather}
         \begin{aligned}
             (1)~&\nabla\cdot\vect{F}=0\Rightarrow \dot{V}=0 \Rightarrow~\text{Konservatives System}\\
@@ -92,7 +92,7 @@ Bei chaotischen Systemen beispielsweiße erhält man ein Leistungsspektrum mit k
 \label{sub:darstellungAttraktor}
 \begin{itemize}
     \item[\textbf{1.}]{\textbf{Phasenraumdarstellung}}\\
-    Die \textit{\textbf{Phasenraumdarstellung}} wie in \ref{sec:allgemeines} erwähnt, gibt einen Überblick über den Verlauf der Bewegung des dynamischen Systems. Dabei trägt man je an eine Raumachse eine Phasenraumvariabel auf (z.B. $x, \dot{x}$), wobei der Phasenraum dabei $n$-Dimensionen haben kann und nicht alle Phasenraumvariablen bekannt sein müssen, da ein Attraktor im Phasenraum rekonstruiert werden kann. Dazu werden die Messwerte einer Phasenraumvariablen bei einer festen Zeitspanne $\tau$, also $\varphi(t), \varphi(t+\tau)$,..., $\varphi(t+(n-1)\tau)$, als neu Koordinaten $x_i$ (z.B. $x_1=\varphi(t) und x-2=\varphi(t+\tau))$ eines neuen Koordinatensystems. Bei richtiger Wahl von $\tau$ und $n$ lässt sich der tatsächliche Attraktor rekonstruieren. \citep{Lueck}
+    Die \textit{\textbf{Phasenraumdarstellung}} wie in (\ref{sec:allgemeines}) erwähnt, gibt einen Überblick über den Verlauf der Bewegung des dynamischen Systems. Dabei trägt man je an eine Raumachse eine Phasenraumvariabel auf (z.B. $x, \dot{x}$), wobei der Phasenraum dabei $n$-Dimensionen haben kann und nicht alle Phasenraumvariablen bekannt sein müssen, da ein Attraktor im Phasenraum rekonstruiert werden kann. Dazu werden die Messwerte einer Phasenraumvariablen bei einer festen Zeitspanne $\tau$, also $\varphi(t), \varphi(t+\tau)$,..., $\varphi(t+(n-1)\tau)$, als neu Koordinaten $x_i$ (z.B. $x_1=\varphi(t)~\text{und}~x_2=\varphi(t+\tau))$ eines neuen Koordinatensystems. Bei richtiger Wahl von $\tau$ und $n$ lässt sich der tatsächliche Attraktor rekonstruieren. \citep{Lueck}
     \item[\textbf{2.}]{\textbf{Poincar\'e-Abbildung}}\\
     Die \textit{\textbf{Poincar\'e-Abbildung}} ist eine Projektion des \textit{\textbf{Poincar\'e-Schnitts}} an einer Ebene. Diese Abbildung ist immer die Dimension $n-1$ und ist somit eine Dimension niedriger als der Phasenraum mit der Dimension $n$ und es gehen keinen Informationen bzgl. dem Langzeitverhalten des Systems verloren. Aufgrund dieser Tatsache lässt sich die \textit{Poincar\'e-Abbildung} zur Analyse von höherdimensionalen Phasenräumen verwenden.\\
     Der \textit{Poincar\'e-Schnitt} ist dabei eine Menge aller Durchstoßpunkte der Trajektorien im Phasenraum auf einer Hyperfläche. Hierbei müssen die Trajektorien die Hyperfläche \textit{transversal} (senkrecht) und in einer vorgegebenen Richtung schneiden. Praktisch werden meistens die Lage von Extremwerten einer Messgröße als Bedingung für die Schnittebene (Hyperfläche) und trägt diese gegen die anderen Phasenraumvariablen zu diesem Zeitpunkt gegeneinander auf oder man wählt eine Ebene, die den Attraktor geeignet schneidet. \citep{Lueck}
