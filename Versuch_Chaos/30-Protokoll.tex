@@ -3,78 +3,84 @@
 
 % 3.Kapitel  Protokoll
 
-% Variables
-\def\skalierung{0.65}
-
 \chapter{Messprotokoll}
 \label{chap:protokoll}
 
-
-
-\section{Versuchsaufbau und Beschreibung}
-\label{sec:aufbau}
-
-\input{31-AufbauPendel.tex}
-% TODO: #24 Aufbau Pendel @ManeLippert
-
-\subsection{Versuchsdurchführung invertiertes Pendel}
-
-\textbf{1) Bifurkationsdiagramm}\\
-Vermessung der Gleichgewichtslage $\theta_g$ in Abhängigkeit der Masse $M$. Dabei wird die Gleichgewichtslage über eine Spannung $U_a$, welche generiert wird durch in (\ref{sub:aufbauPendel}) beschriebenen Schaltkreis erzeugt wird. Dabei wird angenommen, dass $U_a$ proportional zu der Auslenkwinkel im Gleichgewicht $\theta_g$ ist und damit der generelle Verlauf der Graphen identisch ist.\\
+\section{Versuchsdurchführung invertiertes Pendel}
+\label{sec:versuchPendel}
+\subsection{Bifurkationsdiagramm}
+\label{sub:bifu}
+Vermessung der Gleichgewichtslage $\theta_g$ in Abhängigkeit der Masse $M$. Dabei wird die Gleichgewichtslage über eine Spannung $U_a$, welche generiert wird durch in (\ref{sub:aufbauPendel}) beschriebenen Schaltkreis erzeugt wird. Dabei wird angenommen, dass $U_a$ proportional zu der Auslenkwinkel im Gleichgewicht $\theta_g$ ist und damit der generelle Verlauf der Graphen identisch ist.
 \begin{itemize}
-\item Messfehler Waage: $s_a = 0,005\, g = s_r$\\
+\item Messfehler Waage: $s_a = 0,005\, g = s_r$
 \item Messfehler Multimeter: $s_a = 0,00005 = s_r$\\
-      Durch starke Schwankungen am Multimeter verändert sich der Wert des Fehlers des Multimeters mit der Zunahme der Masse $M$\\
-\item Länge des Pendels (mit Stahlmaßstab): $l = 37 \, cm$\\
-\item Gewicht Feststellschraube: $m_s = 3,14 \,g$\\
+      Durch starke Schwankungen am Multimeter verändert sich der Wert des Fehlers des Multimeters mit der Zunahme der Masse $M$
+\item Länge des Pendels (mit Stahlmaßstab): $l = 37 \, cm$
+\item Gewicht Feststellschraube: $m_s = 3,14 \,g$
 \end{itemize}
-Datei: BifurkationPendel.csv\\
-Verifikation Ergebnis:\\
-Freie Schwingung des Pendels bei einer Auslenkung bis ca. 1V. Messung der Schwingunsdauer $T$ (10fach) mit Smartphone (Google Pixel 5).\\
+Datei: BifurkationPendel.csv
+
+\textbf{Verifikation Ergebnis:}\\
+Freie Schwingung des Pendels bei einer Auslenkung bis ca. 1V. Messung der Schwingunsdauer $T$ (10fach) mit Smartphone (Google Pixel 5). Über die Schwingungsdauer wird dann die Federkonstante $k$ des Pendels berechnet.
+
 Datei: Schwingunsdauer\_woMass.csv; Messung ohne Masse.\\
-Datei: Schwingunsdauer\_wMass.csv; Messung mit 12,58 g.\\
+Datei: Schwingunsdauer\_wMass.csv; Messung mit 12,58 g.
 
-\begin{tabular}{c | cccccccccc}
-    $T$ [s]&19.14&19.28&18.88&19.18&19.00&18.66&19.12&19.01&19.20&19.29\\
-\end{tabular}
-
-Grobe Auswertung \(M_k = 19,3 \, g\) wurde durch Überschlagsrechnung bestätigt.\\
-
-\textbf{2) Schwache Nichtlinearität}\\
+Grobe Auswertung: Kritische Masse $M_k\approx19,3$ g wurde durch Überschlagsrechnung bestätigt.
+\newpage
+\subsection{Schwache Nichtlinearität}
+\label{sub:weakLin}
+Montage Dämpfungssegel, wobei dabei zu beachten ist, dass die kritsche Masse $M_k\approx19,3$ g nicht überschritten wird, damit man im monostabilen Zustand des Pendels bleibt.
+\begin{itemize}
+    \item Masse Dämfungssegel: $m=4,4$ g
+    \item Zusätzlich montierte Masse: $m = 10,42$ g
+\end{itemize}
+Die Masse $M_{total}= 14,41$ g bleibt hierbei über den ganzen Versuchsteil unverändert und das Dämpfungssegel befestigt über den kompletten restlichen Versuchsverlauf.
 \paragraph{a)}
-Mantage Dämpfungssegel; Masse Dämfungssegel: \(m=4,4 \, g\)\\
-restliche montierte Masse: \( m = 10,42 \,g \)
+Für die Amplitudenabhängigkeit des Pendels wird dieses einmal ausgelenkt und dessen Schwingung über das Messprogramm aufgezeichnet.
+
+Datei: 06\_09\_2021\_14\_41\_30\_G11\_pendel\_0.dat
 
 \paragraph{b)}
-Montage Dämfungssegel;\\
-Masse Dämfungssegel: \(m=4,4 \, g\)\\
-restliche montierte Masse: \( m = 10,42 \,g \)
+Messung der Hystereseschleife der Schwingung mit Messprogramm.
 
-Messung mit Messprogramm gestartet: 2000 Steps; Start: 0Hz; End: 1,1Hz
+Einstellungen: 2000 Steps; Start: 0Hz; End: 1,1Hz\\
+Datei: 06\_09\_2021\_14\_30\_52\_06\_09\_2021\_14\_30\_52\_G11\_pendel\_resonanz\_\_0.dat\\
 
-\textbf{Starke Nichtlinearität}
-Montage Dämfungssegel;\\
-Masse Dämfungssegel: \(m=4,4 \, g\)\\
-restliche montierte Masse: \( m = 19,44 \,g \)
+\subsection{Starke Nichtlinearität}
+\label{sub:strongLin}
+Veränderung der Masse über die kritische Masse für bistabilen Zustand. Beachte Dämpfungsblech aus (2a) immer noch mit befestigt.
+\begin{itemize}
+    \item Zusätzlich montierte Masse: $m = 19,44$ g
+\end{itemize}
+Diese Masse $M_{total}=23,84$ g bleibt auch über diesen Versuchsteil unverändert.
 
 \paragraph{a)}
+Variation der Antriebsfrequenz $\omega$ in kleinen Schritten zur Lokalisierung der Schwingungszustände. Aufnahme der Attraktoren und Leistungsspektren mit dem Messprogramm.
+
 Labview Absturz bei 0,517 Hz 
-Neustart 0,52 Hz
-quasichaotisch bei $\approx0,411$ Hz
 
-Frequenzen den Daten entnehmen.
+Datei: Datum\_Uhrzeit\_G11\_pendel\_0.dat (Mehrere Files mit selben Namen in zugehörige Ordner gespeichert)
+
+Neustart bei 0,52 Hz
+quasichaotisch bei $\omega\approx0,411$ Hz
+
+Datei: Datum\_Uhrzeit\_Richter\_pendel\_0.dat (Wegen Neustart Dateienbennung verändert gewesen)
+
+Frequenzen den einzelnen Schwingungszuständen werden den Daten entnommen.
 
 \paragraph{b)}
-Startbed: \\
-Montage Dämfungssegel;\\
-Masse Dämfungssegel: \(m=4,4 \, g\)\\
-restliche montierte Masse: \( m = 19,44 \,g \)
-Anregfreq.: 0,411Hz
-
+Verdeutlichung der Empfindlichkeit der Anfangsbedingung mit Ruhelage auf der linken Seite (Pendel hängt auf die linke Seite). Aufnahme von drei Zeitserien Trajektorien (eine mehr als benötigt) mittels des Messprogramms.
+\begin{itemize}
+    \item Anregungsfrequenz $\omega$: 0,411Hz
+\end{itemize}
 Strittmotor in Anfagspos. (Armstelleung ganz unten)
 
+Datei: Datei: Datum\_Uhrzeit\_G11\_pendel\_0.dat (Mehrere Files mit selben Namen in zugehörige Ordner gespeichert)
 
-\subsection{Aufgabe: Shinrike}
+% TODO: #32 Protokoll Shinriki überarbeiten @PaulSchwanitz
+\section{Versuchsdurchführung Shinriki}
+\label{sec:versuchShin}
 \textbf{a) Phasendiagramm}\\
 Wir stellen einzelne Paramterwerte für $R_2$ und $R_1$ ein und varieren je nach eingestellten Parameter mit $R_2$ oder $R_1$ bis das Phasendiagramm vollständig abgefahren ist ab. Widerstände schwer ablesbar, weswegen Angaben fehlerhaft sein können, $R_1$ konnte hierbei genauer bestimmt werden. Alle Werte werden in $\text{k}\Omega$ angeben.\\
 \begin{tabular}{c  r| c  r  r  r  r  r  r  r}
@@ -103,8 +109,6 @@ Wir vermessen nun gesondert die einzelnen Bifurkationen durch Variation von $R_1
 \textbf{e) Einbettungstheorem}\\
 Aufnahme des Originalattraktors bei $R_2$ wie in (b) und $R_1=51~\text{k}\Omega$ und $\delta t=60$ n (?); Rekonstruktion mithilfe des entsprechenden Programmteils mit qualitativen Übereinstimmung der Form des rekonstruierten Attraktors mit dem Originalattraktor.
 
-\section{Versuchsdurchführung}
-\label{sec:durchfuehrung}
 
 % Einbindung des Protokolls als pdf (mit Seitenzahl etc.)
 % Erste Seite mit Überschrift
