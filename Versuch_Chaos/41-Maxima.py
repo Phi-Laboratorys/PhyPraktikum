@@ -2,9 +2,15 @@ import numpy as np
 import pandas as pd
 import matplotlib.pylab as plt
 
-data = "Versuch_Chaos/41-Test.csv"
-df = pd.read_csv(data)
+data = "Versuch_Chaos/Daten/Pendel/3.2a/06_09_2021_14_41_30_G11_pendel_0.dat"
+df = pd.read_csv(data, delim_whitespace=True, skiprows=7)
+df = df.dropna()
+print(df)
 
+plt.plot(df['t(s)'],df['Ua(V)'],'.')
+plt.show()
+
+'''
 t0 = df['time [s]'][0]
 U_max = df['U_a [V]'][0]
 
@@ -17,7 +23,7 @@ while i < len(df):
         U_max = df['U_a [V]'][i]
         
     if U_max > df['U_a [V]'][i]:
-        dt.append(df['time [s]'][i-1] - t0)
         t0 = df['time [s]'][i-1]
         
     i += 1
+'''
