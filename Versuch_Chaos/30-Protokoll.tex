@@ -22,31 +22,15 @@ Dokument beschrieben, je nachdem.
 \subsection{Versuchsdurchführung invertiertes Pendel}
 
 \textbf{1) Bifurkationsdiagramm}\\
-Vermessung der Gleichgewichtslage in Abhängigkeit der Masse $M$. Dabei wird die Gleichgewichtslage über eine Spannung $U_a$, welche generiert wird durch in (\ref{sub:aufbauPendel}) beschriebenen Schaltkreis erzeugt wird. Dabei wird Angenommen, dass $U_a$ proportional zu der Auslenkwinkel $\theta$ ist und damit der Verlauf der Graphen identisch.\\
-Messfehler Waage: $s_a = 0,005\, g = s_r$\\
-Messfehler Multimeter: $s_a = 0,00005 = s_r$\\
-Durch starke Schwankungen am Multimeter verändert sich der Wert des Fehlers des Multimeters mit der Zunahme der Masse $M$\\
-Länge des Pendels (mit Stahlmaßstab): $l = 37 \, cm$\\
-Gewicht Feststellschraube: $m_s = 3,14 \,g$\\
+Vermessung der Gleichgewichtslage $\theta_g$ in Abhängigkeit der Masse $M$. Dabei wird die Gleichgewichtslage über eine Spannung $U_a$, welche generiert wird durch in (\ref{sub:aufbauPendel}) beschriebenen Schaltkreis erzeugt wird. Dabei wird angenommen, dass $U_a$ proportional zu der Auslenkwinkel im Gleichgewicht $\theta_g$ ist und damit der generelle Verlauf der Graphen identisch ist.\\
+\begin{itemize}
+\item Messfehler Waage: $s_a = 0,005\, g = s_r$\\
+\item Messfehler Multimeter: $s_a = 0,00005 = s_r$\\
+      Durch starke Schwankungen am Multimeter verändert sich der Wert des Fehlers des Multimeters mit der Zunahme der Masse $M$\\
+\item Länge des Pendels (mit Stahlmaßstab): $l = 37 \, cm$\\
+\item Gewicht Feststellschraube: $m_s = 3,14 \,g$\\
+\end{itemize}
 Datei: BifurkationPendel.csv\\
-\begin{tabular}{rcccc}
-    $M$ [g] &  $U_{a,l}$ [V] &  $U_{a,r}$ [V] &  $s_{U_a}$ [V] &  $(\Delta U_a)^2$ [V] \\
-    \hline
-     0.00 &  1.78606 &  1.78606 &  0.00005 &   0.0000 \\
-     3.14 &  1.78046 &  1.78046 &  0.00050 &   0.0000 \\
-     6.78 &  1.77300 &  1.77300 &  0.00500 &   0.0000 \\
-    10.75 &  1.76000 &  1.76000 &  0.00500 &   0.0000 \\
-    14.42 &  1.72000 &  1.72000 &  0.05000 &   0.0000 \\
-    15.72 &  1.70000 &  1.70000 &  0.05000 &   0.0000 \\
-    18.10 &  1.57000 &  1.57000 &  0.05000 &   0.0000 \\
-    19.36 &  1.33000 &  1.33000 &  0.05000 &   0.0000 \\
-    21.19 &  1.10000 &  2.38000 &  0.05000 &   1.6384 \\
-    21.67 &  1.10000 &  2.35000 &  0.05000 &   1.5625 \\
-    23.05 &  0.86000 &  2.65000 &  0.05000 &   3.2041 \\
-    24.88 &  0.71000 &  2.83000 &  0.05000 &   4.4944 \\
-    28.45 &  0.45000 &  3.11000 &  0.05000 &   7.0756 \\
-    32.12 &  0.23000 &  3.36000 &  0.05000 &   9.7969 \\
-\end{tabular}\\
 Verifikation Ergebnis:\\
 Freie Schwingung des Pendels bei einer Auslenkung bis ca. 1V. Messung der Schwingunsdauer $T$ (10fach) mit Smartphone (Google Pixel 5).\\
 Datei: Schwingunsdauer\_woMass.csv; Messung ohne Masse.\\
