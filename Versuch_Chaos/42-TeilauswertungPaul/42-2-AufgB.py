@@ -20,23 +20,36 @@ data87 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=87kO/06_09_2021_19_41_14_G11_sh
 data91 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=91kO/06_09_2021_19_42_12_G11_shinriki_0.dat'
 data100 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=100kO/06_09_2021_19_43_06_G11_shinriki_0.dat'
 
-data = data70
+data = data40
 df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
 
 #print(df.head())
 
-x=df['V1(V)']#[0:1000]
-y=df['V2(V)']#[0:1000]
-z=df['V3(V)']#[0:1000]
+v1=df['V1(V)']#[0:1000]
+v2=df['V2(V)']#[0:1000]
+v3=df['V3(V)']#[0:1000]
 
-ax = plt.figure().add_subplot(projection='3d')
-ax.plot(x, y, z, label='parametric curve')
-ax.legend()
-ax.set_xlabel('$V_1$ in V')
-ax.set_ylabel('$V_2$ in V')
-ax.set_zlabel('$V_3$ in V')
+dftFreq = df['DFTfq(Hz)']
+dftPow = df['DFTY(power)']
 
-ax.view_init(azim=145, elev=40)
 
+#Ploting
+fig = plt.figure()
+
+ax1 = fig.add_subplot(projection='3d')
+ax1.plot(v1, v2, v3, color='k')
+ax1.set_xlabel('$V_1$ in V')
+ax1.set_ylabel('$V_2$ in V')
+ax1.set_zlabel('$V_3$ in V')
+ax1.view_init(azim=145, elev=40)
+
+fig2 = plt.figure()
+ax2 = fig2.add_subplot()
+ax2.plot(dftFreq, dftPow, color='k')
+ax2.set_xlabel('frequency in Hz')
+ax2.set_ylabel('scaled power')
+ax2.set_yscale('log')
+ax2.set_xlim(0,10000)
+ax2.grid()
 
 plt.show()
