@@ -27,7 +27,11 @@ Daraus folgt die genäherte Form der Bewegungsgleichung:
 \begin{gather}
     ML^2\ddot{\theta}+2\delta\dot{\theta}+k\theta-MgL(\theta)\sin(\theta)=hk_s\hat{x}\cos(\omega t)=T_0\cos(\omega t)
 \end{gather}
-Wobei $T_0$ als die Amplitude des periodisch angreifenden Drehmoments interpretiert werden muss. Hierbei ist noch zu erwähnen, dass durch die Näherungen die Lösung dieser Differentialgleichung nicht der tatsächlichen Trajektorien des Systems entsprechen, da diese stark von der Anfangsbedingung abhängen, dennoch ist eine globale Aussage über das Verhalten mit der genähreten Differentialgleichung möglich. \citep{Lueck}
+Wobei $T_0$ als die Amplitude des periodisch angreifenden Drehmoments interpretiert werden muss. Hierbei ist noch zu erwähnen, dass durch die Näherungen die Lösung dieser Differentialgleichung nicht der tatsächlichen Trajektorien des Systems entsprechen, da diese stark von der Anfangsbedingung abhängen, dennoch ist eine globale Aussage über das Verhalten mit der genähreten Differentialgleichung möglich.\\
+Zu den letzten beiden Termen lässt sich dann ein Potenzial definieren und durch Entwicklung des Cosinus für kleine Winkel $\theta$ (Kleinwinkelnäherung KWN) bis zur 2.Ordnung ergibt sich das Potenzial des \textit{Duffing-Oszillator}. \citep{Lueck}
+\begin{gather}
+    V(\theta) = \frac{1}{2}k\theta^2 + MgL(\cos(\theta)-1)\overset{\text{KWN}}{\approx}\frac{1}{2}(k-MgL)\theta^2 + \frac{1}{24}MgL\theta^4~,V(0)=0
+\end{gather}
 
 \subsection{Symmetriebrechung}
 \label{sub:symbrechung}
@@ -84,3 +88,23 @@ Bei einer Differenzier-Schaltung wird nur die die Änderung der Eingangsspannung
 
 \subsection{Aufbau Pendel}
 \label{sub:aufbauPendel}
+\begin{center}
+    \includegraphics[scale=0.25]{AufbauPendel.png}
+    \captionof{figure}{Aufbau des invertierten Pendels}
+    \label{image:aufbauPendel}
+\end{center}
+Hierbei besteht das Pendel aus einer:
+\begin{itemize}
+    \item 5 mm starken Aluminium-Grundplatte
+    \item 1 cm x 15 cm x 40 cm lange Blechstreifen aus einer Messing-Legierung mit hohem Kupferanteil, Dehnungsmessstreifen auf beiden Seiten (DMS, Widerstand abh. von der Dehnung) knapp oberhalb der Befestigung $\rightarrow$ Blattfeder
+    \item Spiralfedern mit Federkonstante $k=027$ N/cm 
+    \item Schrittmotor im Gehäuse mit 200 bzw. 400 Schritten (Halbschrittbereich)
+    \item Multifunktionskarte Typs DAS 1602 der Firma Keithley (Taktimpulsgeber für Schrittmotoren)
+\end{itemize}
+Mit diesem Aufbau sind bis zu ca 5 Umdrehungen/s möglich, wobei die Antriebskraft durch das Verändern des Angriffspunktes der Spiralfeder am Übertragungshebel variierbar ist.
+\begin{center}
+    \includegraphics[scale=0.3]{MessschaltungPendel.png}
+    \captionof{figure}{Messschaltung des invertierten Pendels}
+    \label{image:schaltungPendel}
+\end{center}
+Hierbei wird in der Messschaltung (siehe Abb. \ref{image:schaltungPendel}) für höhere Genauigkeit die zwei DMS in einer Brückenschaltung verschalten un die Spannungsdifferenz von ihnen zu messen, wobei die Spannung dann proportional zur Pendelauslenkung $\theta$ ist. Für das Abgreifen der Geschwindigkeit als zweite Phasenraumvariable werden die Spannungen über eine Operationsverstärker-Schaltung differenziert. Die Spannungen werden dann einem im PC eingebauten Analog-Digital-Wandler-Karte gemessen, wobei die Messkarte über LABVIEW (Messprogramm) gesteuert wird.

@@ -3,11 +3,13 @@ import pandas as pd
 import matplotlib.pylab as plt
 
 data = "Versuch_Chaos/Daten/Pendel/3.2a/06_09_2021_14_41_30_G11_pendel_0.dat"
-df = pd.read_csv(data, delim_whitespace=True, skiprows=7)
+df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
 df = df.dropna()
-print(df)
+print(df.head())
 
-plt.plot(df['t(s)'],df['Ua(V)'],'.')
+print(type(df['F(Hz)'][0]))
+
+plt.plot(df['Ua(V)'],df['-dUa/dt(V)'])
 plt.show()
 
 '''
