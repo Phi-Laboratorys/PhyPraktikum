@@ -4,9 +4,18 @@
 % Auswertung Teil 1
 
 \section{invertierteres Pendel}
+\label{sec:auswertungPendel}
+\subsection{Bifurkationsdiagramm und kritische Masse}
+\label{sub:bifuAndKritMass}
+Über den Versuch wurde die Auslenkung $\theta$ bzw. die Spannung $U_a$ am Digitalmultimeter links ($U_{a,l}$) und rechts ($U_{a,r}$) gemessen. Dabei ergeben sich erst ab einer gewissen Masse, eine Auslenkung links oder rechts hier schematisch in dem Bifurkationsdiagramm dargestellt (Abb \ref{image:bifu}), welches auch symmetrisch gegenüber Periode 1 ist.
 \begin{center}
-    \begin{tabular}{|rcccc|}
-        \hline
+    \includegraphics[scale=0.5]{BifurkationMass.png}
+    \captionof{figure}{Bifurkationsdiagramm in Abhängigkeit der Masse}
+    \label{image:bifu}
+\end{center}
+Um die kritische Masse $M_k$ zu bestimmen, wird die Differenz $\delta U_a=U_{a,l}-U_{a,r}$ bestimmt und diese quadriert, also $(\delta U_a)^2$. Der Fehler ergibt sich dann aus dem Fehlerfortpflanzungsgesetz, wobei der Ablesefehler $s_a$ auch gleichzeitig als Restfehler $s_r$ abgeschätzt wird. Daraus folgt:
+\begin{center}
+    \begin{tabular}{r|cccc}
         $M$ [g] &  $U_{a,l}$ [V] &  $U_{a,r}$ [V] &  $s_{U_a}$ [V] &  $(\Delta U_a)^2$ [V] \\
         \hline
          0.00 &  1.78606 &  1.78606 &  0.00005 &   0.0000 \\
@@ -23,13 +32,16 @@
         24.88 &  0.71000 &  2.83000 &  0.05000 &   4.4944 \\
         28.45 &  0.45000 &  3.11000 &  0.05000 &   7.0756 \\
         32.12 &  0.23000 &  3.36000 &  0.05000 &   9.7969 \\
-        \hline
     \end{tabular}
+    \captionof{table}{Messreihe Auslenkung Gleichgewichtslage}
+    \label{tab:gleichgewichtslage}
 \end{center}
 \begin{center}
-    \begin{tabular}{| c | cccccccccc |}
+    \begin{tabular}{ c | cccccccccc }
+        {} & 1 & 2 & 3 &4 &5 &6 &7 &8 &9 &10\\
         \hline
         $T$ [s]&19.14&19.28&18.88&19.18&19.00&18.66&19.12&19.01&19.20&19.29\\
-        \hline
     \end{tabular}
+    \captionof{table}{Messreihe Schwingungsdauer}
+    \label{tab:schwingung}
 \end{center}
