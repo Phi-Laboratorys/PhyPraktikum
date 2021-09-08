@@ -12,7 +12,7 @@ df = pd.read_csv(data)
 
 def hyperbel(x,a,b):
     #return b((x**2)/(a**2)**0.5)
-    return a/(x**4) + b
+    return a/(x**3) + b
 
 def fit(x,y):
     popt, _ = curve_fit(hyperbel, x, y)
@@ -32,8 +32,8 @@ for i in range(0,7):
     plt.plot(x,y,'x',color=farben[i])
 
 plt.plot([0,100], [8.4,8.4], ls='--', lw=0.5, color='gray', label='$R_2 = 8,4 \, k\Omega$')
-plt.xlabel('$R_1$ in $k\Omega$')
-plt.ylabel('$R_2$ in $k\Omega$')
+plt.xlabel('$R_1$ in k$\Omega$')
+plt.ylabel('$R_2$ in k$\Omega$')
 plt.xlim(10,100)
 plt.ylim(6,20)
 #plt.grid(True)
