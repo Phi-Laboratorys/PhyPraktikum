@@ -31,7 +31,11 @@ for i in range(0,7):
     plt.plot(x_line, y_line, label=df['Uebergang'][i], color=farben[i], lw=0.5)
     plt.plot(x,y,'x',color=farben[i])
 
+#dotx = [37,39,40,45,60,66,70,73,74,87,91,100]
+#doty = [8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4]
+
 plt.plot([0,100], [8.4,8.4], ls='--', lw=0.5, color='gray', label='$R_2 = 8,4 \, k\Omega$')
+#plt.plot(dotx, doty, '.', c='k')
 plt.xlabel('$R_1$ in k$\Omega$')
 plt.ylabel('$R_2$ in k$\Omega$')
 plt.xlim(10,100)

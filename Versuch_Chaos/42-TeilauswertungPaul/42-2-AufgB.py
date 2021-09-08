@@ -20,7 +20,7 @@ data87 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=87kO/06_09_2021_19_41_14_G11_sh
 data91 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=91kO/06_09_2021_19_42_12_G11_shinriki_0.dat'
 data100 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=100kO/06_09_2021_19_43_06_G11_shinriki_0.dat'
 
-data = data40
+data = data91
 df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
 
 #print(df.head())
