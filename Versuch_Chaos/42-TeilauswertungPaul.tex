@@ -1,8 +1,47 @@
 \section{Auswertung zum Shinriki-Oszillator}
 
 \subsection{Phasendiagramm}
-Im Folgenden wurde ein Phasendiagramm des Shinrinki-Oszillators mit den Werten \(R_1\) und \(R_2\) erstellt. Dafür wurden Schnittpunkte der Phasenübergänge ermittelt und mithilfe eines Python-Skripts wurde diese Punkte mit einer Hyperbel verbunden. Daraus ergibt sich folgende Abbildung, welche die Übergänge der verschiedenen Phasen abhängig von den Werten der Widerstände darstellen.
+Im Folgenden wurde ein Phasendiagramm des Shinrinki-Oszillators mit den Werten \(R_1\) und \(R_2\) erstellt. Dafür wurden Schnittpunkte der Phasenübergänge ermittelt und mithilfe eines Python-Skripts wurde diese Punkte mit einer Funktion verbunden. Daraus ergibt sich folgende Abbildung, welche die Übergänge der verschiedenen Phasen abhängig von den Werten der Widerstände darstellen.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.75]{AuswPaul/PhasendiagrammFertig.png}
+    \label{fig:Phasendiagramm}
+    \caption{Phasendiagramm}
+\end{figure}
+
+Die Funktion welche benutzt wurde, um die Punkte zu verbinden ist:
+\begin{align}
+    f = \frac{a}{x^3} +b
+\end{align}
+
+Diese Funktion wurde ausgewählt, indem mehrere verschiedene Funktionen ausprobiert wurden. Nachfolgend ausgewählte Funktionen zum Vergleich, um die Auswahl nachvollziehen zu können.
+\begin{figure}[h]
+
+    \centering
+    
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/PhaDiaGrad-2.png}
+        \caption{$f = \frac{a}{x^2} + b$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/PhasendiagrammFertig.png}
+        \caption{$f = \frac{a}{x^3} + b$}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/PhaDiaGrad-4.png}
+        \caption{$f = \frac{a}{x^4} + b$}
+    \end{subfigure}
+    \caption{Vergleich verschiedener 'Fitting'-Funktionen}
+    \label{fig:PhasenDiaVergl}
+    \end{figure}
+
+\newpage
 \subsection{Schnitt durch das Phasendiagramm}
 Nun wird für einen festen Wert (\(R_2 = 8,4 k\Omega\)) ein Schnitt durch das Phasendiagramm erzeugt, indem \(R_1\) variiert wird und die Veränderungen aufmerksam beobachtet werden. \\
 Im Folgenden unsere Beobachtungen bei ausgewählten Werten von \(R_1\).
