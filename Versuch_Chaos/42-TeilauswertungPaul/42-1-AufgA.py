@@ -18,7 +18,7 @@ def fit(x,y):
     popt, _ = curve_fit(hyperbel, x, y)
     return popt
 
-
+df2=pd.DataFrame(columns=['Übergang auf', 'a','b'])
 #print(df)
 farben = ['red', 'green', 'blue','c','m', 'y', 'lime']
 for i in range(0,7):
@@ -30,6 +30,8 @@ for i in range(0,7):
     y_line = hyperbel(x_line,a,b)
     plt.plot(x_line, y_line, label=df['Uebergang'][i], color=farben[i], lw=0.5)
     plt.plot(x,y,'x',color=farben[i])
+    df3 =pd.DataFrame([[df['Uebergang'][i],a,b]], columns=['Übergang auf', 'a','b'])
+    df2 = df2.append(df3)
 
 #dotx = [37,39,40,45,60,66,70,73,74,87,91,100]
 #doty = [8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4]
@@ -43,6 +45,9 @@ plt.ylim(6,20)
 #plt.grid(True)
 plt.legend()
 plt.show()
+
+df2 = df2.round(decimals=2)
+print(df2.to_latex(index=False,decimal=','))
 
 
 
