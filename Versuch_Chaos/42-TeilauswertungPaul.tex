@@ -210,7 +210,7 @@ Anschließend bei $R_1 = 74$ k$\Omega$ tritt, deutlich erkennbar, erneut Chaos a
 Bei $R_1 = 100$ k$\Omega$ ist das Double-scroll-chaos zu erkennen.
 \newpage
 \subsection{Bifurkationsdiagramm}
-Um ein Bifurkationsdiagramm zu erstellen würde ähnlich zum Schnitt durch das Phasendiagramm ein fester Wert (\(R_2=8,4k \Omega\)) eingestellt. Unter zuhilfenahme des Labview Messprogramms konnte nun durch Variation von \(R_1\) folgendes Diagramm erstellt werden.
+Um ein Bifurkationsdiagramm zu erstellen wurde ähnlich zum Schnitt durch das Phasendiagramm ein fester Wert (\(R_2=8,4k \Omega\)) eingestellt. Unter zuhilfenahme des Labview Messprogramms konnte nun durch Variation von \(R_1\) folgendes Diagramm erstellt werden.
 
 \begin{figure}[h]
     \centering
@@ -218,11 +218,25 @@ Um ein Bifurkationsdiagramm zu erstellen würde ähnlich zum Schnitt durch das P
     \caption{Bifurkationsdiagramm bei $R_2 = 8,4$ k$\Omega$ und variablen $R_1$}
 \end{figure}
 
+Im obigen Diagramm ist die este Bifurkation (ca. $R = 58$ k$\Omega$) sehr deutlich zu erkennen aber auch die zweite (ca. $R = 66$ k$\Omega$) und dritte (ca. $R = 68$ k$\Omega$) sind noch zu erkennen. Ab ca. $R=93$ k$\Omega$ beginnt der Double-Scroll-Bereich. Leider ist bei der Messung der Fixpunktbereich etwas zu kurz gekommen, was wahrscheinlich der fortgeschritten Zeit und den damit einhergehenden Verlust der Konzentration zu lasten zulegen ist. Außerdem würden mehr Messpunkte das Diagramm noch deutlicher machen.\\
+Nun soll das Bifurkationsdiagramm mit der Simulation verglichen werden.
+
+\newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{AuswPaul/BifuSim.png}
+    \caption{Berechnetes Bifurkationsdiagramm (Abbildung 7 aus der Anleitung)}
+\end{figure}
+
+Betrachtet man die beiden Diagramme, so fällt auf das diese Qualitativ gut Übereinstimmen. Jedoch fällt auch auf, dass die Messung gegenüber der Simulation horizontal gespiegelt ist. Außerdem fallen auch Abweichungen auf. So ist die erste Bifurkation in der Messung bei ca. $R=58$ k$\Omega$ gegenüber $R=52$ k$\Omega$ in der Simulation verschoben.
 
 
+\newpage
 \subsection{Feigenbaum-Konstante}
 
-Um die Feigenbaum-Konstante zu bestimmen wurden die Werde, bein denen eine Periodenverdopplung auftrat, ermittelt. Diese wurden durch eine separate Messung aufgenommen und nicht aus obigen Bifurkationsdiagramm abgelesen. Damit wird versucht genauere werte zu erhalten. Da für das Bifurkationsdiagramm die Messdauer, im Vergleich zum direkten Suchen der Periodenverdopplungen, deutlich größer ist, ist es wahrscheinlicher, dass Störquellen, wie Temperaturveränderungen der Messgeräte, die Werte verfälschen.\\
+Um die Feigenbaum-Konstante zu bestimmen wurden die Werte, bei denen eine Periodenverdopplung auftrat, ermittelt. 
+Diese wurden durch eine separate Messung aufgenommen und nicht aus obigen Bifurkationsdiagramm abgelesen.
+Damit wird versucht genauere werte zu erhalten, da für das Bifurkationsdiagramm die Messdauer, im Vergleich zum direkten Suchen der Periodenverdopplungen, deutlich größer ist, ist es wahrscheinlicher, dass Störquellen, wie Temperaturveränderungen der Messgeräte, die Werte verfälschen.\\
 
 Die Feigenbaum-Konstante \(\delta\) kann folgendermaßen berechnet werden: 
 \begin{align}
@@ -230,7 +244,11 @@ Die Feigenbaum-Konstante \(\delta\) kann folgendermaßen berechnet werden:
     \delta_n = \frac{r_n - r_{n-1}}{r_{n+1} -r_n}
 \end{align}
 
-Fehlerrechnung!!\\
+Für den Fehler gilt: 
+\begin{align}
+    s_{\delta} = s_{R_1} \sqrt{(\frac{1}{r_{n+1}-r_n})^2 + (\frac{r_{n+1}-r_{n-1}}{(r_n - r_{n+1})^2})^2 + (\frac{r_n - r_{n-1}}{(r_{n+1}-r_n)^2})^2}\\
+    \text{mit} \qquad s_{R_1} = 1 \, \text{k}\Omega
+\end{align}
 
 Der Literaturwert der Feigenbaum-Konstante ist: \(\delta = 4,6692...\)\\
 
@@ -241,6 +259,9 @@ Folgende Werte wurden gemessen: \\
     59 & 65,6 & 67,6
 \end{tabular}
 
-Mit unseren Werten ergibt sich: \(\delta_2 = (3,3 \pm ?)\)
+Mit unseren Werten ergibt sich: \(\delta_2 = (3 \pm 3)\)
+
+Der Literaturwert liegt noch innerhalb des Fehlerintervalls. Eine Abweichung vom Literaturwert wäre allerdings nicht weiter erstaunlich, da die Feigenbaum-Konstante durch \( \delta = \lim_{n \to \infty} \delta_n\) gegeben ist. Für unseren Wert gilt jedoch \( n=2\).
 
 \subsection{Zum Einbettungstheorem}
+
