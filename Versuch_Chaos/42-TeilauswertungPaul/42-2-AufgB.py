@@ -20,7 +20,9 @@ data87 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=87kO/06_09_2021_19_41_14_G11_sh
 data91 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=91kO/06_09_2021_19_42_12_G11_shinriki_0.dat'
 data100 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=100kO/06_09_2021_19_43_06_G11_shinriki_0.dat'
 
-data = data100
+datE = 'Versuch_Chaos/Daten/Shinriki/Aufg-e/Rekonstruktion/06_09_2021_20_31_55_G11_shinriki_0.dat'
+
+data = datE
 df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
 
 #print(df.head())
@@ -34,17 +36,17 @@ dftPow = df['DFTY(power)']
 
 
 #Ploting
-fig = plt.figure()
+#fig = plt.figure()
 
-ax1 = fig.add_subplot(projection='3d')
-ax1.plot(v1, v2, v3, color='k')
-ax1.set_xlabel('$V_1$ in V')
-ax1.set_ylabel('$V_2$ in V')
-ax1.set_zlabel('$V_3$ in V')
-ax1.view_init(azim=145, elev=40)
-ax1.set_xlim(-2.5,2.5)
-ax1.set_ylim(-0.5,0.5)
-ax1.set_zlim(-0.5,0.5)
+#ax1 = fig.add_subplot(projection='3d')
+#ax1.plot(v1, v2, v3, color='k')
+#ax1.set_xlabel('$V_1$ in V')
+#ax1.set_ylabel('$V_2$ in V')
+#ax1.set_zlabel('$V_3$ in V')
+#ax1.view_init(azim=145, elev=40)
+#ax1.set_xlim(-2.5,2.5)
+#ax1.set_ylim(-0.5,0.5)
+#ax1.set_zlim(-0.5,0.5)
 
 fig2 = plt.figure()
 ax2 = fig2.add_subplot()

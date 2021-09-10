@@ -263,6 +263,41 @@ Mit unseren Werten ergibt sich: \(\delta_2 = (3 \pm 3)\)
 
 Der Literaturwert liegt noch innerhalb des Fehlerintervalls. Eine Abweichung vom Literaturwert wäre allerdings nicht weiter erstaunlich, da die Feigenbaum-Konstante durch \( \delta = \lim_{n \to \infty} \delta_n\) gegeben ist. Für unseren Wert gilt jedoch \( n=2\).
 
+\newpage
 \subsection{Zum Einbettungstheorem}
 
 % TODO #34
+Der Orginalattraktor wurde bei $R_1 = 51$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$ aufgenommen.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/Aufg-e/Attr.png}
+        \caption{Atraktor}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/Aufg-e/LS.png}
+        \caption{Leistungsspektrum}
+    \end{subfigure}
+    \caption{$R_1 = 51$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$}
+\end{figure}
+
+Die Qualitativ beste Rekonstruktion wurde für den Verschiebungsindex $n= 60$ n erreicht.\\
+Die Delayzeit kann mit folgender Formel berechnet werden: 
+\begin{align}
+    \tau = n \, \frac{1}{f_{abtast}} \qquad \text{mit} \quad f_{abtast} = 150 \, \text{kHz}
+\end{align}
+Somit gilt: $\tau = 0,4 \text{ms}$ \\
+
+Der größte Peak aus dem Leistungsspektrum liegt bei $f=724$ Hz, da der nächst kleinere nur noch ein 10el davon hat kann er bei der Ermittlung der mittleren Umlaufdauer vernachlässigt werden. Somit gilt für die mittlere Umlaufdauer: 
+\begin{align}
+    \bar{T} = \frac{1}{724} = 1,38 \, \text{ms}
+\end{align}
+Verleicht man die beiden Werte, so fällt auf, dass si sich in etwa der gleichen Größenordnung bewegen.
+\begin{align}
+    \frac{\bar{T}}{\tau} = 3,45
+\end{align}
+Das Verhältnis der beiden Zahlen ist auch nahe eins.
