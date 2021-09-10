@@ -26,13 +26,21 @@ data = ['Versuch_Chaos/Daten/Pendel/3.3a/0,165Hz/06_09_2021_17_14_32_Richter_pen
 for i in data:
     df = pd.read_csv(i, delim_whitespace=True, skiprows=7, decimal=',')
     df = df.dropna()
-    
+     
     x_p, y_p = df['Ua(V)'], df['-dUa/dt(V)']
-    x_s, y_s1, y_s2 = df.loc[(df>0).any(axis=1)].index, df.loc[(df>0).any(axis=1)]['DFT-Ua(V)'], df.loc[(df>0).any(axis=1)]['DFT-dUa/dt(V)']
     
-    print(df)
-
-    fig, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
-    ax1.plot(x_p, y_p)
-    ax2.scatter(x_s, y_s1)
+    df = df= df[df['DFT-Ua(V)'] != 0]
+    x_s, y_s1, y_s2 = df['F(Hz)'], df['DFT-Ua(V)'], df['DFT-dUa/dt(V)']
+    
+    fig, (ax1, ax2) = plt.subplots(1, 2)
+    
+    ax1.plot(x_p, y_p, linewidth=0.7)
+    ax1.set_title('Phasenprotrait',size=12)
+    ax1.set_xlabel(r'$U_a$ in V',size=12)
+    ax1.set_ylabel(r'$\dot{U_a}$ in $\frac{\mathrm{V}}{\mathrm{s}}$',size=12)
+    
+    ax2.semilogy(x_s, y_s1, linewidth=0.7)
+    ax2.set_title('Leistungsspektrum',size=12)
+    ax2.set_xlabel(r'$f$ in Hz',size=12)
+    ax2.set_ylabel(r'$U_a$ in V',size=12)
     plt.show()
