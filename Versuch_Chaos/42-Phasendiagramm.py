@@ -7,7 +7,7 @@ from scipy.optimize import curve_fit
 rc('text', usetex=True)
 rc('font', family='serif')
 
-data = 'Versuch_Chaos/42-TeilauswertungPaul/AufgA.csv'
+data = '/Versuch_Chaos/Daten/Shinriki/Aufg-a/AufgA.csv'
 df = pd.read_csv(data)
 
 def hyperbel(x,a,b):

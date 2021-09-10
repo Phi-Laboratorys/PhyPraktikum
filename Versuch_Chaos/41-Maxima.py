@@ -1,7 +1,12 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pylab as plt
+from matplotlib import rc
 from scipy.signal import argrelextrema
+from scipy.optimize import curve_fit
+
+rc('text', usetex=True)
+rc('font', family='serif')
 
 data = "Versuch_Chaos/Daten/Pendel/3.2a/06_09_2021_14_41_30_G11_pendel_0.dat"
 df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
@@ -20,18 +25,10 @@ df = df.drop_duplicates(subset=['max'], keep='last')
 
 df['dt(s)'] = df.diff(axis = 0, periods = 1)['t(s)']
 
-
 #Mittelwerte für gleiche Zeiten
 df2 = df[['dt(s)', 'max']]
 df2 = df2.groupby(['dt(s)']).mean()
 print(df2.keys())
-
-
-
-
-
-
-
 
 #df = df.drop_duplicates(subset=['dt(s)'], keep='last')
 #print(df)
@@ -44,5 +41,25 @@ print(df2.keys())
 #plt.hist(df['dt(s)'])
 #plt.plot(df['Ua(V)'],df['dt(s)'],'.')
 #plt.ylim(2,2.5)
-plt.scatter(df2['max'], df2.index)
+
+x, y = df2['max'], df2.index
+
+# Fit
+def log(x,a,b):
+    return a*np.log(x) + b
+
+def fit(x,y):
+    popt, _ = curve_fit(log, x, y)
+    return popt
+
+a, b = fit(x,y)
+print(a,b)
+x_line = np.linspace(x.min(),x.max(),100)
+y_line = log(x_line,a,b)
+plt.plot(x_line, y_line, label=r'Logaritmischer Fit: $T=-0.8847$ s $\log(U_{a,max}) + 2.8087$ s')
+plt.plot(x, y, 'o',label=r'Messreihe gruppiert nach $T$ mit Mittelwert von $U_{a,max}$')
+plt.xlabel(r'$U_{a,max}$ in V',size=12)
+#plt.ylabel(r'$\omega=\frac{2\pi}{T}$ in $\frac{1}{\mathrm{s}}$',size=12)
+plt.ylabel(r'$T$ in s',size=12)
+plt.legend()
 plt.show()
