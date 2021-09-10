@@ -19,8 +19,22 @@ df = df.drop(0)
 df = df.drop_duplicates(subset=['max'], keep='last')
 
 df['dt(s)'] = df.diff(axis = 0, periods = 1)['t(s)']
+
+
+#Mittelwerte für gleiche Zeiten
+df2 = df[['dt(s)', 'max']]
+df2 = df2.groupby(['dt(s)']).mean()
+print(df2.keys())
+
+
+
+
+
+
+
+
 #df = df.drop_duplicates(subset=['dt(s)'], keep='last')
-print(df)
+#print(df)
 #df = df.diff(axis = 0, periods = 1)
 #df = df.loc[(df>=0.1).any(axis=1)]
 # Plot results
@@ -28,6 +42,7 @@ print(df)
 #plt.scatter(df['t(s)'], df['max'], c='g')
 #plt.plot(df['t(s)'], df['Ua(V)'])
 #plt.hist(df['dt(s)'])
-plt.plot(df['Ua(V)'],df['dt(s)'],'.')
+#plt.plot(df['Ua(V)'],df['dt(s)'],'.')
 #plt.ylim(2,2.5)
+plt.scatter(df2['max'], df2.index)
 plt.show()
