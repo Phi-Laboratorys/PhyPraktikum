@@ -5,8 +5,8 @@ nichtlineares Pendel
 stimulation_fq[Hz]: 0,411
 timeline range  for cut and FFT datapoints: 0-120s
 Chaos_Versuch
-t(s) Ua(V) -dUa/dt(V) cutX(V) cutY(V) F(Hz) DFT-Ua(V) DFT-dUa/dt(V)
 
+t(s) Ua(V) -dUa/dt(V) cutX(V) cutY(V) F(Hz) DFT-Ua(V) DFT-dUa/dt(V)
 4,000E-2 1,686E+0 9,430E-2 5,900E-1 -8,241E-3 8,333E-3 NaN NaN
 8,000E-2 1,695E+0 7,583E-2 2,258E+0 -8,241E-3 1,667E-2 NaN NaN
 1,200E-1 1,702E+0 6,046E-2 5,505E-1 -8,241E-3 2,500E-2 NaN NaN

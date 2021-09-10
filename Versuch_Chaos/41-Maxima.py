@@ -27,8 +27,10 @@ df['dt(s)'] = df.diff(axis = 0, periods = 1)['t(s)']
 
 #Mittelwerte für gleiche Zeiten
 df2 = df[['dt(s)', 'max']]
-df2 = df2.groupby(['dt(s)']).mean()
-print(df2.keys())
+df2 = df2.round({'dt(s)': 2})
+df2 = df2.dropna()
+df2 = df2.groupby(by='dt(s)').mean()
+#print(df2.to_latex())
 
 #df = df.drop_duplicates(subset=['dt(s)'], keep='last')
 #print(df)
@@ -56,7 +58,7 @@ a, b = fit(x,y)
 print(a,b)
 x_line = np.linspace(x.min(),x.max(),100)
 y_line = log(x_line,a,b)
-plt.plot(x_line, y_line, label=r'Logaritmischer Fit: $T=-0.8847$ s $\log(U_{a,max}) + 2.8087$ s')
+plt.plot(x_line, y_line, label=r'Logaritmischer Fit: $T=-1.0190$ s $\log(U_{a,max}) + 2.8810$ s')
 plt.plot(x, y, 'o',label=r'Messreihe gruppiert nach $T$ mit Mittelwert von $U_{a,max}$')
 plt.xlabel(r'$U_{a,max}$ in V',size=12)
 #plt.ylabel(r'$\omega=\frac{2\pi}{T}$ in $\frac{1}{\mathrm{s}}$',size=12)

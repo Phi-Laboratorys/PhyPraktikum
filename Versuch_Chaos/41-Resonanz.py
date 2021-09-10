@@ -17,8 +17,8 @@ df = df.dropna()
 x_up, y_up = df['xup(f)'], df['yup(V)']
 x_do, y_do = df['xdown(f)'], df['ydown(V)']
 
-plt.plot(2*np.pi*x_up,y_up,'.',label=r'$0$ Hz $\rightarrow 1,1$ Hz')
-plt.plot(2*np.pi*x_do,y_do,'.',label=r'$1,1$ Hz $\rightarrow 0$ Hz')
+plt.plot(2*np.pi*x_up,y_up,'.',label=r'$0,0$ Hz $\rightarrow 6,9$ Hz')
+plt.plot(2*np.pi*x_do,y_do,'.',label=r'$6,9$ Hz $\rightarrow 0,0$ Hz')
 plt.xlabel(r'$\omega = 2 \pi f$ in Hz',size=12)
 plt.ylabel(r'$b$ in V',size=12)
 plt.legend()
