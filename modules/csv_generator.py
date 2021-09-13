@@ -1,4 +1,4 @@
-BBimport csv
+import pandas as pd
 
 print('Hello, this program helps by the creation of csv-files.')
 print('------------SETUP------------')

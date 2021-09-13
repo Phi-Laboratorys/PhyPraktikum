@@ -6,8 +6,8 @@
 % Struktur:
 % Jedes Kapitel hat einen Input-File. Um Merge-Konflikte zu verhindern wird angeraten für jede 
 % Datei eine eigene Tex Datei zu machen und sie im jeweiligen Kapitel zu importieren. Die in
-% Input-Struktur dient zur besseren Übersicht und für mögliche Ordner, welche hier vorhanden sind. Die Zahlen vor den 
-% Ordner dient zur Ordnung der einzelnen tex-Files nach Kapiteln
+% Input-Struktur dient zur besseren Übersicht und für mögliche Ordner. Die Zahlen vor den 
+% Dateinamen dient zur Ordnung der einzelnen tex-Files nach Kapiteln
 
 
 % Packages
@@ -62,7 +62,7 @@
 
 % Verschiedenes
 \pagestyle{headings}          % Der Seitenstil sollte möglichst nicht verändert werden
-\graphicspath{{./bilder/}}    % Der Pfad für die Abbildungen Abbildungen wird gesetzt
+\graphicspath{{./Bilder/}}    % Der Pfad für die Abbildungen Abbildungen wird gesetzt
 \VerbatimFootnotes            % \verb etc. auch in \footnotes mφglich
 
 % Funktionen
@@ -78,7 +78,7 @@
     \nonfrenchspacing
 
     % 0. Kapitel Cover
-    \input{00-Cover/Cover.tex}
+    \input{00-Cover.tex}
 
     \thispagestyle{empty}
     \cleardoublepage
@@ -86,26 +86,29 @@
     \cleardoublepage
 
     % 1. Kapitel Einleitung
-    \input{01-Einleitung/Einleitung.tex}
+    \input{10-Einleitung.tex}
 
     % 2.Kapitel Fragen zur Vorbereitung
-    \input{02-FragenZurVorbereitung/FragenZurVorbereitung.tex}
+    \input{20-FragenZurVorbereitung.tex}
 
     % 3.Kapitel Protokoll
-    \input{03-Protokoll/Protokoll.tex}
+    \input{30-Protokoll.tex}
 
     % 4.Kapitel Versuchsauswertung
-    \input{04-Versuchsauswertung/Versuchsauswertung.tex}
+    \input{40-Versuchsauswertung.tex}
 
     % 5.Kapitel Fazit
-    \input{05-Fazit/Fazit.tex}
+    \input{50-Fazit.tex}
 
     % Anhang
-    \input{06-Anhang/Anhang.tex}
+    \input{60-Anhang.tex}
 
     % Literatur
-    \bibliographystyle{Libary/Auswertung.bst}
+    \bibliographystyle{Auswertung.bst}
     \nocite{*}
-    \bibliography{Libary/Auswertung.bib}
+    \bibliography{Auswertung.bib}
+
+    % Abbildungsverzeichnis
+    \listoffigures
 
 \end{document}
