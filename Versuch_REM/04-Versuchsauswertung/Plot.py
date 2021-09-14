@@ -20,7 +20,7 @@ datE = 'Versuch_REM/Daten/e/EDX/chip.txt'
 
 
 
-data = dataALoch
+data = datAFlae
 df = pd.read_csv(data, delim_whitespace=True, skiprows=24)
 #print(df.head())
 
