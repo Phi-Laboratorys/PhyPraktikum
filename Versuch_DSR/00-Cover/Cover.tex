@@ -1,20 +1,20 @@
-% Charlotte Geiger - Manuel Lippert - Leonard Schatt
-% Physikalisches Praktikum
-
 % 0. Cover
+
+% Hier sind nur die Variablen und der Abschnitt Informationen (unten) zu bearbeiten der REst läuft automatisch ab (z.b Farbenänderung)
+
 % Noch abänderbar nur ein Vorschlag
 \newgeometry{top=30mm, bottom=20mm, inner=20mm, outer=20mm}
 \thispagestyle{empty}
 
-% Colors
-\definecolor{Notablue}{HTML}{3498DB}		%Theoretische Physik
-\definecolor{Notared}{HTML}{CF366C}			%Mathematik
-\definecolor{Notagreen}{HTML}{19B092}		%Experimentalphysik
-\definecolor{Notaorange}{HTML}{FA9D00}		%Chemie/Wahlfach nicht physikalisch
-\definecolor{Notagrey}{HTML}{969696}		%Praktikum
-\definecolor{Notalavendel}{HTML}{9DBBD8}	%Wahlfächer physikalisch
+% Colors (Notability Colors)
+\definecolor{Notablue}{HTML}{3498DB}		
+\definecolor{Notared}{HTML}{CF366C}			
+\definecolor{Notagreen}{HTML}{19B092}		
+\definecolor{Notaorange}{HTML}{FA9D00}		
+\definecolor{Notagrey}{HTML}{969696}		
+\definecolor{Notalavendel}{HTML}{9DBBD8}	
 
-% Boolean by default false
+% Boolean by default false. Für Absatz in der Überschrift
 \newboolean{twoRows}
 \newboolean{symbol}
 
@@ -25,13 +25,13 @@
 \newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\vhrulefill{\linethickness}\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\vhrulefill{\linethickness}}}}
 
 % Variables
-\def\schriftgrosse{70}
+\def\schriftgrosse{40}
 \def\linethickness{1,5pt}
 
 \def\farbe{black}
 \def\fach{PPBphys2}
 \def\name{Manuel Lippert - Paul Schwanitz}
-\def\uberschrift{Sättigungs- \\[0,5cm] spektroskopie} % Absatz mit \\[0,5cm]; u = Übung, k = Klausur; s = Skript, e = Ergebnis
+\def\titel{Dopplerfreie \\[0,5cm] Sättigungsspektroskopie \\[0,5cm] von Rubidium} % Absatz mit \\[0,5cm]
 \def\bottom{WS2021/22}
 \def\datum{21.09.2021}
 \def\platz{BGI}
@@ -56,23 +56,12 @@
     {\fontsize{30}{0}\sffamily\ruleline{\textcolor{\farbe}{\textbf{\fach}}}\par}
     \vspace{6cm}
 	{\Large\sffamily \ruleline{\name}\par}
-	
-	
-	% Choose Text
-	\ifthenelse{\equal{\uberschrift}{s}} {\def\titel{Skript}}	
-		{\ifthenelse{\equal{\uberschrift}{k}} {\def\titel{Klausur}}
-			{\ifthenelse{\equal{\uberschrift}{u}} {\def\titel{Übung}}
-				{\ifthenelse{\equal{\uberschrift}{e}} {\def\titel{Klausur \\[0,5cm] Ergebnis}}
-					{\def\titel{\uberschrift}}
-				}
-			}
-		}
-	
+		
 	\IfSubStr {\titel} {\\[0,5cm]} {\setboolean{twoRows}{true}} {\setboolean{twoRows}{false}}
 	
 	\ifthenelse{\boolean{twoRows}}
 		{
-			\begin{textblock*}{21cm}(0cm,8cm) % {block width} (coords), centered		
+			\begin{textblock*}{21cm}(0cm,7,8cm) % {block width} (coords), centered		
 				{\fontsize{\schriftgrosse}{0}\sffamily\textcolor{\farbe}{\textbf{\titel}}\par}
 			\end{textblock*}
 		}
@@ -132,11 +121,10 @@
 	{\textbf{Versuchsplatz}} \hspace{1cm} & \hspace{1cm} {\platz}\\[0,2cm]
 	{\textbf{Betreuer}} \hspace{1cm} & \hspace{1cm} {\betreuer}\\[1,2cm]
 	{\textbf{Gruppen Nr.}} \hspace{1cm} & \hspace{1cm} {\groupnr}\\[0.2cm]
-	{\textbf{Teilnehmer}} \hspace{1cm} & \hspace{1cm} {\teilnehmerm}\\[0.2cm]
-						  \hspace{1cm} & \hspace{1cm} {\emailm}\\[0.2cm]
-						  \hspace{1cm} & \hspace{1cm} {\teilnehmerp}\\[0.2cm]
-						  \hspace{1cm} & \hspace{1cm} {\emailp}\\[0.2cm]
-
+	% Für Fortgeschittenenen Praktikum
+	{\textbf{Teilnehmer}} \hspace{1cm} & \hspace{1cm} {\teilnehmerm~(\emailm)}\\[0.2cm]
+						  \hspace{1cm} & \hspace{1cm} {\teilnehmerp~(\emailp)}\\[0.2cm]
+	% Für Grundpraktikum
 	%{\textbf{Auswertperson}} \hspace{1cm} & \hspace{1cm} {\auswertp}\\[0.2cm]
 	%{\textbf{Messperson}} \hspace{1cm} & \hspace{1cm} {\messp}\\[0.2cm]
 	%{\textbf{Protokollperson}} \hspace{1cm} & \hspace{1cm} {\protop}\\[0.2cm]

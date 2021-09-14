@@ -1,0 +1,19 @@
+\def\farbe{black}
+\def\fach{PPBphys2}
+\def\name{Manuel Lippert - Paul Schwanitz}
+\def\titel{Sättigungs- \\[0,5cm] spektroskopie} % Absatz mit \\[0,5cm]
+\def\bottom{WS2021/22}
+\def\datum{21.09.2021}
+\def\platz{BGI}
+\def\betreuer{Sanchayeeta Jana}
+
+\def\teilnehmerm{Manuel Lippert}
+\def\emailm{Manuel.Lippert@uni-bayreuth.de}
+\def\teilnehmerp{Paul Schwanitz}
+\def\emailp{Paul.Schwanitz@uni-bayreuth.de}
+
+%\def\auswertp{}
+%\def\messp{}
+%\def\protop{}
+
+\def\groupnr{11}
