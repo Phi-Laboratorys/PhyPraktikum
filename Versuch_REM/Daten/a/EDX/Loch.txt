@@ -6,7 +6,7 @@ Real-Zeit: 60000
 Life-Zeit: 59510
 Impulsdichte: 330
 
-Primärenergie: 30
+Primï¿½renergie: 30
 Abnahmewinkel: 35
 Kippungwinkel: 0
 Azimutwinkel: 90
@@ -20,7 +20,7 @@ Kalibrierung, lin.: 4.999
 Kalibrierung, abs.: -478.852
 Mn-FWHM: 124.19
 Fano-Faktor: 0.113
-Kanäle: 4096
+Kanï¿½le: 4096
 
 Energie Impulse
 -0.4789    0
