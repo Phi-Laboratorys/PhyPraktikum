@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pylab as plt
 from matplotlib import rc
 
+from scipy.signal import argrelextrema
+
 rc('text', usetex=True)
 rc('font', family='serif')
 
@@ -22,10 +24,18 @@ datE = 'Versuch_REM/Daten/e/EDX/chip.txt'
 
 data = datALoch
 df = pd.read_csv(data, delim_whitespace=True, skiprows=24)
-#print(df.head())
+
+n=5 #Alle Werte dopen, die kleiner sind als 50(?)
+#df2 = df.copy()
+#df2['Impulse'] = df2['Impulse'].rolling(50).mean()
+#df2['max'] = df2.iloc[argrelextrema(df2.Impulse.values, np.greater_equal,order=n)[0]]['Impulse']
+#df2 = df2.dropna()
+#df2 =df2.drop()
+#print(df2.head())
 
 fig, ax = plt.subplots()
 ax.plot(df['Energie'], df['Impulse'], color='k')
+#ax.scatter(df2['Energie'], df2['max'], c='r')
 ax.set(xlabel='Energie/keV', ylabel='cps/eV', xlim=(-0.49,10))
 ax.grid()
 plt.show()
