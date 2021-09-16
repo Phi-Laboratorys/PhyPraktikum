@@ -21,11 +21,11 @@ datN1 = 'Versuch_REM/Daten/d/EDX/Normal1.txt'
 datE = 'Versuch_REM/Daten/e/EDX/chip.txt'
 
 #Elementmarker
-Name = ['O K alpha', 'C K alpha','Fe K alpha', 'Fe K beta', 'Fe L alpha']
-Energie = [0.5249, 0.277, 6.40384, 7.05798, 0.705]
-Farbe = ['g', 'c', 'r', 'm', 'b']
+Name = ['O K alpha', 'C K alpha','Fe K alpha', 'Fe K beta', 'Ni K alpha', 'W L alpha', 'W M alpha']
+Energie = [0.5249, 0.277, 6.40384, 7.05798, 7.47815, 8.3976, 1.7754]
+Farbe = ['g', 'k', 'r', 'm', 'b', 'c', 'y']
 
-data = datALoch
+data = datN1
 df = pd.read_csv(data, delim_whitespace=True, skiprows=24)
 
 n=5 #Alle Werte dopen, die kleiner sind als 50(?)
