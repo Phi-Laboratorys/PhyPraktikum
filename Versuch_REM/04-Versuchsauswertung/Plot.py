@@ -20,9 +20,12 @@ datN1 = 'Versuch_REM/Daten/d/EDX/Normal1.txt'
 #Daten Aufg e)
 datE = 'Versuch_REM/Daten/e/EDX/chip.txt'
 
+#Elementmarker
+Name = ['O K alpha', 'C K alpha','Fe K alpha', 'Fe K beta', 'Fe L alpha']
+Energie = [0.5249, 0.277, 6.40384, 7.05798, 0.705]
+Farbe = ['g', 'c', 'r', 'm', 'b']
 
-
-data = datH1
+data = datALoch
 df = pd.read_csv(data, delim_whitespace=True, skiprows=24)
 
 n=5 #Alle Werte dopen, die kleiner sind als 50(?)
@@ -38,4 +41,9 @@ ax.plot(df['Energie'], df['Impulse'], color='k')
 #ax.scatter(df2['Energie'], df2['max'], c='r')
 ax.set(xlabel='Energie/keV', ylabel='cps/eV', xlim=(-0.49,11))
 ax.grid()
+
+for i in range(0,len(Energie)):
+    ax.plot([Energie[i],Energie[i]], [0,800], label=Name[i], lw=1, color=Farbe[i])
+
+plt.legend()
 plt.show()
