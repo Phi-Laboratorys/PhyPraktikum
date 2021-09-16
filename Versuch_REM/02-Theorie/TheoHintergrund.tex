@@ -48,3 +48,43 @@ Beim LM werden stark vergrößerte Bilder von kleinen Strukturen oder Objekten m
 
 \section{Aufbau eines Raster-Elektronenmikroskops}
 \label{sec:aufbau}
+In einer Mikroskopsäule wird der Durchmesser des Elektronenstrahls durch die Kondensorlinsen und der Aparturblende (\SI{50}{\milli\metre}) elektronenoptisch verkleinert. Der Elektronenstrahl selbst entsteht durch eine thermische Wolframkathode erzeugte Elektronenwolke, welche durch die Anode nach unten beschleunigt und durch die Stigmatoren fokussiert wird. Ablenkspulen sorgen dann  für zeilenförmigen Abrasterung der Probe durch den Elektronenstrahl. \citep{RasterEM} Aufbau ist in Abbildung \ref{image:aufbau} dargestellt. Die verschiedenen Elektronen werden dann von einem Everheart-Thornley-Detektor und Halbleiterdetektor registriert und die entstehende Röngtenstrahlung von einem EDX-Detektor. Dabei dienen die registrierten Elektronen als Signal zur Helligkeitsmodulation des Bildes. \citep{RasterEM}
+\begin{center}
+    \includegraphics[scale=0.25]{AufbauREM.png}
+    \captionof{figure}{Aufbau Raster-Elektronenmikroskop}
+    \label{image:aufbau}
+\end{center}
+
+\section{Wechselwirkung der Elektronen mit Materie}
+\label{sec:elektrons}
+Durch Wechselwirkung des Primärelektronenstrahls (PE) mit der Materie entstehen unterschiedliche Signale, welche in Abbildung \ref{image:signal} dargestellt sind.
+\begin{center}
+    \includegraphics[scale=0.25]{Signalentstehung.png}
+    \captionof{figure}{Signale eines REMs}
+    \label{image:signal}
+\end{center}
+Das Volumen, in dem die Elektronen des Primärelektronenstrahls wechselwirken, heißt Streubirne oder Elektronendiffusionswolke, wobei die Reichweite vom gewählten Probenmaterial und der Anregungsspannung abhängt. 
+\begin{center}
+    \includegraphics[scale=0.2]{Elektronendiffusionswolke.png}
+    \captionof{figure}{Elektronendiffusionswolke}
+    \label{image:wolke}
+\end{center}
+Durch Eindringen des PE entstehen durch unelastische Streuung langsame \textbf{\textit{Sekundärelektronen (SE)}} mit Energie < \SI{50}{\electronvolt} mit wahrscheinlichster Energie $\left\langle E\right\rangle=\SI{2,5}{\electronvolt}$, welche aus der $t =$ 1-\SI{10}{\nano\metre} stammen und zur Hochauflösung des REM führen. \citep{RasterEM} Somit tragen SE maßgeblich zu den dem sogenannten \textit{Topografiekontrast} bei. \citep{WikipolyREM} Elektronen, welche elastisch an Atomkerne gestreut werden und diesen unter großen Winkel verlassen, werden als \textbf{\textit{Rückstoßelektronen (RE)}}. REs haben dabei eine Energie > \SI{50}{\electronvolt}, worunter auch schnellere SE fallen, aber diese sind von REs nicht unterscheidbar sind. Dabei stammen die ausgelösten REs aus einer Materialtiefe $T=$0,1-\SI{1}{\micro\metre} und sind somit verantwortlich für den \textit{Materialkontrast}. Auch hängt die Ausbeute der REs von der Kernladungszahl des Materials ab. \citep{RasterEM} \citep{WikipolyREM} Die REs können auch beim Austreten weitere SEs erzeugen, was man gut Anhand des \textit{Kantenkontrast} erkennen kann. \citep{RasterEM} 
+
+SE werden dann in Gruppen unterteilt:
+\begin{itemize}
+    \item[(SE1)] Aus PE im Materail erzeugte SEs
+    \item[(SE2)] Aus RE im Material erzeugte SEs 
+    \item[(SE3)] Aus RE außerhalb des Materials erzeugte SEs   
+\end{itemize}
+
+Bis zu einer Reichweite von $R=\SI{500}{\nano\metre}$ entsteht eine Wechselwirkung des PE-Strahls mit der Probe, wobei Elektronen aus der Atomhülle geschlagen werden. Dabei fallen Elektronen aus höheren Zuständen nach und es entsteht dabei Röntgenstrahlung, wobei diese Strahlung charakteristisch für das jeweilige Element ist. Die emittierende Strahlung kann dann noch ein Elektron aus einer höheren Schale herausschlagen, was als Auger-Elektron registriert wird. Bei Kernen mit kleiner Ordnungszahl ($Z$<20) dominiert die Emission von Auger-Elektronen, bei
+höheren Ordnungszahlen überwiegt die Emission von charakteristischer Röntgenstrahlung.
+
+\section{Detektoren}
+\label{sec:detect}
+
+\section{Abbildungsfehler und Kontraste}
+\label{sec:imageErrorKontrast}
+
+\input{02-Theorie/Roentgen.tex}
