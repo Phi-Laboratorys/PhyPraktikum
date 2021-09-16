@@ -22,7 +22,7 @@ datE = 'Versuch_REM/Daten/e/EDX/chip.txt'
 
 
 
-data = datALoch
+data = datH1
 df = pd.read_csv(data, delim_whitespace=True, skiprows=24)
 
 n=5 #Alle Werte dopen, die kleiner sind als 50(?)
@@ -36,6 +36,6 @@ n=5 #Alle Werte dopen, die kleiner sind als 50(?)
 fig, ax = plt.subplots()
 ax.plot(df['Energie'], df['Impulse'], color='k')
 #ax.scatter(df2['Energie'], df2['max'], c='r')
-ax.set(xlabel='Energie/keV', ylabel='cps/eV', xlim=(-0.49,10))
+ax.set(xlabel='Energie/keV', ylabel='cps/eV', xlim=(-0.49,11))
 ax.grid()
 plt.show()
