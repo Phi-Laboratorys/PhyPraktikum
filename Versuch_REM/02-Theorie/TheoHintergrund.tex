@@ -48,7 +48,7 @@ Beim LM werden stark vergrößerte Bilder von kleinen Strukturen oder Objekten m
 
 \section{Aufbau eines Raster-Elektronenmikroskops}
 \label{sec:aufbau}
-In einer Mikroskopsäule wird der Durchmesser des Elektronenstrahls durch die Kondensorlinsen und der Aparturblende (\SI{50}{\milli\metre}) elektronenoptisch verkleinert. Der Elektronenstrahl selbst entsteht durch eine thermische Wolframkathode erzeugte Elektronenwolke, welche durch die Anode nach unten beschleunigt und durch die Stigmatoren fokussiert wird. Ablenkspulen sorgen dann  für zeilenförmigen Abrasterung der Probe durch den Elektronenstrahl. \citep{RasterEM} Aufbau ist in Abbildung \ref{image:aufbau} dargestellt. Die verschiedenen Elektronen werden dann von einem Everheart-Thornley-Detektor und Halbleiterdetektor registriert und die entstehende Röngtenstrahlung von einem EDX-Detektor. Dabei dienen die registrierten Elektronen als Signal zur Helligkeitsmodulation des Bildes. \citep{RasterEM}
+In einer Mikroskopsäule wird der Durchmesser des Elektronenstrahls durch die Kondensorlinsen und der Aparturblende (\SI{50}{\milli\metre}) elektronenoptisch verkleinert. Der Elektronenstrahl selbst entsteht durch eine thermische Wolframkathode erzeugte Elektronenwolke, welche durch die Anode nach unten beschleunigt und durch die Kondensorlinsen fokussiert wird. Die Stigmatoren verhindern dabei, dass ein \textit{axialer Astigmatismus} in der Abbildung auftritt. Ablenkspulen sorgen dann  für zeilenförmigen Abrasterung der Probe durch den Elektronenstrahl. \citep{RasterEM} Aufbau ist in Abbildung \ref{image:aufbau} dargestellt. Die verschiedenen Elektronen werden dann von einem Everheart-Thornley-Detektor und Halbleiterdetektor registriert und die entstehende Röngtenstrahlung von einem EDX-Detektor. Dabei dienen die registrierten Elektronen als Signal zur Helligkeitsmodulation des Bildes. \citep{RasterEM}
 \begin{center}
     \includegraphics[scale=0.25]{AufbauREM.png}
     \captionof{figure}{Aufbau Raster-Elektronenmikroskop}
@@ -59,7 +59,7 @@ In einer Mikroskopsäule wird der Durchmesser des Elektronenstrahls durch die Ko
 \label{sec:elektrons}
 Durch Wechselwirkung des Primärelektronenstrahls (PE) mit der Materie entstehen unterschiedliche Signale, welche in Abbildung \ref{image:signal} dargestellt sind.
 \begin{center}
-    \includegraphics[scale=0.25]{Signalentstehung.png}
+    \includegraphics[scale=0.2]{Signalentstehung.png}
     \captionof{figure}{Signale eines REMs}
     \label{image:signal}
 \end{center}
@@ -69,13 +69,15 @@ Das Volumen, in dem die Elektronen des Primärelektronenstrahls wechselwirken, h
     \captionof{figure}{Elektronendiffusionswolke}
     \label{image:wolke}
 \end{center}
-Durch Eindringen des PE entstehen durch unelastische Streuung langsame \textbf{\textit{Sekundärelektronen (SE)}} mit Energie < \SI{50}{\electronvolt} mit wahrscheinlichster Energie $\left\langle E\right\rangle=\SI{2,5}{\electronvolt}$, welche aus der $t =$ 1-\SI{10}{\nano\metre} stammen und zur Hochauflösung des REM führen. \citep{RasterEM} Somit tragen SE maßgeblich zu den dem sogenannten \textit{Topografiekontrast} bei. \citep{WikipolyREM} Elektronen, welche elastisch an Atomkerne gestreut werden und diesen unter großen Winkel verlassen, werden als \textbf{\textit{Rückstoßelektronen (RE)}}. REs haben dabei eine Energie > \SI{50}{\electronvolt}, worunter auch schnellere SE fallen, aber diese sind von REs nicht unterscheidbar sind. Dabei stammen die ausgelösten REs aus einer Materialtiefe $T=$0,1-\SI{1}{\micro\metre} und sind somit verantwortlich für den \textit{Materialkontrast}. Auch hängt die Ausbeute der REs von der Kernladungszahl des Materials ab. \citep{RasterEM} \citep{WikipolyREM} Die REs können auch beim Austreten weitere SEs erzeugen, was man gut Anhand des \textit{Kantenkontrast} erkennen kann. \citep{RasterEM} 
+Durch Eindringen des PE entstehen durch unelastische Streuung langsame \textbf{\textit{Sekundärelektronen (SE)}} mit Energie < \SI{50}{\electronvolt} mit wahrscheinlichster Energie $\left\langle E\right\rangle=\SI{2,5}{\electronvolt}$, welche aus der $t =$ 1-\SI{10}{\nano\metre} stammen und zur Hochauflösung des REM führen. \citep{RasterEM} Somit tragen SE maßgeblich zu den dem sogenannten \textit{Topografiekontrast} bei. \citep{WikipolyREM}\\
+
+Elektronen, welche elastisch an Atomkerne gestreut werden und diesen unter großen Winkel verlassen, werden als \textbf{\textit{Rückstoßelektronen (RE)}}. REs haben dabei eine Energie > \SI{50}{\electronvolt}, worunter auch schnellere SE fallen, aber diese sind von REs nicht unterscheidbar sind. Dabei stammen die ausgelösten REs aus einer Materialtiefe $T=$0,1-\SI{1}{\micro\metre} und sind somit verantwortlich für den \textit{Materialkontrast}. Auch hängt die Ausbeute der REs von der Kernladungszahl des Materials ab. \citep{RasterEM} \citep{WikipolyREM} Die REs können auch beim Austreten weitere SEs erzeugen, was man gut Anhand des \textit{Kantenkontrast} erkennen kann. \citep{RasterEM} \\
 
 SE werden dann in Gruppen unterteilt:
 \begin{itemize}
-    \item[(SE1)] Aus PE im Materail erzeugte SEs
-    \item[(SE2)] Aus RE im Material erzeugte SEs 
-    \item[(SE3)] Aus RE außerhalb des Materials erzeugte SEs   
+    \item \textbf{SE1:} Aus PE im Material erzeugte SEs
+    \item \textbf{SE2:} Aus RE im Material erzeugte SEs 
+    \item \textbf{SE3:} Aus RE außerhalb des Materials erzeugte SEs\\   
 \end{itemize}
 
 Bis zu einer Reichweite von $R=\SI{500}{\nano\metre}$ entsteht eine Wechselwirkung des PE-Strahls mit der Probe, wobei Elektronen aus der Atomhülle geschlagen werden. Dabei fallen Elektronen aus höheren Zuständen nach und es entsteht dabei Röntgenstrahlung, wobei diese Strahlung charakteristisch für das jeweilige Element ist. Die emittierende Strahlung kann dann noch ein Elektron aus einer höheren Schale herausschlagen, was als Auger-Elektron registriert wird. Bei Kernen mit kleiner Ordnungszahl ($Z$<20) dominiert die Emission von Auger-Elektronen, bei
@@ -84,7 +86,46 @@ höheren Ordnungszahlen überwiegt die Emission von charakteristischer Röntgens
 \section{Detektoren}
 \label{sec:detect}
 
+\subsection*{Everheart-Thornley-Detektor}
+\label{sub:etDetect}
+\begin{center}
+    \includegraphics[scale=0.23]{Everheart-Thornley.png}
+    \captionof{figure}{Everheart-Thornley-Detektor}
+    \label{image:etDetect}
+\end{center}
+Der Everheart-Thornley-Detektor ist eine Kombination aus Szintillator und Photomultiplier (siehe Abb. \ref{image:etDetect}), welcher zur Detektierung von SEs und REs dient. Die ausgelösten Ses werden dabei von einem Netz des Kollektors mit positiver Spannung angesaugt (mit negativer Spannung können SEs zurückgehalten werden $\Rightarrow$ nur REs im Signal). Schnelle REs, welche einen wesentlich höhere Energie wie SEs haben, passieren das Netz in beiden Fällen. Zwischen Netz und einer \SI{50}{\nano\metre} dünnen leitende Metallschicht auf der Oberfläche des Plastik-Szintillators liegt eine Spannung von \SI{10} {\kilo\volt}, welche die Elektronen zum Szintillator beschleunigen. Dabei entstehen im Szintillator eine große Elektron-Loch-Paar, welcher proportional zur Spannung zwischen Probe und Kollektor und der Neigung der Probe zum Kollektor ist. Die Rekombination dieser Paare erzeugt Lichtquanten, wobei ein großer Teil strahlungslos rekombiniert. Dabei werden die erzeugten Lichtquanten durch Totalreflexion in Richtung des Photomultiplier abgelenkt. Auf der Photokathode wird dann durch das Quant ein Elektron ausgelöst, wobei diese durch eine Prallelektrode auf \SI{100}{\electronvolt} beschleunigt und Spannungsimpulse induzieren, welche wiederum elektronisch verstärkt werden können. Dabei führt jedes einfallende SE mindestens zu einem Spannungsimpuls. Die Spannungsimpuls sorgen dann für einen Steuerung der Bildschirmhelligkeit. \citep{RasterEM}
+
+\subsection*{Halbleiterdetektor}
+\label{sub:halbDetect}
+\begin{center}
+    \includegraphics[scale=0.2]{Halbleiterdetektor.png}
+    \captionof{figure}{Halbleiterdetektor}
+    \label{image:halbDetect}
+\end{center}
+Halbleiterdetektor sind im Grunde Dioden, welche in Sperrrichtung betrieben werden. Dafür eigenen sich diese Detektoren besonders gut für die Untersuchung von REs. Durch das Aluminium wird verhindert, dass Lichtquanten mitdetektiert werden. Auch werden langsame SEs von der Al-Schicht absorbiert. Die REs erzeugen im Leiter Elektron-Loch-Paare, welche dann über den p-n-Übergang diffundieren können, wobei es dort zu Rekombinationen in der jeweiligen Schicht kommt oder getrennt werden. Durch die Trennung der Elektron-Loch-Paare fließt durch den Leiter ein Strom, welcher weiter verstärkt wird und wiederum zur Helligkeitsmodulation dient. Durch seine flache Bauform kann der Halbleiterdetektor nahe an der Probe angebracht werden und füllt zum Gegensatz von (\ref{sub:etDetect}) einen großen Raumwinkel aus. \citep{RasterEM}
+\begin{center}
+    \includegraphics[scale=0.3]{Modi.png}
+    \captionof{figure}{Combo- und Topomode}
+    \label{image:modi}
+\end{center}
+Der Halbleiterdetektor kann dabei in verschiedenen Modi betrieben werden (siehe Abb. \ref{image:modi}). Den Combo- (Materialkontrast) und den Topo-Mode (Topografiekontrast).
+Weiterhin kann das verwendete Elektronenmikroskop in Praktikum den sogenannten Shadow-Mode, welcher es ermöglicht Combo- und Topo-Mode gleichzeitig zu betrachten. Möglich gemacht wird dies mit Hilfe es dritten Detektor, welcher leicht schräg angewinkelt ist (siehe Abb. \ref{image:halbDetect}).
+
+\subsection*{Si(Li)-Detektor und SDD-Detektor}
+\label{sub:siliDetect}
+Bei einem Si-Detektor handelt es sich im Grunde um eine in Sperrrichtung betriebenen Silizium-Diode. Dabei Wird bei einer angelegten Sperrspannung eine ladungsträgerfreie Zone(intrinsische Zone) erzeugt. Durch die einfallenden Röntgenquanten werden Elektron-Loch-Paare erzeugt, die durch die angelegte Sperrspannung zu den Elektroden getrennt werden und dabei einen Spannungsimpuls verursachen. Für höhere Effizienz wird die Si-Diode mit Lithium dotiert, womit der Si(Li)-Detektor entsteht. Das Lithium fungiert als Donator und erzeugt mit den p-leitenden Charakter des Siliziums einen p-i-n-Übergang. Um das Driften der Lithium-Ionen zu verhindern, muss der Si(Li)-Detektor permanent gekühlt werden. \citep{RasterEM}
+\begin{center}
+    \includegraphics[scale=0.2]{Wafer.png}
+    \captionof{figure}{SDD-Detektor}
+    \label{image:sddDetect}
+\end{center}
+Ein Silizium Drift Detektor (SDD) besteht nur aus einem Silizium-Wafer, der mit ringförmigen Elektroden auf der obereren Seite besitzt. Hierbei weist die angelegte Spannung einen Gradienten auf, welcher von Innen nach Außen zunimmt. Als Signalverstärker fungiert ein Feldeffekt Transistor (FET) im Zentrum des Wafers. Der SDD besitzt dabei keine klassische Diodenstruktur und besteht dabei aus zwei gegenüberliegenden p+ dotierten Schichten mit n- dotierter Rückseite als Sammelelektrode. Bei Sperrspannung entsteht auch wieder eine ladungsträgerfreie Zone und ein Potenzialminimum im Zentrum des Wafers, wobei somit ein Spannungsgradient erzeugt wird, der die Elektronen (aus Elektron-Loch-Paar erzeugt durch Röntgenquant) zur Anode leitet und die Löcher zu den Driftringe (siehe Abb. \ref{image:drift}).
+\begin{center}
+    \includegraphics[scale=0.2]{WaferFunk.png}
+    \captionof{figure}{Driftfeld SDD-Detektor}
+    \label{image:drift}
+\end{center}
+Der SDD nimmt dabei das klassische Röntgenspektrum (Bremsspektrum, etc.) auf, wobei dabei die $K_\alpha$ für die praktische Analyse am wichtigsten ist, da diese am wahrscheinlichsten entsteht. Die Aufnahme der Spektrallininen kann dabei über wellenlängendispersiv oder energiedispersiv aufgenommen werden. Dabei wird bei einem wellenlängendispersiven Spektrometer (WDS) jeweils auf eine Spektrallinie (mit Hilfe eines Analysatorkristall) direkt eingestellt, wodurch eine genaue Bestimmung der Intensität möglich ist. Bei einem energiedispersiven Spektrometer (EDS) wird simultan das gesamte Röntgenspektrum erfasst wird, was eine gute Übersicht über die auftretenden Linien gibt. Wichtig zu erwähnen ist, dass ein EDS auch bei rauhen Oberflächen ohne Intensitätsabnahme verwendet werden kann, wobei die Messung nur qualitativ ist. Auch ist zu beachten, dass bei einem EDS Überlappungen auftreten können. \citep{RasterEM}
+
 \section{Abbildungsfehler und Kontraste}
 \label{sec:imageErrorKontrast}
-
-\input{02-Theorie/Roentgen.tex}
