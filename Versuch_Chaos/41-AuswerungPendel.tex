@@ -5,11 +5,12 @@
 
 \section{invertierteres Pendel}
 \label{sec:auswertungPendel}
+
 \subsection{Bifurkationsdiagramm und kritische Masse}
 \label{sub:bifuAndKritMass}
-Über den Versuch wurde die Auslenkung $\theta$ bzw. die Spannung $U_a$ am Digitalmultimeter links ($U_{a,l}$) und rechts ($U_{a,r}$) gemessen. Dabei ergeben sich erst ab einer gewissen Masse, eine Auslenkung links oder rechts hier schematisch in dem Bifurkationsdiagramm dargestellt (Abb \ref{image:bifu}), welches auch symmetrisch gegenüber Periode 1 ist.
+Über den Versuch wurde die Auslenkung $\theta$ bzw. die Spannung $U_a$ am Digitalmultimeter links ($U_{a,l}$) und rechts ($U_{a,r}$) gemessen. Dabei ergeben sich erst ab einer gewissen Masse, eine Auslenkung links oder rechts, was im Bifurkationsdiagramm (Abb \ref{image:bifu}) dargestellt wurde, welches auch symmetrisch gegenüber Periode 1 ist.
 \begin{center}
-    \includegraphics[scale=0.7]{Pendel/3.1/BifurkationMass.png}
+    \includegraphics[scale=0.8]{Pendel/3.1/BifurkationMass.pdf}
     \captionof{figure}{Bifurkationsdiagramm in Abhängigkeit der Masse}
     \label{image:bifu}
 \end{center}
@@ -41,7 +42,7 @@ Um die kritische Masse $M_k$ zu bestimmen, wird die Differenz $\Delta U_a=U_{a,l
     \captionof{table}{Messreihe Auslenkung Gleichgewichtslage}
     \label{tab:gleichgewichtslage}
 \end{center}
-Die Daten werden dann mit dem Numpy-Modul linear gefittet, dabei werden nur die letzten sieben Datensätze verwendet werden, da sich $(\Delta U_a)^2$ erst ab da Veränderung zeigt (siehe Abb. \ref{image:linFit}). Dabei ergibt sich die gefittete Funktion mit den jeweiligen Fehlern ermittelt:
+Die Daten werden dann mit dem Numpy-Modul linear gefittet, dabei werden nur die letzten sieben Datensätze verwendet werden, da sich $(\Delta U_a)^2$ erst ab da Veränderung zeigt (siehe Abb. \ref{image:linFit}). Dabei ergibt sich die gefittete Funktion mit den jeweiligen Fehlern:
 \begin{gather}
     (\Delta U_a)^2 = c M + b = 0,77 \frac{\text{V}^2}{\text{g}} M - 14,73~\text{V}^2\\
     c = (0,77 \pm 0,02)~\frac{\text{V}^2}{\text{g}},~b = (-14,73 \pm 0,48)~\text{V}^2
@@ -88,31 +89,25 @@ Es wird nun der Mittelwert über eine Periode genommen, wobei der Ablesefehler d
 Das Ergebnis zeigt, dass die bestimmte Federkonstante $k$ nahe an den tatsächlichen Wert der Blattfeder liegt. Die möglichen Abweichung könnten von denen in Kapitel \ref{sub:bewegungsgleichung} gemachten Näherungen oder dem vorangegangenen Fit verursacht werden. Auch könnte das Alter des Messaufbaus seinen Teil zu der Ungenauigkeit beigetragen haben. Dennoch ist das Ergebnis im Rahmen unserer Möglichkeiten akzeptabel.
 \newpage
 \begin{center}
-    \includegraphics[scale=0.6]{Pendel/3.1/linearFit.png}
+    \includegraphics[scale=0.75, angle=90]{Pendel/3.1/linearFit.pdf}
     \captionof{figure}{Linerar Fit der Messreihe}
     \label{image:linFit}
 \end{center}
+
 \subsection{Schwache Nichtlinearität}
 \label{sub:AuswertungweakLin}
-\paragraph{a)}
-Für die experimentelle Auswertung der Amplitudenabhängigkeit der Schwingungsdauer $T$ des Pendels  wird aus den aufgenommenen Daten die Maxima von der Spannung $U_{a}$ bestimmt, sowie der zeitlichen Abstand $\Delta t$ zwischen zwei Maxima ermittelt. Bei den Abstand $\Delta t$ entspricht dann der Periodendauer $T$ des Pendels. Da mehrere Werte für $T$ verhäuft vorkamen, haben wir die Daten von $T$ gruppiert und über die zugehörigen Maxima der Spannung $U_{a,max}$ den Mittelwert gebildet.
+\paragraph{a)} \textbf{Amplitudenabhängigkeit}\\
+Für die experimentelle Auswertung der Amplitudenabhängigkeit der Schwingungsdauer $T$ des Pendels  werden aus den aufgenommenen Daten die Maxima der Spannung $U_{a}$ bestimmt, sowie der zeitlichen Abstand $\Delta t$ zwischen zwei Maxima ermittelt. Der Abstand $\Delta t$ entspricht dann der Periodendauer $T$ des Pendels. Da mehrere Werte für $T$ gehäuft vorkamen, haben wir die Daten von $T$ gruppiert und über die zugehörigen Maxima der Spannung $U_{a,max}$ den Mittelwert gebildet.
 \begin{center}
-    \begin{tabular}{c|c}
-        $T$/s & $U_{a,max}$/V\\
+    \begin{tabular}{l|c c c c c c c c}
+        $T$/s & 1.90 & 2.10 & 2.20 & 2.30 & 2.32 & 2.36 & 2.40 & 2.44\\
         \hline
-        1.90  &  2.395000 \\
-        2.10  &  2.231000 \\
-        2.20  &  2.045000 \\
-        2.30  &  1.881600 \\
-        2.32  &  1.723000 \\
-        2.36  &  1.540000 \\
-        2.40  &  1.627824 \\
-        2.44  &  1.565100 \\
+        $U_{a,max}$/V &  2.3950  &  2.2310  &  2.0450  &  1.8816  &  1.7230  &  1.5400  &  1.6278  &  1.5651 \\
         \end{tabular}
         \captionof{table}{Messreihe Schwingungsdauer in Amplitudenabhängigkeit}
 \end{center}
 \begin{center}
-    \includegraphics[scale=0.5]{Pendel/3.2a/AbhSchwingung.png}
+    \includegraphics[scale=0.5]{Pendel/3.2a/AbhSchwingung.pdf}
     \captionof{figure}{Ampliudenabhängigkeit der Schwingungsdauer mit logarithmischen Fit}
     \label{image:schwing}
 \end{center}
@@ -120,62 +115,94 @@ Bei der grafischen Auswertung (siehe Abb.\ref{image:schwing}) erkennt man deutli
 \begin{gather}
     T=(-1,0190~\text{s})\log(U_{a,max}) + (2.8810~\text{s}).
 \end{gather}
-Dieser Fit ist aber noch nicht Aussagekräftig, da die Messwerte auch einen linearen Fir zulassen würden, weswegen mehr Messpunkte gebraucht werden würden.
-\paragraph{b)}
+Dieser Fit ist aber noch nicht aussagekräftig, da die Messwerte auch einen linearen Fit zulassen würden, weswegen mehr Messpunkte gebraucht werden würden.
+\paragraph{b)} \textbf{Resonanzkurve}\\
+Bei der Messung der Resonanzkurve erkennt man grob verschiedene Bereiche (siehe Abb \ref{image:resonanz}), dabei beschreibt die \textcolor{blue}{blaue Kurve} den Hinweg (\SI{0,0}{\hertz}$\rightarrow$\SI{6,9}{\hertz}) und die \textcolor{orange}{orange Kurve} den Rückweg (\SI{6,9}{\hertz} $\rightarrow$ \SI{0,0}{\hertz}).\\
+
+Zuerst betrachten wir den Hinweg bzw. die \textcolor{blue}{blaue Kurve}:
+\begin{itemize}
+    \item[1)]0,0-0,5 Hz\\Die Drehfrequenz des Schrittmotors reicht nicht aus um das Pendel anzuregen.
+    \item[2)]0,5-2,0 Hz\\Erregerfrequenz regt Pendel zur Schwingung an. Vereinzelte Zacken zeigen dabei die Schritte, welche der Schrittmotor macht beim Antreiben.
+    \item[3)]2,0-4,0 Hz\\Anstieg der Amplitude bis zu ihrem Maximum von $\approx\SI{2,2}{\volt}$
+    \item[5)]4,0-6,9 Hz\\Abfallen der Amplitude bis auf \SI{0}{\hertz}, wobei das Pendel der Drehfrequenz des Motors nicht nachkommt.\\
+\end{itemize}
+
+Nun betrachten wir den Rückweg bzw. die \textcolor{orange}{orange Kurve}:
+\begin{itemize}
+    \item[1)]6,9-3,0 Hz\\Anstieg der Amplitude von \SI{0}{\hertz} auf ihr Maximum von $\approx\SI{2,0}{\volt}$.
+    \item[2)]3,0-2,0 Hz\\Abfallen der Amplitude auf $\approx\SI{0,6}{\volt}$ 
+    \item[3)]2,0-0,5 Hz\\Erregerfrequenz regt Pendel zur Schwingung an. Vereinzelte Zacken zeigen dabei die Schritte, welche der Schrittmotor macht beim Antreiben.
+    \item[5)]0,5-0,0 Hz\\Die Drehfrequenz des Schrittmotors reicht nicht aus um das Pendel anzuregen.\\
+\end{itemize}
+Im Bereich zwischen \SI{3,0}{\hertz} und \SI{4,0}{\hertz} lässt sich dann durch Vergleich zwischen Hin- und Rückweg schön den bistabilen Zustand aus Kapitel \ref{sub:schwingungsdauer}.
+\newpage
 \begin{center}
-    \includegraphics[scale=0.7]{Pendel/3.2b/Resonanz.png}
+    \includegraphics[scale=0.75, angle=90]{Pendel/3.2b/Resonanz.pdf}
     \captionof{figure}{Resonanzkurve}
     \label{image:resonanz}
 \end{center}
-Bei der Messung der Resonanzkurve erkennt man grob verschiedene Bereiche, dabei beschreibt die Aufwärtsbewegung die blaue Kurve (0,0 Hz $\rightarrow$ 6,9 Hz) und die Abwärtsbewegung die orange Kurve (6,9 Hz $\rightarrow$ 0,0 Hz):
-\begin{itemize}
-    \item[1)]0,0-0,5 Hz\\Die Drehfrequenz des Schrittmotors reicht nicht aus um das Pendel anzuregegen.
-    \item[2)]0,5-2,0 Hz\\Erregerfrequenz regt Pendel zum schwingen an. Vereinzelte Zacken zeigen dabei die Schritte, welche der Schrittmotor macht beim Antreiben.
-    \item[3)]2,0-3,0 Hz\\Anstieg der Amplitude und Fall Abwärtsbewegung erreicht die Kurve ihr Maximum.
-    \item[4)]3,0-4,0 Hz\\Anstieg der AUfwärtsbewegung zu ihrem Maximum, während die Abwärtsbewegung in den instabilen Zustand (siehe Abb. \ref{image:resonanzkurve}) übergeht.
-    \item[5)]4,0-5,0 Hz\\Abfallen der Aufwärtsbewegung und übergehen der Aufwärtsbewegung in die Abwärtsbewegung.
-    \item[6)]5,0-6,9 Hz\\Pendel kommt Drehfrequenz des Motors nicht mehr hinterher und schwingt nicht mehr 
-\end{itemize}
+\newpage
+
 \subsection{Starke Nichtlinearität}
 \label{sub:AuswertungstrongLin}
-\paragraph{a)}
-Nun werden die einzelnen Schwingungszustände bei verschiedenen Frequenzen untersucht. Wobei mit einer hohen Frequenz begonnen wurde und dann schrittweise verkleinert wird. Dabei ist durch den Ausfahl des Messprogramms zwei Messreihen erstellt, wodurch sich der Attraktoren verändert hat. 
+\paragraph{a)} \textbf{Schwinungszustände des Pendels}\\
+Nun werden die einzelnen Schwingungszustände bei verschiedenen Frequenzen untersucht. Wobei mit einer hohen Frequenz begonnen wurde und dann schrittweise verkleinert wird.\\
+
+In Abb. \ref{image:0,233hz} zeigt das Pendel chaotisches Verhalten, dabei befindet es sich selbst auf der linken Seite. Im Leistungsspektrum erkennt man aber ausgeprägte Zacken, was für ein quasi-periodisches Verhalten sprechen könnte. 
 \begin{center}
-    \includegraphics[scale=0.3]{Pendel/3.3a/0,233Hz.png}
-    \captionof{figure}{0,233 Hz}
+    \includegraphics[scale=0.25]{Pendel/3.3a/0,233Hz.pdf}
+    \captionof{figure}{Messung bei $f_a$=0,233 Hz, (a) Phasenportrait (b) Leistungsspektrum}
     \label{image:0,233hz}
-    \includegraphics[scale=0.3]{Pendel/3.3a/0,411Hz.png}
-    \captionof{figure}{0,411 Hz}
 \end{center}
-Chaotisches Verhalten, was in Leistungsspektrum auch zu erkennen ist. Weiterhin erkennt man die zwei möglichen Schwingungen auf der rechten und linken Seite der Pendels. In der Mitte ist dabei ein Sattelpunkt des Attraktors. Die Abb. \ref{image:0,233hz} beschreibt dabei die Schwingung auf der linken Seite.
+Abb. \ref{image:0,411hz} zeigt deutlich chaotisches Verhalten des Pendels, was auch am Rauschen im Leistungsspektrum auch zu erkennen ist. Weiterhin erkennt man die zwei möglichen Schwingungen auf der rechten und linken Seite der Pendels, wobei in der Mitte der Sattelpunkt des Attraktors.
 \begin{center}
-    \includegraphics[scale=0.3]{Pendel/3.3a/0,847Hz.png}
-    \captionof{figure}{0,847 Hz}
-    \includegraphics[scale=0.3]{Pendel/3.3a/0,882Hz.png}
-    \captionof{figure}{0,882 Hz}
+    \includegraphics[scale=0.25]{Pendel/3.3a/0,411Hz.pdf}
+    \captionof{figure}{Messung bei $f_a$=0,411 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+    \label{image:0,411hz}
 \end{center}
-Hier erkennt man schon die Periode 2 in leichter Ausprägung, dennoch ist das Verhalten weiter chaotisch, wobei im Leistungsspektrum mehrere deutliche Peaks zu erkennen sind.
+%\begin{center}
+%    \includegraphics[scale=0.25]{Pendel/3.3a/0,847Hz.pdf}
+%    \captionof{figure}{Messung bei $f_a$=0,847 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+%    \label{image:0,847hz}
+%\end{center}
+Hier erkennt man in Abb. \ref{image:0,882hz} nur ganz leicht die Periode 2 im Phasenportrait, da das Verhalten weiterhin chaotisch. Dafür sieht man im Leistungsspektrum deutliche ausgeprägte Peaks.
 \begin{center}
-    \includegraphics[scale=0.3]{Pendel/3.3a/1,201Hz.png}
-    \captionof{figure}{1,201 Hz}
+    \includegraphics[scale=0.25]{Pendel/3.3a/0,882Hz.pdf}
+    \captionof{figure}{Messung bei $f_a$=0,882 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+    \label{image:0,882hz}
 \end{center}
-Deutliches Ausbilden der Periode 1 gut zu erkennen an den definierten Peaks im Leistungsspektrum.
+Deutlich ausgebildete Periode 1 Schwingung in Abb. \ref{image:1,201hz}, gut zu erkennen an dem Attraktor in Form eines leicht deformierten Kreises und an den definierten Peaks im Leistungsspektrum.
 \begin{center}
-    \includegraphics[scale=0.3]{Pendel/3.3a/1,702Hz.png}
-    \captionof{figure}{1,702 Hz}
-    \includegraphics[scale=0.3]{Pendel/3.3a/1,802Hz.png}
-    \captionof{figure}{1,802 Hz}
-    \includegraphics[scale=0.3]{Pendel/3.3a/2,100Hz.png}
-    \captionof{figure}{2,100 Hz}
+    \includegraphics[scale=0.25]{Pendel/3.3a/1,201Hz.pdf}
+    \captionof{figure}{Messung bei $f_a$=1,201 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+    \label{image:1,201hz}
 \end{center}
-Ausprägen des Torusattraktors bei höheren Frequenzen, wobei dabei das Leistungsspektrum unverändert an der Anzahl der Peaks bleibt, aber die Ausprägung ändert sich.
+%\begin{center}
+%    \includegraphics[scale=0.25]{Pendel/3.3a/1,702Hz.pdf}
+%    \captionof{figure}{Messung bei $f_a$=1,702 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+%    \label{image:1,702hz}
+%\end{center}
+%\begin{center}
+%    \includegraphics[scale=0.25]{Pendel/3.3a/1,802Hz.pdf}
+%    \captionof{figure}{Messung bei $f_a$=1,802 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+%    \label{image:1,802hz}
+%\end{center}
+Ausprägen des Torusattraktors in Abb. \ref{image:2,100hz} bei hoher Frequenzen, mit stark ausgeprägten Peaks im Leistungsspektrum, was für den klar definierten Attraktor spricht.
+\begin{center}
+    \includegraphics[scale=0.25]{Pendel/3.3a/2,100Hz.pdf}
+    \captionof{figure}{Messung bei $f_a$=2,100 Hz, (a) Phasenportrait (b) Leistungsspektrum}
+    \label{image:2,100hz}
+\end{center}
 \newpage
-\paragraph{b)}
+\paragraph{b)} \textbf{Abhängigkeit der Anfangsbedingung}\\
 \begin{center}
-    \includegraphics[scale=0.5]{Pendel/3.3b/Schwingungall.png}
-    \captionof{figure}{Schwingung kompletten Datensatz dargestellt}
-    \includegraphics[scale=0.5]{Pendel/3.3b/Startwert.png}
-    \captionof{figure}{Schwingung mit Start und Endpunkt}
+    \includegraphics[scale=0.45]{Pendel/3.3b/Schwingungall.pdf}
+    \captionof{figure}{Schwingung nach $\Delta T = \SI{56,28}{\sec}$}
+    \label{image:allData}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.45]{Pendel/3.3b/Startwert.pdf}
+    \captionof{figure}{Schwingung mit Start und Endpunkt nach $\Delta T = \SI{10,28}{\sec}$}
     \label{image:startwert}
 \end{center}
 In Abbildung \ref{image:startwert} erkennt man dann deutlich, dass die Schwingungen sich beim zweiten Umschlag auf die linken Seite voneinander unterscheiden. 

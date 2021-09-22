@@ -6,7 +6,7 @@ from scipy.signal import argrelextrema
 from scipy.optimize import curve_fit
 
 rc('text', usetex=True)
-rc('font', family='serif')
+rc('font', family='serif', size=20)
 
 data = "Versuch_Chaos/Daten/Pendel/3.2a/06_09_2021_14_41_30_G11_pendel_0.dat"
 df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
@@ -58,10 +58,13 @@ a, b = fit(x,y)
 print(a,b)
 x_line = np.linspace(x.min(),x.max(),100)
 y_line = log(x_line,a,b)
+
+plt.figure(figsize=(12, 8), dpi=80)
 plt.plot(x_line, y_line, label=r'Logaritmischer Fit: $T=-1.0190$ s $\log(U_{a,max}) + 2.8810$ s')
 plt.plot(x, y, 'o',label=r'Messreihe gruppiert nach $T$ mit Mittelwert von $U_{a,max}$')
-plt.xlabel(r'$U_{a,max}$ in V',size=12)
+plt.xlabel(r'$U_{a,max}$ in V')
 #plt.ylabel(r'$\omega=\frac{2\pi}{T}$ in $\frac{1}{\mathrm{s}}$',size=12)
-plt.ylabel(r'$T$ in s',size=12)
+plt.ylabel(r'$T$ in s')
 plt.legend()
+plt.savefig("Versuch_Chaos/Bilder/Pendel/3.2a/AbhSchwingung.pdf",bbox_inches='tight')
 plt.show()
