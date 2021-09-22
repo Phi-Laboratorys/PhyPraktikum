@@ -11,7 +11,7 @@
 \label{sec:versuchPendel}
 \subsection*{Bifurkationsdiagramm}
 \label{sub:bifu}
-Vermessung der Gleichgewichtslage $\theta_g$ in Abhängigkeit der Masse $M$. Dabei wird die Gleichgewichtslage über eine Spannung $U_a$, welche generiert wird durch in (\ref{sub:aufbauPendel}) beschriebenen Schaltkreis erzeugt wird. Dabei wird angenommen (siehe (\ref{sub:aufbauPendel})), dass $U_a$ proportional zu der Auslenkwinkel im Gleichgewicht $\theta_g$ ist und damit der generelle Verlauf der Graphen identisch ist.
+Vermessung der Gleichgewichtslage $\theta_g$ in Abhängigkeit der Masse $M$. Dabei wird die Gleichgewichtslage über eine Spannung $U_a$, welche durch den in (\ref{sub:aufbauPendel}) beschriebenen Schaltkreis erzeugt wird. Dabei wird angenommen (siehe (\ref{sub:aufbauPendel})), dass $U_a$ proportional zu dem Auslenkwinkel im Gleichgewicht $\theta_g$ ist und damit der generelle Verlauf der Graphen identisch ist.
 \begin{itemize}
 \item Messfehler Waage: $s_a = 0,005\, g = s_r$
 \item Messfehler Multimeter: $s_a = 0,00005$ V$= s_r$\\
@@ -32,7 +32,7 @@ Grobe Auswertung: Kritische Masse $M_k\approx19,3$ g wurde durch Überschlagsrec
 
 \subsection*{Schwache Nichtlinearität}
 \label{sub:weakLin}
-Montage Dämpfungssegel, wobei dabei zu beachten ist, dass die kritsche Masse $M_k\approx19,3$ g nicht überschritten wird, damit man im monostabilen Zustand des Pendels bleibt.
+Montage des Dämpfungssegels, wobei dabei zu beachten ist, dass die kritsche Masse $M_k\approx19,3$ g nicht überschritten wird, damit man im monostabilen Zustand des Pendels bleibt.
 \begin{itemize}
     \item Masse Dämfungssegel: $m=4,4$ g
     \item Zusätzlich montierte Masse: $m = 10,42$ g
@@ -51,7 +51,7 @@ Datei: 06\_09\_2021\_14\_30\_52\_06\_09\_2021\_14\_30\_52\_G11\_pendel\_resonanz
 
 \subsection*{Starke Nichtlinearität}
 \label{sub:strongLin}
-Veränderung der Masse über die kritische Masse für bistabilen Zustand. Beachte Dämpfungsblech aus (2a) immer noch mit befestigt.
+Veränderung der Masse über die kritische Masse für einen bistabilen Zustand, beachte das Dämpfungsblech aus (2a) ist immer noch mit befestigt.
 \begin{itemize}
     \item Zusätzlich montierte Masse: $m = 19,44$ g
 \end{itemize}
@@ -76,11 +76,10 @@ Verdeutlichung der Empfindlichkeit der Anfangsbedingung mit Ruhelage auf der lin
 \begin{itemize}
     \item Anregungsfrequenz $\omega$: 0,411Hz
 \end{itemize}
-Strittmotor in Anfangspos. (Armstelleung ganz unten)
+Schrittmotor in Anfangspos. (Armstellung ganz unten)
 
 Datei: Datei: Datum\_Uhrzeit\_G11\_pendel\_0.dat (Mehrere Files mit selben Namen in zugehörige Ordner gespeichert)
 
-% TODO: #32 Protokoll Shinriki überarbeiten @PaulSchwanitz
 \section{Versuchsdurchführung Shinriki}
 \label{sec:versuchShin}
 
@@ -91,7 +90,7 @@ Datei: Datei: Datum\_Uhrzeit\_G11\_pendel\_0.dat (Mehrere Files mit selben Namen
 \end{align}
 
 \textbf{a) Phasendiagramm}\\
-Wir stellen einzelne Paramterwerte für $R_2$ und $R_1$ ein und varieren je nach eingestellten Parameter mit $R_2$ oder $R_1$ bis das Phasendiagramm vollständig abgefahren ist ab. Widerstände schwer ablesbar, weswegen Angaben fehlerhaft sein können, $R_1$ konnte hierbei genauer bestimmt werden. Alle Werte werden in $\text{k}\Omega$ angeben.\\
+Wir stellen einzelne Paramterwerte für $R_2$ und $R_1$ ein und varieren je nach eingestelltem Parameter mit $R_2$ oder $R_1$ bis das Phasendiagramm vollständig abgefahren ist ab. Widerstände schwer ablesbar, weswegen Angaben fehlerhaft sein können, $R_1$ konnte hierbei genauer bestimmt werden. Alle Werte werden in $\text{k}\Omega$ angeben.\\
 \begin{tabular}{c  r| c  r  r  r  r  r  r  r}
     Par &  & Var & Per1 & Per2 & Per4 & Chaos1 & Per3 & Chaos2 & Double\\
     \hline
@@ -114,6 +113,7 @@ Wir vermessen nun gesondert die einzelnen Bifurkationen durch Variation von $R_1
     \hline
     59 & 65,6 & 67,6
 \end{tabular}
+% TODO: #38 Welche Bifu @PaulSchwanitz
 
 \textbf{e) Einbettungstheorem}\\
 Aufnahme des Originalattraktors bei $R_2$ wie in (b) und $R_1=51~\text{k}\Omega$ und $\delta t=60$ n (?); Rekonstruktion mithilfe des entsprechenden Programmteils mit qualitativen Übereinstimmung der Form des rekonstruierten Attraktors mit dem Originalattraktor.
