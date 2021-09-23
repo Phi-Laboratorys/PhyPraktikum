@@ -15,6 +15,9 @@ Die Funktion welche benutzt wurde, um die Punkte zu verbinden ist:
     f = \frac{a}{x^3} +b
 \end{align}
 
+Hier: $R_1 = f$, $R_2 = x$ und $R_0 = b$.
+
+
 Diese Funktion wurde ausgewählt, indem mehrere verschiedene Funktionen ausprobiert wurden. Nachfolgend ausgewählte Funktionen zum Vergleich, um die Auswahl nachvollziehen zu können.
 \begin{figure}[h]
 
@@ -45,7 +48,7 @@ Anbei noch die errechneten Parameter für die einzelnen Funktionen: \\
 \begin{table}[h]
     \centering
     \begin{tabular}{l|r|r}
-            Übergang auf &          a &     b \\
+            Übergang auf &     a in Ohm$^4$ & b in Ohm\\
             \hline
                Periode 1 &   21098,64 &  7,83 \\
                Periode 2 &   67878,80 &  8,05 \\
@@ -69,7 +72,7 @@ Im Folgenden unsere Beobachtungen bei ausgewählten Werten von \(R_1\).\\
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At37.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -78,16 +81,17 @@ Im Folgenden unsere Beobachtungen bei ausgewählten Werten von \(R_1\).\\
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 37$ k$\Omega$}
+    \label{fig:A37}
 \end{figure}
 
-Bei $R_1 = 37$ k$\Omega$ ist anhand des Attraktors zu erkennen, dass keine Schwingung auftritt. Auch das Leistungsspektrum verläuft, bis auf einen Peak bei ca. 0 Hz erstaunlich gleichmäßig und bis auf Störungsrauschen nahezu horizontal. Dies spricht ebenfalls für ein schwingungsfreies System.\\
+Bei $R_1 = 37$ k$\Omega$ (Abbildung \ref{fig:A37}) ist anhand des Attraktors zu erkennen, dass keine Schwingung auftritt. Auch das Leistungsspektrum verläuft, bis auf einen Peak bei ca. 0 Hz erstaunlich gleichmäßig und bis auf Störungsrauschen nahezu horizontal. Dies spricht ebenfalls für ein schwingungsfreies System.\\
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At40.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -96,16 +100,17 @@ Bei $R_1 = 37$ k$\Omega$ ist anhand des Attraktors zu erkennen, dass keine Schwi
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 40$ k$\Omega$}
+    \label{fig:A40}
 \end{figure}
 
-Für $R_1 =40$ k$\Omega$ befindet sich der Shinriki-Oszilator bereits in Periode 1, was deutlich anhand des Attraktors zu erkennen ist. Auch im Leistungsspektrum sind nun deutliche Unterschiede im Vergleich zum vaorrangegangenen zu erkennen. Es existieren nun mehrere Peaks.
+Für $R_1 =40$ k$\Omega$ (Abbildung \ref{fig:A40}) befindet sich der Shinriki-Oszilator bereits in Periode 1, was deutlich anhand des Attraktors zu erkennen ist. Auch im Leistungsspektrum sind nun deutliche Unterschiede im Vergleich zum voran gegangenen zu erkennen. Es ist nun die erste Grundschwingung und die 1. harmonische zu erkennen.
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At60.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -114,16 +119,17 @@ Für $R_1 =40$ k$\Omega$ befindet sich der Shinriki-Oszilator bereits in Periode
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 60$ k$\Omega$}
+    \label{fig:A60}
 \end{figure}
 
-Eine deutliche Zunahme an Peaks ist bei $R_1 = 60$ k$\Omega$ zu erkennen. Anhand des Attraktors ist sehr gut zu erkennen, dass es sich nun um Periode 2 handelt. Im Vergleich zum letzten Mal fand also ein Bifurkation statt.
+Eine deutliche Zunahme an Peaks ist bei $R_1 = 60$ k$\Omega$ (Abbildung \ref{fig:A60}) zu erkennen. Nun ist eine subharmonische Schwinung mit $\frac{1}{2} f_0$ zu erkennen. Anhand des Attraktors ist sehr gut zu erkennen, dass es sich nun um Periode 2 handelt. Im Vergleich zum letzten Mal fand also ein Bifurkation statt.
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At66.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -132,16 +138,17 @@ Eine deutliche Zunahme an Peaks ist bei $R_1 = 60$ k$\Omega$ zu erkennen. Anhand
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 66$ k$\Omega$}
+    \label{fig:A66}
 \end{figure}
 
-Eine weitere Bifurkation findet im Übergang zu $R_1 = 66$ k$\Omega$ statt. Was wiederrum durch eine Zunahme an Peaks im Leistungsspektrum begleitet wird. Ein Blick auf den Atraktor bestätigt das sich der Oszillator nun in Periode 4 befindet.
+Eine weitere Bifurkation findet im Übergang zu $R_1 = 66$ k$\Omega$ (Abbildung \ref{fig:A66}) statt. Was wiederum durch eine Zunahme an Peaks im Leistungsspektrum begleitet wird. Nun ist eine subharmonische Schwingung mit $\frac{1}{4} f_0$ zu erkennen. Ein Blick auf den Attraktor bestätigt das sich der Oszillator nun in Periode 4 befindet.
 \newpage
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At70.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -150,16 +157,17 @@ Eine weitere Bifurkation findet im Übergang zu $R_1 = 66$ k$\Omega$ statt. Was 
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 70$ k$\Omega$}
+    \label{fig:A70}
 \end{figure}
 
-Die nächste Phase zeigt nun zum ersten Mal chaotisches Verhalten, was sehr gut am nahezu kontinuierlich abnehmenden Leistungsspektrum und an dem Atraktor zu erkennen ist. Dies geschieht bei $R_1 = 70$ k$\Omega$.
+Die nächste Phase zeigt nun zum ersten Mal chaotisches Verhalten, was sehr gut am nahezu kontinuierlich abnehmenden Leistungsspektrum und an dem Attraktor zu erkennen ist. Dies geschieht bei $R_1 = 70$ k$\Omega$ (Abbildung \ref{fig:A70}).
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At73.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -168,16 +176,17 @@ Die nächste Phase zeigt nun zum ersten Mal chaotisches Verhalten, was sehr gut 
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 73$ k$\Omega$}
+    \label{fig:A73}
 \end{figure}
 
-Das Chaos wird durch ein Periode 3 Fenster durchbrochen, was der Plot des Atraktors bei $R_1 = 73$ k$\Omega$ sehr gut verdeutlicht.
+Das Chaos wird durch ein Periode 3 Fenster durchbrochen, was der Plot des Attraktors bei $R_1 = 73$ k$\Omega$ (Abbildung \ref{fig:A73}) sehr gut verdeutlicht.
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At74.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -186,17 +195,18 @@ Das Chaos wird durch ein Periode 3 Fenster durchbrochen, was der Plot des Atrakt
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 74$ k$\Omega$}
+    \label{fig:A74}
 \end{figure}
 
 \newpage
-Anschließend bei $R_1 = 74$ k$\Omega$ tritt, deutlich erkennbar, erneut Chaos auf.
+Anschließend bei $R_1 = 74$ k$\Omega$ (Abbildung \ref{fig:A74}) tritt, deutlich erkennbar, erneut Chaos auf.
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At100.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -205,12 +215,13 @@ Anschließend bei $R_1 = 74$ k$\Omega$ tritt, deutlich erkennbar, erneut Chaos a
         \caption{Leistungsspektrum}
     \end{subfigure}
     \caption{$R_1 = 100$ k$\Omega$}
+    \label{fig:A100}
 \end{figure}
 
-Bei $R_1 = 100$ k$\Omega$ ist das Double-scroll-chaos zu erkennen.
+Bei $R_1 = 100$ k$\Omega$ (Abbildung \ref{fig:A100}) ist das Double-scroll-chaos zu erkennen.
 \newpage
 \subsection{Bifurkationsdiagramm}
-Um ein Bifurkationsdiagramm zu erstellen wurde ähnlich zum Schnitt durch das Phasendiagramm ein fester Wert (\(R_2=8,4k \Omega\)) eingestellt. Unter zuhilfenahme des Labview Messprogramms konnte nun durch Variation von \(R_1\) folgendes Diagramm erstellt werden.
+Um ein Bifurkationsdiagramm zu erstellen wurde ähnlich zum Schnitt durch das Phasendiagramm ein fester Wert (\(R_2=8,4k \Omega\)) eingestellt. Unter Zuhilfenahme des Labview Messprogramms konnte nun durch Variation von \(R_1\) folgendes Diagramm erstellt werden.
 
 \begin{figure}[h]
     \centering
@@ -218,7 +229,7 @@ Um ein Bifurkationsdiagramm zu erstellen wurde ähnlich zum Schnitt durch das Ph
     \caption{Bifurkationsdiagramm bei $R_2 = 8,4$ k$\Omega$ und variablen $R_1$}
 \end{figure}
 
-Im obigen Diagramm ist die este Bifurkation (ca. $R = 58$ k$\Omega$) sehr deutlich zu erkennen aber auch die zweite (ca. $R = 66$ k$\Omega$) und dritte (ca. $R = 68$ k$\Omega$) sind noch zu erkennen. Ab ca. $R=93$ k$\Omega$ beginnt der Double-Scroll-Bereich. Leider ist bei der Messung der Fixpunktbereich etwas zu kurz gekommen, was wahrscheinlich der fortgeschritten Zeit und den damit einhergehenden Verlust der Konzentration zu lasten zulegen ist. Außerdem würden mehr Messpunkte das Diagramm noch deutlicher machen.\\
+Im obigen Diagramm ist die erste Bifurkation (ca. $R = 58$ k$\Omega$) sehr deutlich zu erkennen aber auch die zweite (ca. $R = 66$ k$\Omega$) und dritte (ca. $R = 68$ k$\Omega$) sind noch zu erkennen. Ab ca. $R=93$ k$\Omega$ beginnt der Double-Scroll-Bereich. Leider ist bei der Messung der Fixpunktbereich etwas zu kurz gekommen, was wahrscheinlich der fortgeschritten Zeit und den damit einhergehenden Verlust der Konzentration zulasten zulegen ist. Außerdem würden mehr Messpunkte das Diagramm noch deutlicher machen.\\
 Nun soll das Bifurkationsdiagramm mit der Simulation verglichen werden.
 
 \newpage
@@ -228,15 +239,15 @@ Nun soll das Bifurkationsdiagramm mit der Simulation verglichen werden.
     \caption{Berechnetes Bifurkationsdiagramm (Abbildung 7 aus der Anleitung)}
 \end{figure}
 
-Betrachtet man die beiden Diagramme, so fällt auf das diese Qualitativ gut Übereinstimmen. Jedoch fällt auch auf, dass die Messung gegenüber der Simulation horizontal gespiegelt ist. Außerdem fallen auch Abweichungen auf. So ist die erste Bifurkation in der Messung bei ca. $R=58$ k$\Omega$ gegenüber $R=52$ k$\Omega$ in der Simulation verschoben.
+Betrachtet man die beiden Diagramme, so fällt auf, dass diese qualitativ gut übereinstimmen. Jedoch fällt auch auf, dass die Messung gegenüber der Simulation horizontal gespiegelt ist. Außerdem fallen auch Abweichungen auf. So ist die erste Bifurkation in der Messung bei ca. $R=58$ k$\Omega$ gegenüber $R=52$ k$\Omega$ in der Simulation verschoben.
 
 
 \newpage
 \subsection{Feigenbaum-Konstante}
 
 Um die Feigenbaum-Konstante zu bestimmen wurden die Werte, bei denen eine Periodenverdopplung auftrat, ermittelt. 
-Diese wurden durch eine separate Messung aufgenommen und nicht aus obigen Bifurkationsdiagramm abgelesen.
-Damit wird versucht genauere werte zu erhalten, da für das Bifurkationsdiagramm die Messdauer, im Vergleich zum direkten Suchen der Periodenverdopplungen, deutlich größer ist, ist es wahrscheinlicher, dass Störquellen, wie Temperaturveränderungen der Messgeräte, die Werte verfälschen.\\
+Diese wurden durch eine separate Messung aufgenommen und nicht aus obigem Bifurkationsdiagramm abgelesen.
+Damit wird versucht genauere Werte zu erhalten, da für das Bifurkationsdiagramm die Messdauer, im Vergleich zum direkten Suchen der Periodenverdopplungen, deutlich größer ist, ist es wahrscheinlicher, dass Störquellen, wie Temperaturveränderungen der Messgeräte, die Werte verfälschen.\\
 
 Die Feigenbaum-Konstante \(\delta\) kann folgendermaßen berechnet werden: 
 \begin{align}
@@ -246,7 +257,7 @@ Die Feigenbaum-Konstante \(\delta\) kann folgendermaßen berechnet werden:
 
 Für den Fehler gilt: 
 \begin{align}
-    s_{\delta} = s_{R_1} \sqrt{(\frac{1}{r_{n+1}-r_n})^2 + (\frac{r_{n+1}-r_{n-1}}{(r_n - r_{n+1})^2})^2 + (\frac{r_n - r_{n-1}}{(r_{n+1}-r_n)^2})^2}\\
+    s_{\delta} = s_{R_1} \sqrt{ \left( \frac{1}{r_{n+1}-r_n}\right)^2 + \left(\frac{r_{n+1}-r_{n-1}}{(r_n - r_{n+1})^2}\right)^2 + \left(\frac{r_n - r_{n-1}}{(r_{n+1}-r_n)^2}\right)^2}\\
     \text{mit} \qquad s_{R_1} = 1 \, \text{k}\Omega
 \end{align}
 
@@ -285,19 +296,19 @@ Der Orginalattraktor wurde bei $R_1 = 51$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$ au
     \caption{$R_1 = 51$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$}
 \end{figure}
 
-Die Qualitativ beste Rekonstruktion wurde für den Verschiebungsindex $n= 60$ n erreicht.\\
+Die qualitativ beste Rekonstruktion wurde für den Verschiebungsindex $n= 60$ n erreicht.\\
 Die Delayzeit kann mit folgender Formel berechnet werden: 
 \begin{align}
     \tau = n \, \frac{1}{f_{abtast}} \qquad \text{mit} \quad f_{abtast} = 150 \, \text{kHz}
 \end{align}
 Somit gilt: $\tau = 0,4 \text{ms}$ \\
 
-Der größte Peak aus dem Leistungsspektrum liegt bei $f=724$ Hz, da der nächst kleinere nur noch ein 10el davon hat kann er bei der Ermittlung der mittleren Umlaufdauer vernachlässigt werden. Somit gilt für die mittlere Umlaufdauer: 
+Der größte Peak aus dem Leistungsspektrum liegt bei $f=724$ Hz, da der nächst kleinere nur noch ein $\frac{1}{10}$ davon hat kann er bei der Ermittlung der mittleren Umlaufdauer vernachlässigt werden. Somit gilt für die mittlere Umlaufdauer: 
 \begin{align}
     \bar{T} = \frac{1}{724} = 1,38 \, \text{ms}
 \end{align}
-Verleicht man die beiden Werte, so fällt auf, dass si sich in etwa der gleichen Größenordnung bewegen.
+Verleicht man die beiden Werte, so fällt auf, dass sie sich in etwa der gleichen Größenordnung bewegen.
 \begin{align}
-    \frac{\bar{T}}{\tau} = 3,45
+    \frac{\bar{T}}{\tau} = 3,45 \Rightarrow \tau \approx \frac{\bar{T}}{4}
 \end{align}
-Das Verhältnis der beiden Zahlen ist auch nahe eins.
+
