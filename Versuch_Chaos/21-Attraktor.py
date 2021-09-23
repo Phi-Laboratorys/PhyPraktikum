@@ -62,9 +62,9 @@ for i in range(numSteps_l):
     z_l[i + 1] = z_l[i] + (dz_l * dt)
     
 rc('text', usetex=True)
-rc('font', family='serif')
+rc('font', family='serif',size=14)
 
-fig = plt.figure()
+fig = plt.figure(figsize=(8, 6), dpi=80)
 
 ax_r = fig.add_subplot(1, 2, 1, projection='3d')
 ax_l = fig.add_subplot(1, 2, 2, projection='3d')
@@ -74,15 +74,15 @@ ax_r.set_xlabel("x")
 ax_r.set_ylabel("y")
 ax_r.set_zlabel("z")
 ax_r.axis('off')
-ax_r.set_title("Rössler Attraktor")
+#ax_r.set_title("Rössler Attraktor")
 
 ax_l.plot(x_l, y_l, z_l, lw=1.0, color='black')
 ax_l.set_xlabel("x")
 ax_l.set_ylabel("y")
 ax_l.set_zlabel("z")
 ax_l.axis('off')
-ax_l.set_title("Lorenz Attraktor")
+#ax_l.set_title("Lorenz Attraktor")
  
 # Bild anzeigen
-plt.subplots_adjust(wspace=0.1)
+plt.subplots_adjust(wspace=0)
 plt.show()
