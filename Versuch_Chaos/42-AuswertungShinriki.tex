@@ -278,6 +278,7 @@ Der Literaturwert liegt noch innerhalb des Fehlerintervalls. Eine Abweichung vom
 \subsection{Zum Einbettungstheorem}
 
 % TODO #34
+Im folgenden soll nun eine Attraktorrekonstruktion durchgeführtwerden.\\
 Der Orginalattraktor wurde bei $R_1 = 51$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$ aufgenommen.
 
 \begin{figure}[h]
@@ -285,7 +286,7 @@ Der Orginalattraktor wurde bei $R_1 = 51$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$ au
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{AuswPaul/Aufg-e/Attr.png}
-        \caption{Atraktor}
+        \caption{Attraktor}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
@@ -307,8 +308,40 @@ Der größte Peak aus dem Leistungsspektrum liegt bei $f=724$ Hz, da der nächst
 \begin{align}
     \bar{T} = \frac{1}{724} = 1,38 \, \text{ms}
 \end{align}
-Verleicht man die beiden Werte, so fällt auf, dass sie sich in etwa der gleichen Größenordnung bewegen.
+Vergleicht man die beiden Werte, so fällt auf, dass sie sich in etwa der gleichen Größenordnung bewegen.
 \begin{align}
     \frac{\bar{T}}{\tau} = 3,45 \Rightarrow \tau \approx \frac{\bar{T}}{4}
 \end{align}
 
+\newpage
+Außerdem soll die Rekonstruktion noch für einen chaotischen Attraktor durchgeführt werden. Der Orginalattraktor wurde bei $R_1 = 70$ k$\Omega$ und $R_2 = 8,4$ k$\Omega$ aufgenommen, wie in Abbildung \ref{fig:A70E} zu sehen.
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/At70.png}
+        \caption{Attraktor}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{AuswPaul/Aufg-b/LS70.png}
+        \caption{Leistungsspektrum}
+    \end{subfigure}
+    \caption{$R_1 = 70$ k$\Omega$}
+    \label{fig:A70E}
+\end{figure}
+
+Mit hilfe eines selbst geschriebenen Pythonskripts wurde nun das beste $n$ für die Attraktorrekonstruktion ermittelt. Das Ergebnis ist in Abbildung \ref{fig:AR70} zu sehen.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{AuswPaul/Aufg-e/AR70.pdf}
+    \caption{Attraktorrekonstruktion für $n=44$}
+    \label{fig:AR70}
+\end{figure}
+
+Genau wie oben wird das Verhältnis der beiden zahlen gebildet:
+\begin{align}
+    \frac{\bar{T}}{\tau} =  \Rightarrow \tau \approx \frac{\bar{T}}{}
+\end{align}
