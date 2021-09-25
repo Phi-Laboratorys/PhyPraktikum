@@ -10,6 +10,8 @@ rc('font', family='serif', size=18)
 d = {'current(mA)':[107,128.5,129.5,149.5],'lambda(nm)': [780.23125,780.25125,780.234,780.2535]}
 df = pd.DataFrame(data=d)
 
+df.to_csv('Versuch_DSR/Daten/currentTuning_points.csv', encoding='utf-8', index=False)
+
 plt.figure(figsize=(12, 8), dpi=80)
 plt.plot(df['current(mA)'],df['lambda(nm)'])
 plt.ticklabel_format(useOffset=False)
