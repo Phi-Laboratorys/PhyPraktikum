@@ -100,7 +100,7 @@ for i, j, k, f, q in zip(data,cut,dis, fit, temp):
     #plt.plot(x, yai3, label='reference beam')
     plt.plot(x, yai4, label='fabry-pérot')
     plt.plot(x,df['yai4_max(V)'],'o')
-    plt.show()
+    #plt.show()
 
     #plt.plot(x,y_sig)
     #plt.plot(x, y_lin, label='linear fit')
@@ -124,7 +124,7 @@ for i, j, k, f, q in zip(data,cut,dis, fit, temp):
     
     df['freq(THz)'] = const.c/(1000*df['lambda(nm)'])
     
-    #df.to_csv('Versuch_DSR/Daten/Data_Trendless/allPeak/DataTrendless_allPeak_Temp'+str(q)+'.csv', encoding='utf-8', index=False)
+    df.to_csv('Versuch_DSR/Daten/Data_Trendless/allPeak/DataTrendless_allPeak_Temp'+str(q)+'.csv', encoding='utf-8', index=False)
     
     #print(df.dropna().sort_values(by=['freq(THz)']).diff())
     
