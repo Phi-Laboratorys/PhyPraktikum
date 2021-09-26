@@ -2,9 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pylab as plt
 from matplotlib import rc
-from scipy.signal import argrelextrema
 from scipy.optimize import curve_fit
-from astropy import modeling
 
 rc('text', usetex=True)
 rc('font', family='serif', size=18)
@@ -34,7 +32,8 @@ for i, j, m in zip(x_data, y_data, mean):
 
     print(*popt)
 
-    plt.plot(i, gaussian(i, *popt), label='gaussian fit for peak '+str(n))
+    plt.plot(x, gaussian(x, *popt), label='gaussian fit for peak '+str(n))
+    plt.fill_between(x,0,gaussian(x, *popt),alpha=0.5)
     n += 1
 
 plt.xlabel('laser current in mA')

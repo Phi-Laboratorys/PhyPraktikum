@@ -8,14 +8,14 @@ Now we calculate the ratio of each isotope by identifying the area under every p
 $b$ is here the x-value of each peak that we have already obtained in table \ref{tab:identify}. We get with the curve_fit of scipy.optimize package from python:
 \begin{center}
     \begin{tabular}{c | c c c}
-        Peak & a/V & b/mA & c/mA\\
+        peak & a/V & b/mA & c/mA\\
         \hline
         1 &  -0.00539 & 119.4429 & 0.57669\\
         2 &  -0.01742 & 125.0267 & 0.52976\\
         3 &  -0.03085 & 131.8581 & 0.62443\\
         4 &  -0.01462 & 134.7829 & 0.74425\\
     \end{tabular}
-    \captionof{table}{Fitting data for each peak}
+    \captionof{table}{fitting data for each peak}
 \end{center}
 In figure \ref{image:gaussFit} is shown how each gaussian fit looks for each peak.\\
 With the parameter we calculated above we are now able to determine the area under each curve of each peak with the following relation:
@@ -25,13 +25,14 @@ With the parameter we calculated above we are now able to determine the area und
 This expression gives us then the area as follows:
 \begin{center}
     \begin{tabular}{c | c | c}
-        Peak & isotope & area/$1\cdot 10^{-6}$ W\\
+        peak & isotope & area/$1\cdot 10^{-6}$ W\\
         \hline
         1 & $^{87}Rb$ &  -7.79 \\
         2 & $^{85}Rb$ & -23.13 \\
         3 & $^{85}Rb$ & -48.29 \\
         4 & $^{87}Rb$ & -27.27 \\
     \end{tabular}
+    \captionof{table}{area under the curve of each peak}
 \end{center}
 The area under the peaks is proportional to the amount of atoms of each isotope in the gas what gives us:
 \begin{gather}
