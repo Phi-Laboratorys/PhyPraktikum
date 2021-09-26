@@ -22,7 +22,7 @@ data100 = 'Versuch_Chaos/Daten/Shinriki/Aufg-b/R1=100kO/06_09_2021_19_43_06_G11_
 
 datE = 'Versuch_Chaos/Daten/Shinriki/Aufg-e/Rekonstruktion/06_09_2021_20_31_55_G11_shinriki_0.dat'
 
-data = datE
+data = data70
 df = pd.read_csv(data, delim_whitespace=True, skiprows=7, decimal=',')
 
 #print(df.head())
