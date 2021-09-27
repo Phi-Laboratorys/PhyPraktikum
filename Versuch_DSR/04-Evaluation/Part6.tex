@@ -1,1 +1,15 @@
-\section{Part6}
+\section{Gas Temperatures}
+\label{sec:temp}
+To calculate the gas temperature we can use the formula
+\begin{gather}
+    \Delta \nu_D = \frac{2\nu_0}{c}\sqrt{\ln(2)\frac{2k_BT}{m}} = \frac{2\nu_0\hat{v}}{c}\sqrt{\ln(2)}~\text{with}~\hat{v}= \sqrt{\frac{2k_BT}{m}},
+\end{gather}
+where $\Delta\nu_D$ is the doppler width, $\nu_0$ the frequency of the peak, $\hat{v}$ the most probable velocity, $k_B$ the Boltzmann constant, $T$ the temperature and $c$ the speed of light in vacuum.
+First we have to calculate the doppler width or most probable velocity. For that we are fitting a gaussian with the form:
+\begin{gather}
+    y = \frac{1}{\sqrt{2\pi \sigma^2}}\cdot \exp(-\left(\frac{\nu-\nu_0}{\sqrt{2}\sigma}\right)^2)
+\end{gather}
+With the value of $\sigma$ one can calculate $\Delta\nu_D$ and $\hat{v}$ as following:
+\begin{gather}
+    \Delta\nu_D = 2\sigma\sqrt{\ln(2)} \Rightarrow \sigma = \frac{2\nu_0\hat{v}}{c} \Leftrightarrow \hat{v} = \frac{\sigma c}{2 \nu_0}
+\end{gather}
