@@ -23,7 +23,7 @@
 \usepackage{amsmath,amssymb,amstext}
 \usepackage{siunitx}
 \usepackage{url}
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage{microtype}
 \usepackage[format=plain]{caption}
 \usepackage{physics}
@@ -89,7 +89,7 @@
     \input{01-Einleitung/Einleitung.tex}
 
     % 2.Kapitel Fragen zur Vorbereitung
-    \input{02-FragenZurVorbereitung/FragenZurVorbereitung.tex}
+    \input{02-Theorie/Theorie.tex}
 
     % 3.Kapitel Protokoll
     \input{03-Protokoll/Protokoll.tex}
@@ -101,11 +101,11 @@
     \input{05-Fazit/Fazit.tex}
 
     % Anhang
-    \input{06-Anhang/Anhang.tex}
+    %\input{06-Anhang/Anhang.tex}
 
     % Literatur
-    \bibliographystyle{Libary/Auswertung.bst}
+    \bibliographystyle{plainnat}
     \nocite{*}
-    \bibliography{Libary/Auswertung.bib}
+    \bibliography{Auswertung.bib}
 
 \end{document}
