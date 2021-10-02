@@ -52,7 +52,18 @@ Die Vorraussetzung für FRET ist die Überlappung des Emissionsspektrums des Don
 \end{center}
 Die FRET-Intensität kann man nicht direkt messen, da sich der Anregungsbereich der Donors und Akzeptors teilweise überlappen (siehe Abb. \ref{image:anregung}). Somit wird bei einer Anregung des Donors auch der Akzeptor angeregt. Dies führt zu Verunreinigungen in der Messung der Emission des Akzeptors durch die teilweise Anregung. Um diesen Effekt zu korrigieren, misst man die Emission des Donors und die Emission des Akzeptors separat, womit man die Crosstalk Beiträge berechnen kann.
 \section{Zeitkorrelierte Einzelphotonenzählung}
-Allgemein ist zeitkorrelierte Einzelphotonenzählung (englisch time-correlated single photon counting, TCSPC) eine Technik, um sich zeitlich schnell ändernden Lichtintensitäten zu messen. Diese Messmethode kommt zum Einsatz bei der Messung von Fluoreszenzlebenszeit. Dabei wird die zu untersuchende Probe (Fluorophore) mithilfe von gepulsten Lichtbündel (Laser) angeregt. Die Detektion der Fluoreszenz erfolgt mit einem Photomultiplier, welcher einzelne Photonen registrieren können muss. Die Zeitmessung wird dann durch die Anregung des Laserpuls gestartet und das emittierte Photon stoppt diese. Die Messung wird wiederholt und die einzelnen Photonen werden, mit ihrer entsprechenden Zeit, in ein Histogramm eingetragen. Dieses zeigt einen exponentiellen Abfall der Fluoreszenzintensität nach der Anregung. 
+Allgemein ist zeitkorrelierte Einzelphotonenzählung (englisch time-correlated single photon counting, TCSPC) eine Technik, um sich zeitlich schnell ändernden Lichtintensitäten zu messen. Diese Messmethode kommt zum Einsatz bei der Messung von Fluoreszenzlebenszeit. Dabei wird die zu untersuchende Probe (Fluorophore) mithilfe von gepulsten Lichtbündel (Laser) angeregt. Die Detektion der Fluoreszenz erfolgt mit einem Photomultiplier, welcher einzelne Photonen registrieren können muss. Die Zeitmessung wird dann durch die Anregung des Laserpuls gestartet und das emittierte Photon stoppt diese. Die Messung wird wiederholt und die einzelnen Photonen werden, mit ihrer entsprechenden Zeit, in ein Histogramm eingetragen. Dieses zeigt einen exponentiellen Abfall der Fluoreszenzintensität nach der Anregung. Der Abfall ergibt sich dann mit der Formel:
+\begin{gather}
+    N(t) = N_0e^{-\frac{t}{\tau}}~\text{mit}~\frac{1}{\tau} = \sum^m_{i=1} k_i \xrightarrow{n~\text{Proben}} N(t) = \sum_{i=1}^n A_ie^{-\frac{t}{\tau_i}} 
+\end{gather} 
+Hierbei ist $\tau$ die Lebenszeit aus den $m$ einzelnen Zerfallsraten $k_i$ und $\tau_i$ die Lebenszeit der i-ten Probe mit entsprechender Amplitude $A_i$.\\
+Das detektiert Signal hat dann die Form einer Faltung von dem exponentiellen Abfall und einer Gauß-Kurve (entsteht durch die IRF (Impulse Response Function) des Lasers), welches in Abb. \ref{image:abfall} zu sehen ist. Dabei ist der Teil bis zum Peak die IRF und danach der exponentielle Abfall.
+\begin{center}
+    \includegraphics[scale = 0.3]{Abfall.png}
+    \captionof{figure}{Verlauf der zeitkorrelierten Einzelphotonenzählung \citep{Anleitung}}
+    \label{image:abfall}
+\end{center}
+\newpage
 \subsection*{Störungen}
 Bei dieser Messtechnik kann es allerdings zu Störungen kommen, welche das Ergbnis verfälschen.Dazu gehört das thermische Rauschen, wovon beinahe jedes Messgerät betroffen ist. Dies kann durch Kühlung des Messgerätes behoben werden.\\Weitere Störungsfaktoren, sogenannte ’Dark Counting’, sind \textit{Verstärkerrauschen}, \textit{'Afterpulsing'} und \textit{Pile-Up Effekt}.
 \begin{itemize}
