@@ -13,7 +13,9 @@ import scipy.constants as const
 
 # Format of the plot
 rc('text', usetex=True)
-rc('font', family='serif', size=18)
+rc('font', family='serif', size=20)
+
+
 
 '''Single Exponential Fit'''
 '''
@@ -70,6 +72,7 @@ fitSingleExp(data_YFP, filename, 90, 1550, 5)
 filename = ['CY1-c1','CY1-c2','CY2-c1','CY2-c2','CY3-c1','CY3-c2','CY4-c1','CY4-c2','CY5-c1','CY5-c2']
 fitSingleExp(data_CY, filename, 90, 1550, 5)
 '''
+
 
 
 '''Double Exponential Fit'''
@@ -150,11 +153,48 @@ plt.savefig('Versuch_FRET/Bilder/Lebenszeit/DoubleExp/Optimize.pdf', bbox_inches
 plt.show()
 '''
 
+
+
 '''Convolution'''
+
+data = 'Versuch_FRET/Daten/TCSPC-data/Aufg-3/CY1-c1.dat'
+
+df = pd.read_csv(data, delim_whitespace=True, skiprows=12, encoding='Windows 1252')
+df = df.apply(pd.to_numeric, errors='coerce')
+df = df[:][90:1550].reset_index()
+
+# IRF cut
+x_IRF, y_IRF = df['Time[ns]'][:100], df['IRF'][:100]
+
+# Spiegeln des IRF
+x_IRFcut, y_IRFcut = x_IRF[:44], y_IRF[:44]
+x_IRFmir, y_IRFmir = x_IRF, y_IRFcut.append(y_IRFcut[::-1]).append(df['IRF'][0:12])
+
+# Gaussian
+amplitude, mean = x_IRF[44], y_IRF[44]
+
 def gaussian(x, amplitude, stddev, mean):
     return amplitude * np.exp(-((x - mean) / (np.sqrt(2) * stddev))**2)
 
+popt, _ = curve_fit(gaussian, x_IRF, y_IRF)
+y_IRFgauss = gaussian(x_IRF, *popt)
 
-for i in data_IRF:
-    df = pd.read_csv(i, delim_whitespace=True)
-    df = df['N(t)'][70:200]
+# Plot
+plt.figure(figsize=(12, 8), dpi=80)
+plt.plot(x_IRF, y_IRF, label = 'IRF', color = 'black')
+plt.plot(x_IRF, y_IRFgauss, label = 'Gauß-Kurve Fit')
+plt.plot(x_IRFmir, y_IRFmir, label = 'Gespiegeltes IRF')
+plt.xlabel('$t$ in ns')
+plt.ylabel('Intensität')
+plt.legend()
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRF.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRFmirror.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRFgauss.pdf', bbox_inches='tight')
+plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRFfit.pdf', bbox_inches='tight')
+plt.show()
+
+d_IRF = {'Time[ns]':x_IRF.values, 'IRF':y_IRF.values, 'Mirror':y_IRFmir.values, 'Gauss':y_IRFgauss.values}
+
+df_IRF = pd.DataFrame(d_IRF)
+print(df_IRF)
+
