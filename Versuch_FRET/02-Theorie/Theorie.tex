@@ -54,9 +54,9 @@ Die FRET-Intensität kann man nicht direkt messen, da sich der Anregungsbereich 
 \section{Zeitkorrelierte Einzelphotonenzählung}
 Allgemein ist zeitkorrelierte Einzelphotonenzählung (englisch time-correlated single photon counting, TCSPC) eine Technik, um sich zeitlich schnell ändernden Lichtintensitäten zu messen. Diese Messmethode kommt zum Einsatz bei der Messung von Fluoreszenzlebenszeit. Dabei wird die zu untersuchende Probe (Fluorophore) mithilfe von gepulsten Lichtbündel (Laser) angeregt. Die Detektion der Fluoreszenz erfolgt mit einem Photomultiplier, welcher einzelne Photonen registrieren können muss. Die Zeitmessung wird dann durch die Anregung des Laserpuls gestartet und das emittierte Photon stoppt diese. Die Messung wird wiederholt und die einzelnen Photonen werden, mit ihrer entsprechenden Zeit, in ein Histogramm eingetragen. Dieses zeigt einen exponentiellen Abfall der Fluoreszenzintensität nach der Anregung. Der Abfall ergibt sich dann mit der Formel:
 \begin{gather}
-    N(t) = N_0e^{-\frac{t}{\tau}}~\text{mit}~\frac{1}{\tau} = \sum^m_{i=1} k_i \xrightarrow{n~\text{Proben}} N(t) = \sum_{i=1}^n A_ie^{-\frac{t}{\tau_i}} 
+    N(t) = N_0e^{-\frac{t}{\tau}}~\text{mit}~\frac{1}{\tau} = \sum^m_{i=1} k_i \xrightarrow{n~\text{Proben}} N(t) = \sum_{i=1}^n N_ie^{-\frac{t}{\tau_i}} 
 \end{gather} 
-Hierbei ist $\tau$ die Lebenszeit aus den $m$ einzelnen Zerfallsraten $k_i$ und $\tau_i$ die Lebenszeit der i-ten Probe mit entsprechender Amplitude $A_i$.\\
+Hierbei ist $\tau$ die Lebenszeit aus den $m$ einzelnen Zerfallsraten $k_i$ und $\tau_i$ die Lebenszeit der i-ten Probe mit entsprechender Amplitude $N_i$.\\
 Das detektiert Signal hat dann die Form einer Faltung von dem exponentiellen Abfall und einer Gauß-Kurve (entsteht durch die IRF (Impulse Response Function) des Lasers), welches in Abb. \ref{image:abfall} zu sehen ist. Dabei ist der Teil bis zum Peak die IRF und danach der exponentielle Abfall.
 \begin{center}
     \includegraphics[scale = 0.3]{Abfall.png}

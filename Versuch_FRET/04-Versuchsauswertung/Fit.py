@@ -20,7 +20,7 @@ rc('font', family='serif', size=20)
 
 
 '''Single Exponential Fit'''
-'''
+
 # Data import
 path = 'Versuch_FRET/Daten/TCSPC-data/Aufg-1'
 data_files = os.listdir(path)
@@ -67,13 +67,13 @@ def fitSingleExp(data, picname, start, end, t_dead):
         plt.savefig('Versuch_FRET/Bilder/Lebenszeit/SingleExp/'+i+'.pdf',bbox_inches='tight')
         #plt.show()
 
-filename = ['CFP1-c1','CFP2-c1','CFP3-c1']
+filename = ['CFP1-c1','CFP1-c2','CFP2-c1','CFP2-c2','CFP3-c1','CFP3-c2']
 fitSingleExp(data_CFP, filename, 90, 1550, 5)
-filename = ['YFP1-c2','YFP2-c2','YFP3-c2']
+filename = ['YFP1-c1','YFP1-c2','YFP2-c1','YFP2-c2','YFP3-c1','YFP3-c2']
 fitSingleExp(data_YFP, filename, 90, 1550, 5)
 filename = ['CY1-c1','CY1-c2','CY2-c1','CY2-c2','CY3-c1','CY3-c2','CY4-c1','CY4-c2','CY5-c1','CY5-c2']
 fitSingleExp(data_CY, filename, 90, 1550, 5)
-'''
+
 
 
 
@@ -158,7 +158,7 @@ plt.show()
 
 
 '''Convolution'''
-
+'''
 data = 'Versuch_FRET/Daten/TCSPC-data/Aufg-3/CY1-c1.dat'
 
 df = pd.read_csv(data, delim_whitespace=True, skiprows=12, encoding='Windows 1252')
@@ -182,6 +182,7 @@ amplitude, mean, sigma = popt
 
 y_IRFgauss = gaussian(x_IRF, *popt)
 
+print(popt)
 # Plot
 #plt.figure(figsize=(12, 8), dpi=80)
 #plt.plot(x_IRF, y_IRF, label = 'IRF', color = 'black')
@@ -262,3 +263,4 @@ plt.ylabel(r'$\sum(\Delta y)^2$')
 plt.legend()
 plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/'+name+'/Optimize.pdf', bbox_inches='tight')
 plt.show()
+'''
