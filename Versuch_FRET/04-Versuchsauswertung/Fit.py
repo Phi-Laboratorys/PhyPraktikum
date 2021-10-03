@@ -9,11 +9,15 @@ from pandas.core.algorithms import diff
 from scipy.signal import argrelextrema
 from scipy.optimize.minpack import curve_fit
 from scipy.signal import argrelextrema
+from scipy.signal import convolve
+import scipy.special
 import scipy.constants as const
 
 # Format of the plot
 rc('text', usetex=True)
-rc('font', family='serif', size=18)
+rc('font', family='serif', size=20)
+
+
 
 '''Single Exponential Fit'''
 '''
@@ -70,6 +74,7 @@ fitSingleExp(data_YFP, filename, 90, 1550, 5)
 filename = ['CY1-c1','CY1-c2','CY2-c1','CY2-c2','CY3-c1','CY3-c2','CY4-c1','CY4-c2','CY5-c1','CY5-c2']
 fitSingleExp(data_CY, filename, 90, 1550, 5)
 '''
+
 
 
 '''Double Exponential Fit'''
@@ -150,11 +155,110 @@ plt.savefig('Versuch_FRET/Bilder/Lebenszeit/DoubleExp/Optimize.pdf', bbox_inches
 plt.show()
 '''
 
+
+
 '''Convolution'''
-def gaussian(x, amplitude, stddev, mean):
+
+data = 'Versuch_FRET/Daten/TCSPC-data/Aufg-3/CY1-c1.dat'
+
+df = pd.read_csv(data, delim_whitespace=True, skiprows=12, encoding='Windows 1252')
+df = df.apply(pd.to_numeric, errors='coerce')
+df = df[:][90:1550].reset_index()
+#df['IRF'] = df['IRF'].shift(periods = 25)
+
+# IRF cut
+x_IRF, y_IRF = df['Time[ns]'][:100], df['IRF'][:100]
+
+# Spiegeln des IRF
+x_IRFcut, y_IRFcut = x_IRF[:44], y_IRF[:44]
+x_IRFmir, y_IRFmir = x_IRF, y_IRFcut.append(y_IRFcut[::-1]).append(df['IRF'][0:12])
+
+# Gaussian
+def gaussian(x, amplitude, mean, stddev):
     return amplitude * np.exp(-((x - mean) / (np.sqrt(2) * stddev))**2)
 
+popt, _ = curve_fit(gaussian, x_IRF, y_IRF)
+amplitude, mean, sigma = popt
 
-for i in data_IRF:
-    df = pd.read_csv(i, delim_whitespace=True)
-    df = df['N(t)'][70:200]
+y_IRFgauss = gaussian(x_IRF, *popt)
+
+# Plot
+#plt.figure(figsize=(12, 8), dpi=80)
+#plt.plot(x_IRF, y_IRF, label = 'IRF', color = 'black')
+#plt.plot(x_IRF, y_IRFgauss, label = 'Gauß-Kurve Fit')
+#plt.plot(x_IRFmir, y_IRFmir, label = 'Gespiegeltes IRF')
+#plt.plot(x_IRFcut, y_IRFcut, label = 'Cut IRF')
+#plt.xlabel('$t$ in ns')
+#plt.ylabel('Intensität')
+#plt.legend()
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRF.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRFmirror.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRFgauss.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/IRFfit.pdf', bbox_inches='tight')
+#plt.show()
+
+#d_IRF = {'Mirror':y_IRFmir.values, 'Gauss':y_IRFgauss.values}
+
+#df_IRF = pd.DataFrame(d_IRF)
+#df = df.join(df_IRF)
+
+def convo(df, tau, name, irf):
+
+    def singleExp(x, t, amp, x0):
+            return amp*np.exp(-(x-x0)/t)
+
+    n = 200
+    df['max'] = df.iloc[argrelextrema(df['Decay'].values, np.greater_equal,order=n)[0]]['Decay']
+
+    fit_start = df['max'].dropna().index.values[0]
+    amp, x0 = df['Decay'][fit_start], df['Time[ns]'][fit_start]
+
+    df_fit = df[['Time[ns]','Decay']][fit_start:]
+
+    k = 1
+    delta_y = []
+
+    for i in tau:
+        df_fit['Decay_Fitted'+str(k)] = singleExp(df_fit['Time[ns]'], i, amp, x0)
+        df = df.join(df_fit['Decay_Fitted'+str(k)])
+
+        df['Decay_Fitted'+str(k)] = df['Decay_Fitted'+str(k)].fillna(0)
+        df['Con'+str(k)] = convolve(df['Decay_Fitted'+str(k)], irf, mode = 'same')/sum(irf)
+
+        x = df['Time[ns]']
+        
+        plt.figure(figsize=(12, 8), dpi=80)
+
+        plt.plot(x, df['Decay'], label = 'Messreihe')
+        plt.plot(x, df['Con'+str(k)], label = 'Faltung')
+        plt.ylabel('Intensität')
+        plt.xlabel('$t$ in ns')
+        plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/'+name+'/'+name+str(k)+'.pdf', bbox_inches='tight')
+        #plt.clf()
+        
+        delta_y.append((sum(df['Decay']-df['Con'+str(k)])**2)/1e12)
+        k+=1
+    
+    return delta_y
+
+tau = np.linspace(2,5,50)
+irf = y_IRF
+name = 'IRF'
+
+delta_y = convo(df, tau, name, irf)
+d_opt = {'delta_y':delta_y, 'tau':tau}
+df_opt = pd.DataFrame(d_opt)
+
+mini = df_opt.iloc[[df_opt[['delta_y']].idxmin()[0]]]
+
+print(mini)
+
+plt.figure(figsize=(12, 8), dpi=80)
+
+plt.plot(tau, delta_y, 'o', label = 'Berechnete Werte')
+plt.plot(mini['tau'].values,mini['delta_y'].values,'o', color = 'r', label = 'Minimum')
+plt.xlabel(r'$\tau$ in ns')
+plt.ylabel(r'$\sum(\Delta y)^2$')
+plt.legend()
+plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/'+name+'/Optimize.pdf', bbox_inches='tight')
+plt.show()
