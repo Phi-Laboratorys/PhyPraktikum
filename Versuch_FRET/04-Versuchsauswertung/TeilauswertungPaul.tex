@@ -107,3 +107,12 @@ Somit ergeben sich folgende Mittelwerte für die Korrekturfaktoren:
     \gamma = (2,324960993 \pm )\\
     \delta = (0,008389786 \pm )
 \end{align}
+
+\newpage
+\subsection{Bestimmung der Sensitized Emission und FRET-Effizienz Bilder}
+
+Mithilfe der Korrekturfaktoren können die Bilder der Sensitized Emission und der FRET-Effizienz, unter Verwendung folgender Formeln und des Programms Fiji, errechnet werden.
+\begin{align}
+    SE &= \frac{S_{CY} - \beta \cdot D_{CY} - (\gamma -\alpha \beta)\cdot A_{CY}}{1 - \beta \delta} \\
+    E &= \frac{SE}{\sqrt{A_{CY} \cdot D_{CY}}}
+\end{align}
