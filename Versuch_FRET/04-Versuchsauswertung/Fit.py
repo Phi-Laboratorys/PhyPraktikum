@@ -20,7 +20,7 @@ rc('font', family='serif', size=20)
 
 
 '''Single Exponential Fit'''
-
+'''
 # Data import
 path = 'Versuch_FRET/Daten/TCSPC-data/Aufg-1'
 data_files = os.listdir(path)
@@ -73,7 +73,7 @@ filename = ['YFP1-c1','YFP1-c2','YFP2-c1','YFP2-c2','YFP3-c1','YFP3-c2']
 fitSingleExp(data_YFP, filename, 90, 1550, 5)
 filename = ['CY1-c1','CY1-c2','CY2-c1','CY2-c2','CY3-c1','CY3-c2','CY4-c1','CY4-c2','CY5-c1','CY5-c2']
 fitSingleExp(data_CY, filename, 90, 1550, 5)
-
+'''
 
 
 
@@ -158,7 +158,7 @@ plt.show()
 
 
 '''Convolution'''
-'''
+
 data = 'Versuch_FRET/Daten/TCSPC-data/Aufg-3/CY1-c1.dat'
 
 df = pd.read_csv(data, delim_whitespace=True, skiprows=12, encoding='Windows 1252')
@@ -168,10 +168,10 @@ df = df[:][90:1550].reset_index()
 
 # IRF cut
 x_IRF, y_IRF = df['Time[ns]'][:100], df['IRF'][:100]
+x_IRFcut, y_IRFcut = df['Time[ns]'][:75], df['Decay'][:75]
 
 # Spiegeln des IRF
-x_IRFcut, y_IRFcut = x_IRF[:44], y_IRF[:44]
-x_IRFmir, y_IRFmir = x_IRF, y_IRFcut.append(y_IRFcut[::-1]).append(df['IRF'][0:12])
+x_IRFmir, y_IRFmir = df['Time[ns]'][:150], y_IRFcut.append(y_IRFcut[::-1])
 
 # Gaussian
 def gaussian(x, amplitude, mean, stddev):
@@ -189,6 +189,7 @@ print(popt)
 #plt.plot(x_IRF, y_IRFgauss, label = 'Gauß-Kurve Fit')
 #plt.plot(x_IRFmir, y_IRFmir, label = 'Gespiegeltes IRF')
 #plt.plot(x_IRFcut, y_IRFcut, label = 'Cut IRF')
+#plt.plot(x_IRFcon, y_IRFcon)
 #plt.xlabel('$t$ in ns')
 #plt.ylabel('Intensität')
 #plt.legend()
@@ -243,8 +244,8 @@ def convo(df, tau, name, irf):
     return delta_y
 
 tau = np.linspace(2,5,50)
-irf = y_IRF
-name = 'IRF'
+irf = y_IRFmir
+name = 'Mirror'
 
 delta_y = convo(df, tau, name, irf)
 d_opt = {'delta_y':delta_y, 'tau':tau}
@@ -263,4 +264,3 @@ plt.ylabel(r'$\sum(\Delta y)^2$')
 plt.legend()
 plt.savefig('Versuch_FRET/Bilder/Lebenszeit/Convolution/'+name+'/Optimize.pdf', bbox_inches='tight')
 plt.show()
-'''
