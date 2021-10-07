@@ -13,4 +13,11 @@ path = 'Versuch_FRET/Daten/bleach-data/csv/'
 data_files = os.listdir(path)
 data = [path + '/' + i for i in data_files]
 data.sort()
+data.remove('Versuch_FRET/Daten/bleach-data/csv//.DS_Store')
 #print(data)
+
+dflist = []
+for d in data:
+    df = pd.read_csv(d, skiprows=1)
+    
+    
