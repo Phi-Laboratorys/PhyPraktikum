@@ -147,6 +147,12 @@ Folgende Werte haben sich aus der Verwendung der Formel ergeben:\\
         \label{tab:CYSEE}
 \end{table}
 
+Für Mittelwert und Standardabweichung gilt: 
+\begin{align*}
+    SE = (23 \pm 12) \qquad E = (0,6 \pm 0,2)
+\end{align*}
+In der Tabelle \ref{tab:CYSEE} bei Zelle Nr. 10 ist jedoch ein Wert für die FRET Effizienz von deutlich über eins zu sehen. Dies macht für diesen Wert jedoch keinen Sinn und ist somit wahrscheinlich ein Messfehler.
+
 \newpage
 Nachfolgend sind ausgewählte Bilder abgebildet die aus diesen Formeln resultieren.
 
@@ -198,6 +204,17 @@ Für die Zelle in Abbildung \ref{fig:CY3} wurden die Mittelwerte analog ermittel
     \overline{SE} = 3,951 \qquad \overline{E} = 0,200
 \end{align*}
 Auch hier fallen deutliche Unterschiede ins Auge.
+
+\subsection{Abstand der Fluorophore}
+Im Theorieteil wurde mit Gleichung \ref{eq:effizienz} eine andere Gleichung für die FRET Effizienz angegeben. 
+\begin{align}
+    E = \frac{R_F^6}{R_F^6+R^6}
+\end{align}
+Durch Umstellen dieser Formel kann folgende Gleichung für den mittleren Abstand angegeben werden: 
+\begin{align}
+    R = \sqrt[6]{\frac{R_F^6}{E} - R_F^6} 
+\end{align}
+Wobei $R_F$ der Försterradius ist. Dieser müsste noch bestimmt werden, um den mittleren Abstand zu berechnen.
 
 \newpage
 \section{Donoremission nach Akzeptorbleichung}
