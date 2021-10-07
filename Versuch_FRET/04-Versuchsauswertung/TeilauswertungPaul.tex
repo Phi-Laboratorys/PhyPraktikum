@@ -112,12 +112,42 @@ Der Fehler wurde über die Standardabweichung berechnet.
 \newpage
 \subsection{Bestimmung der Sensitized Emission und FRET-Effizienz Bilder}
 
-Mithilfe der Korrekturfaktoren können die Bilder der Sensitized Emission und der FRET-Effizienz, unter Verwendung folgender Formeln und des Programms Fiji, errechnet werden.
+Mithilfe der Korrekturfaktoren können die Werte und Bilder der Sensitized Emission und der FRET-Effizienz, unter Verwendung folgender Formeln und des Programms Fiji, errechnet werden.
 \begin{align}
     SE &= \frac{S_{CY} - \beta \cdot D_{CY} - (\gamma -\alpha \beta)\cdot A_{CY}}{1 - \beta \delta} \\
     E &= \frac{SE}{\sqrt{A_{CY} \cdot D_{CY}}}
 \end{align}
 
+
+Folgende Werte haben sich aus der Verwendung der Formel ergeben:\\
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c|c|c|c|c}
+         Zelle Nr. &       D &            S &        A &         SE &         E \\\hline\hline
+               1.0 &  78.989 &       54,464 &   78.642 &  43.176840 &  0.547823 \\\hline
+               2.0 &  48.876 &       29,519 &   44.437 &  22.002979 &  0.472130 \\\hline
+               3.0 &  40.770 &       28,091 &   40.630 &  22.037036 &  0.541451 \\\hline
+               4.0 &  35.516 &       24,841 &   40.206 &  19.538192 &  0.517043 \\\hline
+               5.0 &  31.778 &       22,537 &   36.237 &  17.769305 &  0.523638 \\\hline
+               6.0 &  65.660 &       29,534 &   36.419 &  18.742015 &  0.383267 \\\hline
+               7.0 &  42.112 &       32,539 &   53.054 &  26.599006 &  0.562734 \\\hline
+               8.0 &  47.894 &       27,762 &   40.689 &  20.289197 &  0.459606 \\\hline
+               9.0 &  34.241 &       30,621 &   50.415 &  26.055755 &  0.627120 \\\hline
+              10.0 &  17.931 &        59,38 &  127.373 &  60.430551 &  1.264491 \\\hline
+              11.0 &  36.992 &         27,7 &   41.517 &  22.350672 &  0.570327 \\\hline
+              12.0 &  29.925 &       28,352 &   47.459 &  24.437686 &  0.648461 \\\hline
+              14.0 &   5.800 &        8,738 &   16.353 &   7.876263 &  0.808737 \\\hline
+              15.0 &  31.486 &       28,789 &   45.679 &  24.606828 &  0.648841 \\\hline
+              16.0 &  22.483 &       19,491 &   33.136 &  16.280748 &  0.596482 \\\hline
+              17.0 &  23.921 &       18,978 &   29.997 &  15.443600 &  0.576527 \\\hline
+              18.0 &  22.910 &       16,174 &   25.549 &  12.599973 &  0.520799 \\\hline
+        \end{tabular}
+        \caption{Ermittelte D, S, A, SE und E Werte der CY markierten Zellen.}
+        \label{tab:CYSEE}
+\end{table}
+
+\newpage
 Nachfolgend sind ausgewählte Bilder abgebildet die aus diesen Formeln resultieren.
 
 \begin{figure}[h]
@@ -134,8 +164,18 @@ Nachfolgend sind ausgewählte Bilder abgebildet die aus diesen Formeln resultier
         \caption{E Bild der Aufnahme CY1}
     \end{subfigure}
     \caption{Zelle CY1 in SE und E}
+    \label{fig:CY1}
 \end{figure}
 
+Für die Zelle in Abbildung \ref{fig:CY1} würde wieder eine ROI um die Zellmembran gelegt. Der mittlere Wert der ROI's hat folgendes ergeben: 
+
+\begin{align*}
+    \overline{SE} = 9,129 \qquad \overline{E} = 0,195
+\end{align*}
+
+Vergleicht man diese Werte mit den rechnerischen ermittelten aus Tabelle \ref{tab:CYSEE}, so fallen deutliche Unterschiede auf.
+
+\newpage
 \begin{figure}[h]
     \centering
     \begin{subfigure}[]{0.45\textwidth}
@@ -150,7 +190,14 @@ Nachfolgend sind ausgewählte Bilder abgebildet die aus diesen Formeln resultier
         \caption{E Bild der Aufnahme CY3}
     \end{subfigure}
     \caption{Zelle CY3 in SE und E}
+    \label{fig:CY3}
 \end{figure}
+
+Für die Zelle in Abbildung \ref{fig:CY3} wurden die Mittelwerte analog ermittelt: 
+\begin{align*}
+    \overline{SE} = 3,951 \qquad \overline{E} = 0,200
+\end{align*}
+Auch hier fallen deutliche Unterschiede ins Auge.
 
 \newpage
 \section{Donoremission nach Akzeptorbleichung}
