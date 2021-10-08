@@ -221,6 +221,7 @@ Wobei $R_F$ der Försterradius ist. Dieser müsste noch bestimmt werden, um den 
 In diesem Versuchsteil soll die FRET-Effizienz ermittelt werden, indem man die Donorfluoreszenz vor und nach dem Bleichen der jeweiligen Probe misst. Die Formel zur Berechnung der FRET-Effizienz ist folgende: 
 \begin{align}
     E = 1 - \frac{D_{CY,pre}}{D_{CY,post}}
+    \label{eq:FREE}
 \end{align}
 
 Die eigentliche Versuchsdurführung wurde größtenteils durch einen speziellen Assistenten des Kontrollprogramms ausgeführt. Im Voraus musste nur eine passende Zelle ausgewählt werden und die verschiedenen ROI's (wie in Abbildung \ref{fig:ROIs} gezeigt) eingezeichnet werden.
@@ -236,3 +237,31 @@ Die eigentliche Versuchsdurführung wurde größtenteils durch einen speziellen 
     \caption{Darstellung der verschiedenen ROI's}
     \label{fig:ROIs}
 \end{figure}
+
+Mithilfe eines Pythonskripts wurde die Formel \ref{eq:FREE} auf die einzelnen ROI's der Verschiedene Dateien, die mittels des Messprogramms erstellt wurden, angewendet. Dabei ergaben sich folgende Werte: 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c|c|c}
+          Datenreihe &     ROI 1 &     ROI 2 &     ROI 3 \\\hline\hline
+          CY-1-D.csv &  0.003505 &  0.030953 & -0.000090 \\\hline
+          CY-10-D.csv &  0.026029 &  0.135385 &  0.072495 \\\hline
+           CY-2-D.csv &  0.053433 &  0.059482 &  0.048435 \\\hline
+           CY-3-D.csv &  0.012226 &  0.032995 &  0.110722 \\\hline
+           CY-4-D.csv &  0.024620 &  0.036954 & -0.000083 \\\hline
+           CY-5-D.csv & -0.018922 &  0.053814 &  0.053266 \\\hline
+           CY-6-D.csv &  0.021359 &  0.048867 &  0.069277 \\\hline
+           CY-7-D.csv &  0.035247 &  0.084725 &  0.069380 \\\hline
+           CY-8-D.csv &  0.027918 &  0.141295 &  0.051616 \\\hline
+           CY-9-D.csv &  0.064711 &  0.024094 &  0.129895 \\\hline
+        \end{tabular}
+        \caption{E-Werte für die verschiedenen ROIs der CY markierten Zellen}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{c|c|c|c}
+        Datenreihe &     ROI 1 &     ROI 2 &     ROI 3 \\\hline\hline
+         YFP-1.csv & -0.749496 & -1.370115 & -1.415964 \\\hline
+         YFP-2.csv & -2.436369 & -6.608389 & -3.299554 \\\hline
+         YFP-3.csv & -1.907869 & -3.509338 & -2.912716 \\\hline
+        \end{tabular}
+\end{table}
