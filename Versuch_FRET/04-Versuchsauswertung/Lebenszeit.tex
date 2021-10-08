@@ -1,4 +1,5 @@
 % Teilauswertung 4
+\newpage
 \section{Lebenszeitmessung}
 \label{sec:lebenszeit}
 \paragraph{1)}\textbf{Single-Exponential Fit}\\
@@ -113,7 +114,7 @@ In Abb. \ref{image:singleCFP1} bis \ref{image:singleCY3} sind die jeweiligen Fit
 \end{center}
 
 \paragraph{2)}\textbf{Double-Exponential Fit}\\
-Als nächstes wollen wir einen \enquote{Double-Exponential Fit} durch einen ausgewählte Datensatz fitten. Wir haben uns dafür die Probe \textit{CY5} und erneut für eine Totzeit $t_{tot}=\SI{5}{\nano\metre}$ entschieden. Wichtig ist anzumerken, dass wir für den Fit Kanal 1+2 betrachten. Der Fit hat dann die Form:
+Als nächstes wollen wir einen \enquote{Double-Exponential Fit} durch einen ausgewählten Datensatz fitten. Wir haben uns dafür die Probe \textit{CY5} und erneut für eine Totzeit $t_{tot}=\SI{5}{\nano\metre}$ entschieden. Wichtig ist anzumerken, dass wir für den Fit Kanal 1+2 betrachten. Der Fit hat dann die Form:
 \begin{gather}
     N(t) = N_1e^{-\frac{t}{\tau_1}} + N_2e^{-\frac{t}{\tau_2}}
 \end{gather}
@@ -181,7 +182,7 @@ Für die Parameter erhalten wir dann $A = 24986$, $\mu = 2.20$ und $\sigma = 0.2
     \label{image:IRF}
 \end{center}
 \newpage
-Für die Faltung verwenden wir das scipy.signal-Module mit der Funktion convolve. Dabei normieren wir die Faltung mit der Summe alle Werte der verwendeten IRF (also $\sum y_{IRF}$). Beim fitten verändern wir nun schrittweise $\tau$ von \SI{2}{\nano\second} bis \SI{5}{\nano\second}. Um den Fit zu optimieren, verwenden wir dieselbe Methode wie in Abschnitt (2) dieses Kapitels und minimieren damit die $\sum(y_{data}-y_{fit})^2$. Die optimalsten Fits sind in Abb. \ref{image:fitIRF} bis \ref{image:fitIRFgauss} mit dem zugehörigen Verlauf von $\sum(y_{data}-y_{fit})^2$ gegen $\tau$.
+Für die Faltung verwenden wir das scipy.signal-Module mit der Funktion convolve. Dabei normieren wir die Faltung mit der Summe alle Werte der verwendeten IRF (also $\sum y_{IRF}$). Beim fitten verändern wir nun schrittweise $\tau$ von \SI{2}{\nano\second} bis \SI{5}{\nano\second}. Um den Fit zu optimieren, verwenden wir dieselbe Methode wie in Abschnitt (2) dieses Kapitels und minimieren damit die $\sum(y_{data}-y_{fit})^2$. Die besten Fits sind in Abb. \ref{image:fitIRF} bis \ref{image:fitIRFgauss} mit dem zugehörigen Verlauf von $\sum(y_{data}-y_{fit})^2$ gegen $\tau$.
 \begin{center}
     \textbf{Ergebnis}\\[0,2cm]
     \begin{tabular}{c | c c}
@@ -222,7 +223,7 @@ Die FRET-Effizienz berechnet sich aus den berechneten Daten wie folgt:
 \begin{gather}
     E = 1 - \frac{\tau_{C, Donor}}{\tau_{CY, Donor}}
 \end{gather}
-Dafür verwenden wir die Mittelwerte aus Tabelle \ref{tab:lebenszeit} für CFP und CY von Kanal 1 un erhalten eine Effizienz  $E = 0,07$.
+Dafür verwenden wir die Mittelwerte aus Tabelle \ref{tab:lebenszeit} für CFP und CY von Kanal 1 und erhalten eine Effizienz  $E = 0,07$.
 
 %\begin{center}
 %    \begin{tabular}{c | c c c}
