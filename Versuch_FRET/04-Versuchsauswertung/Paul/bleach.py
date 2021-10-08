@@ -20,9 +20,9 @@ data_files.remove('.DS_Store')
 
 df = pd.DataFrame(columns=['Datenreihe', 'ROI 1', 'ROI 2', 'ROI 3'])
 
-string1 = 'S'
+string1 = 'YFP'
 string2 = 'CY'
-string3 = 'CFP'
+string3 = 'S'
 
 for d in data_files:
     
