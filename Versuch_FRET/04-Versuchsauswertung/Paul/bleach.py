@@ -11,13 +11,20 @@ rc('font', family='serif', size=20)
 # Data import
 path = 'Versuch_FRET/Daten/bleach-data/csv/'
 data_files = os.listdir(path)
-data = [path + '/' + i for i in data_files]
-data.sort()
-data.remove('Versuch_FRET/Daten/bleach-data/csv//.DS_Store')
-#print(data)
+data_files.sort()
+data_files.remove('.DS_Store')
+#print(data_files)
 
-dflist = []
-for d in data:
-    df = pd.read_csv(d, skiprows=1)
+df = pd.DataFrame(columns=['Name', ''])
+
+string = 'S'
+
+for d in data_files:
+    
+    if d.find(string) == -1:
+        print(d)
+        #data = [path + '/' + i for i in data_files]
+        #df = pd.read_csv(d, skiprows=1)
+
     
     
