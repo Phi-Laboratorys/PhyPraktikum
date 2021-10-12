@@ -7,7 +7,7 @@ Zu Beginn der Auswertung wollen wir einen \enquote{Single-Exponential Fit} durch
 \begin{gather}
     N(t) = N_0e^{-\frac{t}{\tau}}
 \end{gather}
-Für die Totzeit wählen wir $t_{tot}=\SI{5}{\nano\metre}$, um sicher zu sein, dass wir im exponentiellen Abschnitt er Daten befinden. Für die Anfangsintensität $N_0$ wählen wir denjenigen Wert der aufgenommenen Messreihe zur Totzeit $t_{tot}$, also $N_0=N(t_{tot})$, besitzt. Damit ergibt sich nur noch die Lebenszeit $\tau$ als gefitteter Parameter. Damit ergibt sich folgende Tabelle:
+Wir wählen zum fitten eine Anfangszeit $t_{0}=\SI{5}{\nano\metre}$, um sicher zu sein, dass wir im exponentiellen Abschnitt er Daten befinden. Für die Anfangsintensität $N_0$ wählen wir denjenigen Wert der aufgenommenen Messreihe zur Anfangszeit $t_{0}$, also $N_0=N(t_{0})$, besitzt. Damit ergibt sich nur noch die Lebenszeit $\tau$ als gefitteter Parameter. Damit ergibt sich folgende Tabelle:
 \begin{center}
     \begin{tabular}{c c}
         \textbf{Kanal 1} & \textbf{Kanal 2}\\
@@ -70,7 +70,7 @@ Für die Totzeit wählen wir $t_{tot}=\SI{5}{\nano\metre}$, um sicher zu sein, d
             \multicolumn{2}{c}{Mittelwert} & 3.20 \\
         \end{tabular}
     \end{tabular}
-    \captionof{table}{Gefittete Parameter bei einer Totzeit $t_{tot}=\SI{5}{\nano\second}$}
+    \captionof{table}{Gefittete Parameter bei einer Anfangszeit $t_{0}=\SI{5}{\nano\second}$}
     \label{tab:lebenszeit}
 \end{center}
 In Abb. \ref{image:singleCFP1} bis \ref{image:singleCY3} sind die jeweiligen Fits für ein paar ausgewählte Proben dargestellt. Anzumerken ist, dass der Fit für die \textit{CFP} Analyse von Kanal 2 nicht sehr aussagekräftig ist, da der exponentielle Abfall zu steil ist und damit ist der gewählte Fitbereich zu klein (gut zu sehen in Abb. \ref{image:singleCFP1}).
@@ -114,7 +114,7 @@ In Abb. \ref{image:singleCFP1} bis \ref{image:singleCY3} sind die jeweiligen Fit
 \end{center}
 
 \paragraph{2)}\textbf{Double-Exponential Fit}\\
-Als nächstes wollen wir einen \enquote{Double-Exponential Fit} durch einen ausgewählten Datensatz fitten. Wir haben uns dafür die Probe \textit{CY5} und erneut für eine Totzeit $t_{tot}=\SI{5}{\nano\metre}$ entschieden. Wichtig ist anzumerken, dass wir für den Fit Kanal 1+2 betrachten. Der Fit hat dann die Form:
+Als nächstes wollen wir einen \enquote{Double-Exponential Fit} durch einen ausgewählten Datensatz fitten. Wir haben uns dafür die Probe \textit{CY5} und erneut für eine Anfangszeit $t_{0}=\SI{5}{\nano\metre}$ entschieden. Wichtig ist anzumerken, dass wir für den Fit Kanal 1+2 betrachten. Der Fit hat dann die Form:
 \begin{gather}
     N(t) = N_1e^{-\frac{t}{\tau_1}} + N_2e^{-\frac{t}{\tau_2}}
 \end{gather}
