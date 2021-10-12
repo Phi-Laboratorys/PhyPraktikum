@@ -282,20 +282,6 @@ Es fällt auf das die Werte, aus der Tabelle \ref{tb:ECY}, teilweise sehr klein 
     \centering
     \begin{tabular}{c|c|c|c}
         Datenreihe &     ROI 1 &     ROI 2 &     ROI 3 \\\hline\hline
-         YFP-1 & -0.749496 & -1.370115 & -1.415964 \\\hline
-         YFP-2 & -2.436369 & -6.608389 & -3.299554 \\\hline
-         YFP-3 & -1.907869 & -3.509338 & -2.912716 \\\hline
-        \end{tabular}
-        \caption{E-Werte für die verschiedenen ROIs der YFP markierten Zellen}
-        \label{tb:EYFP}
-\end{table}
-
-Die Werte aus der Tabelle \ref{tb:EYFP} sind deutlich größer als eins, was für eine Effizienz wenig Sinn ergibt.
-
-\begin{table}[h]
-    \centering
-    \begin{tabular}{c|c|c|c}
-        Datenreihe &     ROI 1 &     ROI 2 &     ROI 3 \\\hline\hline
         CFP-1-D &  0.003468 & -0.156688 & -0.014746 \\\hline
         CFP-2-D &  0.003118 &  0.007835 & -0.019275 \\\hline
         CFP-3-D & -0.031038 & -0.180530 & -0.014738 \\\hline
@@ -306,4 +292,27 @@ Die Werte aus der Tabelle \ref{tb:EYFP} sind deutlich größer als eins, was fü
         \label{tb:ECFP}
 \end{table}
 
-Die Werte aus Tabelle \ref{tb:ECFP} sind sehr nahe der Null, was durch das nicht Auftreten von FRET zu erklären ist.
+Die Werte aus Tabelle \ref{tb:ECFP} sind sehr nahe der Null, was durch das nicht Auftreten von FRET zu erklären ist.\\
+
+Um beurteilen zu können, wie erfolgreich die Bleichung war bilden wir folgendes Verhältnis:
+\begin{align}
+    B = \frac{A_{YFP,post}}{A_{YFP,pre}}
+    \label{eq:BPer}
+\end{align}
+
+Dieses Verhältnis gibt in etwa an, wie viele Prozent des YFP Farbstoffs gebleicht wurde.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Datenreihe &     ROI 1 &     ROI 2 &     ROI 3 \\\hline\hline
+        YFP-1.csv &  0.571593 &  0.421920 &  0.413914 \\\hline
+        YFP-2.csv &  0.291005 &  0.131434 &  0.232582 \\\hline
+        YFP-3.csv &  0.343894 &  0.221762 &  0.255577 \\\hline
+        \end{tabular}
+        \caption{B-Werte, nach Formel \ref{eq:BPer}, für die verschiedenen ROIs der YFP markierten Zellen}
+        \label{tb:BYFP}
+\end{table}
+
+Aus Tabelle \ref{tb:BYFP} geht hervor, dass die erforderliche Bleichung um mindestens $50 \%$ bis auf eine Ausnahme nicht erreicht wurde. Dies erklärt, weshalb die Werte aus Tabelle \ref{tb:ECY} sehr klein und teilweise negativ sind.\\
+Um die FRET-Effizienz mit dieser Methode zuverlässig messen zu können, sollte auf eine Ausreichende Bleichung geachtet werden.
