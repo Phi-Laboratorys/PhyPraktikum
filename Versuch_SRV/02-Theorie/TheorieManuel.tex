@@ -1,0 +1,18 @@
+% Teilaufgabe 11
+
+\section{Fourier-Reihe Sinus, Rechteck und Dreieckschwingung}
+\label{sec:fourierseries}
+\subsection*{Allgemeines zur Fourier-Reihe}
+\label{sub:fourierseriesAllgemein}
+Eine Fourier-Reihe zerlegt eine gegeben periodische Funktion in ihre jeweiligen Sinus und Cosinusanteile. Die reelle Fourier-Reihe einer bestimmten $T$-periodischen Funktion lässt sich mit den folgenden Formeln berechnen:
+\begin{gather}
+    f(t) = \frac{a_0}{2} + \sum^{\infty}_{k=1} \left[a_k \sin(k\frac{2\pi}{T} t) +b_k \cos(k\frac{2\pi}{T} t)\right]\\
+    a_k = \frac{2}{T} \int^{\frac{T}{2}}_{-\frac{T}{2}} f(t)\cos(k \frac{2\pi}{T} t)dt\\
+    b_k = \frac{2}{T} \int^{\frac{T}{2}}_{-\frac{T}{2}} f(t)\sin(k \frac{2\pi}{T} t)dt
+\end{gather}
+Dabei sind die Grenzen der Integrale von $-\frac{T}{2}$ bis $\frac{T}{2}$ nicht fest, sie können verschoben werden. Es ist aber wichtig, dass über eine Periode integriert wird in diesem Fall über eine komplette Periodendauer $T$.
+\subsection*{Sinusschwingung}
+Der Fall der Sinusschwingung ist besonders einfach, da wie vorangegangen erwähnt, die Fourier-Reihe eine periodische Funktion in ihre Sinus und Cosinusanteile zerlegt. Daraus folgt die Fourier-Reihe der Sinusschwingung ist die Sinusschwingung selbst und kann somit trivial angegeben werden:
+\begin{gather}
+    f(t) = U_0\sin(\frac{2\pi}{T} t)
+\end{gather}
