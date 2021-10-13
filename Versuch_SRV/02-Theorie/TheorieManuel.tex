@@ -16,7 +16,9 @@ Um die effektiven Spannungswerte der jeweiligen Schwingungsform zu bestimmen, bi
 \begin{gather}
     U_{eff} = \sqrt{\frac{1}{T}\int^T_0 f(t)^2 dt}
 \end{gather}
-Hierbei ist es wieder zu erwähnen, dass die Grenzen der Integration nicht fest sind, aber die Integration über eine Periodenlänge erfolgen muss.
+Hierbei ist es wieder zu erwähnen, dass die Grenzen der Integration nicht fest sind, aber die Integration über eine Periodenlänge erfolgen muss.\\
+
+Die detaillierteren Berechnungen zu jeder Schwingungsform lassen sich in Anhang \ref{app:Berechnung} nachlesen.
 
 \subsection*{Sinusschwingung}
 \label{sub:sinus}
@@ -24,10 +26,9 @@ Der Fall der Sinusschwingung ist besonders einfach, da wie vorangegangen erwähn
 \begin{gather}
     \boxed{f(t) = U_0\sin(\frac{2\pi}{T} t)}
 \end{gather}
-Die Effektivspannungen der Sinusschwingung ergibt sich wie folgt:
+Die Effektivspannungen der Sinusschwingung:
 \begin{gather}
-    U_{eff} = \sqrt{\frac{1}{T}\int^T_0 U_0^2 \sin^2\left(\frac{2\pi}{T}\right) dt} = \sqrt{\frac{U_0^2}{T} \left[\frac{t}{2} - \frac{T\sin(\frac{4\pi}{T}t)}{8\pi}\bigg \vert^T_0 \right]} = \frac{U_0}{\sqrt{2}}\\[0,5cm]
-    \Rightarrow\boxed{U_{eff}=\frac{U_0}{\sqrt{2}}}
+    \boxed{U_{eff}=\frac{U_0}{\sqrt{2}}}
 \end{gather}
 \newpage
 
@@ -43,30 +44,20 @@ Als nächstes wird die Fourier-Reihe der Rechteckschwingung bestimmt. Diese hat 
 \end{gather}
 Da die Funktion der Rechteckschwingung punktsymmetrisch zum Ursprung ist, fallen alle Cosinusanteile weg, da $a_k = 0$. Somit muss nur $b_k$ wie folgt berechnet werden:
 \begin{gather}
-    \begin{aligned}
-        b_k &= \frac{2}{T} \int^{T}_{0} f(t)\sin(k \frac{2\pi}{T} t)dt\\
-            &= \frac{2}{T} \left[ \int^{\frac{T}{2}}_{0} U_0\sin(k \frac{2\pi}{T} t)dt - \int^{T}_{\frac{T}{2}} U_0\sin(k \frac{2\pi}{T} t)dt\right]\\
-            &= \frac{2}{T}\frac{U_0T}{k2\pi} \left[-\cos(k \frac{2\pi}{T} t) \bigg \vert^{\frac{T}{2}}_{0} + \cos(k \frac{2\pi}{T} t) \bigg \vert^{T}_{\frac{T}{2}} \right]\\
-            &= \frac{U_0}{k\pi} \left[-\cos(k\pi)+1 + 1 - \cos(k\pi)\right]\\
-            &= \frac{2U_0}{k\pi}\left[1-\cos(k\pi)\right]
-    \end{aligned}\\[0,5cm]
-    \Rightarrow \boxed{b_k =
+    b_k =
     \begin{cases}
         0, & k~\text{gerade}\\
         \frac{4U_0}{\pi}\frac{1}{2k-1}, & k~\text{ungerade}\\
-    \end{cases}}
+    \end{cases}
 \end{gather} 
-Es werden nur noch Terme mir ungeraden $k$ betrachtet und man erhält:
+Es werden nur noch Terme mit ungeraden $k$ betrachtet und man erhält:
 \begin{gather}
     \boxed{f(t) = \frac{4U_0}{\pi} \sum^{\infty}_{k=1} \frac{1}{2k-1} \sin((2k-1)\frac{2\pi}{T}t)}
 \end{gather}
-Die Effektivspannungen der Rechteckschwingung lässt sich trivial errechnen:
+Die Effektivspannungen der Rechteckschwingung:
 \begin{gather}
-    U_{eff} = \sqrt{\frac{1}{T}\left[\int^{\frac{T}{2}}_0 U_0^2dt + \int^T_{\frac{T}{2}} U_0^2 dt\right]} = U_0\\[0,5cm]
-    \Rightarrow\boxed{U_{eff} = U_0}
+    \boxed{U_{eff} = U_0}
 \end{gather}
-\newpage
-
 \subsection*{Dreiecksspannung}
 \label{sub:triangle}
 Als Letztes wollen wir die Dreieckschwingung betrachtet. Die Form dieser ist definiert wie folgt:
@@ -78,39 +69,19 @@ Als Letztes wollen wir die Dreieckschwingung betrachtet. Die Form dieser ist def
     \end{cases}
     ~\text{mit}~U_0 = \frac{aT}{4}
 \end{gather} 
-Die Funktion ist erneut punktsymmetrisch zum Ursprung, wodurch wieder alle $a_k$-Koeffizienten wieder 0 sind. $b_k$ ergibt sich dann durch folgende Rechnung:
+Die Funktion ist erneut punktsymmetrisch zum Ursprung, wodurch wieder alle $a_k$-Koeffizienten 0 sind. $b_k$ ergibt sich dann durch wie folgt:
 \begin{gather}
-    \begin{aligned}
-        b_k &= \frac{2}{T} \int^{\frac{3T}{4}}_{-\frac{T}{4}} f(t)\sin(k \frac{2\pi}{T} t)dt\\
-            &= \frac{2}{T} \left[\int^{\frac{T}{4}}_{-\frac{T}{4}} at\sin(k \frac{2\pi}{T} t)dt+ \int^{\frac{3T}{4}}_{\frac{T}{4}} a\left(\frac{T}{2}-t\right)\sin(k \frac{2\pi}{T} t)dt\right]\\
-            &= \frac{2a}{T} \left[\int^{\frac{T}{4}}_{-\frac{T}{4}} t\sin(k \frac{2\pi}{T} t)dt - \int^{\frac{3T}{4}}_{\frac{T}{4}}t\sin(k \frac{2\pi}{T} t)dt\right] + \int^{\frac{3T}{4}}_{\frac{T}{4}}a\sin(k \frac{2\pi}{T} t)dt\\
-            &= (\text{I}) + (\text{II})\\
-        (\text{I}) &= \frac{2a}{T} \left[\int^{\frac{T}{4}}_{-\frac{T}{4}} t\sin(k \frac{2\pi}{T} t)
-            dt - \int^{\frac{3T}{4}}_{\frac{T}{4}}t\sin(k \frac{2\pi}{T} t)dt\right] \Rightarrow~\text{Partielle Integration}\\
-            %&= \frac{2a}{T}\frac{T}{k2\pi} \left[-t\cos(k \frac{2\pi}{T} t) \bigg \vert^{\frac{T}{4}}_{-\frac{T}{4}} + t\cos(k \frac{2\pi}{T} t) \bigg \vert^{\frac{3T}{4}}_{\frac{T}{2}}\right]\\
-            %&\tab+\frac{2a}{T}\frac{T}{k2\pi}\left[\int^{\frac{T}{4}}_{-\frac{T}{4}} \cos(k \frac{2\pi}{T} t)dt - \int^{\frac{3T}{4}}_{\frac{T}{4}} \cos(k \frac{2\pi}{T} t)dt\right]\\
-            &= \frac{2a}{T}\frac{T}{k2\pi}\left[\int^{\frac{T}{4}}_{-\frac{T}{4}} \cos(k \frac{2\pi}{T} t)dt - \int^{\frac{3T}{4}}_{\frac{T}{4}} \cos(k \frac{2\pi}{T} t)dt\right]\\
-            &= \frac{2a}{T}\left(\frac{T}{k2\pi}\right)^2 \left[\sin(k \frac{2\pi}{T} t) \bigg \vert^{\frac{T}{4}}_{-\frac{T}{4}} - \sin(k \frac{2\pi}{T} t) \bigg \vert^{\frac{3T}{4}}_{\frac{T}{2}}\right]\\
-            &= \frac{2a}{T}\left(\frac{T}{k2\pi}\right)^2 \left[\sin(k\frac{\pi}{2}) - \sin(-k\frac{\pi}{2}) - \sin(k\frac{3\pi}{2}) + \sin(k\frac{\pi}{2})\right]\\
-        (\text{II}) &= \int^{\frac{3T}{4}}_{\frac{T}{4}}a\sin(k \frac{2\pi}{T} t)dt = 0
-    \end{aligned}\\[0,5cm]
-    \Rightarrow \boxed{b_k =
+    b_k =
     \begin{cases}
         0, & k~\text{gerade}\\
-        \frac{8aT}{4\pi^2}\frac{(-1)^{k-1}}{(2k-1)^2}, & k~\text{ungerade}\\
-    \end{cases}}
+        \frac{8U_0}{\pi^2}\frac{(-1)^{k-1}}{(2k-1)^2}, & k~\text{ungerade}\\
+    \end{cases}
 \end{gather}
-Es werden wieder nur die Terme mit ungeraden $k$ betrachtet und $\frac{aT}{4}$ mit $U_0$ ersetzt. Somit erhält man:
+Es werden wieder nur die Terme mit ungeraden $k$ betrachtet. Somit erhält man:
 \begin{gather}
     \boxed{f(t) = \frac{8U_0}{\pi^2} \sum^{\infty}_{k=1} \frac{(-1)^{k-1}}{(2k-1)^2} \sin((2k-1)\frac{2\pi}{T}t)}
 \end{gather} 
-Die Effektivspannungen der Dreieckschwingung wird wie folgt ermittelt:
+Die Effektivspannungen der Dreieckschwingung:
 \begin{gather}
-    \begin{aligned}
-        U_{eff} &= \sqrt{\frac{1}{T}\left[\int^{\frac{T}{4}}_{-\frac{T}{4}} (at)^2dt + \int^{\frac{3T}{4}}_{\frac{T}{4}} \left(a\left(\frac{T}{2}-t\right)\right)^2 dt\right]}\\
-                &= \sqrt{\frac{a^2}{T}\left[\int^{\frac{T}{4}}_{-\frac{T}{4}} t^2dt + \int^{\frac{3T}{4}}_{\frac{T}{4}} \left(\frac{T}{2}-t\right)^2 dt\right]}
-                = \sqrt{\frac{a^2}{3T}\left[t^3 \bigg \vert^{\frac{T}{4}}_{-\frac{T}{4}} - \left(\frac{T}{2}-t\right)^3 \bigg \vert^{\frac{3T}{4}}_{\frac{T}{4}}\right]}\\
-                &= \sqrt{\frac{a^2}{3T}\left(\frac{T^3}{16}\right)} = \sqrt{\frac{1}{3}\left(\frac{aT}{4}\right)^2} = \sqrt{\frac{U_0^2}{3}} = \frac{U_0}{\sqrt{3}}
-     \end{aligned}\\[0,5cm]
-     \Rightarrow\boxed{U_{eff} = \frac{U_0}{\sqrt{3}}}
+     \boxed{U_{eff} = \frac{U_0}{\sqrt{3}}}
 \end{gather}
