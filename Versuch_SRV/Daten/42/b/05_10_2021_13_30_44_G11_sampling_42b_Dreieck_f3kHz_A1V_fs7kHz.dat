@@ -1,8 +1,8 @@
 # 05_10_2021_13_30_44_G11_sampling_42b_Dreieck_f3kHz_A1V_fs7kHz
 # measuring signal to noise
 # 42b_Dreieck_f3kHz_A1V_fs7kHz
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
+time y-generator y-behind Fqscale-FFT y-FFTcurve
 0.0000	-0.0257	-0.0257	0.0000	-46.0040
 0.1428	0.3111	0.3111	0.7778	-38.8523
 0.2857	-0.5979	-0.5979	1.5556	-41.9755
