@@ -13,16 +13,18 @@ dataBuLo1 = 'Versuch_SRV/Daten/43/b/05_10_2021_15_02_04_G11_filtering_43b_Rechte
 data = dataBuLo1
 df = pd.read_csv(data, skiprows=3, sep='\s+')
 
-'''Plot Signal
+#'''Plot Signal
 t = 1000
 plt.figure(figsize=(12, 6), dpi=80)
-plt.plot(df['time'].iloc[:t], df['y-generator'].iloc[:t], 'k-')
-plt.xlabel('$t$ in s')
+plt.plot(df['time'].iloc[:t], df['y-generator'].iloc[:t], 'g--', label='Ungefiltert')
+plt.plot(df['time'].iloc[:t], df['y-behind'].iloc[:t], 'k-', label='Gefiltert')
+plt.xlabel('$t$ in ?')
 plt.ylabel('y')
+plt.legend()
 plt.show()
 #'''
 
-#'''Plot Fourie
+'''Plot Fourie
 df = df.sort_values(by=['Fqscale-FFT'])
 plt.figure(figsize=(12, 6), dpi=80)
 plt.plot(df['Fqscale-FFT'], df['y-FFTcurve'], 'k-')
