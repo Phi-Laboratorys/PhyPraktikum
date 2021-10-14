@@ -14,10 +14,11 @@ data = data1
 df = pd.read_csv(data)
 
 #print(df.head())
-
+plt.figure(figsize=(12, 6), dpi=80)
 plt.plot(df['$f_{Abtast}$ in kHz'], df['$f_{Mes} in kHz$'], 'k.', label='Messpunkte')
-plt.plot([40,40], [0,21], linestyle='--', color='gray', label='$f_{crit}$')
-plt.xlabel('$f_{Abtast}$ in kHz')
-plt.ylabel('$f_{Mes}$ in kHz')
+plt.plot([40,40], [0,21], linestyle='--', color='gray', label='r$f_\mathrm{crit}$')
+plt.xlabel(r'$f_\mathrm{Abtast}$ in kHz')
+plt.ylabel(r'$f_\mathrm{Mess}$ in kHz')
 plt.legend()
+plt.savefig('Versuch_SRV/Bilder/Paul/42a1.pdf', bbox_inches = 'tight')
 plt.show()
