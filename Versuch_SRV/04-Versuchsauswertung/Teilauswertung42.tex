@@ -1,21 +1,40 @@
 \section{Theorem von Nyquist}
 
+Im Folgenden soll das Theorem von Nyquist genauer betrachtet werden.\\
+Das Theorem besagt das ein Signal, begrenzt mit $f_{max}$, nur mit einer Abtastfrequenz von größer $f_{crit}$ exakt rekonstruiert werden kann.
+\begin{align}
+    f_{crit} = 2 \cdot f_{max}
+\end{align}
 
+
+Um dies genauer zu untersuchen wurde zuerst die Abtastrate für ein unverrauschtes Sinussignal ($f = 20$ kHz) variiert und gegen die gemessene Frequenz aufgetragen.
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Paul/42a1.pdf}
-    \caption{}
+    \caption{Variation der Abtastrate gegen die gemessene Frequenz, bei konstanter Generatorfrequenz.}
+    \label{fig:42a1}
 \end{figure}
 
+In Abbildung \ref{fig:42a1} ist deutlich zu erkennen, dass für $f_s > f_{crit}$ die Frequenz korrekt gemessen wird. Bei unterschreiten der kritischen Frequenz fällt die gemessene Frequenz jedoch unter den eigentlichen Wert, bis $f = f_s$. Wenn die Abtastfrequenz gleich der Generatorfrequenz ist, wird eine Frequenz von 0 gemessen, also ein konstantes Signal. Das ist klar, weil der Detektor immer den gleichen Punkt der Signalabfolge erwischt und dies somit als konstantes Signal wahrnimmt. Dies tritt nicht nur für $f = f_s$ auf, sondern immer dann wenn $f_s = n \cdot f$ mit $ n= 1,2,3...$. Aus diesem Grund entsteht vor der kritischen Frequenz ein Sägezahn ähnliches Muster.
 
+\newpage
+In der zweiten Messreihe wurde nun die Abtastrate ($f_s = 20$ kHz) konstant gehalten und die Frequenz des Generators wurde variiert, welche wiederum gegen die gemessene Frequenz aufgetragen wurde.
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Paul/42a2.pdf}
-    \caption{}
+    \caption{Variation der Generatorfrequenz gegen die gemessene Frequenz, bei konstanter Abtastfrequenz.}
+    \label{fig:42a2}
 \end{figure}
+In Abbildung \ref{fig:42a2} ist wieder deutlich zu sehen, dass für $f_s > f_{crit}$ die Frequenz richtig gemessen wird. Ist dies jedoch nicht mehr der Fall, so tritt analog zu oben wieder ein Sägezahnmuster auf.
 
+
+\newpage
+Des Weiteren wurde das Fourierspektrum eines Dreieckssignal ($f = 3$ kHz), mit einer Abtastfrequenz von $f_s = 7$ kHz, aufgenommen.
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Paul/42b-fs7kHz.pdf}
-    \caption{}
+    \caption{Fourierspektrum eines Dreieckssignal ($f = 3$ kHz), $f_s = 7$ kHz.}
+    \label{fig:42a3}
 \end{figure}
+
+In Abbildung \ref{fig:42a3} ist der Effekt des Aliasing zu erkennen, das heißt der Detektor kann nicht unterscheiden, welche die richtig gemessene Frequenz ist und was die Aliase (falsche zugeordnete Messwerte) der eigentlichen Frequenz sind. Da wie die Generatorfrequenz kennen, wissen wir, dass die richtige Frequenz $f=3$ kHz ist und die Peaks bei $f_1=1$ kHz und $f_2=2$ kHz die Aliase dieser sind. Hat man dieses wissen jedoch nicht, kann dies jedoch zu nicht unerheblichen Messfehlern führen.
