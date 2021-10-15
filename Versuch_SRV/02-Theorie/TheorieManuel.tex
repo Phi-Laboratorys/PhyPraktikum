@@ -92,6 +92,7 @@ Ein Lock-In Verstärker misst aufgrund der Multiplikation mit einer Sinusschwing
 
 \newpage
 \section{Leistungspegel}
+\label{sec:pegel}
 Der Leistungspegel $L_p$ gibt das 10fache logarithmische Verhältnis zwischen Nutzleistung $P$ und Bezugsleistung $P_0$ in \si{\deci\bel} an und ist definiert als:
 \begin{gather}
     L_P = 10 \log_{10}\left(\frac{P}{P_0}\right)
@@ -100,6 +101,7 @@ Der Leistungspegel $L_p$ gibt das 10fache logarithmische Verhältnis zwischen Nu
 In diesem Versuch ist vom Interesse den Leistungspegel der Spannungen $L_U$ anzugeben. Dafür wird die Formel $P = U \cdot I$ mit dem ohmischen Gesetz $R = \frac{U}{I}$ umgestellt zu $P = \frac{U^2}{R}$ und in Gleichung (\ref{eq:pegel}) eingesetzt. Somit erhält man:
 \begin{gather}
     L_U = 10 \log_{10}\left(\frac{U^2}{U_0^2}\right) = 20 \log_{10}\left(\frac{U}{U_0}\right)
+    \label{eq:spannungpegel}
 \end{gather}
 Damit entspricht der Leistungspegel der Spannungen das doppelte des herkömmlich definierten Leistungspegel \citep{electronik}.\\
 Um das Verständnis zu vertiefen werden noch einige bestimmte Verhältnisse zu charakteristischen \si{\deci\bel} angegeben:
@@ -124,8 +126,8 @@ Um das Verständnis zu vertiefen werden noch einige bestimmte Verhältnisse zu c
 \end{center}
 In Tabelle \ref{tab:pegel} lässt sich sehr gut die Verdopplungsregel des Leistungspegel erkennen. Dabei steigt der Pegel um 3dB an (bei $L_U$ um 6dB), wenn man das Verhältnis verdoppelt. Dies hat damit zu tun, dass der 10er-Logarithmus von 2 ungefähr 0.3 ist und dieser mit der Multiplikation von 10 nach der Gleichung (\ref{eq:pegel}) dann 3dB ergibt.
 \newpage
-\section{Abtasttheorem}
-Das Abtasttheorem besagt, dass aus den Abtastwerten das ursprüngliche Signal (kontinuierlich) fehlerfrei rekonstruiert werden kann, wenn die Abtastfrequenz mindestens doppelt so groß ist wie die höchste Signalfrequenz $f_{max}$. 
+\section{Theorem von Nyquist}
+Das Theorem von Nyquist oder auch Abtasttheorem besagt, dass aus den Abtastwerten das ursprüngliche Signal (kontinuierlich) fehlerfrei rekonstruiert werden kann, wenn die Abtastfrequenz mindestens doppelt so groß ist wie die höchste Signalfrequenz $f_{max}$. 
 \begin{gather}
     f \geq 2\cdot f_{max}
 \end{gather} 

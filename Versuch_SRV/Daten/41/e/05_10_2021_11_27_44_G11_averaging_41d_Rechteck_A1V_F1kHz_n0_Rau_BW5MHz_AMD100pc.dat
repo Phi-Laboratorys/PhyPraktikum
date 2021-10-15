@@ -1,8 +1,8 @@
 # 05_10_2021_11_27_44_G11_averaging_41d_Rechteck_A1V_F1kHz_n0_Rau_BW5MHz_AMD100pc
 # measuring signal to noise
 # 41d_Rechteck_A1V_F1kHz_n0_Rau_BW5MHz_AMD100pc
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 0.0000	-0.3808	-0.3808	0.0000	-55.6577
 0.0040	0.4893	0.4893	27.7778	-56.6433
 0.0080	0.4735	0.4735	55.5556	-73.4425

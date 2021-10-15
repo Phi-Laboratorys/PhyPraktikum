@@ -1,8 +1,8 @@
 # 05_10_2021_10_52_16_G11_averaging_41a_Rechteck_A1V_F1kHz_n10
 # measuring signal to noise
 # 41a_Rechteck_A1V_F1kHz_n10
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 0.0000	-0.7393	-0.7130	0.0000	-74.2571
 0.0040	1.0020	1.0023	27.7778	-75.4488
 0.0080	1.0026	1.0021	55.5556	-90.4157
