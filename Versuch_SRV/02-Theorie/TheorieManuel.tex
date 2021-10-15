@@ -2,10 +2,53 @@
 \newpage
 \section{Möglichkeiten der Signal-Rausch Verbesserung}
 \label{sec:verbesserung}
+Dieser Abschnitt behandelt die Methoden zur Signal/Rausch-Verbesserung und dessen Umsetzung.
 \subsection{Filter}
 \label{sub:filter}
-\subsection{Mittelung}
+Eine Möglichkeit zur Signal/Rausch-Verbesserung ist der Einsatz eines Filters. Die Aufgabe des Filters ist hierbei die Unterdrückung bestimmter Frequenzen. Dabei ist zu beachten, dass das Signal bei einer anderen Frequenz auftritt als das Rauschen, sonst würden man nämlich das Signal mit filtern. Bei der Filterung wird die Bandbreite das Rauschen stark reduziert (Zu sehen an Gleichung (2.1) und (2.3)), aber auch Störstrahlen aus der Umgebung werden minimiert \citep{VA}.
+\subsection*{Filtertypen}
+\begin{itemize}
+    \item[1)]\textbf{Tiefpass}\\
+    Ein Tiefpassfilter filtern Frequenzen \textbf{oberhalb} der Grenzfrequenz heraus und lassen Freequenzen unterhalb nahezu ungedämpft durch. Die Grenzfrequenz ist dadurch charakterisiert, dass das Ausgangssignal zu dieser Frequenz um 3dB kleiner ist (ab dort beginnt der Durchlassbereich) \citep{electronik}.
+    \item[2)]\textbf{Hochpass}\\
+    Ein Hochpassfilter filtern Frequenzen \textbf{unterhalb} der Grenzfrequenz heraus und lassen Freequenzen oberhalb nahezu ungedämpft durch. Ein Hochpassfilter ist das Gegenstück zum Tiefpassfilter \citep{electronik}. Kann verwwendet werden, um die 50Hz Brummspannung zu filtern \citep{VA}.
+    \item[3)]\textbf{Bandpass}\\
+    Ein Bandpass sperrt Frequenzen \textbf{unter- und oberhalb} eines definierten Frequenzbandes. Das Frequenzband ist durch die 3dB-Bandbreite um die Mittenfrequenz charakterisiert. Diese Art des Filters ist eine Reihenschaltung aus Tiefpass- und Hochpassfilter und die Bandbreite wird durch die Grenzfrequenzen der jeweiligen Filter festgelegt \citep{electronik}. Findet Einsatz bei der Filterung von breitbandigen Rauschen \citep{VA}.
+    \item[4)]\textbf{Bandsperre/Notch-Filter}\\
+    Ein Bandsperre sperrt einen schmalen Frequenzbereich innerhalb eines breiten Frequenzbandes und kann wie das Gegenstück zu einem Bandpass angesehen werden \citep{electronik}.
+\end{itemize}
+In Abbildung \ref{image:verlauf} ist der generelle Verlauf der jeweiligen Filtertypen im Frequenzbereich dargestellt.
+\newpage
+\begin{center}
+    \includegraphics[scale=0.3]{VerlaufFilter.png}
+    \captionof{figure}{Verlauf der jeweiligen Filtertypen im Frequenzbereich \citep{grafikQuelle}}
+    \label{image:verlauf}
+\end{center}
+\subsection*{Ordnung eines Filters}
+Die Ordnung eines Filters gibt an wie oft ein Filter hintereinander in Reihe geschaltet wurde. Somit wären zwei Tiefpassfilter in Reihe geschaltet ein Tiefpassfilter 2.Ordnung. Je höher die Ordnung eines Filters ist, desto steiler ist die sogenannte Flankensteilheit (Steigung der Verläufe in Abbildung \ref{image:verlauf}). Es ist aber zu beachten, dass sich durch die Ordnung die Verstärkung und die Phase in der Nähe der Grenzfrequenz verändern \citep{electronik}.
+\subsection*{Weitere Filtertypen}
+\begin{itemize}
+    \item[1)]\textbf{Butterworth-Tiefpassfilter}\\
+    Der Butterworth-Tiefpassfilter besitzt einen lagen horizontalen Frequenzgang, welcher erst kurz vor der Grenzfrequenz scharf abknickt. In der Sprungantwort lässt sich ein kräftiges Überschwingen (abhängig von der Ordnung) registrieren \citep{VA}.
+    \item[2)]\textbf{Tschebyscheff-Tiefpassfilter}\\
+    Ein Tschebyscheff-Tiefpassfilter besitzt oberhalb der Grenzfequenz einen noch steileren Abfall als der Butterworth, womit das Überschwingen der Sprungantwort im Vergleich noch stärker ist. Im Durchlassbereich verläuft die Verstärkung aber nicht monoton, sondern wellig mit konstanter Amplitude \citep{VA}.
+    \item[3)]\textbf{Bessel-Tiefpassfilter}\\
+    Der Bessel-Tiefpassfilter besitzt unter der Voraussetzung, dass die Phasenverschiebung in einem bestimmten Frequenzbereich proportional zur Frequenz ist, ein optimales Rechteck-Übertragungsverhalten. Der Frequenzgang knickt aber nicht so stark ein, wie bei den zwei vorher genannten Filter \citep{VA}.
+    \item[4)]\textbf{Tschebyscheff-Tiefpass}\\
+    Beim Tschebyscheff-Tiefpass ist der steilste Knick des Frequenzgangs nach der Grenzfrequenz, wodurch auch dieser Filter eine Überschwingung der Sprungantwort aufweist. Dies hat zur Folge, dass der Frequenzgang im Durchlassbereich eine Welligkeit aufweist. Durch Verminderung dieser Welligkeit geht der Tschebyscheff kontinuierlich in den Butterworth über \citep{VA}. 
+\end{itemize}
+
+\subsection{Signalmittelung}
 \label{sub:mittelung}
+Bei stark verrauschten Signal wird die Signalmittelung (signal averaging) verwendet. Zu beachten ist aber, dass die Bandbreiten des Signals und des Rauschens in derselben Größenordnung liegen, was die Anwendung eines Filters ausschließen würde. Auch ist die Voraussetzung, dass das Signal wiederholbar und dessen Phase bekannt ist. Bei der Signalmittelung wird das Signal mit Rauschen in $n$ Segmente unterteilt und in $n$ Kanälen gespeichert. Dieser Vorgang wird oft wiederholt und jeder neue Durchgang zum vorhandenen Speicherinhalt addiert, was ein Anwachsen des Signals proportional zu den Wiederholungen verursacht und beim Rauschen aufgrund seiner statischen Natur nur den quadratischen Mittelwert addiert wird. Allgemein erhält man für $N$ Wiederholungen eine Signal/Rausch-Verbesserung von $\sqrt{N}$ \citep{VA}. In Abbildung \ref{image:mittelung} wird die erzielte Signal/Rausch-Verbesserung durch ein Vorher-Nachher-Bild gezeigt.
+\begin{center}
+    \begin{tabular}{c c}
+        \includegraphics[scale = 0.3]{Mittelung1.png} &
+        \includegraphics[scale = 0.3]{Mittelung2.png}  
+    \end{tabular}
+    \captionof{figure}{Anwendung Signalmittelung: Links Vorher und Rechts Nachher \citep{VA}}
+    \label{image:mittelung}
+\end{center}
 \newpage
 \subsection{Lock-In Verstärker}
 \label{sub:lockin}
