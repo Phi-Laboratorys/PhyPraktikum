@@ -1,7 +1,7 @@
 # 05_10_2021_15_28_23_G11_filtering_43c_Sinus_f2kHz_A1V_DigiFil_Bu_Bapa_Or1_Lf1kHz_Uf4kHz
 # measuring signal to noise
 # 43c_Sinus_f2kHz_A1V_DigiFil_Bu_Bapa_Or1_Lf1kHz_Uf4kHz
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
 0.0000	-0.0066	-0.0002	0.0000	-128.2285	0.0000	-44.1706
 0.0040	0.0441	0.0011	25.0000	-124.4648	45.7778	-28.4878

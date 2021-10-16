@@ -1,7 +1,7 @@
 # 05_10_2021_15_49_43_G11_filtering_43d_Rechteck_f1kHz_A1V_Raus_BW20MHz_AMD70pc_DigiFil_Bu_Bapa_Or4_Lf500Hz_Uf1500Hz
 # measuring signal to noise
 # 43d_Rechteck_f1kHz_A1V_Raus_BW20MHz_AMD70pc_DigiFil_Bu_Bapa_Or4_Lf500Hz_Uf1500Hz
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
 0.0000	-0.3167	-0.0000	0.0000	-118.0610	0.0000	-87.8424
 0.0040	0.4877	-0.0000	25.0000	-115.1662	45.7778	-81.2824

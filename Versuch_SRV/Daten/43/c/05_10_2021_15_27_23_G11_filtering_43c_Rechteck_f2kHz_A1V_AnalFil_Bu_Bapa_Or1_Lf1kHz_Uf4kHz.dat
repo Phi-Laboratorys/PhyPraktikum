@@ -1,7 +1,7 @@
 # 05_10_2021_15_27_23_G11_filtering_43c_Rechteck_f2kHz_A1V_AnalFil_Bu_Bapa_Or1_Lf1kHz_Uf4kHz
 # measuring signal to noise
 # 43c_Rechteck_f2kHz_A1V_AnalFil_Bu_Bapa_Or1_Lf1kHz_Uf4kHz
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
 0.0000	-0.0105	-0.0105	0.0000	-45.1389	0.0000	0.0000
 0.0040	0.0411	0.0411	25.0000	-48.1497	45.7778	-0.0000

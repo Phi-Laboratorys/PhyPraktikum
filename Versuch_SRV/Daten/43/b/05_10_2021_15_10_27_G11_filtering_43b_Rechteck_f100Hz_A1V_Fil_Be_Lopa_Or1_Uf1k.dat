@@ -1,7 +1,7 @@
 # 05_10_2021_15_10_27_G11_filtering_43b_Rechteck_f100Hz_A1V_Fil_Be_Lopa_Or1_Uf1k
 # measuring signal to noise
 # 43b_Rechteck_f100Hz_A1V_Fil_Be_Lopa_Or1_Uf1k
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
 0.0000	-0.6666	-0.0083	0.0000	-70.1883	0.0000	-0.0279
 0.0040	1.0023	-0.0039	25.0000	-72.9448	45.7778	0.0002
