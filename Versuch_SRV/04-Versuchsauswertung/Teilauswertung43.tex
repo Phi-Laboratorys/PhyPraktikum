@@ -191,13 +191,28 @@ Aus Abbildung \ref{fig:43dOrd} ist zu erkennen, dass mit höherer Ordnung die Fu
 \newpage
 \subsection{Vergleich: Analoge und digitale Filterung}
 Um die analoge mit der digitalen Filterung zu Vergleichen wird zuerst eine Messung mit dem gewohntem Messaufbau für den digitalen Filter aufgenommen. Danach wird der digitale Filter über die Messsoftware deaktiviert und zwischen den Generator und Detektor wird ein analoger Filter (Modell: Ithaco 4302) geschaltet, der analog zum digitalen Filter eingestellt wurde.
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{Paul/43eADF.pdf}
-    \caption{Fourierspektren nach analoger und digitaler Filterung}
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Paul/43eDF.pdf}
+        \caption{digitale Filterung}
+    \end{subfigure}
+    \\
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Paul/43eAF.pdf}
+        \caption{analoge Filterung}
+    \end{subfigure}
+    \caption{Vergleich von analoger und digitaler Filterung}
     \label{fig:43e}
 \end{figure}
-In Abbildung \ref{fig:43e} sind die Fourierspektren nach analoger und digitaler Filterung aufgetragen.
-
 \newpage
+In Abbildung \ref{fig:43e} sind die Fourierspektren nach analoger und digitaler Filterung aufgetragen. Vergleicht man beides, so fällt auf, dass bei der digitalen Filterung auch der Hintergrund die Charakteristik des Bandpasses zeigt, wohingegen bei der analogen Filterung scheinbar nur die Nebenmaxima betroffen sind.\\
+Eine mögliche Erklärung wäre, dass der Hintergrund nach dem analogen Filter einkoppelt oder das diese Eigenschaft eine Eigenschaft des analogen Filters ist.
+
+
 \subsection{Vergleich Filterung und Mittelung}
+Wenn man Filterung und Mittelung gegenüberstellt, so ist der größte Unterschied wohl das beim Filtern aktiv bestimmte Frequenzen unterdrückt werden, je nach Einstellung bzw. Dimensionierung des Filters. Dies kann dabei helfen, dass das Messsignal von Störungen wie dem 50 Hz Brummen bereinigt werden kann.\\
+Mitteln hingegen ist besonders geeignet um die Messung von bspw. weißes Rauschen zu bereinigen da dies, gemittelt über die Zeit, null ergibt.
