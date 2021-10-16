@@ -1,4 +1,4 @@
-f(kHz),Ueff,sin}(V),Ueff,square}(V),Ueff,tri}(V)            
+f(kHz),Usin(V),Usquare(V),Utri(V)
 1,0.7072,0.9003,0.5733
 3,0.0000,0.3000,0.0636
 5,0.0000,0.1800,0.0229

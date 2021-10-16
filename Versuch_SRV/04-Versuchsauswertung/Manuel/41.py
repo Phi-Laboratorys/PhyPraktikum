@@ -147,7 +147,7 @@ plt.legend()
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/Mittelung.pdf', bbox_inches='tight')
 plt.show()
 '''
-
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe d      ##
@@ -167,22 +167,22 @@ plt.figure(figsize=(12,8), dpi=80)
 for i, n, c in zip(data, n, colors):
     df = pd.read_csv(i, skiprows=4, delim_whitespace= True)
     #df = df[:][:4500]
-    df = df[:][:251]
-    #df = df[:][5:125]
+    #df = df[:][:251]
+    df = df[:][5:125]
     
     #x, y = df['Fqscale-FFT']/1000, df['y-FFTcurve']
     x, y = df['time'], df['y-generator']
     
     plt.plot(x,y, label = '$d$ = '+n, color = c)
     
-plt.ylabel(r'$A$ in dB')
+plt.ylabel(r'$U$ in V')
 plt.xlabel(r'$f$ in kHz')
 plt.legend()
-plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstandKomplett.pdf', bbox_inches='tight')
-#plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstand.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstandKomplett.pdf', bbox_inches='tight')
+plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstand.pdf', bbox_inches='tight')
 plt.show()
-
 '''
+
 #############################
 ##                         ##
 ##      Teilaufgabe e      ##
@@ -202,18 +202,17 @@ plt.figure(figsize=(12,8), dpi=80)
 for i, n, c in zip(data, n, colors):
     df = pd.read_csv(i, skiprows=4, delim_whitespace= True)
     #df = df[:][:4500]
-    #df = df[:][:252]
-    df = df[:][5:125]
+    df = df[:][:252]
+    #df = df[:][5:125]
     
     #x, y = df['Fqscale-FFT']/1000, df['y-FFTcurve']
     x, y = df['time'], df['y-generator']
     
     plt.plot(x,y, label = r'$f_\mathrm{Band}$ = '+n, color = c)
     
-plt.ylabel(r'$A$ in dB')
+plt.ylabel(r'$U$ in V')
 plt.xlabel(r'$f$ in kHz')
 plt.legend()
-#plt.savefig('Versuch_SRV/Bilder/Manuel/41/BandbreiteKomplett.pdf', bbox_inches='tight')
-plt.savefig('Versuch_SRV/Bilder/Manuel/41/Bandbreite.pdf', bbox_inches='tight')
+plt.savefig('Versuch_SRV/Bilder/Manuel/41/BandbreiteKomplett.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_SRV/Bilder/Manuel/41/Bandbreite.pdf', bbox_inches='tight')
 plt.show()
-'''
