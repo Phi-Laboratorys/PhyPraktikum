@@ -9,9 +9,9 @@ Eine Möglichkeit zur Signal/Rausch-Verbesserung ist der Einsatz eines Filters. 
 \subsection*{Filtertypen}
 \begin{itemize}
     \item[1)]\textbf{Tiefpass}\\
-    Ein Tiefpassfilter filtern Frequenzen \textbf{oberhalb} der Grenzfrequenz heraus und lassen Freequenzen unterhalb nahezu ungedämpft durch. Die Grenzfrequenz ist dadurch charakterisiert, dass das Ausgangssignal zu dieser Frequenz um 3dB kleiner ist (ab dort beginnt der Durchlassbereich) \citep{electronik}.
+    Ein Tiefpassfilter filtern Frequenzen \textbf{oberhalb} der Grenzfrequenz heraus und lassen Frequenzen unterhalb nahezu ungedämpft durch. Die Grenzfrequenz ist dadurch charakterisiert, dass das Ausgangssignal zu dieser Frequenz um 3dB kleiner ist (ab dort beginnt der Durchlassbereich) \citep{electronik}.
     \item[2)]\textbf{Hochpass}\\
-    Ein Hochpassfilter filtern Frequenzen \textbf{unterhalb} der Grenzfrequenz heraus und lassen Freequenzen oberhalb nahezu ungedämpft durch. Ein Hochpassfilter ist das Gegenstück zum Tiefpassfilter \citep{electronik}. Kann verwwendet werden, um die 50Hz Brummspannung zu filtern \citep{VA}.
+    Ein Hochpassfilter filtern Frequenzen \textbf{unterhalb} der Grenzfrequenz heraus und lassen Frequenzen oberhalb nahezu ungedämpft durch. Ein Hochpassfilter ist das Gegenstück zum Tiefpassfilter \citep{electronik}. Kann verwendet werden, um die 50Hz Brummspannung zu filtern \citep{VA}.
     \item[3)]\textbf{Bandpass}\\
     Ein Bandpass sperrt Frequenzen \textbf{unter- und oberhalb} eines definierten Frequenzbandes. Das Frequenzband ist durch die 3dB-Bandbreite um die Mittenfrequenz charakterisiert. Diese Art des Filters ist eine Reihenschaltung aus Tiefpass- und Hochpassfilter und die Bandbreite wird durch die Grenzfrequenzen der jeweiligen Filter festgelegt \citep{electronik}. Findet Einsatz bei der Filterung von breitbandigen Rauschen \citep{VA}.
     \item[4)]\textbf{Bandsperre/Notch-Filter}\\
@@ -31,7 +31,7 @@ Die Ordnung eines Filters gibt an wie oft ein Filter hintereinander in Reihe ges
     \item[1)]\textbf{Butterworth-Tiefpassfilter}\\
     Der Butterworth-Tiefpassfilter besitzt einen lagen horizontalen Frequenzgang, welcher erst kurz vor der Grenzfrequenz scharf abknickt. In der Sprungantwort lässt sich ein kräftiges Überschwingen (abhängig von der Ordnung) registrieren \citep{VA}.
     \item[2)]\textbf{Tschebyscheff-Tiefpassfilter}\\
-    Ein Tschebyscheff-Tiefpassfilter besitzt oberhalb der Grenzfequenz einen noch steileren Abfall als der Butterworth, womit das Überschwingen der Sprungantwort im Vergleich noch stärker ist. Im Durchlassbereich verläuft die Verstärkung aber nicht monoton, sondern wellig mit konstanter Amplitude \citep{VA}.
+    Ein Tschebyscheff-Tiefpassfilter besitzt oberhalb der Grenzfrequenz einen noch steileren Abfall als der Butterworth, womit das Überschwingen der Sprungantwort im Vergleich noch stärker ist. Im Durchlassbereich verläuft die Verstärkung aber nicht monoton, sondern wellig mit konstanter Amplitude \citep{VA}.
     \item[3)]\textbf{Bessel-Tiefpassfilter}\\
     Der Bessel-Tiefpassfilter besitzt unter der Voraussetzung, dass die Phasenverschiebung in einem bestimmten Frequenzbereich proportional zur Frequenz ist, ein optimales Rechteck-Übertragungsverhalten. Der Frequenzgang knickt aber nicht so stark ein, wie bei den zwei vorher genannten Filter \citep{VA}.
     \item[4)]\textbf{Tschebyscheff-Tiefpass}\\
@@ -71,7 +71,7 @@ Damit ist das Output-Signal $s_x$ zwei Wechselspannungssignale mit unterschiedli
 \begin{gather}
     s_{x} = \frac{U_s}{2} \cos(\Theta_s-\Theta_r) = \frac{U_s}{2} \cos(\Delta\Theta)  
 \end{gather}
-Bei einem Phasenunterschied von $\Delta\Theta = 0$ lässt sich hierbei das Maximum der Amplitude messen ($\frac{U_s}{2}$) und bei $\Delta\Theta = \frac{\pi}{2}$ misst man überhaupt kein Output-Signal mehr. Solche Lock-In Verstärker mit nur einem PSD werden auch Einphasen-Lock-In genannt. Man kann aber auch ein zweites Lock-In-Signal mit Cosinusschwinung verwenden und dieses mit einem zweiten PSD mit dem Input-Signal multiplizieren. Mit dem selben Prozess wie zuvor erhält man die Beziehung:
+Bei einem Phasenunterschied von $\Delta\Theta = 0$ lässt sich hierbei das Maximum der Amplitude messen ($\frac{U_s}{2}$) und bei $\Delta\Theta = \frac{\pi}{2}$ misst man überhaupt kein Output-Signal mehr. Solche Lock-In Verstärker mit nur einem PSD werden auch Einphasen-Lock-In genannt. Man kann aber auch ein zweites Lock-In-Signal mit Cosinusschwinung verwenden und dieses mit einem zweiten PSD mit dem Input-Signal multiplizieren. Mit demselben Prozess wie zuvor erhält man die Beziehung:
 \begin{gather}
     s_{y} = \frac{U_s}{2} \sin(\Delta\Theta) 
 \end{gather} 
@@ -82,7 +82,7 @@ Weiterhin kann man mit $s_x$ und $s_y$ wie folgt die Amplitude des Output-Signal
     A = (s_x^2 + s_y^2)^{\frac{1}{2}} = \frac{U_s}{2}
 \end{gather}
 \subsection*{Was wird mit einem Lock-In gemessen?}
-Ein Lock-In Verstärker misst aufgrund der Multiplikation mit einer Sinusschwingung (Cosinusschwinung) den ersten Term der Fourier-Reihe des Input-Signals bei der Referenzfrequenz $f_r$. Dabei ist aber zu beachten, dass auch Rauschen, welches bei der Referenzfrequenz auftritt, mit gemessen wird und gegebenenfalls abgezogen werden muss. In Abbildung \ref{image:Block} ist zusätzlich der Aufbau des Lock-In Verstärkers dargestellt \citep{lockin}.
+Ein Lock-In Verstärker misst aufgrund der Multiplikation mit einer Sinusschwingung (Cosinusschwingung) den ersten Term der Fourier-Reihe des Input-Signals bei der Referenzfrequenz $f_r$. Dabei ist aber zu beachten, dass auch Rauschen, welches bei der Referenzfrequenz auftritt, mit gemessen wird und gegebenenfalls abgezogen werden muss. In Abbildung \ref{image:Block} ist zusätzlich der Aufbau des Lock-In Verstärkers dargestellt \citep{lockin}.
 \newpage
 \begin{center}
     \includegraphics[scale = 0.6]{BLockdiagrammLockIn.png}
@@ -124,7 +124,7 @@ Um das Verständnis zu vertiefen werden noch einige bestimmte Verhältnisse zu c
     \captionof{table}{Leistungspegel und zugehörige Verhältnisse}
     \label{tab:pegel}
 \end{center}
-In Tabelle \ref{tab:pegel} lässt sich sehr gut die Verdopplungsregel des Leistungspegel erkennen. Dabei steigt der Pegel um 3dB an (bei $L_U$ um 6dB), wenn man das Verhältnis verdoppelt. Dies hat damit zu tun, dass der 10er-Logarithmus von 2 ungefähr 0.3 ist und dieser mit der Multiplikation von 10 nach der Gleichung (\ref{eq:pegel}) dann 3dB ergibt.
+In Tabelle \ref{tab:pegel} lässt sich sehr gut die Verdopplungsregel des Leistungspegels erkennen. Dabei steigt der Pegel um 3dB an (bei $L_U$ um 6dB), wenn man das Verhältnis verdoppelt. Dies hat damit zu tun, dass der 10er-Logarithmus von 2 ungefähr 0.3 ist und dieser mit der Multiplikation von 10 nach der Gleichung (\ref{eq:pegel}) dann 3dB ergibt.
 \newpage
 \section{Theorem von Nyquist}
 Das Theorem von Nyquist oder auch Abtasttheorem besagt, dass aus den Abtastwerten das ursprüngliche Signal (kontinuierlich) fehlerfrei rekonstruiert werden kann, wenn die Abtastfrequenz mindestens doppelt so groß ist wie die höchste Signalfrequenz $f_{max}$. 
@@ -167,7 +167,7 @@ Die Effektivspannungen der Sinusschwingung:
 
 \subsection*{Rechteckschwingung}
 \label{sub:square}
-Als nächstes wird die Fourier-Reihe der Rechteckschwingung bestimmt. Diese hat die Form:
+Als Nächstes wird die Fourier-Reihe der Rechteckschwingung bestimmt. Diese hat die Form:
 \begin{gather}
     f(t) = 
     \begin{cases}
