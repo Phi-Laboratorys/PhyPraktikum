@@ -15,7 +15,7 @@ data43aEl = 'Versuch_SRV/Daten/43/a/05_10_2021_14_56_28_G11_filtering_43a_Sinus_
 data43aBe = 'Versuch_SRV/Daten/43/a/05_10_2021_14_58_20_G11_filtering_43a_Sinus_f100Hz_A1V_Rau_BW20MHz_AMD120pc_Fil_Be_Lopa_Or1_Uf1k.dat'
 
 
-data = data43aBu
+data = data43aCh
 df = pd.read_csv(data, skiprows=3, sep='\s+')
 df = df.sort_values(by=['Fqscale-FFT'])
 
@@ -40,6 +40,9 @@ df5 = df5.sort_values(by=['Fqscale-FFT'])
 
 plt.figure(figsize=(12, 6), dpi=80)
 plt.plot(df['Fqscale-FFT'], df['y-FFTcurve'], 'k-')
+plt.plot([1000,1000], [-200,0], 'r--')
+plt.plot([2000,2000], [-200,0], 'g--')
+plt.plot([10000,10000], [-200,0], 'b--')
 '''
 plt.plot(df1['Fqscale-FFT'], df1['y-FFTcurve'], 'b-', label='Butterworth')
 plt.plot(df2['Fqscale-FFT'], df2['y-FFTcurve'], 'g-', label='Chebyshev')
@@ -49,7 +52,7 @@ plt.plot(df5['Fqscale-FFT'], df5['y-FFTcurve'], 'k-', label='Bessel')
 #'''
 plt.xlabel('$f$ in Hz')
 plt.ylabel(r'Amplitude (dBV) 1V $U_\mathrm{eff}$ = 1 dBV')
-#plt.xscale('log')
+plt.xscale('log')
 #plt.legend()
 #plt.savefig('Versuch_SRV/Bilder/Paul/43aAll.pdf', bbox_inches = 'tight')
 plt.show()

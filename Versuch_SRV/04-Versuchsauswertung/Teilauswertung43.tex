@@ -18,43 +18,25 @@ In Abbildung \ref{fig:43aAll} fällt auf, dass sich Elliptic- und Chebyshevfilte
 
 \newpage
 Außerdem soll  für jede Filterkurve der 3dB-Punkt und die Steigung, für große Frequenzen bestimmt werden.
-Hierfür wurde für jede Filterkurve ein eigenes Diagramm erstellt, um das graphische Ablesen einfache zu gestalten.
-Anhang?
+Dies wurde mithilfe des Diagramms ermittelt.
 
-
-\begin{figure}[h]
+\begin{table}[h]
     \centering
-    \includegraphics[width=\textwidth]{Paul/43aBu.pdf}
-    \caption{Fourierspektrum des Butterworthfilter}
-\end{figure}
+    \begin{tabular}[h]{l|c|c|c}
+        Filter      & 3dB-Punkt in  Hz & Steigung in dB/Oktave & Steigung in dB/Dekade \\ \hline\hline
+        Butterworth &    $1994\pm50$   &        $4\pm2$        &      $16\pm4$         \\ \hline
+        Chebyshev   &    $1975\pm50$   &        $3\pm3$        &      $13\pm4$         \\ \hline
+        inverser Chebyshev &$1499\pm50$&        $4\pm2$        &      $19\pm3$         \\ \hline
+        Elliptic    &     $1499\pm50$  &        $3\pm4$        &      $15\pm6$         \\ \hline
+        Bessel      &     $1801\pm50$  &        $4\pm2$        &      $17\pm4$         \\ \hline
+    \end{tabular}
+    \caption{Werte des 3dB-Punktes und der Steigung für verschiedene Filter}
+    \label{tab:Stei}
+\end{table}
+Aus dem Vorbereitungsgespräch, mit dem Betreuer, ist bekannt, dass für einen Filter erster Ordnung 6 dB/Oktave (oder 20 dB/Dekade) erwartet werden. Trotz einiger Abweichungen stimmen die Größenordnungen, der Werte aus Tabelle \ref{tab:Stei} gut überein. Die großen Fehler sind der graphischen Werteermittlung geschuldet, für eine grobe Beurteilung, ob die vorliegende Messung Sinn ergib, war dies jedoch ausreichend.
 
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Paul/43aCh.pdf}
-    \caption{Fourierspektrum des Chebyshevfilter}
-\end{figure}
 
-\newpage
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Paul/43aInCh.pdf}
-    \caption{Fourierspektrum des inversen Chebyshevfilter}
-\end{figure}
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Paul/43aEl.pdf}
-    \caption{Fourierspektrum des Ellipticfilter}
-\end{figure}
-
-\newpage
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Paul/43aBe.pdf}
-    \caption{Fourierspektrum des Bessselfilter}
-\end{figure}
 
 \newpage
 \subsection{Filterwirkung auf Rechtecksignal}
@@ -164,7 +146,7 @@ In diesem Abschnitt soll die geeignete Einstellung eines Bandpasses (4. Ordnung)
 \end{figure}
 
 Die in Abbildung \ref{fig:43cverBa} gezeigten Signalfunktionen weichen stark von einer Rechteckfunktion ab und sind daher ungeeignet.\\
-Durch weiteres ausprobieren wurden bessere Einstellungen gefunden, welche die in Abbildung \ref{fig:43cBeBa} dargestellte Signalfunktion ergeben. Hier ist noch deutlich ein Rechtecksignal zu erkennen.
+Durch weiteres ausprobieren wurden bessere Einstellungen gefunden, welche die in Abbildung \ref{fig:43cBeBa} dargestellte Signalfunktion ergeben. Hier ist noch deutlich ein Rechtecksignal zu erkennen.\\
 
 \begin{figure}[h]
     \centering
@@ -172,6 +154,8 @@ Durch weiteres ausprobieren wurden bessere Einstellungen gefunden, welche die in
     \caption{Bandpass mit Durchlassbereich von 10 mHz bis 55 kHz}
     \label{fig:43cBeBa}
 \end{figure}
+
+Eine gute Rauschunterdrückung verursacht also eine große Signalverzerrung. Es ist also darauf zu achten, dass dieses Verhältnis, abhängig vom Fokus der Messung, klug gewählt wird.
 
 \newpage
 \subsection{Einfluss der Ordnung}
