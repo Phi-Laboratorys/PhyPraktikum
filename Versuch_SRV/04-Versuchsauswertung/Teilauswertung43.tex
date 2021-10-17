@@ -3,7 +3,7 @@ In diesem Abschnitt soll die Signalfilterung genauer betrachtet werden. Dafür w
 
 \subsection{Verschiedene Tiefpassfilterkurven}
 \label{sec:VerTi}
-Zuerst sollen die Filterkurven verschiedener Tiefpässe dargestellt werden. Hierzu wird am Generator ein Sinussignal ($f=100$ Hz) mit einer Rauschbandweite von 20 MHz eingestellt.\\
+Zuerst sollen die Filterkurven verschiedener Tiefpässe dargestellt werden. Hierzu wird am Generator ein Sinussignal ($f=100$Hz) mit einer Rauschbandweite von 20MHz eingestellt.\\
 
 Für einen groben Überblick und um Unterschiede besser erkennen zu können werden alle Filterkurven in einem gemeinsamen Diagramm dargestellt (Abbildung \ref{fig:43aAll}). \\
 
@@ -14,7 +14,7 @@ Für einen groben Überblick und um Unterschiede besser erkennen zu können werd
     \label{fig:43aAll}
 \end{figure}
 
-In Abbildung \ref{fig:43aAll} fällt auf, dass sich Elliptic- und Chebyshevfilter fast deckungsgleich überlagern. Auch Butterworth- und Besselfilter sind auch fast deckungsgleich mit den oben genannten lediglich für Frequenzen zwischen ca. $10^3$ Hz und $10^5$ Hz divergieren sie geringfügig. Am stärksten weicht der inverse Chebyshevfilter von den anderen ab. Der Verlauf ist sehr ähnlich, nahezu parallel, jedoch ist sie Kurve nach unten verschoben. \\
+In Abbildung \ref{fig:43aAll} fällt auf, dass sich Elliptic- und Chebyshevfilter fast deckungsgleich überlagern. Auch Butterworth- und Besselfilter sind auch fast deckungsgleich mit den oben genannten lediglich für Frequenzen zwischen ca. $1\cdot 10^3$Hz und $1\cdot 10^5$Hz divergieren sie geringfügig. Am stärksten weicht der inverse Chebyshevfilter von den anderen ab. Der Verlauf ist sehr ähnlich, nahezu parallel, jedoch ist sie Kurve nach unten verschoben. \\
 
 \newpage
 Außerdem soll  für jede Filterkurve der 3dB-Punkt und die Steigung, für große Frequenzen bestimmt werden.
@@ -23,24 +23,24 @@ Dies wurde mithilfe des Diagramms ermittelt.
 \begin{table}[h]
     \centering
     \begin{tabular}[h]{l|c|c|c}
-        Filter      & 3dB-Punkt in  Hz & Steigung in dB/Oktave & Steigung in dB/Dekade \\ \hline\hline
-        Butterworth &    $1994\pm50$   &        $4\pm2$        &      $16\pm4$         \\ \hline
-        Chebyshev   &    $1975\pm50$   &        $3\pm3$        &      $13\pm4$         \\ \hline
-        inverser Chebyshev &$1499\pm50$&        $4\pm2$        &      $19\pm3$         \\ \hline
-        Elliptic    &     $1499\pm50$  &        $3\pm4$        &      $15\pm6$         \\ \hline
-        Bessel      &     $1801\pm50$  &        $4\pm2$        &      $17\pm4$         \\ \hline
+        Filter      & \makecell{3dB-Punkt\\in Hz} & \makecell{Steigung\\ in dB/Oktave} & \makecell{Steigung\\ in dB/Dekade} \\ \hline
+        Butterworth &    $1994\pm50$   &        $4\pm2$        &      $16\pm4$         \\
+        Chebyshev   &    $1975\pm50$   &        $3\pm3$        &      $13\pm4$         \\
+        inverser Chebyshev &$1499\pm50$&        $4\pm2$        &      $19\pm3$         \\
+        Elliptic    &     $1499\pm50$  &        $3\pm4$        &      $15\pm6$         \\
+        Bessel      &     $1801\pm50$  &        $4\pm2$        &      $17\pm4$         \\
     \end{tabular}
     \caption{Werte des 3dB-Punktes und der Steigung für verschiedene Filter}
     \label{tab:Stei}
 \end{table}
-Aus dem Vorbereitungsgespräch, mit dem Betreuer, ist bekannt, dass für einen Filter erster Ordnung 6 dB/Oktave (oder 20 dB/Dekade) erwartet werden. Trotz einiger Abweichungen stimmen die Größenordnungen, der Werte aus Tabelle \ref{tab:Stei} gut überein. Die großen Fehler sind der graphischen Werteermittlung geschuldet, für eine grobe Beurteilung, ob die vorliegende Messung Sinn ergib, war dies jedoch ausreichend.
+Aus dem Vorbereitungsgespräch, mit dem Betreuer, ist bekannt, dass für einen Filter erster Ordnung 6dB/Oktave (oder 20dB/Dekade) erwartet werden. Trotz einiger Abweichungen stimmen die Größenordnungen, der Werte aus Tabelle \ref{tab:Stei} gut überein. Die großen Fehler sind der graphischen Werteermittlung geschuldet, für eine grobe Beurteilung, ob die vorliegende Messung Sinn ergib, war dies jedoch ausreichend.
 
 
 
 
 \newpage
 \subsection{Filterwirkung auf Rechtecksignal}
-In diesem Abschnitt soll die Wirkung verschiedener Filter auf ein Rechtecksignal ($f=100$ Hz) untersucht werden.\\
+In diesem Abschnitt soll die Wirkung verschiedener Filter auf ein Rechtecksignal ($f=100$Hz) untersucht werden.\\
 Hierfür wurde der Butterworthfilter und der inverse Chebyshevfilter ausgewählt, da dieser in Abschnitt \ref{sec:VerTi} die größte Abweichung von den anderen zeigte.
 
 \begin{figure}[h]
@@ -133,13 +133,13 @@ In diesem Abschnitt soll die geeignete Einstellung eines Bandpasses (4. Ordnung)
     \begin{subfigure}{0.9\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Paul/43cLf500Hf1500S.pdf}
-        \caption{Bandpass mit Durchlassbereich von 500 bis 1500 Hz}
+        \caption{Bandpass mit Durchlassbereich von 500 bis 1500Hz}
     \end{subfigure}
     \\
     \begin{subfigure}{0.9\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Paul/43cLf700Hf1300S.pdf}
-        \caption{Bandpass mit Durchlassbereich von 700 bis 1300 Hz}
+        \caption{Bandpass mit Durchlassbereich von 700 bis 1300Hz}
     \end{subfigure}
     \caption{Signalfunktion verschiedener Bandpässe}
     \label{fig:43cverBa}
@@ -151,7 +151,7 @@ Durch weiteres ausprobieren wurden bessere Einstellungen gefunden, welche die in
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Paul/43cLf10mHz55kHzS.pdf}
-    \caption{Bandpass mit Durchlassbereich von 10 mHz bis 55 kHz}
+    \caption{Bandpass mit Durchlassbereich von 10mHz bis 55kHz}
     \label{fig:43cBeBa}
 \end{figure}
 
@@ -199,5 +199,5 @@ Eine mögliche Erklärung wäre, dass der Hintergrund nach dem analogen Filter e
 
 
 \subsection{Vergleich Filterung und Mittelung}
-Wenn man Filterung und Mittelung gegenüberstellt, so ist der größte Unterschied wohl das beim Filtern aktiv bestimmte Frequenzen unterdrückt werden, je nach Einstellung bzw. Dimensionierung des Filters. Dies kann dabei helfen, dass das Messsignal von Störungen wie dem 50 Hz Brummen bereinigt werden kann.\\
+Wenn man Filterung und Mittelung gegenüberstellt, so ist der größte Unterschied wohl das beim Filtern aktiv bestimmte Frequenzen unterdrückt werden, je nach Einstellung bzw. Dimensionierung des Filters. Dies kann dabei helfen, dass das Messsignal von Störungen wie dem 50Hz Brummen bereinigt werden kann.\\
 Mitteln hingegen ist besonders geeignet um die Messung von bspw. weißes Rauschen zu bereinigen da dies, gemittelt über die Zeit, null ergibt.
