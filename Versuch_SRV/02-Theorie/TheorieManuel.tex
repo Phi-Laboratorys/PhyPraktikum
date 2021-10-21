@@ -52,7 +52,7 @@ Bei stark verrauschten Signalen wird die Signalmittelung verwendet. Zu beachten 
 \newpage
 \subsection{Lock-In Verstärker}
 \label{sub:lockin}
-Ein Lock-In Verstärker ist ein Detektor zum Auflösen von kleinen Wechselspannungssignalen bis zu ein paar nV. Dabei ist eine akkurate Messung des Signals, welches 1000fach stärkeres Rauschen besitzt, möglich. Es kommt dafür eine sogenannte phasensensitive Detektion zum Einsatz, um eine bestimmte Komponente des Signals bei einer bestimmten Referenzfrequenz $f_{r}$ und Phase $\Theta_{r}$ zu bestimmen. Dabei wird Rauschen, welches nicht auf der Referenzfrequenz liegt, herausgefiltert und trägt nicht mehr zum Signal bei.
+Ein Lock-In Verstärker ist ein Detektor zum Auflösen von kleinen Wechselspannungssignalen bis zu ein paar nV. Dabei ist eine akkurate Messung des Signals, welches 1000\,fach stärkeres Rauschen besitzt, möglich. Es kommt dafür eine sogenannte phasensensitive Detektion zum Einsatz, um eine bestimmte Komponente des Signals bei einer bestimmten Referenzfrequenz $f_{r}$ und Phase $\Theta_{r}$ zu bestimmen. Dabei wird Rauschen, welches nicht auf der Referenzfrequenz liegt, herausgefiltert und trägt nicht mehr zum Signal bei.
 \subsection*{Phasensensitive Detektion}
 Beim Lock-In wird wie oben erwähnt eine Referenzfrequenz benötigt. Diese Frequenz wird meistens durch das Experiment vorgegeben (z.B. Funktionsgenerator) und der Lock-In detektiert die Antwort des Experiments bei dieser Referenzfrequenz. In Abbildung \ref{image:signalRef} sind schematisch die jeweiligen Signale gezeigt. Als Referenzsignal wird eine Rechteckschwingung mit $f_{r}$ verwendet und das Experiment selbst wird von einer Sinusschwingung (Input-Signal) mit Funktion $s(t)=U_{s}\sin(\omega_{r}t + \Theta_{s})$ mit $\omega_{r}=2\pi f_{r}$, Amplitude $U_s$ und Phasenverschiebung $\Theta_{s}$ angeregt. Der Lock-In Verstärker erzeugt dann selbst eine Sinusschwingung mit Frequenz $f_l$ und der Funktion $l(t) = \sin(\omega_{l}t + \Theta_{r})$ mit $\omega_{l}=2\pi f_{l}$ als Signal, das Lock-In-Signal.
 \begin{center}
@@ -124,14 +124,14 @@ Um das Verständnis zu vertiefen werden noch einige bestimmte Verhältnisse zu c
     \captionof{table}{Leistungspegel und zugehörige Verhältnisse}
     \label{tab:pegel}
 \end{center}
-In Tabelle \ref{tab:pegel} lässt sich sehr gut die Verdopplungsregel des Leistungspegels erkennen. Dabei steigt der Pegel um 3dB an (bei $L_U$ um 6dB), wenn man das Verhältnis verdoppelt. Dies hat damit zu tun, dass der 10er-Logarithmus von 2 ungefähr 0.3 ist und dieser mit der Multiplikation von 10 nach der Gleichung (\ref{eq:pegel}) dann 3dB ergibt.
+In Tabelle \ref{tab:pegel} lässt sich sehr gut die Verdopplungsregel des Leistungspegels erkennen. Dabei steigt der Pegel um 3\,dB an (bei $L_U$ um 6\,dB), wenn man das Verhältnis verdoppelt. Dies hat damit zu tun, dass der 10er-Logarithmus von 2 ungefähr 0.3 ist und dieser mit der Multiplikation von 10 nach der Gleichung (\ref{eq:pegel}) dann 3\,dB ergibt.
 \newpage
 \section{Theorem von Nyquist}
 Das Theorem von Nyquist oder auch Abtasttheorem besagt, dass aus den Abtastwerten das ursprüngliche Signal (kontinuierlich) fehlerfrei rekonstruiert werden kann, wenn die Abtastfrequenz mindestens doppelt so groß ist wie die höchste Signalfrequenz $f_{max}$. 
 \begin{gather}
     f \geq 2\cdot f_{max}
 \end{gather} 
-Die Frequenz $2f_{max}$ wird als \textit{Nyquist-Frequenz} bezeichnet. Aus dem Abtasttheorem folgt auch, dass das Spektrum des Signals \textit{bandbegrenzt} ist, d.h. das Signal im Spektrum muss ab der maximalen Frequenz $f_{max}$ gleich 0 sein \citep{praktikum}.
+Die Frequenz $2\cdot f_{max}$ wird als \textit{Nyquist-Frequenz} bezeichnet. Aus dem Abtasttheorem folgt auch, dass das Spektrum des Signals \textit{bandbegrenzt} ist, d.h. das Signal im Spektrum muss ab der maximalen Frequenz $f_{max}$ gleich 0 sein \citep{praktikum}.
 \section{Fouriertransformation und Schnelle Fouriertransformation}
 Bei einer Fouriertransformation wird ein gegebenes Signal (ggf. eine Funktion) komplett in den Frequenzraum transformiert, dabei wird ein Integral von $-\infty$ bis $\infty$ ausgewertet. Der Rechenaufwand einer Fouriertransformation ist in der Regel in der Praxis sehr hoch, weswegen meist eine Schnelle Fouriertransformation (engl. Fast Fourier Transformation (FFT)) durchgeführt wird. Unter einer FFT versteht man eine effiziente Realisierung der Diskrete Fouriertransformation (DFT), mit der redundante Rechenschritte vermieden werden. Bei einer DFT wird nur ein abgetastetes Signal in den Frequenzraum überführt. Der Rechenaufwand von $N^2$ bei einer DFT verringert sich dann  bei einer FFT zu etwa $N\log_2\left(N\right)$ \citep{praktikum}.
 \section{Fourier-Reihe und Effektivspannung}
@@ -219,4 +219,4 @@ Die Effektivspannungen der Dreieckschwingung:
      \boxed{U_{eff} = \frac{U_0}{\sqrt{3}}\approx 0,57735 \cdot U_0}
 \end{gather}
 \section*{Gemeinsamkeiten von Rechteck und Dreiecksschwingung}
-Vergleicht man die Fourierreihe der Rechteck und Dreiecksschwingung erkennt man, dass beide Reihen nur aus Sinusschwingungen bestehen mit den selben Argumenten. Weiterhin ist zu erwähnen, dass die Reihen nur ungerade $k$ besitzen. Die einzigen Unterschiede treten auf bei den Vorfaktoren und den Summenkoeffizienten. Bei den Summenkoeffizienten besitzt die Rechteckschwingung eine $\frac{1}{k}$-Faktor, während die Dreiecksschwingung einen $\frac{1}{k^2}$-Faktor, welcher alterniert, aufweist. Dieser Vergleich zeigt deutlich, dass zwischen den beiden Schwingungsformen in ihrem Aufbau kein großer Unterschied in der Fourierreihe besteht, obwohl die Signal verschiedene Eigenschaften besitzen.
+Vergleicht man die Fourierreihe der Rechteck und Dreiecksschwingung erkennt man, dass beide Reihen nur aus Sinusschwingungen bestehen mit den selben Argumenten. Weiterhin ist zu erwähnen, dass die Reihen nur ungerade $k$ besitzen. Die einzigen Unterschiede treten auf bei den Vorfaktoren und den Summenkoeffizienten. Bei den Summenkoeffizienten besitzt die Rechteckschwingung eine $\frac{1}{k}$-Faktor, während die Dreiecksschwingung einen $\frac{1}{k^2}$-Faktor, welcher alterniert, aufweist. Dieser Vergleich zeigt deutlich, dass zwischen den beiden Schwingungsformen in ihrem Aufbau kein großer Unterschied in der Fourierreihe besteht, obwohl die Signal verschiedene Eigenschaften und Formen besitzen.

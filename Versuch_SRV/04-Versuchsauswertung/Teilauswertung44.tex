@@ -35,10 +35,10 @@ In der Tabelle \ref{tab:lockinFilter} ist schon angedeutet, dass sich bei den ge
     \captionof{table}{Vergleich Theorie und Praxis bei der Messung mit Lock-In Verstärker}
     \label{tab:lockinFourierkoeff}
 \end{center} 
-In Tabelle \ref{tab:lockinFourierkoeff} sieht man ganz deutlich wie präzise die Messung mit einem Lock-In Verstärkers ist. In der Berechnung hat man dabei bewusst auf die Fehlerrechnung verzichtet, da diese Fehler nur in der Größenordnung von $\pm 0,0001$V liegt. Im Vergleich zu Tabelle \ref{tab:fourierkoeff} hat der Lock-In Verstärker aber eine deutlich höhere Präzession der Messung, da bei der Messung vor allem bei Frequenzen von 1kHz eine Abweichung von ungefähr 0,002V zu verzeichnen war.
+In Tabelle \ref{tab:lockinFourierkoeff} sieht man ganz deutlich wie präzise die Messung mit einem Lock-In Verstärkers ist. In der Berechnung hat man dabei bewusst auf die Fehlerrechnung verzichtet, da diese Fehler nur in der Größenordnung von $\pm 0,0001$\,V liegt. Im Vergleich zu Tabelle \ref{tab:fourierkoeff} hat der Lock-In Verstärker aber eine deutlich höhere Präzession der Messung, da bei der Messung vor allem bei Frequenzen von 1\,kHz eine Abweichung von ungefähr 0,002\,V zu verzeichnen war.
 \newpage
 \paragraph{b)}\textbf{Bandbreite des Lock-In Verstärkers}\\
-Als Nächstes wird die Zeitkonstante und die damit verbundene Ordnung des Filters des Lock-In Verstärkers bestimmt. Dafür wurde an dem Lock-In Verstärker eine Sinusschwingung mit einer Frequenz von 1kHz und eine Amplitude von 100mV angelegt. Am Lock-In Verstärker wurde die Flankensteilheit $\Delta$ des eingebauten Tiefpassfilters von 6dB auf 18dB verändert und eine Zeitkonstante $\tau$ von 30ms eingestellt. Um die Zeitkonstante und Ordnung zu bestimmen wird eine Kurve durch die aufgenommene Messreihe gefittet. Die Form der Kurve wurde uns im Praktikum zur Verfügung gestellt worden und ist speziell für den Lock-In Verstärker SR830 DSP. Die Kurve hat dann die Gleichung:
+Als Nächstes wird die Zeitkonstante und die damit verbundene Ordnung des Filters des Lock-In Verstärkers bestimmt. Dafür wurde an dem Lock-In Verstärker eine Sinusschwingung mit einer Frequenz von 1\,kHz und eine Amplitude von 100\,mV angelegt. Am Lock-In Verstärker wurde die Flankensteilheit $\Delta$ des eingebauten Tiefpassfilters von 6\,dB auf 18\,dB verändert und eine Zeitkonstante $\tau$ von 30\,ms eingestellt. Um die Zeitkonstante und Ordnung zu bestimmen wird eine Kurve durch die aufgenommene Messreihe gefittet. Die Form der Kurve wurde uns im Praktikum zur Verfügung gestellt worden und ist speziell für den Lock-In Verstärker SR830 DSP. Die Kurve hat dann die Gleichung:
 \begin{gather}
     A_{\tau,n}(f) = \left[1 + (2\pi\tau(f-f_0))^2\right]^{-\frac{n}{2}}
 \end{gather}
@@ -55,15 +55,15 @@ Diese Gleichung beschreibt hierbei die Filterantwort des Lock-In Verstärkers, w
 \end{center}
 In Abbildung \ref{image:6dB} und \ref{image:18dB} sind jeweils die Fit für die jeweilige Messreihe dargestellt. Beim Vergleich der gefitteten Werte der Zeitkonstante $\tau$ mit dem tatsächlichen eingestellten Wert von 30ms zeigt, dass die Messung des Lock-In Verstärkers eine genaue Bestimmung der Zeitkonstante $\tau$ zulässt. Ein guter Indikator ist hierbei die Ordnung $n$, da die genau Zeitkonstante $\tau$ dann erzielt wurden als $n$ ganzzahlig war.
 
-Auch ist zu erkennen, dass durch eine Verdreifachung der Flankensteilheit $\Delta$ auch die Ordnung $n$ des Filters sich verdreifacht hat. Gut zu erkennen ist dies auch in Abbildung \ref{image:All}, in der die gefittete Kurve für $\Delta=18$dB viel schmäler ist als die gefittete Kurve für $\Delta=6$dB.
+Auch ist zu erkennen, dass durch eine Verdreifachung der Flankensteilheit $\Delta$ auch die Ordnung $n$ des Filters sich verdreifacht hat. Gut zu erkennen ist dies auch in Abbildung \ref{image:All}, in der die gefittete Kurve für $\Delta=18$\,dB viel schmäler ist als die gefittete Kurve für $\Delta=6$\,dB.
 \newpage
 \begin{center}
     \includegraphics[scale = 0.5]{Manuel/44/6dB.pdf}
-    \captionof{figure}{Fit für die Messung mit $\Delta$=6dB}
+    \captionof{figure}{Fit für die Messung mit $\Delta$=6\,dB}
     \label{image:6dB}
     \vspace{1cm}
     \includegraphics[scale = 0.5]{Manuel/44/18dB.pdf}
-    \captionof{figure}{Fit für die Messung mit $\Delta$=18dB}
+    \captionof{figure}{Fit für die Messung mit $\Delta$=18\,dB}
     \label{image:18dB}
     \vspace{1cm}
     \includegraphics[scale = 0.5]{Manuel/44/All.pdf}
@@ -71,6 +71,6 @@ Auch ist zu erkennen, dass durch eine Verdreifachung der Flankensteilheit $\Delt
     \label{image:All}
 \end{center}
 \paragraph{c)}\textbf{Lock-In in Praxis}\\
-Im letzten Abschnitt wird noch die Verwendung eines Lock-In Verstärkers in der Praxis besprochen. Dazu stand eine Leuchtdiode und eine Photodiode in einer Box mit Deckel zur Verfügung. Die Signale von Leuchtdiode und Photodiode wurden dann auf dem Oszilloskop betrachtet. Man konnte beobachten, dass bei offenen Deckel große Schwankungen am Oszilloskop entstanden. Dies kann damit erklärt werden, das die Photodiode neben dem Signal der Leuchtdiode auch das Licht der Beleuchtung des Raums registriert hat, welches mit 50Hz flackert. Wurde der Deckel geschlossen, ließen die Schwankung nach und die Photodiode detektierte nur noch das Signal der Leuchtdiode, welches trotzdem sehr verrauscht war (zu sehen in Abb. \ref{image:oszi}). 
+Im letzten Abschnitt wird noch die Verwendung eines Lock-In Verstärkers in der Praxis besprochen. Dazu stand eine Leuchtdiode und eine Photodiode in einer Box mit Deckel zur Verfügung. Die Signale von Leuchtdiode und Photodiode wurden dann auf dem Oszilloskop betrachtet. Man konnte beobachten, dass bei offenen Deckel große Schwankungen am Oszilloskop entstanden. Dies kann damit erklärt werden, das die Photodiode neben dem Signal der Leuchtdiode auch das Licht der Beleuchtung des Raums registriert hat, welches mit 50\,Hz flackert. Wurde der Deckel geschlossen, ließen die Schwankung nach und die Photodiode detektierte nur noch das Signal der Leuchtdiode, welches trotzdem sehr verrauscht war (zu sehen in Abb. \ref{image:oszi}). 
 
 Die Änderung der Zeitkonstante $\tau$ und Flankensteilheit $\Delta$ am Lock-In Verstärker ergaben eine Veränderung der Auflösung des Lock-In Verstärkers. Dabei war die Auflösung am höchsten, wenn auch die Zeitkonstante und Flankensteilheit am höchsten waren.

@@ -4,7 +4,7 @@
 \label{sec:mittelungAndTrafo}
 
 \paragraph{a)}\textbf{Experimentelle Bestimmung der Fourierentwicklungskoeffizienten}\\
-Im Folgendem wird die Fourierentwicklungskoeffizienten der Sinus, Rechteck und Dreiecksschwingung experimentelle bestimmt. Dazu werden die einzelnen Peaks im Fourierspektrum ermittelt, welche dann den Wert der Fourierentwicklungskoeffizienten für diese Frequenz darstellen. Beachtet werden nur ungerade Vielfache der eingestellten Frequenz. Dies folgt aus Kapitel \ref{sec:fourierseries} bei der nur ungerade Vielfache in der Reihenentwicklung von Rechteck und Dreieckschwingung vorkommen. Die Daten der Amplitude $A$ wurden dabei in deziBel aufgenommen. Für die Umrechnung der Amplitude in deziBel zu Volt wird die Gleichung (\ref{eq:spannungpegel}) aus Kapitel \ref{sec:pegel} auf Spannung $U$ umgewandelt und erhält:
+Im Folgendem wird die Fourierentwicklungskoeffizienten der Sinus, Rechteck und Dreiecksschwingung experimentelle bestimmt. Dazu werden die einzelnen Peaks im Fourierspektrum ermittelt, welche dann den Wert der Fourierentwicklungskoeffizienten für diese Frequenz darstellen. Beachtet werden nur ungerade Vielfache der eingestellten Frequenz. Dies folgt aus Kapitel \ref{sec:fourierseries} bei der nur ungerade Vielfache in der Reihenentwicklung von Rechteck und Dreieckschwingung vorkommen. Die Daten der Amplitude $A$ wurden dabei in dB aufgenommen. Für die Umrechnung der Amplitude in dB zu Volt wird die Gleichung (\ref{eq:spannungpegel}) aus Kapitel \ref{sec:pegel} auf Spannung $U$ umgewandelt und erhält:
 \begin{gather}
     L_U = 20 \log_{10}\left(\frac{U}{U_0}\right)~\Leftrightarrow~U = U_0 \cdot 10^{\frac{L_U}{20}}
 \end{gather}
@@ -13,7 +13,7 @@ Zu beachten ist noch, dass die Spannung $U$ die gemessene Effektivspannung ist m
     U = U_0 \cdot 10^{\frac{L_U}{20}} \cdot \sqrt{2}    
     \label{eq:umrechnung}
 \end{gather}
-Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut erkennen kann, dass die gemessenen Werte nicht weit von der Theorie abweichen. Die größte Abweichung weißen dabei die Werte bei einer Frequenz von 1000Hz auf. Dies kann aufgrund des höheren Spannungspegels $L_U$ geschehen sein, da bei einem niedrigeren Spannungspegel bei höheren Frequenzen die Abweichung stetig abnimmt.
+Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut erkennen kann, dass die gemessenen Werte nicht weit von der Theorie abweichen. Die größte Abweichung weißen dabei die Werte bei einer Frequenz von 1000\,Hz auf. Dies kann aufgrund des höheren Spannungspegels $L_U$ geschehen sein, da bei einem niedrigeren Spannungspegel bei höheren Frequenzen die Abweichung stetig abnimmt.
 \newpage
 \begin{center}
     \textbf{Sinus}\\[0,2cm]
@@ -107,16 +107,16 @@ Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut er
     \label{tab:fourierkoeff}
 \end{center}
 \paragraph{b)}\textbf{Fourierspektrum Sinusschwingung}\\
-Dieser Teil behandelt das Fourierspektrum der Sinusschwingung bei 1V Amplitude.
+Dieser Teil behandelt das Fourierspektrum der Sinusschwingung bei 1\,V Amplitude.
 \begin{center}
     \includegraphics[scale = 0.5]{Manuel/41/FourierSinus.pdf}
     \captionof{figure}{Fourierspektrum der Sinusschwingung}
     \label{image:fourierSinus}
 \end{center}
-Wie in Abbildung \ref{image:fourierSinus} ist deutlich ein ausgeprägter Peak zu erkennen. Dieser Peak ist wie in Tabelle \ref{tab:fourierkoeff} die Effektivspannung der Sinusschwingung in deciBel. Nach Kapitel \ref{sec:fourierseries} sollte aber das Fourierspektrum nur einen Peak bei der eingestellten Frequenz besitzen, aber in Abbildung \ref{image:fourierSinus} ist neben dem Peak deutlich noch weiter Peaks zu erkennen. Diese Peaks werden durch die Umgebungseinflüsse aus Kapitel \ref{sec:umwelt} und durch die Netzspannungsquelle selbst verursacht.
+Wie in Abbildung \ref{image:fourierSinus} ist deutlich ein ausgeprägter Peak zu erkennen. Dieser Peak ist wie in Tabelle \ref{tab:fourierkoeff} die Effektivspannung der Sinusschwingung in dB. Nach Kapitel \ref{sec:fourierseries} sollte aber das Fourierspektrum nur einen Peak bei der eingestellten Frequenz besitzen, aber in Abbildung \ref{image:fourierSinus} ist neben dem Peak deutlich noch weiter Peaks zu erkennen. Diese Peaks werden durch die Umgebungseinflüsse aus Kapitel \ref{sec:umwelt} und durch die Netzspannungsquelle selbst verursacht.
 \newpage
 \paragraph{c)}\textbf{Einfluss Mittelung auf Rechteckschwingung}\\
-Nun wird der Einfluss der Anzahl der Mittelung $N$ auf eine Rechteckschwingung mit einer Amplitude $U_0=$ 1V mit einem Bandrauschen der Bandbreite $f_{Band}=$ 20MHz und einer AM Depth $d =$ 120\% betrachtet.
+Nun wird der Einfluss der Anzahl der Mittelung $N$ auf eine Rechteckschwingung mit einer Amplitude $U_0=$ 1\,V mit einem Bandrauschen der Bandbreite $f_{Band}=$ 20\,MHz und einer AM Depth $d =$ 120\,\% betrachtet.
 \begin{center}
     \includegraphics[scale = 0.5]{Manuel/41/Mittelung.pdf}
     \captionof{figure}{Einfluss der Mittelung auf Fourierspektrum einer Rechteckschwingung}
@@ -125,7 +125,7 @@ Nun wird der Einfluss der Anzahl der Mittelung $N$ auf eine Rechteckschwingung m
 In Abbildung \ref{image:einflussMittelung} ist zu erkennen, dass sich mit der Zunahme der Anzahl der Mittelungen $N$ die Ausprägung der Peaks zunimmt. Dies war zu erwarten, da schon wie in Kapitel \ref{sub:mittelung} erklärt, bei der Mittelung das Signal des Rauschens nur um den Faktor $\sqrt{N}$ zunimmt, während das Signal der Rechteckschwingung proportional zur Wiederholung anwächst.
 \newpage
 \paragraph{d)}\textbf{Einfluss Signal/Rausch-Abstand auf zeitliche Signalform}\\
-Als weiteres wird der Einfluss des Signal/Rausch-Abstands $d$ auf die Signalform einer Rechteckschwingung mit einer Amplitude $U_0=$ 1V und einen Bandbreite $f_{Band}=$ 20MHz.
+Als weiteres wird der Einfluss des Signal/Rausch-Abstands $d$ auf die Signalform einer Rechteckschwingung mit einer Amplitude $U_0=$ 1\,V und einen Bandbreite\\$f_{Band}=$ 20\,MHz.
 In Abbildung \ref{image:sigRauRechtKomplett} ist zuerst der Einfluss des Signal/Rausch-Abstands auf die komplette Rechteckschwingung dargestellt. Schon hier erkennt man, dass mit höherem Signal/Rausch-Abstands das \enquote{Ausschlagen} der Amplitude des Rauschens zunimmt. Noch deutlich ist dies zu erkennen in Abbildung \ref{image:sigRauRecht}, die ein Ausschnitt aus dem oberen Umkehrpunkt der Rechteckschwingung ist. Die Änderung des Signal/Rausch-Abstands hat aber keinen generellen Einfluss auf den Verlauf der Signalform der Rechteckschwingung.
 \newpage
 \begin{center}
@@ -140,7 +140,7 @@ In Abbildung \ref{image:sigRauRechtKomplett} ist zuerst der Einfluss des Signal/
 \end{center}
 
 \paragraph{e)}\textbf{Einfluss Bandbreite auf zeitliche Signalform}\\
-Zuletzt in diesem Kapitel wird der Einfluss der Bandbreite auf die zeitliche Signalform besprochen. Dabei wird wieder eine Rechteckschwingung mit einer Amplitude $U_0=$ 1V und einem Signal/Rausch Abstand $d=$ 100\% verwendet. In Abbildung \ref{image:bandbreiteRechtKomplett} wird erneut eine komplette Rechteckschwingung gezeigt. Darauf erkennt man, dass der Funktionsgenerator die Form des Rechtecksignals mit kleineren Bandbreiten $f_{Band}$ nicht mehr erzeugen kann. Vor allem bei Frequenzen unter 100kHz. Aber auch eine Zunahme des Rauschens ist zu erkennen, wenn die Bandbreite kontinuierlich abnimmt. In Abbildung \ref{image:bandbreiteRecht} kann man dies noch genauer betrachten. 
+Zuletzt in diesem Kapitel wird der Einfluss der Bandbreite auf die zeitliche Signalform besprochen. Dabei wird wieder eine Rechteckschwingung mit einer Amplitude\\ $U_0=$ 1\,V und einem Signal/Rausch Abstand $d=$ 100\,\% verwendet. In Abbildung \ref{image:bandbreiteRechtKomplett} wird erneut eine komplette Rechteckschwingung gezeigt. Darauf erkennt man, dass der Funktionsgenerator die Form des Rechtecksignals mit kleineren Bandbreiten $f_{Band}$ nicht mehr erzeugen kann. Vor allem bei Frequenzen unter 100\,kHz. Aber auch eine Zunahme des Rauschens ist zu erkennen, wenn die Bandbreite kontinuierlich abnimmt. In Abbildung \ref{image:bandbreiteRecht} kann man dies noch genauer betrachten. 
 \newpage
 \begin{center}
     \includegraphics[scale = 0.5]{Manuel/41/BandbreiteKomplett.pdf}
