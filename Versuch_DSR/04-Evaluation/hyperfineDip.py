@@ -10,7 +10,7 @@ rc('text', usetex=True)
 rc('font', family='serif', size=18)
 
 data = 'Versuch_DSR/Daten/Data_Trendless/allPeak/DataTrendless_allPeak_Temp24.csv'
-df = pd.read_csv(data,index_col=0)
+df = pd.read_csv(data)
 
 x = [df['x(A/Hz/V/nm)'][0:450],df['x(A/Hz/V/nm)'][450:900],
           df['x(A/Hz/V/nm)'][1100:1380],df['x(A/Hz/V/nm)'][1380:1650]]
@@ -20,19 +20,43 @@ yai1 = [df['yai1(V)'][0:450],df['yai1(V)'][450:900],
           df['yai1(V)'][1100:1380],df['yai1(V)'][1380:1650]]  
 yai4 = [df['yai4(V)'][0:450],df['yai4(V)'][450:900],
           df['yai4(V)'][1100:1380],df['yai4(V)'][1380:1650]]  
+relx = [df['relx(A)'][0:450],df['relx(A)'][450:900],
+          df['relx(A)'][1100:1380],df['relx(A)'][1380:1650]]
+relf = [df['relFreq(THz)'][0:450],df['relFreq(THz)'][450:900],
+          df['relFreq(THz)'][1100:1380],df['relFreq(THz)'][1380:1650]]
+
+# For Lorentzian Fit
+relx3, relf3 = df['relx(A)'][1210:1290], df['relFreq(THz)'][1210:1290]
+
+
 '''
 n = 1
-for i,j,k,q in zip(x,yai1,yai3,yai4):
-    plt.figure(figsize=(12, 8), dpi=80)
-    plt.plot(i,j,label='sample beam')
-    plt.plot(i,k,label='reference beam')
-    plt.plot(i,q,label='fabry-pérot')
+for i,j,k,q,m,a in zip(x,yai1,yai3,yai4,relx,relf):
+    fig = plt.figure(figsize=(12, 8), dpi=80)
+    ax1 = fig.add_subplot(111)
+    ax2 = ax1.twiny()
     
-    plt.xlabel('laser current in mA')
+    ax2.plot(i,j,label='sample beam')
+    ax2.plot(i,k,label='reference beam')
+    ax2.plot(i,q,label='fabry-pérot')
+    
+    ax1.plot(i,j,label='sample beam')
+    ax1.plot(i,k,label='reference beam')
+    ax1.plot(i,q,label='fabry-pérot')
+    
+    ax1.set_xlabel('laser current in mA')
+    ax1.legend()
+    
+    axis1 = m.dropna().values.tolist()[::2]
+    axis2 = a.dropna().values.tolist()[::2]
+    axis2 = [ '%.0f' % elem for elem in axis2 ]
+
+    ax2.set_xticks(axis1)
+    ax2.set_xticklabels(axis2)
+    ax2.set_xlabel('$n\cdot\Delta\omega_{\mathrm{FSR}}$ in THz', labelpad=10)
+    
     plt.ylabel('amplitude in V')  
-    plt.legend()
     plt.savefig('Versuch_DSR/Bilder/Aufg-4/hyperfine'+str(n)+'.pdf', bbox_inches='tight')
-    plt.legend()
     plt.show()
     
     n += 1
@@ -91,7 +115,9 @@ amp = df_peak['y3_max(V)']
 mean = df_peak['x(A/Hz/V/nm)']
 
 
-plt.figure(figsize=(12, 8), dpi=80)
+fig = plt.figure(figsize=(12, 8), dpi=80)
+ax1 = fig.add_subplot(111)
+ax2 = ax1.twiny()
 
 n = 1
 for i,j,m,a in zip(x_data, y_data, mean, amp):
@@ -105,16 +131,27 @@ for i,j,m,a in zip(x_data, y_data, mean, amp):
     
     y_lor = lorentz(x, *popt) - 0.032
 
-    plt.plot(x, y_lor, label = 'lorentzian fit for dip'+str(n))
-    plt.fill_between(x,-0.032,y_lor,alpha=0.5)
+    ax1.plot(x, y_lor, label = 'lorentzian fit for dip'+str(n))
+    ax1.fill_between(x,-0.032,y_lor,alpha=0.5)
 
     n += 1
 
 
-plt.plot(x,y - 0.032, color='black', label = 'absorption spectrum peak 3')
+ax1.plot(x,y - 0.032, color='black', label = 'absorption spectrum peak 3')
+ax2.plot(x,y - 0.032, color='black', label = 'absorption spectrum peak 3')
 #plt.plot(df_peak['x(A/Hz/V/nm)'], df_peak['y3_max(V)'], 'o')
-plt.xlabel('laser current in mA')
+ax1.set_xlabel('laser current in mA')
+
+axis1 = relx3.dropna().values.tolist()
+axis2 = relf3.dropna().values.tolist()
+axis2 = [ '%.0f' % elem for elem in axis2 ]
+
+ax2.set_xticks(axis1)
+ax2.set_xticklabels(axis2)
+ax2.set_xlabel('$n\cdot\Delta\omega_{\mathrm{FSR}}$ in THz', labelpad=10)
+ax1.set_xlabel('laser current in mA')
+
 plt.ylabel('amplitude in V')  
-plt.legend(loc='upper left')
+ax1.legend(loc='upper left')
 plt.savefig('Versuch_DSR/Bilder/Aufg-4/hyperfinePeak3.pdf', bbox_inches='tight')
 plt.show()

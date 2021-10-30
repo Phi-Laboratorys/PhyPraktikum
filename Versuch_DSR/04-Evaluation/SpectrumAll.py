@@ -44,6 +44,8 @@ for i, j, k, f, q in zip(data,cut,dis, fit, temp):
     df = df[:][j:len(df)-j]
     df = df.drop(columns='yai2(V)')
     
+    '''Remove Trend'''
+    
     x = df['x(A/Hz/V/nm)']
     yai0, yai1, yai3, yai4 = df['yai0(V)'], df['yai1(V)'], df['yai3(V)'], df['yai4(V)']
 
@@ -67,11 +69,16 @@ for i, j, k, f, q in zip(data,cut,dis, fit, temp):
     yai4 = yai4-y_sig
 
     df['yai0(V)'], df['yai1(V)'], df['yai3(V)'], df['yai4(V)'] = yai0, yai1, yai3, yai4
+    
+    ######### Trendfree!!!! ##########
+    
     n = 5
-    #df['data'] = df['yai3(V)']
+    
+    # Elimate Points betweeen peaks caused by converting the wavelength to frequency
     df['yext(V)'] = df.iloc[argrelextrema(df['yai3(V)'].values, np.less_equal,order=n)[0]]['yai3(V)']
     df['yext(V)'].loc[df['yext(V)'] > -0.003] = np.nan
     
+    # Maxima fabry-perot
     df['yai4_max(V)'] = df.iloc[argrelextrema(df['yai4(V)'].values, np.greater_equal,order=n)[0]]['yai4(V)']
     
     print(df[['x(A/Hz/V/nm)','yai4_max(V)']].dropna())
@@ -97,10 +104,10 @@ for i, j, k, f, q in zip(data,cut,dis, fit, temp):
 
     plt.figure(figsize=(12, 8), dpi=80)
     #plt.plot(x, yai0)
-    #plt.plot(x, yai3, label='reference beam')
+    plt.plot(x, yai3, label='reference beam')
     plt.plot(x, yai4, label='fabry-pérot')
     plt.plot(x,df['yai4_max(V)'],'o')
-    #plt.show()
+    plt.show()
 
     #plt.plot(x,y_sig)
     #plt.plot(x, y_lin, label='linear fit')
@@ -135,9 +142,10 @@ for i, j, k, f, q in zip(data,cut,dis, fit, temp):
     
     x_lambda = df['lambda(nm)']
     yai0, yai1, yai3, yai4 = df['yai0(V)'], df['yai1(V)'], df['yai3(V)'], df['yai4(V)']
+
+    '''Frequency Plot'''
     
     #plt.figure(figsize=(12, 8), dpi=80)
-    
     #plt.plot(x_freq[0:mini-1], yai1[0:mini-1], color='g', label='sample beam')
     #plt.plot(x_freq[maxi:], yai1[maxi:], color='g')
     
