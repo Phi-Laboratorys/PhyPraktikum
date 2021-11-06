@@ -4,6 +4,10 @@ import os
 import matplotlib.pylab as plt
 from matplotlib import rc
 import matplotlib.cm as cm
+from mpl_toolkits.axes_grid1.inset_locator import zoomed_inset_axes
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+from mpl_toolkits.axes_grid1.inset_locator import mark_inset
+from matplotlib.patches import Rectangle
 from scipy.signal import argrelextrema
 from scipy.optimize import curve_fit
 import scipy.constants as const
@@ -26,6 +30,8 @@ data.sort()
 #data_sinus = [i for i in data if 'Sinus' in i]
 #data_sqare = [i for i in data if 'Rechteck' in i]
 #data_tri  =  [i for i in data if 'Dreieck' in i]
+
+plt.figure(figsize=(12,8), dpi=80)
 
 for i in data:
     df = pd.read_csv(i, skiprows=4, delim_whitespace= True)
@@ -55,7 +61,12 @@ for i in data:
             theo.append(0)
             k+=1
         
-        df_max['Theo/V'] = theo 
+        df_max['Theo/V'] = theo
+        
+        df_max['diff/V'] = abs(-df_max['Theo/V'] + df_max['max/V'])
+        df_max.index = np.arange(1, len(df_max) + 1)
+            
+        print(df_max[0:35].to_latex())
         
     if 'Rechteck' in i:
         print('Rechteck')
@@ -68,6 +79,13 @@ for i in data:
         
         df_max['Theo/V'] = theo
         
+        df_max['diff/V'] = abs(-df_max['Theo/V'] + df_max['max/V'])
+        df_max.index = np.arange(1, len(df_max) + 1)
+            
+        print(df_max[0:35].to_latex())
+    
+        plt.plot(df_max['Fqscale-FFT'][0:35]/1000,df_max['diff/V'][0:35]*1E6,'o',label='Rechteck')
+        
     if 'Dreieck' in i:
         print('Dreieck')
         #df_max['max/V'] = 1000 * 10**(df['max/dB']/20) * np.sqrt(3)
@@ -79,16 +97,19 @@ for i in data:
         
         df_max['Theo/V'] = theo
         
-    df_max['diff/V'] = -df_max['Theo/V'] + df_max['max/V']
-    df_max.index = np.arange(1, len(df_max) + 1)
+        df_max['diff/V'] = abs(-df_max['Theo/V'] + df_max['max/V'])
+        df_max.index = np.arange(1, len(df_max) + 1)
             
-    print(df_max.to_latex())
+        print(df_max[0:35].to_latex())
     
-    plt.figure(figsize=(12,8), dpi=80)
-    plt.plot(x,y)
-    plt.plot(x,y_max,'o')
-    #plt.show()
-'''  
+        plt.plot(df_max['Fqscale-FFT'][0:35]/1000,df_max['diff/V'][0:35]*1E6,'o',label='Dreieck')
+    
+plt.ylabel(r'$\Delta A$ in $\mu$V')
+plt.xlabel(r'$f$ in kHz')        
+plt.legend()
+plt.savefig('Versuch_SRV/Bilder/Manuel/41/Residuum.pdf',bbox_inches='tight')
+plt.show()
+'''
 '''
 #############################
 ##                         ##
@@ -147,7 +168,7 @@ plt.legend()
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/Mittelung.pdf', bbox_inches='tight')
 plt.show()
 '''
-'''
+#'''
 #############################
 ##                         ##
 ##      Teilaufgabe d      ##
@@ -159,30 +180,55 @@ data_files = os.listdir(path)
 data = [path + '/' + i for i in data_files if 'dat' in i]
 data.sort()
 
-n = ['120\%', '50\%', '10\%', '100\%']
-colors = ['blue', 'orange', 'red', 'black']
-#print(data)
+data = [data[2],data[1],data[3],data[0]]
 
-plt.figure(figsize=(12,8), dpi=80)
+n = ['10\%', '50\%', '100\%', '120\%']
+colors = ['red', 'orange', 'black', 'blue']
+
+fig, ax1 = plt.subplots(figsize=(12,8), dpi=80)
+
+#rect = Rectangle((0.17, 0.22), 0.65, 0.47, facecolor='white', ec='none', alpha=1, transform=fig.transFigure, zorder=-1)
+
+axins = inset_axes(ax1, 6,3 , loc='center') # insert pic
+mark_inset(ax1,axins,loc1=2,loc2=1)
+
 for i, n, c in zip(data, n, colors):
     df = pd.read_csv(i, skiprows=4, delim_whitespace= True)
     #df = df[:][:4500]
-    #df = df[:][:251]
-    df = df[:][5:125]
+    df = df[:][:251]
+    df_win = df[:][2:125]
     
     #x, y = df['Fqscale-FFT']/1000, df['y-FFTcurve']
     x, y = df['time'], df['y-generator']
+    x_win, y_win = df_win['time'], df_win['y-generator']
     
-    plt.plot(x,y, label = '$d$ = '+n, color = c)
-    
-plt.ylabel(r'$U$ in V')
-plt.xlabel(r'$f$ in kHz')
-plt.legend()
-#plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstandKomplett.pdf', bbox_inches='tight')
-plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstand.pdf', bbox_inches='tight')
-plt.show()
-'''
+    ax1.plot(x,y, label = '$d$ = '+n, color = c)
+    axins.plot(x,y, label = '$d$ = '+n, color = c)
 
+axins.set_xlim(x_win.min(),x_win.max())
+axins.set_ylim(y_win.min(),y_win.max())
+
+#axins.patch.set_facecolor('white')
+#axins.patch.set_alpha(0.5)
+#axins.patches.append(rect)
+
+#axins.set_ylabel(r'$U$ in V')
+#axins.set_xlabel(r'$f$ in kHz')
+ax1.tick_params(direction = "in")
+axT = ax1.secondary_xaxis('top')
+axT.tick_params(direction = "in")
+axT.xaxis.set_ticklabels([])
+ax1.set_ylabel(r'$U$ in V')
+ax1.set_xlabel(r'$f$ in kHz')
+
+axins.legend(loc = (0.87,0.9)) 
+
+#plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstandKomplett.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstand.pdf', bbox_inches='tight')
+plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstandAll.pdf', bbox_inches='tight')
+plt.show()
+#'''
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe e      ##
@@ -216,3 +262,4 @@ plt.legend()
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/BandbreiteKomplett.pdf', bbox_inches='tight')
 #plt.savefig('Versuch_SRV/Bilder/Manuel/41/Bandbreite.pdf', bbox_inches='tight')
 plt.show()
+'''

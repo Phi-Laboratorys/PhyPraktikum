@@ -4,7 +4,6 @@
 \label{sec:mittelungAndTrafo}
 
 \paragraph{a)}\textbf{Experimentelle Bestimmung der Fourierentwicklungskoeffizienten}\\
-from scipy.signal import argrelextrema
 Im Folgenden wird die Fourierentwicklungskoeffizienten der Sinus, Rechteck und Dreiecksschwingung experimentell bestimmt. Dazu werden die einzelnen Peaks im Fourierspektrum mit Hilfe von einen Python-Skript (argelextrma Modul aus scipy.signal Package) ermittelt, welche dann den Wert der Fourierentwicklungskoeffizienten für diese Frequenz darstellen. Beachtet werden nur ungerade Vielfache der eingestellten Frequenz. Dies folgt aus Kapitel \ref{sec:fourierseries} bei der nur ungerade Vielfache in der Reihenentwicklung von Rechteck und Dreieckschwingung vorkommen. Die Daten der Amplitude $A$ wurden dabei in dB aufgenommen. Für die Umrechnung der Amplitude in dB zu Volt wird die Gleichung (\ref{eq:spannungpegel}) aus Kapitel \ref{sec:pegel} nach der Spannung $U$ aufgelöst und erhält:
 \begin{gather}
     L_U = 20 \log_{10}\left(\frac{U}{U_0}\right)~\Leftrightarrow~U = U_0 \cdot 10^{\frac{L_U}{20}}
@@ -14,99 +13,68 @@ Zu beachten ist noch, dass die Spannung $U$ die gemessene Effektivspannung ist. 
     U = U_0 \cdot 10^{\frac{L_U}{20}} \cdot \sqrt{2}  ~\text{mit}~U_0=1\,\text{V}
     \label{eq:umrechnung}
 \end{gather}
-Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut erkennen kann, dass die gemessenen Werte nicht weit von der Theorie abweichen. Die Messung weist hierbei Abweichungen von $\pm0,003$\,V auf. Dies kann durch Rauschen in der Messaparatur verursacht worden sein.
+Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut erkennen kann, dass die gemessenen Werte nicht weit von der Theorie abweichen. Dafür wurde die betragsmässige Differenz $\Delta A = \abs{A_{Mess}-A_{Theo}}$ zusätzlich berechnet und graphisch in Abbildung \ref{image:residuum} dargestellt. Bei genauerer Betrachtung fällt auf, dass die Kurven für die Rechteckschwingung und der Dreieckschwingung bis zu einer Frequenz $f=9$\,kHz einen ähnlichen Verlauf haben. Danach steigt $\Delta A$ für die Rechteckschwingung stetig an währenddessen die Dreieckschwingung weiterhin nahe bei 0\,kHz bleibt. Dies kann durch Rauschen in der Messaparatur verursacht worden sein.
 \newpage
 \begin{center}
-    \textbf{Sinus}\\[0,2cm]
-    \begin{tabular}{l | c | c c}
-        $k$ & $f$/kHz &   $A_{mess}$/V & $A_{Theo}$/V \\
-        \hline
-        1 & 1 &  1,0024 & 1,0000 \\
-    \end{tabular}\\[0,5cm]
+    %\textbf{Sinus}\\[0,2cm]
+    %\begin{tabular}{l | c | c c c}
+    %    $k$ & $f$/kHz &   $A_{Mess}$/V & $A_{Theo}$/V & $\Delta A$/V\\
+    %    \hline
+    %    1 & 1 &  1,0024 & 1,0000 & 0,0024\\
+    %\end{tabular}\\[0,5cm]
     \begin{tabular}{c c}
-        \textbf{Rechteck} & \textbf{Dreieck} \\[0,2cm]
-        \begin{tabular}{l | c | c c}
-            $k$ & $f$/kHz  &   $A_{mess}$/V & $A_{Theo}$/V \\
+        \begin{tabular}{l | c | c c r | c c r}
+            \multicolumn{2}{c}{} & \multicolumn{3}{c}{\textbf{Rechteck}} & \multicolumn{3}{c}{\textbf{Dreieck}}\\
+            $k$ & $f$/kHz  &   $A_{Mess}$/V & $A_{Theo}$/V & $\Delta A$/$\mu$V  &   $A_{Mess}$/V & $A_{Theo}$/V & $\Delta A$/$\mu$V\\
             \hline
-            1  &       1 &  1,276204 &  1,273240 \\
-            2  &       3 &  0,425216 &  0,424413 \\
-            3  &       5 &  0,254976 &  0,254648 \\
-            4  &       7 &  0,181976 &  0,181891 \\
-            5  &       9 &  0,141379 &  0,141471 \\
-            6  &      11 &  0,115513 &  0,115749 \\
-            7  &      13 &  0,097574 &  0,097942 \\
-            8  &      15 &  0,084397 &  0,084883 \\
-            9  &      17 &  0,074300 &  0,074896 \\
-            10 &      19 &  0,066309 &  0,067013 \\
-            11 &      21 &  0,059820 &  0,060630 \\
-            12 &      23 &  0,054445 &  0,055358 \\
-            13 &      25 &  0,049915 &  0,050930 \\
-            14 &      27 &  0,046045 &  0,047157 \\
-            15 &      29 &  0,042696 &  0,043905 \\
-            16 &      31 &  0,039764 &  0,041072 \\
-            17 &      33 &  0,037185 &  0,038583 \\
-            18 &      35 &  0,034885 &  0,036378 \\
-            19 &      37 &  0,032824 &  0,034412 \\
-            20 &      39 &  0,030967 &  0,032647 \\
-            21 &      41 &  0,029284 &  0,031055 \\
-            22 &      43 &  0,027747 &  0,029610 \\
-            23 &      45 &  0,026338 &  0,028294 \\
-            24 &      47 &  0,025044 &  0,027090 \\
-            25 &      49 &  0,023854 &  0,025984 \\
-            26 &      51 &  0,022747 &  0,024965 \\
-            27 &      53 &  0,021718 &  0,024023 \\
-            28 &      55 &  0,020760 &  0,023150 \\
-            29 &      57 &  0,019863 &  0,022338 \\
-            30 &      59 &  0,019024 &  0,021580 \\
-            31 &      61 &  0,018230 &  0,020873 \\
-            32 &      63 &  0,017489 &  0,020210 \\
-            33 &      65 &  0,016786 &  0,019588 \\
-            34 &      67 &  0,016126 &  0,019004 \\
-            35 &      69 &  0,015501 &  0,018453 \\
-        \end{tabular} \hspace{0,5cm} &
-        \begin{tabular}{l | c | c c}
-            $k$ & $f$/kHz &  $A_{mess}$/V & $A_{Theo}$/V \\
-            \hline
-            1  &       1 &  0,812606 &  0,810569 \\
-            2  &       3 &  0,090246 &  0,090063 \\
-            3  &       5 &  0,032489 &  0,032423 \\
-            4  &       7 &  0,016573 &  0,016542 \\
-            5  &       9 &  0,009979 &  0,010007 \\
-            6  &      11 &  0,006700 &  0,006699 \\
-            7  &      13 &  0,004805 &  0,004796 \\
-            8  &      15 &  0,003604 &  0,003603 \\
-            9  &      17 &  0,002806 &  0,002805 \\
-            10 &      19 &  0,002247 &  0,002245 \\
-            11 &      21 &  0,001853 &  0,001838 \\
-            12 &      23 &  0,001530 &  0,001532 \\
-            13 &      25 &  0,001298 &  0,001297 \\
-            14 &      27 &  0,001116 &  0,001112 \\
-            15 &      29 &  0,000963 &  0,000964 \\
-            16 &      31 &  0,000846 &  0,000843 \\
-            17 &      33 &  0,000737 &  0,000744 \\
-            18 &      35 &  0,000654 &  0,000662 \\
-            19 &      37 &  0,000591 &  0,000592 \\
-            20 &      39 &  0,000521 &  0,000533 \\
-            21 &      41 &  0,000480 &  0,000482 \\
-            22 &      43 &  0,000433 &  0,000438 \\
-            23 &      45 &  0,000395 &  0,000400 \\
-            24 &      47 &  0,000362 &  0,000367 \\
-            25 &      49 &  0,000335 &  0,000338 \\
-            26 &      51 &  0,000312 &  0,000312 \\
-            27 &      53 &  0,000280 &  0,000289 \\
-            28 &      55 &  0,000264 &  0,000268 \\
-            29 &      57 &  0,000255 &  0,000249 \\
-            30 &      59 &  0,000237 &  0,000233 \\
-            31 &      61 &  0,000218 &  0,000218 \\
-            32 &      63 &  0,000205 &  0,000204 \\
-            33 &      65 &  0,000194 &  0,000192 \\
-            34 &      67 &  0,000181 &  0,000181 \\
-            35 &      69 &  0,000170 &  0,000170 \\
+            1  &       1 &  1,276204 &  1,273240 & 2964,00 & 0,812606 &  0,810569 & 2036,48 \\
+            2  &       3 &  0,425216 &  0,424413 &  803,00 & 0,090246 &  0,090063 &  183,15 \\
+            3  &       5 &  0,254976 &  0,254648 &  328,00 & 0,032489 &  0,032423 &   66,12 \\
+            4  &       7 &  0,181976 &  0,181891 &   85,00 & 0,016573 &  0,016542 &   31,10 \\
+            5  &       9 &  0,141379 &  0,141471 &   92,00 & 0,009979 &  0,010007 &   27,96 \\
+            6  &      11 &  0,115513 &  0,115749 &  236,00 & 0,006700 &  0,006699 &    1,16 \\
+            7  &      13 &  0,097574 &  0,097942 &  367,00 & 0,004805 &  0,004796 &    8,75 \\
+            8  &      15 &  0,084397 &  0,084883 &  486,00 & 0,003604 &  0,003603 &    1,51 \\
+            9  &      17 &  0,074300 &  0,074896 &  596,00 & 0,002806 &  0,002805 &    1,31 \\
+            10 &      19 &  0,066309 &  0,067013 &  704,00 & 0,002247 &  0,002245 &    1,82 \\
+            11 &      21 &  0,059820 &  0,060630 &  811,00 & 0,001853 &  0,001838 &    1,48 \\
+            12 &      23 &  0,054445 &  0,055358 &  913,00 & 0,001530 &  0,001532 &    2,60 \\
+            13 &      25 &  0,049915 &  0,050930 & 1014,00 & 0,001298 &  0,001297 &    1,31 \\
+            14 &      27 &  0,046045 &  0,047157 & 1112,00 & 0,001116 &  0,001112 &    4,53 \\
+            15 &      29 &  0,042696 &  0,043905 & 1209,00 & 0,000963 &  0,000964 &    1,13 \\
+            16 &      31 &  0,039764 &  0,041072 & 1308,00 & 0,000846 &  0,000843 &    2,17 \\
+            17 &      33 &  0,037185 &  0,038583 & 1398,00 & 0,000737 &  0,000744 &    7,77 \\
+            18 &      35 &  0,034885 &  0,036378 & 1493,00 & 0,000654 &  0,000662 &    8,18 \\
+            19 &      37 &  0,032824 &  0,034412 & 1588,00 & 0,000591 &  0,000592 &    0,72 \\
+            20 &      39 &  0,030967 &  0,032647 & 1680,00 & 0,000521 &  0,000533 &   12,02 \\
+            21 &      41 &  0,029284 &  0,031055 & 1771,00 & 0,000480 &  0,000482 &    1,84 \\
+            22 &      43 &  0,027747 &  0,029610 & 1863,00 & 0,000433 &  0,000438 &    5,67 \\
+            23 &      45 &  0,026338 &  0,028294 & 1956,00 & 0,000395 &  0,000400 &    4,88 \\
+            24 &      47 &  0,025044 &  0,027090 & 2046,00 & 0,000362 &  0,000367 &    4,84 \\
+            25 &      49 &  0,023854 &  0,025984 & 2130,00 & 0,000335 &  0,000338 &    2,90 \\
+            26 &      51 &  0,022747 &  0,024965 & 2218,00 & 0,000312 &  0,000312 &    0,68 \\
+            27 &      53 &  0,021718 &  0,024023 & 2305,00 & 0,000280 &  0,000289 &    8,32 \\
+            28 &      55 &  0,020760 &  0,023150 & 2390,00 & 0,000264 &  0,000268 &    4,02 \\
+            29 &      57 &  0,019863 &  0,022338 & 2475,00 & 0,000255 &  0,000249 &    5,43 \\
+            30 &      59 &  0,019024 &  0,021580 & 2557,00 & 0,000237 &  0,000233 &    3,97 \\
+            31 &      61 &  0,018230 &  0,020873 & 2642,00 & 0,000218 &  0,000218 &    0,44 \\
+            32 &      63 &  0,017489 &  0,020210 & 2721,00 & 0,000205 &  0,000204 &    0,45 \\
+            33 &      65 &  0,016786 &  0,019588 & 2802,00 & 0,000194 &  0,000192 &    1,69 \\
+            34 &      67 &  0,016126 &  0,019004 & 2878,00 & 0,000181 &  0,000181 &    0,39 \\
+            35 &      69 &  0,015501 &  0,018453 & 2951,00 & 0,000170 &  0,000170 &    0,61 \\
         \end{tabular}
     \end{tabular}    
     \captionof{table}{Vergleich Fourierentwicklungskoeffizienten in Theorie und Praxis}
     \label{tab:fourierkoeff}
 \end{center}
+\begin{center}
+    \includegraphics[scale = 0.5]{Manuel/41/Residuum.pdf}
+    \captionof{figure}{Betragsmässige Differenz der Messwerte und Theorie}
+    \label{image:residuum}
+\end{center}
+
+
+\newpage
 \paragraph{b)}\textbf{Fourierspektrum Sinusschwingung}\\
 Dieser Teil behandelt das Fourierspektrum der Sinusschwingung bei 1\,V Amplitude.
 \begin{center}
@@ -114,7 +82,9 @@ Dieser Teil behandelt das Fourierspektrum der Sinusschwingung bei 1\,V Amplitude
     \captionof{figure}{Fourierspektrum der Sinusschwingung}
     \label{image:fourierSinus}
 \end{center}
-Wie in Abbildung \ref{image:fourierSinus} ist deutlich ein ausgeprägter Peak zu erkennen. Dieser Peak ist wie in Tabelle \ref{tab:fourierkoeff} die Effektivspannung der Sinusschwingung in dB. Nach Kapitel \ref{sec:fourierseries} sollte aber das Fourierspektrum nur einen Peak bei der eingestellten Frequenz besitzen, aber in Abbildung \ref{image:fourierSinus} ist neben dem Peak deutlich noch weiter Peaks zu erkennen. Diese Peaks werden durch die Umgebungseinflüsse aus Kapitel \ref{sec:umwelt} und durch die Netzspannungsquelle selbst verursacht.
+Wie in Abbildung \ref{image:fourierSinus} zu sehen, ist ein deutlich ausgeprägter Peak bei einer Frequenz von 1\,kHz zu erkennen. Nach Kapitel \ref{sec:fourierseries} sollte aber das Fourierspektrum nur einen Peak in Form einer Delta-Funktion bei der eingestellten Frequenz besitzen. Dies ist in der realen Welt aufgrund von Rauschen nicht möglich, wodurch der Hauptpeak bei 1\,kHz als eine breite Delta-Funktion gemessen wird. Weiterhin ist in Abbildung \ref{image:fourierSinus} neben dem Hauptpeak deutlich noch weiter kleinere Peaks zu erkennen, welche selbst in einem Abstand von 1\,kHz auftreten. Diese Peaks werden durch die Umgebungseinflüsse aus Kapitel \ref{sec:umwelt} und durch die Netzspannungsquelle selbst verursacht.
+
+
 \newpage
 \paragraph{c)}\textbf{Einfluss Mittelung auf Rechteckschwingung}\\
 Nun wird der Einfluss der Anzahl der Mittelung $N$ auf eine Rechteckschwingung mit einer Amplitude $U_0=$ 1\,V mit einem Bandrauschen der Bandbreite $f_{Band}=$ 20\,MHz und einer AM Depth $d =$ 120\,\% betrachtet.
@@ -124,21 +94,29 @@ Nun wird der Einfluss der Anzahl der Mittelung $N$ auf eine Rechteckschwingung m
     \label{image:einflussMittelung}
 \end{center}
 In Abbildung \ref{image:einflussMittelung} ist zu erkennen, dass sich mit der Zunahme der Anzahl der Mittelungen $N$ die Ausprägung der Peaks zunimmt. Dies war zu erwarten, da schon wie in Kapitel \ref{sub:mittelung} erklärt, bei der Mittelung das Signal des Rauschens nur um den Faktor $\sqrt{N}$ zunimmt, während das Signal der Rechteckschwingung proportional zur Wiederholung anwächst.
+
+
 \newpage
 \paragraph{d)}\textbf{Einfluss Signal/Rausch-Abstand auf zeitliche Signalform}\\
 Als weiteres wird der Einfluss des Signal/Rausch-Abstands $d$ auf die Signalform einer Rechteckschwingung mit einer Amplitude $U_0=$ 1\,V und einen Bandbreite\\$f_{Band}=$ 20\,MHz.
 In Abbildung \ref{image:sigRauRechtKomplett} ist zuerst der Einfluss des Signal/Rausch-Abstands auf die komplette Rechteckschwingung dargestellt. Schon hier erkennt man, dass mit höherem Signal/Rausch-Abstands das \enquote{Ausschlagen} der Amplitude des Rauschens zunimmt. Noch deutlich ist dies zu erkennen in Abbildung \ref{image:sigRauRecht}, die ein Ausschnitt aus dem oberen Umkehrpunkt der Rechteckschwingung ist. Die Änderung des Signal/Rausch-Abstands hat aber keinen generellen Einfluss auf den Verlauf der Signalform der Rechteckschwingung.
-\newpage
 \begin{center}
-    \includegraphics[scale = 0.5]{Manuel/41/SignalRauschAbstandKomplett.pdf}
-    \captionof{figure}{Einfluss Signal/Rausch-Abstand auf komplette Rechteckschwingung}
-    \label{image:sigRauRechtKomplett}
-\end{center}
-\begin{center}
-    \includegraphics[scale = 0.5]{Manuel/41/SignalRauschAbstand.pdf}
-    \captionof{figure}{Einfluss Signal/Rausch-Abstand im Ausschnitt vom obere Umkehrpunkt der Rechteckschwingung}
+    \includegraphics[scale = 0.5]{Manuel/41/SignalRauschAbstandAll.pdf}
+    \captionof{figure}{Einfluss Signal/Rausch-Abstand mit Ausschnitt vom obere Umkehrpunkt der Rechteckschwingung}
     \label{image:sigRauRecht}
 \end{center}
+\newpage
+%\begin{center}
+%    \includegraphics[scale = 0.5]{Manuel/41/SignalRauschAbstandKomplett.pdf}
+%    \captionof{figure}{Einfluss Signal/Rausch-Abstand auf komplette Rechteckschwingung}
+%    \label{image:sigRauRechtKomplett}
+%\end{center}
+%\begin{center}
+%    \includegraphics[scale = 0.5]{Manuel/41/SignalRauschAbstand.pdf}
+%    \captionof{figure}{Einfluss Signal/Rausch-Abstand im Ausschnitt vom obere Umkehrpunkt der Rechteckschwingung}
+%    \label{image:sigRauRecht}
+%\end{center}
+
 
 \paragraph{e)}\textbf{Einfluss Bandbreite auf zeitliche Signalform}\\
 Zuletzt in diesem Kapitel wird der Einfluss der Bandbreite auf die zeitliche Signalform besprochen. Dabei wird wieder eine Rechteckschwingung mit einer Amplitude\\ $U_0=$ 1\,V und einem Signal/Rausch Abstand $d=$ 100\,\% verwendet. In Abbildung \ref{image:bandbreiteRechtKomplett} wird erneut eine komplette Rechteckschwingung gezeigt. Darauf erkennt man, dass der Funktionsgenerator die Form des Rechtecksignals mit kleineren Bandbreiten $f_{Band}$ nicht mehr erzeugen kann. Vor allem bei Frequenzen unter 100\,kHz. Aber auch eine Zunahme des Rauschens ist zu erkennen, wenn die Bandbreite kontinuierlich abnimmt. In Abbildung \ref{image:bandbreiteRecht} kann man dies noch genauer betrachten. 
@@ -152,4 +130,4 @@ Zuletzt in diesem Kapitel wird der Einfluss der Bandbreite auf die zeitliche Sig
     \includegraphics[scale = 0.5]{Manuel/41/Bandbreite.pdf}
     \captionof{figure}{Einfluss Bandbreite im Ausschnitt vom obere Umkehrpunkt der Rechteckschwingung}
     \label{image:bandbreiteRecht}
-\end{center}
+\end{center} 
