@@ -8,13 +8,14 @@
 Im Folgenden wird die Fourierentwicklungskoeffizienten der Sinus, Rechteck und Dreiecksschwingung experimentell bestimmt. Dazu werden die einzelnen Peaks im Fourierspektrum mithilfe von einem Python-Skript (argelextrma Modul aus scipy.signal Paket ermittelt, welche dann den Wert der Fourierentwicklungskoeffizienten für diese Frequenz darstellen. Beachtet werden nur ungerade Vielfache der eingestellten Frequenz. Dies folgt aus Kapitel \ref{sec:fourierseries} bei der nur ungerade Vielfache in der Reihenentwicklung von Rechteck und Dreieckschwingung vorkommen. Die Daten der Amplitude $A$ wurden dabei in dB aufgenommen. Für die Umrechnung der Amplitude in dB zu Volt wird die Gleichung (\ref{eq:spannungpegel}) aus Kapitel \ref{sec:pegel} nach der Spannung $U$ aufgelöst und erhält:
 \begin{gather}
     L_U = 20 \log_{10}\left(\frac{U}{U_0}\right)~\Leftrightarrow~U = U_0 \cdot 10^{\frac{L_U}{20}}
+    \label{eq:umpegel}
 \end{gather}
 Zu beachten ist noch, dass die Spannung $U$ die gemessene Effektivspannung ist. Diese Effektivspannung muss mit dem Faktor für die Sinusschwingung aus Kapitel \ref{sec:fourierseries} umgewandelt werden, da die Fourierreihe der jeweiligen Schwingung aus Sinusschwingungen besteht. Die verwendeten Formeln sind dann:
 \begin{gather}
     U = U_0 \cdot 10^{\frac{L_U}{20}} \cdot \sqrt{2}  ~\text{mit}~U_0=1\,\text{V}
     \label{eq:umrechnung}
 \end{gather}
-Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut erkennen kann, dass die gemessenen Werte nicht weit von der Theorie abweichen. Dafür wurde die betragsmässige Differenz $\Delta A = \abs{A_{Mess}-A_{Theo}}$ zusätzlich berechnet und graphisch in Abbildung \ref{image:residuum} dargestellt. Bei genauerer Betrachtung fällt auf, dass die Kurven für die Rechteckschwingung und der Dreieckschwingung bis zu einer Frequenz $f=9$\,kHz einen ähnlichen Verlauf haben. Danach steigt $\Delta A$ für die Rechteckschwingung stetig bis zu einem Maximum bei 100\,kHz an währenddessen die Dreieckschwingung weiterhin nahe bei 0\,$\mu$V bleibt. Dies kann durch Rauschen in der Messapparatur verursacht worden sein.
+Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut erkennen kann, dass die gemessenen Werte nicht weit von der Theorie abweichen. Dafür wurde die betragsmässige Differenz $\Delta A = \abs{A_{Mess}-A_{Theo}}$ zusätzlich berechnet und graphisch in Abbildung \ref{image:residuum} mit den Fourierspektren der Schwingungen dargestellt. Dabei wurden die theoretischen Werte mit Gleichung (\ref{eq:umpegel}) umgerechnet mit $U = U_{Theo}/\sqrt{2}$. Bei genauerer Betrachtung fällt auf, dass die Kurven für die Rechteckschwingung und der Dreieckschwingung bis zu einer Frequenz $f=9$\,kHz einen ähnlichen Verlauf haben. Danach steigt $\Delta A$ für die Rechteckschwingung stetig bis zu einem Maximum bei 100\,kHz an währenddessen die Dreieckschwingung weiterhin nahe bei 0\,$\mu$V bleibt. Dies kann durch Rauschen in der Messapparatur verursacht worden sein.
 \newpage
 \begin{center}
     %\textbf{Sinus}\\[0,2cm]
@@ -100,7 +101,7 @@ Die Auswertung ergibt dann Tabelle \ref{tab:fourierkoeff}, in welcher man gut er
 \end{center}
 \begin{center}
     \includegraphics[scale = 0.5]{Manuel/41/Residuum.pdf}
-    \captionof{figure}{Betragsmässige Differenz der Messwerte und Theorie}
+    \captionof{figure}{Betragsmässige Differenz der Messwerte und Theorie mit den jeweiligen Fourierspektrum der Schwingungsform mit Theorie}
     \label{image:residuum}
 \end{center}
 

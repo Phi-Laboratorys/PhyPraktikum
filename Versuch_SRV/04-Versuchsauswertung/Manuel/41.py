@@ -15,7 +15,7 @@ import scipy.constants as const
 rc('text', usetex=True)
 rc('font', family='serif', size=22)
 
-'''
+#'''
 #############################
 ##                         ##
 ##      Teilaufgabe a      ##
@@ -31,7 +31,7 @@ data.sort()
 #data_sqare = [i for i in data if 'Rechteck' in i]
 #data_tri  =  [i for i in data if 'Dreieck' in i]
 
-fig = plt.figure(figsize=(12,19), dpi=80)
+fig = plt.figure(figsize=(12,18), dpi=80)
 gs = fig.add_gridspec(3, hspace=0, height_ratios= [2,2,1])
 ax = gs.subplots(sharex=True)
 
@@ -150,9 +150,9 @@ ax[2].set_xlabel(r'$f$ in kHz')
 ax[0].legend(loc = 'lower right')
 ax[1].legend(loc = 'lower right')      
 ax[2].legend(loc='center right')
-#plt.savefig('Versuch_SRV/Bilder/Manuel/41/Residuum.pdf',bbox_inches='tight')
+plt.savefig('Versuch_SRV/Bilder/Manuel/41/Residuum.pdf',bbox_inches='tight')
 #plt.show()
-'''
+#'''
 '''
 #############################
 ##                         ##
@@ -384,7 +384,7 @@ axins.legend(loc = (0.81,0.88))
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/SignalRauschAbstandAll.pdf', bbox_inches='tight')
 plt.show()
 '''
-#'''
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe e      ##
@@ -473,4 +473,4 @@ ax.legend()
 #plt.savefig('Versuch_SRV/Bilder/Manuel/41/BandbreiteAll.pdf', bbox_inches='tight')
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/BandbreiteFourier.pdf', bbox_inches='tight')
 plt.show()
-#'''
+'''
