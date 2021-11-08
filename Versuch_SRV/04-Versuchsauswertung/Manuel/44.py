@@ -11,7 +11,7 @@ import scipy.constants as const
 rc('text', usetex=True)
 rc('font', family='serif', size=22)
 
-'''
+#'''
 #############################
 ##                         ##
 ##      Teilaufgabe a      ##
@@ -21,11 +21,63 @@ rc('font', family='serif', size=22)
 data = 'Versuch_SRV/Daten/44/a/LockIn_Filter.csv'
 df = pd.read_csv(data)
 
+data41 = 'Versuch_SRV/Daten/44/a/Daten_41.csv'
+df41 = pd.read_csv(data41)
+
 df[['Usin(V)','Usquare(V)','Utri(V)']] = df[['Usin(V)','Usquare(V)','Utri(V)']]*np.sqrt(2)
 
-print(df.to_latex())
-'''
+x = df['f(kHz)']
+y_sq, y_tri = df['Usquare(V)'], df['Utri(V)']
 
+fig, ax = plt.subplots(figsize=(12,8), dpi=80)
+
+# Square
+theo = []
+k = 1
+while k < len(y_sq)+1:
+    theo.append(4/np.pi * 1/(2*k-1))
+    k+=1
+
+df['U_sqTheo(V)'] = theo
+
+df['U_sqDiff(muV)'] = abs(-df['U_sqTheo(V)'] + df['Usquare(V)'])*1E6
+    
+ax.plot(x,df['U_sqDiff(muV)'],'o',label='Rechteck', color='#ff7f0e')
+ax.plot(x,df41['U_sqDiff(muV)'],'o',label='Rechteck aus 4.1', color='orange')
+    
+# tri
+theo = []
+k = 1
+while k < len(y_tri)+1:
+    theo.append(8/(np.pi**2) * 1/((2*k-1)**2))
+    k+=1
+
+df['U_triTheo(V)'] = theo
+
+df['U_triDiff(muV)'] = abs(-df['U_triTheo(V)'] + df['Utri(V)'])*1E6
+
+ax.plot(x,df['U_triDiff(muV)'],'o',label='Dreieck', color='#1f77b4')
+ax.plot(x,df41['U_triDiff(muV)'],'o',label='Dreieck aus 4.1', color='blue')
+
+ax.tick_params(direction = "in")
+ax.set_xlabel('$f$ in kHz')
+ax.set_ylabel('$\Delta U$ in $\mu$V')
+
+axT = ax.secondary_xaxis('top')
+axT.tick_params(direction = "in")
+axT.xaxis.set_ticklabels([])
+
+axR = ax.secondary_yaxis('right')
+axR.tick_params(direction = "in")
+axR.yaxis.set_ticklabels([])
+ax.legend()
+
+plt.savefig('Versuch_SRV/Bilder/Manuel/44/ResiduumVergleich.pdf',bbox_inches='tight')
+plt.show()
+
+print(df.to_latex())
+#'''
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe b      ##
@@ -67,3 +119,4 @@ for i,q,c in zip(data,name,color):
 
 plt.savefig('Versuch_SRV/Bilder/Manuel/44/All.pdf',bbox_inches='tight')
 plt.show()
+'''
