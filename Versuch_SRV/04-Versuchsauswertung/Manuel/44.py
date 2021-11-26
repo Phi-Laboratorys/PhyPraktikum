@@ -11,7 +11,7 @@ import scipy.constants as const
 rc('text', usetex=True)
 rc('font', family='serif', size=22)
 
-#'''
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe a      ##
@@ -76,8 +76,8 @@ plt.savefig('Versuch_SRV/Bilder/Manuel/44/ResiduumVergleich.pdf',bbox_inches='ti
 plt.show()
 
 print(df.to_latex())
-#'''
 '''
+#'''
 #############################
 ##                         ##
 ##      Teilaufgabe b      ##
@@ -91,7 +91,7 @@ color = ['#ff7f0e','#1f77b4']
 def response(f,t,n):
     return (1 + (2*np.pi*t*(f - 1))**2)**(-n/2)
 
-plt.figure(figsize=(12,8),dpi=80)
+#fig, ax = plt.subplots(figsize=(12,8),dpi=80)
 
 for i,q,c in zip(data,name,color):
     df = pd.read_csv(i)
@@ -105,18 +105,29 @@ for i,q,c in zip(data,name,color):
     
     x_fit = np.linspace(x.min(), x.max(), 1000)
     
-    #plt.figure(figsize=(12,8),dpi=80)
+    fig, ax = plt.subplots(figsize=(12,8),dpi=80)
     
-    #plt.plot(x_fit, response(x_fit, *popt), label = 'Fit', lw=2,color=c)
-    #plt.plot(x,y,'o',label='Messreihe',color=c)
-    plt.plot(x_fit, response(x_fit, *popt), label = 'Fit '+q, lw=2,color=c)
-    plt.plot(x,y,'o',label='Messreihe '+q,color=c)
-    plt.xlabel(r'$f$ in kHz')
-    plt.ylabel(r'A (normiert)')
-    plt.legend()
-    #plt.savefig('Versuch_SRV/Bilder/Manuel/44/'+q+'.pdf',bbox_inches='tight')
-    #plt.show()
+    ax.plot(x_fit, response(x_fit, *popt), label = 'Fit', lw=2,color=c)
+    ax.plot(x,y,'o',label='Messreihe',color=c)
+    #ax.plot(x_fit, response(x_fit, *popt), label = 'Fit '+q, lw=2,color=c)
+    #ax.plot(x,y,'o',label='Messreihe '+q,color=c)
+    
+    ax.tick_params(direction = "in")
+    ax.set_xlabel(r'$f$ in kHz')
+    ax.set_ylabel(r'A (normiert)')
 
-plt.savefig('Versuch_SRV/Bilder/Manuel/44/All.pdf',bbox_inches='tight')
-plt.show()
-'''
+    axT = ax.secondary_xaxis('top')
+    axT.tick_params(direction = "in")
+    axT.xaxis.set_ticklabels([])
+
+    axR = ax.secondary_yaxis('right')
+    axR.tick_params(direction = "in")
+    axR.yaxis.set_ticklabels([])
+    
+    ax.legend()
+    plt.savefig('Versuch_SRV/Bilder/Manuel/44/'+q+'.pdf',bbox_inches='tight')
+    plt.show()
+
+#plt.savefig('Versuch_SRV/Bilder/Manuel/44/All.pdf',bbox_inches='tight')
+#plt.show()
+#'''

@@ -93,7 +93,7 @@ df = df.sort_values(by=['Fqscale-FFT'])
 #print(df.head())
 fig, ax = plt.subplots(figsize=(12, 6), dpi=80)
 
-ax.plot(df['Fqscale-FFT'], df['y-FFTcurve'], color='black')
+ax.plot(df['Fqscale-FFT']/1000, df['y-FFTcurve'], color='black')
 
 ax.tick_params(direction = "in")
 ax.set_xlabel(r'$f$ in kHz')

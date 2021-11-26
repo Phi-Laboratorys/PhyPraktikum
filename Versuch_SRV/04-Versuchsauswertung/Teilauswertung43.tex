@@ -5,18 +5,17 @@ In diesem Abschnitt soll die Signalfilterung genauer betrachtet werden. Dafür w
 \label{sec:VerTi}
 Zuerst sollen die Filterkurven verschiedener Tiefpässe dargestellt werden. Hierzu wird am Generator ein Sinussignal ($f=100$\,Hz) mit einer Rauschbandweite von 20\,MHz eingestellt.\\
 
-Für einen groben Überblick und um Unterschiede besser erkennen zu können werden alle Filterkurven in einem gemeinsamen Diagramm dargestellt (Abbildung \ref{fig:43aAll}). \\
+%Für einen groben Überblick und um Unterschiede besser erkennen zu können werden alle Filterkurven in einem gemeinsamen Diagramm dargestellt (Abbildung \ref{fig:43aAll}). \\
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Paul/43aAll.pdf}
-    \caption{Fourierspektrum verschiedene Tiefpassfilter}
+\begin{center}
+    \includegraphics[width = \textwidth]{Paul/43aAllOrAll.pdf}
+    \captionof{figure}{Fourierspektrum verschiedene Tiefpassfilter mit (a) Ordnung 1, (b) Ordnung 2, (c) Ordnung 5 und (d) Ordnung 10}
     \label{fig:43aAll}
-\end{figure}
+\end{center}
 
 In Abbildung \ref{fig:43aAll} fällt auf, dass sich Elliptic- und Chebyshevfilter fast deckungsgleich überlagern. Auch Butterworth- und Besselfilter sind auch fast deckungsgleich mit den oben genannten lediglich für Frequenzen zwischen ca. $1\cdot 10^3$\,Hz und $1\cdot 10^5$\,Hz divergieren sie geringfügig. Am stärksten weicht der inverse Chebyshevfilter von den anderen ab. Der Verlauf ist sehr ähnlich, nahezu parallel, jedoch ist sie Kurve nach unten verschoben. \\
 
-\newpage
+%\newpage
 Außerdem soll  für jede Filterkurve der 3\,dB-Punkt und die Steigung, für große Frequenzen bestimmt werden.
 Dies wurde mithilfe des Diagramms ermittelt.
 
@@ -159,15 +158,13 @@ Eine gute Rauschunterdrückung verursacht also eine große Signalverzerrung. Es 
 
 \newpage
 \subsection{Einfluss der Ordnung}
-Nun Stellen wir uns die Frage, welchen Einfluss die Ordnung eines Filters auf das Ausgangssignal hat.\\
-Zuerst soll der Begriff Ordnung erklärt werden. Die Ordnung besagt, wie oft der gleiche Filter hintereinander geschaltet wird. Bei einem Filter der Ordnung zwei durchläuft das Signal also zweimal hintereinander einen baugleichen Filter.\\
-
+Nun Stellen wir uns die Frage, welchen Einfluss die Ordnung eines Filters auf das Ausgangssignal hat.Zuerst soll der Begriff Ordnung erklärt werden. Die Ordnung besagt, wie oft der gleiche Filter hintereinander geschaltet wird. Bei einem Filter der Ordnung zwei durchläuft das Signal also zweimal hintereinander einen baugleichen Filter.\\
 Um den Einfluss der Ordnung genauer betrachten zu können werden Fourierspektren von Filtern verschiedener Ordnung miteinander verglichen.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{Paul/43dOrdnungF.pdf}
-    \caption{Butterworthfilter bei verschiedenen Ordnungen}
+    \includegraphics[width=\textwidth]{Paul/43dAllFilAll.pdf}
+    \caption{(a) Butterworth, (b) Chebyshev, (c) Inverse Chebyshev und (d) Besselfilter bei verschiedenen Ordnungen}
     \label{fig:43dOrd}
 \end{figure}
 

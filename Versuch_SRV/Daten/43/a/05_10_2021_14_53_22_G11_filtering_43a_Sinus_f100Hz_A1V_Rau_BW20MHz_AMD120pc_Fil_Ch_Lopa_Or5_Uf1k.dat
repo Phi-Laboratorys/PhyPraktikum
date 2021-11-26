@@ -1,7 +1,7 @@
 # 05_10_2021_14_53_22_G11_filtering_43a_Sinus_f100Hz_A1V_Rau_BW20MHz_AMD120pc_Fil_Ch_Lopa_Or5_Uf1k
 # measuring signal to noise
 # 43a_Sinus_f100Hz_A1V_Rau_BW20MHz_AMD120pc_Fil_Ch_Lopa_Or5_Uf1k
-# time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
+time y-generator y-behind Fqscale-FFT y-FFTcurve Fqscale-filter y-filtercurve
 
 0.0000	-0.0020	-0.0000	0.0000	-60.2971	0.0000	-0.0328
 0.0040	-0.0013	-0.0000	25.0000	-62.0729	45.7778	0.0169
