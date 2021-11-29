@@ -62,7 +62,8 @@ for i,n,ax,t in zip(dataOr,name,axis,title):
                
     ax.set_xscale('log')
 
-    ax.tick_params(direction = "in")
+    ax.tick_params(which = 'major', direction = "in")
+    ax.tick_params(which = 'minor', direction = "in")
     ax.set_xlabel(r'$f$ in Hz')
     ax.set_ylabel(r'$A$ in dB')
     
@@ -87,7 +88,7 @@ for i,n,ax,t in zip(dataOr,name,axis,title):
     #plt.savefig('Versuch_SRV/Bilder/Paul/'+n+'.pdf', bbox_inches = 'tight')
     #plt.show()
 
-#plt.savefig('Versuch_SRV/Bilder/Paul/43aAllOrAll.pdf', bbox_inches = 'tight')
+plt.savefig('Versuch_SRV/Bilder/Paul/43aAllOrAll.pdf', bbox_inches = 'tight')
 plt.show()
     
 '''
@@ -229,7 +230,7 @@ for i,j in zip(data,dname):
     plt.savefig(dateipfad+j+'F.pdf', bbox_inches = 'tight')
     plt.show()
 '''
-'''
+#'''
 #############################
 ##                         ##
 ##      Teilaufgabe d      ##
@@ -291,7 +292,24 @@ for i,n,ax,t in zip(dataFil,name,axis,title):
             ax.plot(df['Fqscale-FFT'], df['y-FFTcurve'], label='Ordnung 5', color='red')
         elif '_Or10_' in j:
             ax.plot(df['Fqscale-FFT'], df['y-FFTcurve'], label='Ordnung 10', color='grey')
-               
+    
+    ax.set_xscale('log')
+
+    ax.tick_params(which = 'major', direction = "in")
+    ax.tick_params(which = 'minor', direction = "in")
+    ax.set_xlabel(r'$f$ in Hz')
+    ax.set_ylabel(r'$A$ in dB')
+    
+    ax.set_title(t, loc = 'right')
+    
+    axT = ax.secondary_xaxis('top')
+    axT.tick_params(which = 'major', direction = "in")
+    axT.tick_params(which = 'minor', direction = "in")
+    axT.xaxis.set_ticklabels([])
+
+    axR = ax.secondary_yaxis('right')
+    axR.tick_params(direction = "in")
+    axR.yaxis.set_ticklabels([])           
     
 
     if ax == ax3:
@@ -306,8 +324,8 @@ for i,n,ax,t in zip(dataFil,name,axis,title):
 
 plt.savefig('Versuch_SRV/Bilder/Paul/43dAllFilAll.pdf', bbox_inches = 'tight')
 plt.show() 
-'''
 #'''
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe e      ##
@@ -326,7 +344,7 @@ df2 = pd.read_csv(dataARe, skiprows=3, sep='\s+')
 dname = '43eA'
 dateipfad = 'Versuch_SRV/Bilder/Paul/'
 
-'''Plot Signal
+Plot Signal
 t = 277
 plt.figure(figsize=(12, 6), dpi=80)
 plt.plot(df['time'].iloc[:t], df['y-generator'].iloc[:t], 'g--', label='Ungefiltert')
@@ -336,7 +354,6 @@ plt.ylabel('y')
 plt.legend()
 #plt.savefig(dateipfad+dname+'S.pdf', bbox_inches = 'tight')
 plt.show()
-'''
 
 #Plot Fourie
 df1 = df1.sort_values(by=['Fqscale-FFT'])
@@ -366,4 +383,4 @@ axR.yaxis.set_ticklabels([])
 #plt.legend()
 plt.savefig(dateipfad+dname+'F.pdf', bbox_inches = 'tight')
 plt.show()
-#'''
+'''
