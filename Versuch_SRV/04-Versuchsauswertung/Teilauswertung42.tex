@@ -11,21 +11,24 @@ Um dies genauer zu untersuchen wurde zuerst die Abtastrate für ein unverrauscht
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Paul/42a1.pdf}
-    \caption{Variation der Abtastrate gegen die gemessene Frequenz, bei konstanter Generatorfrequenz.}
+    \caption{Variation der Abtastrate gegen die gemessene Frequenz, bei konstanter Generatorfrequenz von 20 kHz.}
     \label{fig:42a1}
 \end{figure}
 
-In Abbildung \ref{fig:42a1} ist deutlich zu erkennen, dass für $f_s > f_{crit}$ die Frequenz korrekt gemessen wird. Bei unterschreiten der kritischen Frequenz fällt die gemessene Frequenz jedoch unter den eigentlichen Wert, bis $f = f_s$. Wenn die Abtastfrequenz gleich der Generatorfrequenz ist, wird eine Frequenz von 0 gemessen, also ein konstantes Signal. Das ist klar, weil der Detektor immer den gleichen Punkt der Signalabfolge erwischt und dies somit als konstantes Signal wahrnimmt. Dies tritt nicht nur für $f = f_s$ auf, sondern immer dann wenn $f_s = n \cdot f$ mit $ n= 1,2,3...$. Aus diesem Grund entsteht vor der kritischen Frequenz ein Sägezahn ähnliches Muster.
+In Abbildung \ref{fig:42a1} ist deutlich zu erkennen, dass für die Abtastfrequenz $f_{Abtast} > f_{crit}$ die Frequenz korrekt gemessen wird. Bei unterschreiten der kritischen Frequenz fällt die gemessene Frequenz jedoch unter den eigentlichen Wert, bis $f = f_{Abtast}$. Wenn die Abtastfrequenz gleich der Generatorfrequenz ist, wird eine Frequenz von 0 Hz gemessen, also ein konstantes Signal. Das ist logisch, da der Detektor immer den gleichen Punkt der Signalabfolge misst und dies somit als konstantes Signal wahrnimmt. Dies tritt nicht nur für $f = f_{Abtast}$ auf, sondern immer dann wenn $f_{Abtast} = n \cdot f$ mit $ n= 1,2,3...$. Aus diesem Grund entsteht vor der kritischen Frequenz ein sägezahnähnliches Muster.
 
 \newpage
-In der zweiten Messreihe wurde nun die Abtastrate ($f_s = 20$\,kHz) konstant gehalten und die Frequenz des Generators wurde variiert, welche wiederum gegen die gemessene Frequenz aufgetragen wurde.
+In der zweiten Messreihe wurde nun die Abtastrate ($f_{Abtast} = 20$\,kHz) konstant gehalten und die Frequenz des Generators wurde variiert, welche wiederum gegen die gemessene Frequenz aufgetragen wurde. Für die kritische Frequenz gilt nun:
+\begin{align}
+    f_{crit} = \frac{1}{2} f_{Abtast}
+\end{align}
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Paul/42a2.pdf}
     \caption{Variation der Generatorfrequenz gegen die gemessene Frequenz, bei konstanter Abtastfrequenz.}
     \label{fig:42a2}
 \end{figure}
-In Abbildung \ref{fig:42a2} ist wieder deutlich zu sehen, dass für $f_s > f_{crit}$ die Frequenz richtig gemessen wird. Ist dies jedoch nicht mehr der Fall, so tritt analog zu oben wieder ein Sägezahnmuster auf.
+In Abbildung \ref{fig:42a2} ist wieder deutlich zu sehen, dass für $f_{Quelle} < f_{crit}$ die Frequenz richtig gemessen wird. Ist dies jedoch nicht mehr der Fall, so tritt analog zu oben wieder ein Sägezahnmuster auf.
 
 
 \newpage
@@ -37,4 +40,7 @@ Des Weiteren wurde das Fourierspektrum eines Dreieckssignal ($f = 3$\,kHz), mit 
     \label{fig:42a3}
 \end{figure}
 
-In Abbildung \ref{fig:42a3} ist der Effekt des Aliasing zu erkennen, das heißt der Detektor kann nicht unterscheiden, welche die richtig gemessene Frequenz ist und was die Aliase (falsche zugeordnete Messwerte) der eigentlichen Frequenz sind. Da wie die Generatorfrequenz kennen, wissen wir, dass die richtige Frequenz $f=3$\,kHz ist und die Peaks bei $f_1=1$\,kHz und $f_2=2$\,kHz die Aliase dieser sind. Hat man dieses wissen jedoch nicht, kann dies jedoch zu nicht unerheblichen Messfehlern führen. Um Aliasing zu vermeiden, sollte eine höhere Abtastfrequenz verwendet werden.
+In Abbildung \ref{fig:42a3} ist der Effekt des Aliasing zu erkennen, das heißt der Detektor kann nicht unterscheiden, welche die richtig gemessene Frequenz ist und was die Aliase (falsche zugeordnete Messwerte) der eigentlichen Frequenz sind. Da die Generatorfrequenz bekannt ist, ist ebenfalls bekannt, dass die richtige Frequenz $f=3$\,kHz ist und die Peaks bei $f_1=1$\,kHz und $f_2=2$\,kHz die Aliase dieser sind. Hat man dieses wissen jedoch nicht, kann dies jedoch zu nicht unerheblichen Messfehlern führen. Um Aliasing zu vermeiden, sollte eine höhere Abtastfrequenz verwendet werden.\\
+
+%TODO #42
+Erklärung d. Peaks --> Umklappprozesse
