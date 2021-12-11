@@ -43,4 +43,11 @@ Des Weiteren wurde das Fourierspektrum eines Dreieckssignal ($f = 3$\,kHz), mit 
 In Abbildung \ref{fig:42a3} ist der Effekt des Aliasing zu erkennen, das heißt der Detektor kann nicht unterscheiden, welche die richtig gemessene Frequenz ist und was die Aliase (falsche zugeordnete Messwerte) der eigentlichen Frequenz sind. Da die Generatorfrequenz bekannt ist, ist ebenfalls bekannt, dass die richtige Frequenz $f=3$\,kHz ist und die Peaks bei $f_1=1$\,kHz und $f_2=2$\,kHz die Aliase dieser sind. Hat man dieses wissen jedoch nicht, kann dies jedoch zu nicht unerheblichen Messfehlern führen. Um Aliasing zu vermeiden, sollte eine höhere Abtastfrequenz verwendet werden.\\
 
 %TODO #42
-Erklärung d. Peaks --> Umklappprozesse
+Eine mögliche Erklärung für die Peaks bei 0kHz, 1kHz und 2kHz sind Umklappprozesse.
+Umklappprozesse sind im allgemeinen Dreiphononenprozesse, für die Folgende Erhaltungssätze gelten:
+\begin{align}
+    \hbar \omega_1 +\hbar \omega_2 &= \hbar \omega_3  \qquad \text{Energierhaltung}\\
+    \vec{q_1} + \vec{q_2} &= \vec{q_3} + \vec{G} \qquad \vec{G} \neq 0 \label{eq:UPImp}
+\end{align}
+Gleichung \ref{eq:UPImp} lässt sich als Impulserhaltung auffassen, da \( \hbar \vec{q}\) der Quasiimpuls eines Phonons ist. Es handelt sich also um Stoßprozesse \citep{EFP}.\\
+Die Erklärung für die Äquidistanz der Peaks hängt vermutlich mit quantenmechanischen Effekten zusammen.
