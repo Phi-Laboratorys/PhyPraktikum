@@ -85,4 +85,10 @@ Im letzten Abschnitt wird noch die Verwendung eines Lock-In Verstärkers in der 
 
 Die Änderung der Zeitkonstante $\tau$ und Flankensteilheit $\Delta$ am Lock-In Verstärker ergaben eine Veränderung der Auflösung des Lock-In Verstärkers. Dabei war die Auflösung am höchsten, wenn auch die Zeitkonstante und Flankensteilheit am höchsten waren.
 
-Die Bandbreite des Lock in Verstärkers lässt sich über die Grenzfrequenz $f_g$ bestimmen. Diese ist proportional zu $\frac{1}{\tau}$. In der Messung ist $\tau = 1$\,s (aus Abb. \ref{image:lockIn}), womit $f_g\approx 1$\,Hz ist, was der Bandbreite des Lock-In Verstärkers entspricht. Um diese Größe in dB umzurechnen, wird eine Referenzfrequenz benötigt, welche nicht beim Versuch aufgezeichnet wurde.
+%Die Bandbreite des Lock in Verstärkers lässt sich über die Grenzfrequenz $f_g$ bestimmen. Diese ist proportional zu $\frac{1}{\tau}$. In der Messung ist $\tau = 1$\,s (aus Abb. \ref{image:lockIn}), womit $f_g\approx 1$\,Hz ist, was der Bandbreite des Lock-In Verstärkers entspricht. Um diese Größe in dB umzurechnen, wird eine Referenzfrequenz benötigt, welche nicht beim Versuch aufgezeichnet wurde.
+
+Die Detektionsbandbreite $B$ des Lock-In Verstärkers lässt sich wie folgt berechnen:
+\begin{gather}
+    B = 20\log_{10}\left(\frac{U_{min}}{U_{max}}\right)
+\end{gather}
+Bei dem verwendeten Loch-In Verstärker ist die maximale Spannung $U_{max}=$ 1\,V, was durch Bauart des Gerätes bedingt ist, und die minimal Spannung $U_{min} =$ 255\,nV. Damit ergibt sich eine Detektionsbreite $B =$ -132\,dB.

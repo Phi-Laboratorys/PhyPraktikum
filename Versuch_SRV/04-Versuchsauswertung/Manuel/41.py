@@ -15,7 +15,7 @@ import scipy.constants as const
 rc('text', usetex=True)
 rc('font', family='serif', size=22)
 
-#'''
+'''
 #############################
 ##                         ##
 ##      Teilaufgabe a      ##
@@ -152,7 +152,7 @@ ax[1].legend(loc = 'lower right')
 ax[2].legend(loc='center right')
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/Residuum.pdf',bbox_inches='tight')
 #plt.show()
-#'''
+'''
 '''
 #############################
 ##                         ##
@@ -192,7 +192,7 @@ ax.set_xlabel(r'$f$ in kHz')
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/FourierSinus.pdf', bbox_inches='tight')
 plt.show()
 '''
-'''
+#'''
 #############################
 ##                         ##
 ##      Teilaufgabe c      ##
@@ -245,7 +245,7 @@ ax1R.yaxis.set_ticklabels([])
 ax1.set_ylabel(r'$A$ in dB')
 ax1.set_xlabel(r'$f$ in kHz')
 ax1.legend()
-plt.savefig('Versuch_SRV/Bilder/Manuel/41/Mittelung.pdf', bbox_inches='tight')
+#plt.savefig('Versuch_SRV/Bilder/Manuel/41/Mittelung.pdf', bbox_inches='tight')
 plt.show()
 
 fig, ax2 = plt.subplots(figsize=(12,8), dpi=80)
@@ -262,7 +262,7 @@ abstand = abs(median - maxima[36])
 #    print(abstand)
 
 def ln(x,a,t):
-    return a * np.log(x+1) + t
+    return a * np.log(np.sqrt(x+1)) + t
 
 def sqrt(x,a,t):
     return a * np.sqrt(x) + t
@@ -278,8 +278,8 @@ a2, t2 = popt2
 print(popt1, popt2)
 
 ax2.plot(N,abstand, 'o',color = 'black', label = 'Messreihe')
-ax2.plot(x_lin, ln(x_lin,a1,t1), label = 'Logaritmus-Fit')
-ax2.plot(x_lin, sqrt(x_lin,a2,t2), label = 'Wurzel-Fit')
+ax2.plot(x_lin, ln(x_lin,a1,t1), label = r'$d(N) = 8,77\,\mathrm{dB}\cdot\ln(\sqrt{N+1}) + 60,24\,\mathrm{dB}$')
+#ax2.plot(x_lin, sqrt(x_lin,a2,t2), label = 'Wurzel-Fit')
 
 ax2.tick_params(direction = "in")
 
@@ -297,7 +297,7 @@ ax2.legend()
 
 plt.savefig('Versuch_SRV/Bilder/Manuel/41/MittlungAbstand.pdf', bbox_inches='tight')
 plt.show()
-'''
+#'''
 '''
 #############################
 ##                         ##

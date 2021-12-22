@@ -137,14 +137,15 @@ Als Maxima wird der Wert des ersten Peaks verwendet, welcher -6.91\,dB beträgt.
         100 & 80,39 \\
     \end{tabular}
 \end{center}
-Zusätzlich wurde mit dem Modul curve\_fit aus dem scipy.optimize Paket eine Wurzel-Funktion und eine natürliche Logarithmus-Funktion gefittet. Die Funktionen hatten dabei die Form:
+Da die Werte in dB angegeben sind, muss die Fit-Funktion logaritmisch sein. Der Fit wird mit dem Modul curve\_fit aus dem scipy.optimize Paket erstellt. Die Funktion hat dabei die Form:
 \begin{gather}
     \begin{aligned}
-       &d(N) = a\cdot\sqrt{N} + t &\xrightarrow{\text{Fit}} &~~d(N) = 1.99\,\text{dB}\cdot\sqrt{N} + 62.17\,\text{dB} \\
-       &d(N) = a\cdot\ln(N+1) + t &\xrightarrow{\text{Fit}} &~~d(N) = 4.38\,\text{dB}\cdot\ln(N+1) + 60.24\,\text{dB} \\
+       %&d(N) = a\cdot\sqrt{N} + t &\xrightarrow{\text{Fit}} &~~d(N) = 1.99\,\text{dB}\cdot\sqrt{N} + 62.17\,\text{dB} \\
+       &d(N) = a\cdot\ln(\sqrt{N+1}) + t &\xrightarrow{\text{Fit}} &~~d(N) = 8,77\,\text{dB}\cdot\ln(\sqrt{N+1}) + 60.24\,\text{dB} \\
     \end{aligned}
 \end{gather}
-In Abbildung \ref{image:abstandMittelung} erkennt man deutlich, dass die natürliche Logarithmus-Funktion besser den Verlauf der Datenpunkten entspricht als die theoretisch erwartete Wurzel-Funktion. Dies kann mit der Wahl der Berechnung des Signal/Rausch-Abstands zusammenhängen. Dennoch lässt sich sagen, dass sich der Signal/Rausch-Abstand $d$ mit zunehmender Mittelung $N$ vergrößert und es somit möglich ist, das Signal besser aufzulösen.
+In Abbildung \ref{image:abstandMittelung} erkennt man deutlich, dass der Fit mit der Theorie gut übereinstimmt, was diese wiederum bestätigt. Womit sich sagen lässt, dass sich der Signal/Rausch-Abstand $d$ mit zunehmender Mittelung $N$ vergrößert und es somit möglich ist, das Signal besser aufzulösen.
+%In Abbildung \ref{image:abstandMittelung} erkennt man deutlich, dass die natürliche Logarithmus-Funktion besser den Verlauf der Datenpunkten entspricht als die theoretisch erwartete Wurzel-Funktion. Dies kann mit der Wahl der Berechnung des Signal/Rausch-Abstands zusammenhängen. Dennoch lässt sich sagen, dass sich der Signal/Rausch-Abstand $d$ mit zunehmender Mittelung $N$ vergrößert und es somit möglich ist, das Signal besser aufzulösen.
 \newpage
 \begin{center}
     \includegraphics[scale = 0.5]{Manuel/41/Mittelung.pdf}
