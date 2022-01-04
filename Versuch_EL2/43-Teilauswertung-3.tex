@@ -11,7 +11,7 @@
     \includegraphics[width = 8cm]{diffOPVverbessert.PNG}
     \captionof{figure}{Modifizierte Version eines Umkehrdifferenzierers}
     \label{modifiziertumkehrdiff}
-\end{center} 
+\end{center}
 Wenn man das \enquote{differenzierte} Bild der einfachen Schaltung \ref{Differenzierschaltung} betrachtet fällt einem sehr schnell auf, dass man einen Einschwingprozess wie in Grafik \ref{Einschwingprozess} beobachten kann. Dieser kommt daher, das die Schaltung nicht alles differenziert\footnotemark in dem Moment, in dem sich die Steigung sprunghaft ändert. Der Grund dafür ist, dass kein Wiederstand dem Kondensator $C_1$ vorgeschaltet ist. Bei hoher Frequenz ist der Widerstand des Kondensators sehr gering. Da der Innenwiderstand der Stromquelle nicht Null ist, fallen auch Teile der Spannung dort ab. \footnotetext{\url{https://projektteam4.cotto.de/index_htm_files/Beschreibung%20Operationsverstarker.pdf}}\\
 Ein Teil des Signales wird undifferenziert durchgelassen. Dabei scheint dieser Prozess nicht bei allen Frequenzen im gleichen Maß abzulaufen. Man sieht, dass Eingangssignal von dem Funktionsgenerator erzeugt wird, eine komposition aus vielen Sinusspannungen zu sein scheint. Genauerer Informationen sollte man erhalten, wenn man das Ausgangssignal fouriertransformiert. Außerdem fällt auf, dass das Rauschen bei der Grundschaltung deutlich stärker ist, als bei der optimierten Schaltung.\\
 \begin{center}
@@ -34,36 +34,36 @@ Im folgenden wird wieder die Verstärkung $v$ doppellogarithmisch aufgetragen, w
 \begin{center}
     \captionof{table}{Messreihe Bandpass}
     \begin{tabular}{l | c c c c c | c c}
-        {} &       $f$/Hz &   $U_a$/V &  $s_{U_a}$/V &  $U_e$/V &  $s_{U_e}$/V &      $v$ &    $s_v$ \\
+        {} & $f$/Hz  & $U_a$/V & $s_{U_a}$/V & $U_e$/V & $s_{U_e}$/V & $v$   & $s_v$ \\
         \hline
-        1  &       10 &   0.025 &      0.005 &    2.80 &       0.13 &  0.009 &  0.002 \\
-        2  &       30 &   0.060 &      0.005 &    2.80 &       0.13 &  0.021 &  0.002 \\
-        3  &       50 &   0.120 &      0.006 &    2.80 &       0.13 &  0.043 &  0.003 \\
-        4  &      100 &   0.200 &      0.021 &    2.80 &       0.13 &  0.071 &  0.008 \\
-        5  &      300 &   0.600 &      0.027 &    2.80 &       0.13 &  0.214 &  0.014 \\
-        6  &      500 &   1.000 &      0.036 &    2.80 &       0.13 &  0.357 &  0.021 \\
-        7  &     1000 &   2.200 &      0.211 &    2.80 &       0.13 &  0.786 &  0.084 \\
-        8  &     2000 &   4.000 &      0.233 &    2.80 &       0.13 &  1.429 &  0.107 \\
-        9  &     3000 &   6.000 &      0.269 &    2.80 &       0.13 &  2.143 &  0.139 \\
-        10 &     4000 &   7.200 &      0.294 &    2.80 &       0.13 &  2.571 &  0.159 \\
-        11 &     6000 &  10.000 &      0.361 &    2.80 &       0.13 &  3.571 &  0.211 \\
-        12 &     8000 &  12.000 &      0.412 &    2.80 &       0.13 &  4.286 &  0.248 \\
-        13 &    10000 &  13.600 &      0.454 &    2.80 &       0.13 &  4.857 &  0.279 \\
-        14 &    11000 &  14.000 &      0.465 &    2.80 &       0.13 &  5.000 &  0.286 \\
-        15 &    16000 &  15.000 &      0.492 &    2.80 &       0.13 &  5.357 &  0.306 \\
-        16 &    30000 &  12.000 &      0.412 &    2.80 &       0.13 &  4.286 &  0.248 \\
-        17 &    50000 &   8.400 &      0.322 &    2.80 &       0.13 &  3.000 &  0.181 \\
-        18 &    70000 &   6.200 &      0.211 &    2.80 &       0.13 &  2.214 &  0.128 \\
-        19 &    90000 &   5.000 &      0.180 &    2.80 &       0.13 &  1.786 &  0.105 \\
-        20 &   100000 &   4.500 &      0.168 &    2.80 &       0.13 &  1.607 &  0.096 \\
-        21 &   200000 &   2.300 &      0.085 &    2.80 &       0.13 &  0.821 &  0.049 \\
-        22 &   300000 &   1.600 &      0.052 &    2.80 &       0.13 &  0.571 &  0.032 \\
-        23 &   400000 &   1.200 &      0.041 &    2.80 &       0.13 &  0.429 &  0.025 \\
-        24 &   500000 &   1.000 &      0.036 &    2.80 &       0.13 &  0.357 &  0.021 \\
-        25 &   600000 &   0.880 &      0.033 &    2.80 &       0.13 &  0.314 &  0.019 \\
-        26 &   800000 &   0.720 &      0.024 &    2.80 &       0.13 &  0.257 &  0.015 \\
-        27 &   900000 &   0.670 &      0.022 &    2.80 &       0.13 &  0.239 &  0.014 \\
-        28 &  1000000 &   0.660 &      0.022 &    2.80 &       0.13 &  0.236 &  0.014 \\
+        1  & 10      & 0.025   & 0.005       & 2.80    & 0.13        & 0.009 & 0.002 \\
+        2  & 30      & 0.060   & 0.005       & 2.80    & 0.13        & 0.021 & 0.002 \\
+        3  & 50      & 0.120   & 0.006       & 2.80    & 0.13        & 0.043 & 0.003 \\
+        4  & 100     & 0.200   & 0.021       & 2.80    & 0.13        & 0.071 & 0.008 \\
+        5  & 300     & 0.600   & 0.027       & 2.80    & 0.13        & 0.214 & 0.014 \\
+        6  & 500     & 1.000   & 0.036       & 2.80    & 0.13        & 0.357 & 0.021 \\
+        7  & 1000    & 2.200   & 0.211       & 2.80    & 0.13        & 0.786 & 0.084 \\
+        8  & 2000    & 4.000   & 0.233       & 2.80    & 0.13        & 1.429 & 0.107 \\
+        9  & 3000    & 6.000   & 0.269       & 2.80    & 0.13        & 2.143 & 0.139 \\
+        10 & 4000    & 7.200   & 0.294       & 2.80    & 0.13        & 2.571 & 0.159 \\
+        11 & 6000    & 10.000  & 0.361       & 2.80    & 0.13        & 3.571 & 0.211 \\
+        12 & 8000    & 12.000  & 0.412       & 2.80    & 0.13        & 4.286 & 0.248 \\
+        13 & 10000   & 13.600  & 0.454       & 2.80    & 0.13        & 4.857 & 0.279 \\
+        14 & 11000   & 14.000  & 0.465       & 2.80    & 0.13        & 5.000 & 0.286 \\
+        15 & 16000   & 15.000  & 0.492       & 2.80    & 0.13        & 5.357 & 0.306 \\
+        16 & 30000   & 12.000  & 0.412       & 2.80    & 0.13        & 4.286 & 0.248 \\
+        17 & 50000   & 8.400   & 0.322       & 2.80    & 0.13        & 3.000 & 0.181 \\
+        18 & 70000   & 6.200   & 0.211       & 2.80    & 0.13        & 2.214 & 0.128 \\
+        19 & 90000   & 5.000   & 0.180       & 2.80    & 0.13        & 1.786 & 0.105 \\
+        20 & 100000  & 4.500   & 0.168       & 2.80    & 0.13        & 1.607 & 0.096 \\
+        21 & 200000  & 2.300   & 0.085       & 2.80    & 0.13        & 0.821 & 0.049 \\
+        22 & 300000  & 1.600   & 0.052       & 2.80    & 0.13        & 0.571 & 0.032 \\
+        23 & 400000  & 1.200   & 0.041       & 2.80    & 0.13        & 0.429 & 0.025 \\
+        24 & 500000  & 1.000   & 0.036       & 2.80    & 0.13        & 0.357 & 0.021 \\
+        25 & 600000  & 0.880   & 0.033       & 2.80    & 0.13        & 0.314 & 0.019 \\
+        26 & 800000  & 0.720   & 0.024       & 2.80    & 0.13        & 0.257 & 0.015 \\
+        27 & 900000  & 0.670   & 0.022       & 2.80    & 0.13        & 0.239 & 0.014 \\
+        28 & 1000000 & 0.660   & 0.022       & 2.80    & 0.13        & 0.236 & 0.014 \\
     \end{tabular}
     \label{tab:bandpass}
 \end{center}
@@ -71,7 +71,7 @@ Weiterhin wird in die Abbildung \ref{abb:bandpass} die Verstärkung des Integrat
 \newpage
 \begin{center}
     \captionof{figure}{Frequenzgang des Bandpasses mit Umkehrintegrator}
-    \includegraphics[scale = 0.70]{bandfilterMess.png} 
+    \includegraphics[scale = 0.70]{bandfilterMess.png}
     \label{abb:bandpass}
 \end{center}
 \newpage
@@ -98,11 +98,11 @@ Setzen wir nun die von uns verbauten Teil ein, so folgt:
 \begin{center}
     \fbox{ $f_{d,T} = (1.59 \pm 0.07)~\mathrm{kHz} = f_{i,T} = f_T$}
 \end{center}
-An den Formeln sieht man sehr schön, dass sich der Schnittpunkt abhängig von der verbauten 
+An den Formeln sieht man sehr schön, dass sich der Schnittpunkt abhängig von der verbauten
 Bauteilen ändert.\\
-Der Nachteil des Differenzierers ist, dass er für hohe Frequenzen instabil wird. Er differenziert nur 
-wirklich gut im linearen niedrigfrequenten Bereich. Durch das vorschalten eines Widerstandes wird die Verstärkung begrenzt. 
-Der zu $R_2$ parallelgeschaltete Widerstand bildet einen Hochpassfilter der Rauschen herausfiltern kann. 
-Das führt dazu, dass die verbesserte Schaltung bei niedrigen Frequenzen wie ein Differentiator wirkt und bei hohen 
+Der Nachteil des Differenzierers ist, dass er für hohe Frequenzen instabil wird. Er differenziert nur
+wirklich gut im linearen niedrigfrequenten Bereich. Durch das vorschalten eines Widerstandes wird die Verstärkung begrenzt.
+Der zu $R_2$ parallelgeschaltete Widerstand bildet einen Hochpassfilter der Rauschen herausfiltern kann.
+Das führt dazu, dass die verbesserte Schaltung bei niedrigen Frequenzen wie ein Differentiator wirkt und bei hohen
 Frequenzen wie ein Verstärker mit ohmscher Rückkopplung.\footnotemark
 \footnotetext{\url{https://www.electronics-tutorials.ws/de/operationsverstarker/differentiator-verstaerker.html}}
