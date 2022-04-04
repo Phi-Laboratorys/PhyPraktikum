@@ -1,4 +1,4 @@
-# Physikalisches Praktikum ![altText](/Bilder/1582619827577.jpeg =250x250)
+# Physikalisches Praktikum <img src="Bilder/1582619827577.jpeg" width="50">
 
 Dieses Repository enthält mehrere Auswertung und Daten zu den Versuchen im Bachelor Physik an der Universität Bayreuth in Rahmen des Physikalischen Praktikums mit dem Grundpraktium geführt von ``Dr. Wolfgang Schöpf`` und dem Fortgeschrittenen Praktikum geführt von ``Dr. Uwe Gerken``.
 
