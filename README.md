@@ -16,11 +16,32 @@ Dieses Repository enthält mehrere Auswertung und Daten zu den Versuchen im Bach
 
 Die Auswertungen dienen zur **Hilfe** und sollen nicht die Eigenleistung erleichtern. Deswegen weise ich darauf hin selbst Arbeit in **seine** Auswertungen zu stecken und die Fragen zur Vorbereitung **gewissenhaft** zu erledigen, da sie **notwendig** sind für das Verständnis zum jeweiligen Versuch.
 
+Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich eine Repository mit einer [Vorlage](https://github.com/ManeLippert/PraktikumsVorlage) erstellt.
+
 ### Legende
 
-| Nr  | Gruppenmitglieder | Jahr |
-|:---:|:------------------|:----:|
-| (1) | Charlotte Geiger, Leonhard Schatt, [Manuel Lippert](https://github.com/ManeLippert) | 2020-2021 |
+#### Grundpraktikum
+
+| Nr | Gruppenmitglieder                                                                   |   Jahr    |
+|:--:|:------------------------------------------------------------------------------------|:---------:|
+| 1  | Charlotte Geiger, Leonhard Schatt, [Manuel Lippert](https://github.com/ManeLippert) | 2020-2021 |
+| 2  | Anna-Maria Pleyer, Dominik Müller, Paul Schwanitz                                   | 2020-2021 |
+| 3  | Armin Guckenberger, Markus Sesselmann                                               |   2010    |
+| 4  | Dominik Sieder, Markus Sesselmann                                                   |   2010    |
+
+#### Fortgeschrittenen Praktikum
+
+| Nr | Gruppenmitglieder                                                                   |   Jahr    |
+|:--:|:------------------------------------------------------------------------------------|:---------:|
+| 5  | [Manuel Lippert](https://github.com/ManeLippert), Paul Schwanitz                    |   2021    |
+| 6  | Anna-Maria Pleyer, Dominik Müller, (David Stadelmann bei FRET)                      |   2021    |
+| 7  | Konstantin Rausch, Lydia Ploss                                                      |   2021    |
+| 8  | Charlotte Geiger, Leonie Auer                                                       |   2021    |
+| 9  | Leonhard Schatt, Matteo Kumar                                                       |   2021    |
+| 10 | Emma Rauland, Anna-Lena Vesper                                                      |   2021    |
+| 11 | Johanna Lix, Jonas Elschner                                                         |   2021    |
+| 12 | Emmi Gareis, Magdalena Dörfler                                                      |   2020    |
+| 13 | Clara Gremmelspacher, Sebastian Koch                                                |   2020    |
 
 ## Grundpraktikum A1 
 
