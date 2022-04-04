@@ -22,7 +22,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 #### Grundpraktikum
 
-| Nr | Gruppenmitglieder  <img width=300/>                                                 | <img width=20/> Jahr <img width=20/>    |
+| Nr | Gruppenmitglieder  <img width=400/>                                                 | <img width=20/> Jahr <img width=20/>    |
 |:--:|:------------------------------------------------------------------------------------|:---------:|
 | 1  | Charlotte Geiger, Leonhard Schatt, [Manuel Lippert](https://github.com/ManeLippert) | 2020-2021 |
 | 2  | Anna-Maria Pleyer, Dominik Müller, Paul Schwanitz                                   | 2020-2021 |
@@ -31,7 +31,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 #### Fortgeschrittenen Praktikum
 
-| Nr | Gruppenmitglieder  <img width=300/>                                                 | <img width=20/> Jahr <img width=20/>    |
+| Nr | Gruppenmitglieder  <img width=400/>                                                 | <img width=20/> Jahr <img width=20/>    |
 |:--:|:------------------------------------------------------------------------------------|:---------:|
 | 5  | [Manuel Lippert](https://github.com/ManeLippert), Paul Schwanitz                    |   2021    |
 | 6  | Anna-Maria Pleyer, Dominik Müller, (David Stadelmann bei FRET)                      |   2021    |
