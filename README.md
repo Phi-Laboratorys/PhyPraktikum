@@ -16,7 +16,11 @@ Dieses Repository enthält mehrere Auswertung und Daten zu den Versuchen im Bach
 
 Die Auswertungen dienen zur **Hilfe** und sollen nicht die Eigenleistung erleichtern. Deswegen weise ich darauf hin selbst Arbeit in **seine** Auswertungen zu stecken und die Fragen zur Vorbereitung **gewissenhaft** zu erledigen, da sie **notwendig** sind für das Verständnis zum jeweiligen Versuch.
 
+### Legende
 
+| Nr  | Gruppenmitglieder | Jahr |
+|:---:|:------------------|:----:|
+| (1) | Charlotte Geiger, Leonhard Schatt, [Manuel Lippert](https://github.com/ManeLippert) | 2020-2021 |
 
 ## Grundpraktikum A1 
 
