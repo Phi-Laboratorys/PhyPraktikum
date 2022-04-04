@@ -54,6 +54,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](/PPA1/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](/PPA1/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf), [3](/PPA1/Versuch_VIS/Dominik_Markus/Versuch_VIS.pdf) |
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](/PPA1/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
 ## [Grundpraktikum A2](/PPA2)
+
 |         | Beschreibung                                                                        |   Gruppen   |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](/PPA2/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf), [4](/PPA2/Versuch_BEU/Achim_Markus/Versuch_BEU.pdf) |
@@ -64,6 +65,14 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | TRA     | Transformator                                                                       | [2](/PPA2/Versuch_TRA/Anna-Maria_Dominik_Paul/Auswertung%20TRA.pdf), [3](/PPA2/Versuch_TRA/Dominik_Markus/Versuch_TRA.pdf) |
 
 ## [Grundpraktikum B1](/PPB1)
+
+|         | Beschreibung                                                                        |   Gruppen   |
+|:-------:|:------------------------------------------------------------------------------------|:-----------:|
+| EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](/PPB1/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf) |
+| EL2     | Operationsverstärker                                                                | [1](/PPB1/Versuch_EL2/Charlotte_Leo_Manuel/Versuch_EL2.pdf), [2](/PPB1/Versuch_EL2/Anna-Maria_Dominik_Paul/Master.pdf) |
+| KRE     | Kreisel                                                                             | [1](/PPB1/Versuch_KRE/Charlotte_Leo_Manuel/Versuch_KRE.pdf), [2](/PPB1/Versuch_KRE/Anna-Maria_Dominik_Paul/Master.pdf) |
+| POL     | Polarisation , Brewsterwinkel und Miestreung                                        | [1](/PPB1/Versuch_POL/Charlotte_Leo_Manuel/Versuch_POL.pdf) |
+| SP      | Elektromagnetisches Spektrum                                                        | [1](/PPB1/Versuch_SP/Charlotte_Leo_Manuel/Versuch_SP.pdf)  |
 
 
 ## [Fortgeschrittenes Praktikum B2](/PPB2)
