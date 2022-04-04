@@ -1,5 +1,4 @@
-<center> <h1>Physikalisches Praktikum1</h1> </center>
-
+<h1 align="center">Physikalisches Praktikum</h1>
 <p align="center">
   <img src="Bilder/1582619827577.jpeg" width = 50/>
 </p>
