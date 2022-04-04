@@ -45,7 +45,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Grundpraktikum A1](/PPA1)
 
-| <img width=50/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
+| <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | MES     | Umgangs mit Messunsicherheiten und Fehlerrechnung                                   | [1](/PPA1/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](/PPA1/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
 | ES      | Erzwungene Schwingung und  Resonanzkurve                                            | [1](/PPA1/Versuch_ES/Charlotte_Leo_Manuel/), [2](/PPA1/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](/PPA1/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
@@ -55,7 +55,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](/PPA1/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
 ## [Grundpraktikum A2](/PPA2)
 
-|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
+| <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](/PPA2/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf), [4](/PPA2/Versuch_BEU/Achim_Markus/Versuch_BEU.pdf) |
 | KW      | Komplexe Widerstände und Schwingkreis                                               | [2](/PPA2/Versuch_KW/Anna-Maria_Dominik_Paul/Auswertung%20KW.pdf), [4](/PPA2/Versuch_KW/Achim_Markus/Versuch_KW.pdf) |
@@ -66,7 +66,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Grundpraktikum B1](/PPB1)
 
-|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
+| <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](/PPB1/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf) |
 | EL2     | Operationsverstärker                                                                | [1](/PPB1/Versuch_EL2/Charlotte_Leo_Manuel/Versuch_EL2.pdf), [2](/PPB1/Versuch_EL2/Anna-Maria_Dominik_Paul/Master.pdf) |
@@ -77,7 +77,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Fortgeschrittenes Praktikum B2](/PPB2)
 
-|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
+| <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | AFM     | Rasterkraftmikroskop                                                                | [9](/PPB2/Versuch_AFM/Leo_Matteo/Versuch_AFM.pdf) |
 | AGS     | Alpha-Gamma Spektroskopie                                                           | [9](/PPB2/Versuch_AGS/Leo_Matteo/Versuch_AlphaGamma.pdf) |
