@@ -45,7 +45,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Grundpraktikum A1](/PPA1)
 
-|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
+| <img width=50/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | MES     | Umgangs mit Messunsicherheiten und Fehlerrechnung                                   | [1](/PPA1/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](/PPA1/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
 | ES      | Erzwungene Schwingung und  Resonanzkurve                                            | [1](/PPA1/Versuch_ES/Charlotte_Leo_Manuel/), [2](/PPA1/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](/PPA1/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
@@ -83,6 +83,12 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | AGS     | Alpha-Gamma Spektroskopie                                                           | [9](/PPB2/Versuch_AGS/Leo_Matteo/Versuch_AlphaGamma.pdf) |
 | Chaos   | Chaos in physikalischen Systeme                                                     | [5](/PPB2/Versuch_Chaos/Manuel_Paul/Versuch_Chaos.pdf) |
 | DSR     | Dopplerfreie Spektroskopie von Rubidium                                             | [5](/PPB2/Versuch_DSR/Manuel_Paul/Experiment_DSR.pdf), [6](/PPB2/Versuch_DSR/Anna-Maria_Dominik/Master.pdf), [7](/PPB2/Versuch_DSR/Konstantin_Lydia/PPB2_DSR_Gruppe7.pdf), [10](/PPB2/Versuch_DSR/Emma_Anna-Lena/), [12](/PPB2/Versuch_DSR/Emmi_Magdalena/DSvR.pdf) |
-|
+| FRET    | Förster-Resonanzenergietransfer an bilogischen Proben                               | [5](/PPB2/Versuch_FRET/Manuel_Paul/Versuch_FRET.pdf), [6](/PPB2/Versuch_FRET/Anna-Maria_David_Dominik/Master.pdf), [9](/PPB2/Versuch_FRET/Leo_Matteo/Versuch_FRET.pdf) |
+| FTS     | Fouriertransformationsspektroskopie                                                 | [6](/PPB2/Versuch_FTS/Anna-Maria_Dominik/Master.pdf), [8](/PPB2/Versuch_FTS/Charlotte_Leonie/FTS_Charlotte_bearbeitet.pdf) |
+| Laser   | Laser als Messgerät                                                                 | [6](/PPB2/Versuch_Laser/Anna-Maria_Dominik/Master.pdf), [9](/PPB2/Versuch_Laser/Leo_Matteo/Versuch_Laser.pdf), [11](/PPB2/Versuch_Laser/Johanna_Jonas/Laser_Auswertung.pdf) |
+| Raman   | Raman-Spektroskopie                                                                 | [6](/PPB2/Versuch_Raman/Anna-Maria_Dominik/Master.pdf), [8](/PPB2/Versuch_Raman/Charlotte_Leonie/Raman_Charlotte.pdf), [13](/PPB2/Versuch_Raman/Clara_Sebastian/Raman_Clara.pdf) |
+| REM     | Rasterelektronenmikroskop                                                           | [5](/PPB2/Versuch_REM/Manuel_Paul/Verbesserung_REM.pdf) |
+| SRV     | Signal-Rausch Verbesserung                                                          | [5](/PPB2/Versuch_SRV/Manuel_Paul/Verbesserung_SRV.pdf) |
+| SZ      | Solarzelle                                                                          | [9](/PPB2/Versuch_SZ/Leo_Matteo/Versuch_Solarzelle.pdf) |
 
 ## Schluss
