@@ -1,0 +1,5 @@
+Abmessung für statistische Torsion
+d(mm) 4.495 (MM)
+leff(mm) 910 (SM)
+D(mm) 220 (SM)
+d(mm) 14.9 (MS)

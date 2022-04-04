@@ -1,0 +1,6 @@
+	Wert in mm
+h(cm)	30.65
+a(cm)	24.85
+d(cm)	15
+t(cm)	10.6
+m(g)	144.35

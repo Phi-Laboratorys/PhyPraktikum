@@ -1,0 +1,5 @@
+Abmessung der Aparatur
+l0(cm) 97.3 (SM)
+l(cm) 49.8 (SM)
+m(g) 291.8 Ablesefehler 0.1 g
+a(cm) 23.8 (SM)

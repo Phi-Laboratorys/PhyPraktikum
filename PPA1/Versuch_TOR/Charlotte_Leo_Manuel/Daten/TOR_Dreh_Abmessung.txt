@@ -1,0 +1,5 @@
+Abmessung Platte
+a(cm) 30.0 (SM)
+k(cm) 5.0 (SM)
+d(mm) 10.2 (MS)
+h(mm) 10.0 (MS)

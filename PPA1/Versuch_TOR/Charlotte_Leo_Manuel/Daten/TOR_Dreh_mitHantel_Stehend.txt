@@ -1,0 +1,11 @@
+Hantel stehend Schwingungsdauer (20 Schwingungen)
+1 30.48
+2 30.59
+3 30.64
+4 30.82
+5 30.69
+6 30.64
+7 30.87
+8 30.36
+9 30.67
+10 30.47

@@ -1,0 +1,4 @@
+Abmessung Hantel
+D(mm) 60
+l(mm) 105
+d(mm) 30
