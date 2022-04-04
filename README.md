@@ -45,7 +45,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Grundpraktikum A1](/PPA1)
 
-| Versuch | Beschreibung                                                                        |   Gruppen   |
+| Versuch | Beschreibung                                                                        |   Nr   |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | MES     | Erlernen des Umgangs mit Messunsicherheiten und Fehlerrechnung                      | [1](/PPA1/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](/PPA1/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
 | ES      | Erzwungene Schwingung und die Aufnahme der Resonanzkurve                            | [1](/PPA1/Versuch_ES/Charlotte_Leo_Manuel/), [2](/PPA1/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](/PPA1/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
