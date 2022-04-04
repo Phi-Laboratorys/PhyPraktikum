@@ -45,10 +45,10 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Grundpraktikum A1](/PPA1)
 
-|         | Beschreibung <img width=500/>                                                      |   Gruppen   |
+|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
-| MES     | Erlernen des Umgangs mit Messunsicherheiten und Fehlerrechnung                      | [1](/PPA1/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](/PPA1/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
-| ES      | Erzwungene Schwingung und die Aufnahme der Resonanzkurve                            | [1](/PPA1/Versuch_ES/Charlotte_Leo_Manuel/), [2](/PPA1/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](/PPA1/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
+| MES     | Umgangs mit Messunsicherheiten und Fehlerrechnung                                   | [1](/PPA1/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](/PPA1/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
+| ES      | Erzwungene Schwingung und  Resonanzkurve                                            | [1](/PPA1/Versuch_ES/Charlotte_Leo_Manuel/), [2](/PPA1/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](/PPA1/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
 | GP      | Gekoppelte Pendel und Fundamentalschwingungen                                       | [3](/PPA1/Versuch_GP/Markus_Dominik/Versuch_GP.pdf) |
 | TOR     | Torsion, Biegung und Scherung                                                       | [1](/PPA1/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf), [3](/PPA1/Versuch_TOR/Dominik_Markus/Versuch_TOR.pdf) |
 | VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](/PPA1/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](/PPA1/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf), [3](/PPA1/Versuch_VIS/Dominik_Markus/Versuch_VIS.pdf) |
@@ -79,5 +79,6 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 |         | Beschreibung <img width=500/>                                                       |   Gruppen   |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
+| 
 
 ## Schluss
