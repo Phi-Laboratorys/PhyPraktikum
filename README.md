@@ -4,10 +4,10 @@
 </p>
 
 ## Inhalt
-1) [Einleitung](#Einleitung)
-2) [Grundpraktikum A1](#GrundpraktikumA1)
-3) [Grundpraktikum A2](#GrundpraktikumA2)
-3) [Grundpraktikum A2](#GrundpraktikumB1)
+1) [Einleitung](#einleitung)
+2) [Grundpraktikum A1](#grundpraktikum-a1)
+3) [Grundpraktikum A2](#grundpraktikum-a2)
+3) [Grundpraktikum A2](#grundpraktikum-b1)
 
 ## Einleitung
 Dieses Repository enthält mehrere Auswertung und Daten zu den Versuchen im Bachelor Physik an der Universität Bayreuth in Rahmen des Physikalischen Praktikums mit dem Grundpraktium geführt von ``Dr. Wolfgang Schöpf`` und dem Fortgeschrittenen Praktikum geführt von ``Dr. Uwe Gerken``.
