@@ -1,6 +1,6 @@
 <h1 align="center">Physikalisches Praktikum</h1>
 <p align="center">
-  <img src="Bilder/1582619827577.jpeg" width = 50/>
+  <img src="UniBT_Logo.jpeg" width = 50/>
 </p>
 
 ## Inhalt
