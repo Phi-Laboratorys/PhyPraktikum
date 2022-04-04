@@ -54,8 +54,17 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](/PPA1/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](/PPA1/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf), [3](/PPA1/Versuch_VIS/Dominik_Markus/Versuch_VIS.pdf) |
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](/PPA1/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
 ## [Grundpraktikum A2](/PPA2)
+|         | Beschreibung                                                                        |   Gruppen   |
+|:-------:|:------------------------------------------------------------------------------------|:-----------:|
+| BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](/PPA2/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf), [4](/PPA2/Versuch_BEU/Achim_Markus/Versuch_BEU.pdf) |
+| KW      | Komplexe Widerstände und Schwingkreis                                               | [2](/PPA2/Versuch_KW/Anna-Maria_Dominik_Paul/Auswertung%20KW.pdf), [4](/PPA2/Versuch_KW/Achim_Markus/Versuch_KW.pdf) |
+| MM      | Magnetisches Moment                                                                 | [1](/PPA2/Versuch_MM/Charlotte_Leo_Manuel/Versuch_MM.pdf), [4](/PPA2/Versuch_MM/Achim_Markus/Versuch_MM.pdf) |
+| RG      | Reales Gas und Phasenübergänge                                                      | [2](/PPA2/Versuch_RG/Anna-Maria_Dominik_Paul/Auswerteheft_RG.pdf), [4](/PPA2/Versuch_RG/Achim_Markus/Versuch_RG.pdf) |
+| SK      | Strom-Spannungs-Kennlinie                                                           | [2](/PPA2/Versuch_SK/Anna-Maria_Dominik_Paul/), [4](/PPA2/Versuch_SK/Achim_Markus/Versuch_SK.pdf) |
+| TRA     | Transformator                                                                       | [2](/PPA2/Versuch_TRA/Anna-Maria_Dominik_Paul/Auswertung%20TRA.pdf), [3](/PPA2/Versuch_TRA/Dominik_Markus/Versuch_TRA.pdf) |
 
 ## [Grundpraktikum B1](/PPB1)
+
 
 ## [Fortgeschrittenes Praktikum B2](/PPB2)
 
