@@ -43,12 +43,12 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | 12 | Emmi Gareis, Magdalena Dörfler                                                      |   2020    |
 | 13 | Clara Gremmelspacher, Sebastian Koch                                                |   2020    |
 
-## Grundpraktikum A1 
+## Grundpraktikum A1 &nbsp; &nbsp; &nbsp; [Anleitungen](PPA1/Anleitungen.pdf)
 
-## Grundpraktikum A2
+## Grundpraktikum A2 &nbsp; &nbsp; &nbsp; [Anleitungen](PPA2/Anleitungen.pdf)
 
-## Grundpraktikum B1
+## Grundpraktikum B1 &nbsp; &nbsp; &nbsp; [Anleitungen](PPB1/Anleitungen.pdf)
 
-## Fortgeschrittenes Praktikum B2
+## Fortgeschrittenes Praktikum B2 &nbsp; &nbsp; &nbsp; [Anleitungen](PPB2/Anleitungen.pdf)
 
 ## Schluss
