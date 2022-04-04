@@ -92,3 +92,5 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | SZ      | Solarzelle                                                                          | [9](/PPB2/Versuch_SZ/Leo_Matteo/Versuch_Solarzelle.pdf) |
 
 ## Schluss
+
+Viel Erfolg im Praktikum und weiteren Verlauf im Bachelor!
