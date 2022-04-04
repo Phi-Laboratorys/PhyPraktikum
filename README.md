@@ -22,7 +22,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 #### Grundpraktikum
 
-| Nr | Gruppenmitglieder                                                                   |   Jahr    |
+| Nr | Gruppenmitglieder  <img width=500/>                                                 | <img width=50/> Jahr <img width=50/>    |
 |:--:|:------------------------------------------------------------------------------------|:---------:|
 | 1  | Charlotte Geiger, Leonhard Schatt, [Manuel Lippert](https://github.com/ManeLippert) | 2020-2021 |
 | 2  | Anna-Maria Pleyer, Dominik Müller, Paul Schwanitz                                   | 2020-2021 |
@@ -31,7 +31,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 #### Fortgeschrittenen Praktikum
 
-| Nr | Gruppenmitglieder                                                                   |   Jahr    |
+| Nr | Gruppenmitglieder  <img width=500/>                                                 | <img width=50/> Jahr <img width=50/>    |
 |:--:|:------------------------------------------------------------------------------------|:---------:|
 | 5  | [Manuel Lippert](https://github.com/ManeLippert), Paul Schwanitz                    |   2021    |
 | 6  | Anna-Maria Pleyer, Dominik Müller, (David Stadelmann bei FRET)                      |   2021    |
@@ -55,7 +55,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](/PPA1/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
 ## [Grundpraktikum A2](/PPA2)
 
-|         | Beschreibung                                                                        |   Gruppen   |
+|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](/PPA2/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf), [4](/PPA2/Versuch_BEU/Achim_Markus/Versuch_BEU.pdf) |
 | KW      | Komplexe Widerstände und Schwingkreis                                               | [2](/PPA2/Versuch_KW/Anna-Maria_Dominik_Paul/Auswertung%20KW.pdf), [4](/PPA2/Versuch_KW/Achim_Markus/Versuch_KW.pdf) |
@@ -66,7 +66,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 ## [Grundpraktikum B1](/PPB1)
 
-|         | Beschreibung                                                                        |   Gruppen   |
+|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](/PPB1/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf) |
 | EL2     | Operationsverstärker                                                                | [1](/PPB1/Versuch_EL2/Charlotte_Leo_Manuel/Versuch_EL2.pdf), [2](/PPB1/Versuch_EL2/Anna-Maria_Dominik_Paul/Master.pdf) |
@@ -76,5 +76,8 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 
 ## [Fortgeschrittenes Praktikum B2](/PPB2)
+
+|         | Beschreibung <img width=500/>                                                       |   Gruppen   |
+|:-------:|:------------------------------------------------------------------------------------|:-----------:|
 
 ## Schluss
