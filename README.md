@@ -94,3 +94,4 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 ## Schluss
 
 Viel Erfolg im Praktikum und weiteren Verlauf im Bachelor!
+
