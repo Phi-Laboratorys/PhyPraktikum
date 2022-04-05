@@ -1,0 +1,61 @@
+\subsection{Gegenkopplung durch das Verbauen unterschiedlicher $R'_E$}
+
+Schließlich betrachten wir einen algemeineren Fall als das, was wir bis jetzt betrachtet haben. 
+Bis jetzt ist $R'_E = \infty$. In diesem Fall verändern wir $R'_E$. Im Grenzfall mit $R'_E$ erwarten wir 
+jedoch wieder das selbe wie in Kapitel \glqq \ref{Eingspa}  \titleref{Eingspa}".\\
+Im folgenden berechnen wir die erwarteten Werte:\\
+\begin{equation*}
+    \centering
+    r'_e = [\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{r_{BE}+\beta(\frac{1}{R_E}+\frac{1}{R'_{E}})^{-1}}]^{-1}
+\end{equation*}
+\begin{equation*}
+    \centering
+    s_{r'_e} = |r_e|^2 \sqrt{(\frac{s_{R_1}}{R_1^2})^2+(\frac{s_{R_2}}{R_2^2})^2+[r_{BE}+\frac{\beta(R_E+R'_E)}{R_E \cdot R'_E}]^{-4} \cdot [s_{r_{BR}}^2+\frac{\beta^2 s_{R_E}^2}{(R_{E})^4}+(\frac{\beta \cdot s_{R'_E}}{(R'_{E})^2})^2]}
+\end{equation*}
+Für $R'_E \to \infty$ sind wir im vorherigen Kapitel. Auch die Messwerte sind dabei identisch.\\
+Aus dem Formelblatt \footnote{\url{https://docs-emea.rs-online.com/webdocs/0109/0900766b80109ff9.pdf}} entnehmen wir die fü die Rechnung nötigen Daten.
+Als Fehler der Messung nehmen wir wieder nur den geschätzten Fehler, da dieser viel größer ist, als die anderen.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{r|c|c|c|c||c||c}
+         $n$& $r'_{e,t,n}/\Omega $ & $s_{r'_{e,t,n}}/\Omega $ & $r'_{e,m,n}/\Omega$ & $s_{r'_{e,m,n}}/\Omega $& Ergebnis $r'_t$ & Ergebnis $r'_m$\\
+        \hline
+        68$\Omega$ & 9920.2762 & 821.359 & 10000 & 2000& \textcolor{red}{(9.9$\pm$0.8)k$\Omega$}& \textcolor{red}{(10$\pm $ 2)k$\Omega$}  \\
+        150$\Omega$ &12260.0619 & 1254.500  &22000 & 4400& \textcolor{red}{12$\pm$1)k$\Omega$}& \textcolor{red}{(22$\pm $ 4)k$\Omega$}  \\
+        $\infty\Omega$& Siehe & Kapitel& \ref{Eingspa} &  & \textcolor{red}{(16.5 $\pm$ 0.2)k$\Omega$}& \textcolor{red}{(20$\pm $ 4)k$\Omega$}  \\
+    \end{tabular}
+    \caption{}
+\end{table}
+Der Messwert bei dem 150$\Omega$ ist eindeutig ein Messfehler. Anders können wir uns einen so hohen Wert nicht erklären. Die anderen beiden Werte passen sehr gut 
+zu den theoretisch ermittelten Werten. Bei den theoretischen Werten fallen die großen Fehler auf. Dies lässt sich jedoch durch die Dominanz dieses Thermes im Fehler erklären:
+\begin{equation*}
+    [r_{BE}+\frac{\beta(R_E+R'_E)}{R_E \cdot R'_E}]^{-4}
+\end{equation*}
+
+\subsubsection{Verstärkung mit Gegenkopplungswiderständen}
+Die Verstärkung wird aus dem Messwerten wie in den vorherigen Kapiteln berechnet.
+Die Verstärkung\footnote{Gleichung (6) im Skript El1} ergibt sich folgendermaßen: 
+\begin{equation*}
+    v_t = -R_C[\frac{1}{R_E}+\frac{1}{R'_E}] 
+\end{equation*}
+\begin{equation*}
+    s_v = |v_t| \sqrt{(\frac{s_{R_C}}{R_C})^2+(\frac{s_{R_E}}{R_E})^2+(\frac{s_{R'_E}}{R'_E})^2}
+\end{equation*}
+Mit diesem Formel folgen folgende Werte:\\
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c|c}
+        Verstärkung & Fehler & Ergenis\\
+        \hline
+        $v_{m,68}$ = 36 & $s_{v_{m,68}}$ = 1.846& \textcolor{red}{36$\pm$2}\\
+        $v_{m,150}$ = 7 & $s_{v_{m,150}}$ = 0.37& \textcolor{red}{7.0$\pm$0.3}\\
+        $v_{m,\infty}$ = 5.0 & $s_{v_{m,68}}$ = 0.2695& \textcolor{red}{5.0$\pm$0.3}\\
+        \hline
+        $v_{t,68}$ = 49.1176 & $s_{v_{t,68}}$ = 2.552227& \textcolor{red}{49$\pm$2}\\
+        $v_{t,150}$ = 25.000 & $s_{v_{t,68}}$ = 1.29903& \textcolor{red}{25$\pm$1}\\
+        $v_{t,\infty}$ = 5.000 & $s_{v_{t,infty}}$ = 0.25988& \textcolor{red}{5.0$\pm$0.2}\\
+    \end{tabular}
+\end{table}
+Der Wert für den 150$\Omega$ Widerstand ist wie erwartet nicht übereinstimmend. Die anderen Werte passen in der 
+Gößenordnung, wobei der untere Wert sehr gut mit dem theoretischen Wert übereinstimmt. Bei großen Werten 
+scheint die Theorie nicht mehr ganz mit der Beobachtung übereinzustimmen.
