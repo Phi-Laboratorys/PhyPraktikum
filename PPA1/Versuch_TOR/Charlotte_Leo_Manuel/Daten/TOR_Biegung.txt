@@ -1,5 +1,0 @@
-Messung bei Biegung
-xP1(mm) 8.6
-xP2(mm) 8.5
-xP3(mm) 7.5
-xP4(mm) 8.2
