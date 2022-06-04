@@ -43,16 +43,16 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | 12 | Emmi Gareis, Magdalena Dörfler                                                      |   2020    |
 | 13 | Clara Gremmelspacher, Sebastian Koch                                                |   2020    |
 
-## [Grundpraktikum A1](/PPA1)
+## [Grundpraktikum A1](https://github.com/Phi-Laboratorys/PPA1/blob/main)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
-| MES     | Umgangs mit Messunsicherheiten und Fehlerrechnung                                   | [1](/PPA1/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](/PPA1/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
-| ES      | Erzwungene Schwingung und  Resonanzkurve                                            | [1](/PPA1/Versuch_ES/Charlotte_Leo_Manuel/Versuch_ES.pdf), [2](/PPA1/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](/PPA1/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
-| GP      | Gekoppelte Pendel und Fundamentalschwingungen                                       | [3](/PPA1/Versuch_GP/Markus_Dominik/Versuch_GP.pdf) |
-| TOR     | Torsion, Biegung und Scherung                                                       | [1](/PPA1/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf), [3](/PPA1/Versuch_TOR/Dominik_Markus/Versuch_TOR.pdf) |
-| VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](/PPA1/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](/PPA1/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf), [3](/PPA1/Versuch_VIS/Dominik_Markus/Versuch_VIS.pdf) |
-| RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](/PPA1/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
+| MES     | Umgangs mit Messunsicherheiten und Fehlerrechnung                                   | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
+| ES      | Erzwungene Schwingung und  Resonanzkurve                                            | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_ES/Charlotte_Leo_Manuel/Versuch_ES.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf), [3](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_ES/Dominik_Markus/Versuch_ES.pdf) |
+| GP      | Gekoppelte Pendel und Fundamentalschwingungen                                       | [3](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_GP/Markus_Dominik/Versuch_GP.pdf) |
+| TOR     | Torsion, Biegung und Scherung                                                       | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf), [3](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Dominik_Markus/Versuch_TOR.pdf) |
+| VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf), [3](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Dominik_Markus/Versuch_VIS.pdf) |
+| RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
 ## [Grundpraktikum A2](/PPA2)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
