@@ -1,3 +1,15 @@
 [submodule "PraktikumsVorlage"]
 	path = PraktikumsVorlage
 	url = https://github.com/ManeLippert/PraktikumsVorlage.git
+
+	path = PPA1
+	url = https://github.com/Phi-Laboratorys/PPA1.git
+
+	path = PPA2
+	url = https://github.com/Phi-Laboratorys/PPA2.git
+
+	path = PPB1
+	url = https://github.com/Phi-Laboratorys/PPB1.git
+
+	path = PPB2
+	url = https://github.com/Phi-Laboratorys/PPB2.git

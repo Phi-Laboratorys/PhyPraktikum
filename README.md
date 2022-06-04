@@ -53,43 +53,43 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | TOR     | Torsion, Biegung und Scherung                                                       | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf), [3](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Dominik_Markus/Versuch_TOR.pdf) |
 | VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf), [3](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Dominik_Markus/Versuch_VIS.pdf) |
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [4](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_RAD/Achim_Markus/Versuch_RAD.pdf) |
-## [Grundpraktikum A2](/PPA2)
+## [Grundpraktikum A2](https://github.com/PPA2)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
-| BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](/PPA2/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf), [4](/PPA2/Versuch_BEU/Achim_Markus/Versuch_BEU.pdf) |
-| KW      | Komplexe Widerstände und Schwingkreis                                               | [2](/PPA2/Versuch_KW/Anna-Maria_Dominik_Paul/Auswertung%20KW.pdf), [4](/PPA2/Versuch_KW/Achim_Markus/Versuch_KW.pdf) |
-| MM      | Magnetisches Moment                                                                 | [1](/PPA2/Versuch_MM/Charlotte_Leo_Manuel/Versuch_MM.pdf), [4](/PPA2/Versuch_MM/Achim_Markus/Versuch_MM.pdf) |
-| RG      | Reales Gas und Phasenübergänge                                                      | [2](/PPA2/Versuch_RG/Anna-Maria_Dominik_Paul/Auswerteheft_RG.pdf), [4](/PPA2/Versuch_RG/Achim_Markus/Versuch_RG.pdf) |
-| SK      | Strom-Spannungs-Kennlinie                                                           | [2](/PPA2/Versuch_SK/Anna-Maria_Dominik_Paul/), [4](/PPA2/Versuch_SK/Achim_Markus/Versuch_SK.pdf) |
-| TRA     | Transformator                                                                       | [2](/PPA2/Versuch_TRA/Anna-Maria_Dominik_Paul/Auswertung%20TRA.pdf), [3](/PPA2/Versuch_TRA/Dominik_Markus/Versuch_TRA.pdf) |
+| BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf), [4](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_BEU/Achim_Markus/Versuch_BEU.pdf) |
+| KW      | Komplexe Widerstände und Schwingkreis                                               | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_KW/Anna-Maria_Dominik_Paul/Auswertung%20KW.pdf), [4](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_KW/Achim_Markus/Versuch_KW.pdf) |
+| MM      | Magnetisches Moment                                                                 | [1](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_MM/Charlotte_Leo_Manuel/Versuch_MM.pdf), [4](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_MM/Achim_Markus/Versuch_MM.pdf) |
+| RG      | Reales Gas und Phasenübergänge                                                      | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_RG/Anna-Maria_Dominik_Paul/Auswerteheft_RG.pdf), [4](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_RG/Achim_Markus/Versuch_RG.pdf) |
+| SK      | Strom-Spannungs-Kennlinie                                                           | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_SK/Anna-Maria_Dominik_Paul/), [4](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_SK/Achim_Markus/Versuch_SK.pdf) |
+| TRA     | Transformator                                                                       | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_TRA/Anna-Maria_Dominik_Paul/Auswertung%20TRA.pdf), [3](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_TRA/Dominik_Markus/Versuch_TRA.pdf) |
 
-## [Grundpraktikum B1](/PPB1)
-
-| <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
-|:-------:|:------------------------------------------------------------------------------------|:-----------:|
-| EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](/PPB1/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf) |
-| EL2     | Operationsverstärker                                                                | [1](/PPB1/Versuch_EL2/Charlotte_Leo_Manuel/Versuch_EL2.pdf), [2](/PPB1/Versuch_EL2/Anna-Maria_Dominik_Paul/Master.pdf) |
-| KRE     | Kreisel                                                                             | [1](/PPB1/Versuch_KRE/Charlotte_Leo_Manuel/Versuch_KRE.pdf), [2](/PPB1/Versuch_KRE/Anna-Maria_Dominik_Paul/Master.pdf) |
-| POL     | Polarisation , Brewsterwinkel und Miestreung                                        | [1](/PPB1/Versuch_POL/Charlotte_Leo_Manuel/Versuch_POL.pdf) |
-| SP      | Elektromagnetisches Spektrum                                                        | [1](/PPB1/Versuch_SP/Charlotte_Leo_Manuel/Versuch_SP.pdf)  |
-
-
-## [Fortgeschrittenes Praktikum B2](/PPB2)
+## [Grundpraktikum B1](https://github.com/Phi-Laboratoryshttps/PPB1)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
-| AFM     | Rasterkraftmikroskop                                                                | [9](/PPB2/Versuch_AFM/Leo_Matteo/Versuch_AFM.pdf) |
-| AGS     | Alpha-Gamma Spektroskopie                                                           | [9](/PPB2/Versuch_AGS/Leo_Matteo/Versuch_AlphaGamma.pdf) |
-| Chaos   | Chaos in physikalischen Systeme                                                     | [5](/PPB2/Versuch_Chaos/Manuel_Paul/Versuch_Chaos.pdf) |
-| DSR     | Dopplerfreie Spektroskopie von Rubidium                                             | [5](/PPB2/Versuch_DSR/Manuel_Paul/Experiment_DSR.pdf), [6](/PPB2/Versuch_DSR/Anna-Maria_Dominik/Master.pdf), [7](/PPB2/Versuch_DSR/Konstantin_Lydia/PPB2_DSR_Gruppe7.pdf), [10](/PPB2/Versuch_DSR/Emma_Anna-Lena/), [12](/PPB2/Versuch_DSR/Emmi_Magdalena/DSvR.pdf) |
-| FRET    | Förster-Resonanzenergietransfer an bilogischen Proben                               | [5](/PPB2/Versuch_FRET/Manuel_Paul/Versuch_FRET.pdf), [6](/PPB2/Versuch_FRET/Anna-Maria_David_Dominik/Master.pdf), [9](/PPB2/Versuch_FRET/Leo_Matteo/Versuch_FRET.pdf) |
-| FTS     | Fouriertransformationsspektroskopie                                                 | [6](/PPB2/Versuch_FTS/Anna-Maria_Dominik/Master.pdf), [8](/PPB2/Versuch_FTS/Charlotte_Leonie/FTS_Charlotte_bearbeitet.pdf) |
-| Laser   | Laser als Messgerät                                                                 | [6](/PPB2/Versuch_Laser/Anna-Maria_Dominik/Master.pdf), [9](/PPB2/Versuch_Laser/Leo_Matteo/Versuch_Laser.pdf), [11](/PPB2/Versuch_Laser/Johanna_Jonas/Laser_Auswertung.pdf) |
-| Raman   | Raman-Spektroskopie                                                                 | [6](/PPB2/Versuch_Raman/Anna-Maria_Dominik/Master.pdf), [8](/PPB2/Versuch_Raman/Charlotte_Leonie/Raman_Charlotte.pdf), [13](/PPB2/Versuch_Raman/Clara_Sebastian/Raman_Clara.pdf) |
-| REM     | Rasterelektronenmikroskop                                                           | [5](/PPB2/Versuch_REM/Manuel_Paul/Verbesserung_REM.pdf) |
-| SRV     | Signal-Rausch Verbesserung                                                          | [5](/PPB2/Versuch_SRV/Manuel_Paul/Versuch_SRV.pdf) |
-| SZ      | Solarzelle                                                                          | [9](/PPB2/Versuch_SZ/Leo_Matteo/Versuch_Solarzelle.pdf) |
+| EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf) |
+| EL2     | Operationsverstärker                                                                | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL2/Charlotte_Leo_Manuel/Versuch_EL2.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL2/Anna-Maria_Dominik_Paul/Master.pdf) |
+| KRE     | Kreisel                                                                             | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_KRE/Charlotte_Leo_Manuel/Versuch_KRE.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_KRE/Anna-Maria_Dominik_Paul/Master.pdf) |
+| POL     | Polarisation , Brewsterwinkel und Miestreung                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_POL/Charlotte_Leo_Manuel/Versuch_POL.pdf) |
+| SP      | Elektromagnetisches Spektrum                                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_SP/Charlotte_Leo_Manuel/Versuch_SP.pdf)  |
+
+
+## [Fortgeschrittenes Praktikum B2](https://github.com/Phi-Laboratorys/PPB2)
+
+| <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
+|:-------:|:------------------------------------------------------------------------------------|:-----------:|
+| AFM     | Rasterkraftmikroskop                                                                | [9](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_AFM/Leo_Matteo/Versuch_AFM.pdf) |
+| AGS     | Alpha-Gamma Spektroskopie                                                           | [9](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_AGS/Leo_Matteo/Versuch_AlphaGamma.pdf) |
+| Chaos   | Chaos in physikalischen Systeme                                                     | [5](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Chaos/Manuel_Paul/Versuch_Chaos.pdf) |
+| DSR     | Dopplerfreie Spektroskopie von Rubidium                                             | [5](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_DSR/Manuel_Paul/Experiment_DSR.pdf), [6](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_DSR/Anna-Maria_Dominik/Master.pdf), [7](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_DSR/Konstantin_Lydiahttps://github.com/Phi-Laboratorys/PPB2/blob/main_DSR_Gruppe7.pdf), [10](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_DSR/Emma_Anna-Lena/), [12](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_DSR/Emmi_Magdalena/DSvR.pdf) |
+| FRET    | Förster-Resonanzenergietransfer an bilogischen Proben                               | [5](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_FRET/Manuel_Paul/Versuch_FRET.pdf), [6](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_FRET/Anna-Maria_David_Dominik/Master.pdf), [9](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_FRET/Leo_Matteo/Versuch_FRET.pdf) |
+| FTS     | Fouriertransformationsspektroskopie                                                 | [6](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_FTS/Anna-Maria_Dominik/Master.pdf), [8](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_FTS/Charlotte_Leonie/FTS_Charlotte_bearbeitet.pdf) |
+| Laser   | Laser als Messgerät                                                                 | [6](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Laser/Anna-Maria_Dominik/Master.pdf), [9](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Laser/Leo_Matteo/Versuch_Laser.pdf), [11](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Laser/Johanna_Jonas/Laser_Auswertung.pdf) |
+| Raman   | Raman-Spektroskopie                                                                 | [6](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Raman/Anna-Maria_Dominik/Master.pdf), [8](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Raman/Charlotte_Leonie/Raman_Charlotte.pdf), [13](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_Raman/Clara_Sebastian/Raman_Clara.pdf) |
+| REM     | Rasterelektronenmikroskop                                                           | [5](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_REM/Manuel_Paul/Verbesserung_REM.pdf) |
+| SRV     | Signal-Rausch Verbesserung                                                          | [5](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_SRV/Manuel_Paul/Versuch_SRV.pdf) |
+| SZ      | Solarzelle                                                                          | [9](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_SZ/Leo_Matteo/Versuch_Solarzelle.pdf) |
 
 ## Schluss
 
