@@ -1,15 +1,15 @@
 [submodule "PraktikumsVorlage"]
 	path = PraktikumsVorlage
 	url = https://github.com/ManeLippert/PraktikumsVorlage.git
-
+[submodule "PPA1"]
 	path = PPA1
 	url = https://github.com/Phi-Laboratorys/PPA1.git
-
+[submodule "PPA2"]
 	path = PPA2
 	url = https://github.com/Phi-Laboratorys/PPA2.git
-
+[submodule "PPB1"]
 	path = PPB1
 	url = https://github.com/Phi-Laboratorys/PPB1.git
-
+[submodule "PPB2"]
 	path = PPB2
 	url = https://github.com/Phi-Laboratorys/PPB2.git

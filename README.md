@@ -64,7 +64,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | SK      | Strom-Spannungs-Kennlinie                                                           | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_SK/Anna-Maria_Dominik_Paul/), [4](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_SK/Achim_Markus/Versuch_SK.pdf) |
 | TRA     | Transformator                                                                       | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_TRA/Anna-Maria_Dominik_Paul/Auswertung%20TRA.pdf), [3](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_TRA/Dominik_Markus/Versuch_TRA.pdf) |
 
-## [Grundpraktikum B1](https://github.com/Phi-Laboratoryshttps/PPB1)
+## [Grundpraktikum B1](https://github.com/Phi-Laboratorys/PPB1)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
