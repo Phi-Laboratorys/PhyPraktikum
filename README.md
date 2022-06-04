@@ -43,7 +43,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | 12 | Emmi Gareis, Magdalena Dörfler                                                      |   2020    |
 | 13 | Clara Gremmelspacher, Sebastian Koch                                                |   2020    |
 
-## [Grundpraktikum A1](https://github.com/Phi-Laboratorys/PPA1/blob/main)
+## [Grundpraktikum A1](https://github.com/Phi-Laboratorys/PPA1)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
