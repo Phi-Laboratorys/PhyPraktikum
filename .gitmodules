@@ -13,3 +13,9 @@
 [submodule "PPB2"]
 	path = PPB2
 	url = https://github.com/Phi-Laboratorys/PPB2.git
+[submodule "PPUnpublished"]
+	path = PPUnpublished
+	url = https://github.com/Phi-Laboratorys/PPUnpublished.git
+[submodule "PPVorlage"]
+	path = PPVorlage
+	url = https://github.com/Phi-Laboratorys/PPVorlage.git
