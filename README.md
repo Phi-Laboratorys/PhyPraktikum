@@ -34,7 +34,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | TOR     | Torsion, Biegung und Scherung                                                       | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf) |
 | VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf) |
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_RAD/Anna-Maria_Dominik_Paul/Auswertung_RAD.pdf) |
-## [Grundpraktikum A2](https://github.com/PPA2)
+## [Grundpraktikum A2](https://github.com/Phi-Laboratorys/PPA2)
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
