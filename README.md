@@ -13,7 +13,7 @@ Dieses Repository enthält mehrere Auswertung und Daten zu den Versuchen im Bach
 
 Die Auswertungen dienen zur **Hilfe** und sollen nicht die Eigenleistung erleichtern. Deswegen weise ich darauf hin selbst Arbeit in **seine** Auswertungen zu stecken und die Fragen zur Vorbereitung **gewissenhaft** zu erledigen, da sie **notwendig** sind für das Verständnis zum jeweiligen Versuch.
 
-Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich eine Repository mit einer [Vorlage](https://github.com/ManeLippert/PPVorlage) erstellt.
+Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich eine Repository mit einer [Vorlage](https://github.com/Phi-Laboratorys/PPVorlage) erstellt.
 
 * * *
 
