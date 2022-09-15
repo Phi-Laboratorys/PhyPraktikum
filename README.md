@@ -1,7 +1,4 @@
 <h1 align="center">Physikalisches Praktikum</h1>
-<p align="center">
-  <img src="UniBT_Logo.jpeg" width = 50/>
-</p>
 
 ## Inhalt
 1) [Einleitung](#einleitung)
@@ -16,7 +13,9 @@ Dieses Repository enthält mehrere Auswertung und Daten zu den Versuchen im Bach
 
 Die Auswertungen dienen zur **Hilfe** und sollen nicht die Eigenleistung erleichtern. Deswegen weise ich darauf hin selbst Arbeit in **seine** Auswertungen zu stecken und die Fragen zur Vorbereitung **gewissenhaft** zu erledigen, da sie **notwendig** sind für das Verständnis zum jeweiligen Versuch.
 
-Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich eine Repository mit einer [Vorlage](https://github.com/ManeLippert/PraktikumsVorlage) erstellt.
+Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich eine Repository mit einer [Vorlage](https://github.com/ManeLippert/PPVorlage) erstellt.
+
+* * *
 
 #### Grundpraktikum - Gruppen
 
@@ -56,6 +55,8 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | POL     | Polarisation , Brewsterwinkel und Miestreung                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_POL/Charlotte_Leo_Manuel/Versuch_POL.pdf) |
 | SP      | Elektromagnetisches Spektrum                                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_SP/Charlotte_Leo_Manuel/Versuch_SP.pdf)  |
 
+* * *
+
 #### Fortgeschrittenen Praktikum - Gruppen
 
 | Nr | Gruppenmitglieder  <img width=400/>                                                 | <img width=20/> Jahr <img width=20/>    |
@@ -79,6 +80,8 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | REM     | Rasterelektronenmikroskop                                                           | [1](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_REM/Manuel_Paul/Verbesserung_REM.pdf) |
 | SRV     | Signal-Rausch Verbesserung                                                          | [1](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_SRV/Manuel_Paul/Versuch_SRV.pdf) |
 | SZ      | Solarzelle                                                                          | [3](https://github.com/Phi-Laboratorys/PPB2/blob/main/Versuch_SZ/Leo_Matteo/Versuch_Solarzelle.pdf) |
+
+* * *
 
 ## Schluss
 
