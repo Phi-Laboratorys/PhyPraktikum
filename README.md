@@ -31,7 +31,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 | MES     | Umgangs mit Messunsicherheiten und Fehlerrechnung                                   | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_MES/Charlotte_Leo_Manuel/Versuch_MES.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_MES/Anna-Maria_Dominik_Paul/Auswerteheft%20MES.pdf) |
 | ES      | Erzwungene Schwingung und  Resonanzkurve                                            | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_ES/Charlotte_Leo_Manuel/Versuch_ES.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_ES/Anna-Maria_Dominik_Paul/Auswerteheft_ES.pdf) |
 | GP      | Gekoppelte Pendel und Fundamentalschwingungen                                       | [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_GP/Anna-Maria_Dominik_Paul/Auswertung_GP.pdf) |
-| TOR     | Torsion, Biegung und Scherung                                                       | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf) |
+| TOR     | Torsion, Biegung und Scherung                                                       | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Charlotte_Leo_Manuel/Versuch_TOR.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_TOR/Anna-Maria_Dominik_Paul/Auswerteheft_TOR.pdf) |
 | VIS     | Viskosität in Abhängigkeit der Temperatur T                                         | [1](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Charlotte_Leo_Manuel/Versuch_VIS.pdf), [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_VIS/Anna-Maria_Dominik_Paul/Auswerteheft_VIS.pdf) |
 | RAD     | Radioaktivität, Zählstatistik und ß-Spektrum                                        | [2](https://github.com/Phi-Laboratorys/PPA1/blob/main/Versuch_RAD/Anna-Maria_Dominik_Paul/Auswertung_RAD.pdf) |
 ## [Grundpraktikum A2](https://github.com/Phi-Laboratorys/PPA2)
@@ -40,7 +40,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
 | BEU     | Beugung an Einfach- und Doppelspalt sowie Gitter                                    | [1](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_BEU/Charlotte_Leo_Manuel/Versuch_BEU.pdf) |
 | KW      | Komplexe Widerstände und Schwingkreis                                               | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_KW/Anna-Maria_Dominik_Paul/Auswertung%20KW.pdf) |
-| MM      | Magnetisches Moment                                                                 | [1](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_MM/Charlotte_Leo_Manuel/Versuch_MM.pdf) |
+| MM      | Magnetisches Moment                                                                 | [1](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_MM/Charlotte_Leo_Manuel/Versuch_MM.pdf), [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_MM/Anna-Maria_Dominik_Paul/Auswerteheft_MM.pdf) |
 | RG      | Reales Gas und Phasenübergänge                                                      | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_RG/Anna-Maria_Dominik_Paul/Auswerteheft_RG.pdf) |
 | SK      | Strom-Spannungs-Kennlinie                                                           | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_SK/Anna-Maria_Dominik_Paul/) |
 | TRA     | Transformator                                                                       | [2](https://github.com/Phi-Laboratorys/PPA2/blob/main/Versuch_TRA/Anna-Maria_Dominik_Paul/Auswertung%20TRA.pdf) |
@@ -49,11 +49,11 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 | <img width=70/> | Beschreibung <img width=400/>                                               | <img width=20/> Gruppen <img width=20/> |
 |:-------:|:------------------------------------------------------------------------------------|:-----------:|
-| EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf) |
+| EL1     | Transistor, Kennlinie und Beschaltungen                                             | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL1/Charlotte_Leo_Manuel/Versuch_EL1.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL1/Anna-Maria_Dominik_Paul/Auswerteheft_EL1.pdf) |
 | EL2     | Operationsverstärker                                                                | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL2/Charlotte_Leo_Manuel/Versuch_EL2.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_EL2/Anna-Maria_Dominik_Paul/Master.pdf) |
 | KRE     | Kreisel                                                                             | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_KRE/Charlotte_Leo_Manuel/Versuch_KRE.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_KRE/Anna-Maria_Dominik_Paul/Master.pdf) |
-| POL     | Polarisation , Brewsterwinkel und Miestreung                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_POL/Charlotte_Leo_Manuel/Versuch_POL.pdf) |
-| SP      | Elektromagnetisches Spektrum                                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_SP/Charlotte_Leo_Manuel/Versuch_SP.pdf)  |
+| POL     | Polarisation , Brewsterwinkel und Miestreung                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_POL/Charlotte_Leo_Manuel/Versuch_POL.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_POL/Anna-Maria_Dominik_Paul/Auswerteheft_POL.pdf) |
+| SP      | Elektromagnetisches Spektrum                                                        | [1](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_SP/Charlotte_Leo_Manuel/Versuch_SP.pdf), [2](https://github.com/Phi-Laboratorys/PPB1/blob/main/Versuch_SP/Anna-Maria_Dominik_Paul/Auswerteheft_SP.pdf)  |
 
 * * *
 
