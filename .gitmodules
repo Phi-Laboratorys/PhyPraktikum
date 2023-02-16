@@ -14,7 +14,7 @@
 	path = PPB2
 	url = https://github.com/Phi-Laboratorys/PPB2.git
 [submodule "PPD"]
-	path = PPD2
+	path = PPD
 	url = https://github.com/Phi-Laboratorys/PPD.git
 [submodule "PPUnpublished"]
 	path = PPUnpublished
