@@ -62,7 +62,7 @@ Ab dem **PPB1** wurde hauptsächlich mit **Latex** gearbeitet, dafür habe ich e
 
 | Nr | Gruppenmitglieder  <img width=400/>                                                 | <img width=20/> Jahr <img width=20/>    |
 |:--:|:------------------------------------------------------------------------------------|:---------:|
-| 1  | [Manuel Lippert](https://github.com/ManeLippert), Paul Schwanitz                    |   2021    |
+| 1  | [Manuel Lippert](https://github.com/ManeLippert), Paul Schwanitz                    |   2021, 2023    |
 | 2  | Anna-Maria Pleyer, Dominik Müller, (David Stadelmann bei FRET)                      |   2021    |
 | 3  | Leonhard Schatt, Matteo Kumar                                                       |   2021    |
 
